@@ -1,29 +1,22 @@
 ---
 title: PLASTIC MEMORIES 可塑性记忆
-date: 2020-08-13 23:34:07
-cover: https://i.loli.net/2020/07/31/qPh3xXl4CBHW579.png
-coverWidth: 1920
-coverHeight: 1080
-category: 番剧
+cover: 'https://i.loli.net/2020/07/31/qPh3xXl4CBHW579.png'
 tags: 可塑性记忆
+categories: 番剧
+description: 「愿你有一天能与你重要的人重逢。」
+aplayer: true
+abbrlink: d69370a
+date: 2020-08-13 23:34:07
 ---
 
 「愿你有一天能与你重要的人重逢。」
-
-<!--more-->
 
 > <font color='red'>**剧透预警！本文内容涉及剧透，请确保您已看完《可塑性记忆》再来阅读此文。**</font>
 
 > 本歌单包含 3 首「来自二次元的声音」，可以放心食用喔~
 > 如果播放队列中的音乐无法播放，或者音乐数量不符，请在评论区留言，我收到后会尽快处理~
-> 
-> 注：由于 hexo-tag-aplayer 歌单目前在最新版本似乎有问题，已临时将歌单更换为单曲播放。
 
-{% aplayer "Ring of Fortune" "佐佐木惠梨 (ささき えり)" "https://sound-ks1.cdn.missevan.com/aod/202005/19/63189dc272f7e132ba93a313fe498302170441.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000001YK3Dn33YQBD_1.jpg" %}
-
-{% aplayer "朝焼けのスターマイン (朝霞星火)" "今井麻美 (いまい あさみ)" "https://sound-ks1.cdn.missevan.com/aod/202005/22/b9b682bb3bbfe038645382c9c727de62142014.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000000tJSlO4HklbR_1.jpg" %}
-
-{% aplayer "好きなので。 (因为喜欢你。)" "雨宮天 (あまみや そら)" "https://sound-ks1.cdn.missevan.com/aod/202005/26/68b64e0c6bf3752b4abdc52dfae2f3dd130931.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000003MrUB84eVl8v_1.jpg" %}
+{% meting "7803471155" "tencent" "playlist" %}
 
 ## 感悟与评价
 

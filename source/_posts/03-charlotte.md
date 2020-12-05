@@ -1,36 +1,22 @@
 ---
 title: Charlotte 夏洛特
-date: 2020-7-26 23:59:02
-cover: https://i.loli.net/2020/07/30/gCItmRGnYSLkdVj.png
-coverWidth: 1920
-coverHeight: 1080
-category: 番剧
+cover: 'https://i.loli.net/2020/07/30/gCItmRGnYSLkdVj.png'
 tags: Charlotte
+categories: 番剧
+description: 「我拯救了世界，却忘了你。」
+aplayer: true
+abbrlink: 1da6e446
+date: 2020-07-26 23:59:02
 ---
 
 「我拯救了世界，却忘了你。」
-
-<!--more-->
 
 > <font color='red'>**剧透预警！本文内容涉及剧透，请确保您已看完《Charlotte》再来阅读此文。**</font>
 
 > 本歌单包含 6 首「来自二次元的声音」，可以放心食用喔~
 > 如果播放队列中的音乐无法播放，或者音乐数量不符，请在评论区留言，我收到后会尽快处理~
-> 
-> 注：由于 hexo-tag-aplayer 歌单目前在最新版本似乎有问题，已临时将歌单更换为单曲播放。
-> 注：目前找不到 Bravely You (勇敢的你) 的歌曲文件，所以那首曲子无法播放是正常的╮(╯▽╰)╭
 
-{% aplayer "Bravely You (勇敢的你)" "Lia (りあ)" "https://win-web-ri01-sycdn.kuwo.cn/cec368434b3536b07c365bfe9f936ddb/5f3b6f8e/resource/n3/68/11/2423015307.mp3" "https://y.gtimg.cn/music/photo_new/T002R300x300M000004BeCVA07oTNe_1.jpg" %}
-
-{% aplayer "灼け落ちない翼 (燃烧未落的羽翼)" "多田葵 (ただ あおい)" "https://sound-ks1.cdn.missevan.com/aod/202005/19/ea71c3b2de0a8edd3f5de87f1a3159f0164909.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000004BeCVA07oTNe_1.jpg" %}
-
-{% aplayer "楽園まで (直到乐园)" "内田真礼 (うちだ まあや)" "https://sound-ks1.cdn.missevan.com/aod/202005/19/5b1999e2c0bcc2650f11e431def14add164552.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000003UK5ZP0v2k6x_1.jpg" %}
-
-{% aplayer "発熱デイズ (发热时光)" "内田真礼 (うちだ まあや)" "https://sound-ks1.cdn.missevan.com/aod/202005/18/98c1afb916cf663cd390fd2b018b14ec203815.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000003UK5ZP0v2k6x_1.jpg" %}
-
-{% aplayer "Not be found (未曾发掘)" "内田真礼 (うちだ まあや)" "https://sound-ks1.cdn.missevan.com/aod/202005/19/6eb143778906f05e7e653b6011b62700164710.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M000003UK5ZP0v2k6x_1.jpg" %}
-
-{% aplayer "君の文字 (你的字)" "熊木杏里 (くまき あんり)" "https://sound-ks1.cdn.missevan.com/aod/202005/24/c923a219f754db04d2b0ddff266a7d77194352.m4a" "https://y.gtimg.cn/music/photo_new/T002R300x300M0000033Skv24RTaWj_2.jpg" %}
+{% meting "7803448836" "tencent" "playlist" %}
 
 ## 感悟与评价
 

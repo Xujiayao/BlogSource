@@ -1,16 +1,14 @@
 ---
 title: 群不日常连飞 RJFF - ZSSS
-date: 2020-07-28 13:40:18
-cover: https://i.loli.net/2020/07/27/1kxOtbeq4J7lIoK.png
-coverWidth: 1920
-coverHeight: 1080
-category: 游戏
+cover: 'https://i.loli.net/2020/07/27/1kxOtbeq4J7lIoK.png'
 tags: 模拟飞行
+categories: 游戏
+description: 虽然已经到暑假了，群里的连飞活动还是跟开学时一样「不日常」。
+abbrlink: 62fbd8b8
+date: 2020-07-28 13:40:18
 ---
 
 虽然已经到暑假了，群里的连飞活动还是跟开学时一样「不日常」。
-
-<!--more-->
 
 ## 镇楼
 

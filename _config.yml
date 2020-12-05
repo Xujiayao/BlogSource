@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 大便超人JASON的空间
+title: Xujiayao
 subtitle: 没有个性，如何签名？
-description: 大便超人JASON的空间
+description: 大便超人JASON
 keywords:
   - 大便超人JASON
   - Xujiayao
@@ -16,9 +16,13 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://xujiayao147.gitee.io
-root: /
-permalink: :title/
+url: https://xujiayao147.gitee.io/butterfly
+root: /butterfly/
+# permalink: :title/
+permalink: posts/:abbrlink/
+abbrlink:
+    alg: crc32
+    rep: hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -48,7 +52,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -101,7 +105,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: nexmoe
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -112,14 +116,16 @@ deploy:
 sitemap:
   path: sitemap.xml
 
-live2d:
-  enable: true
-  pluginModelPath: assets/
-  model:
-    use: live2d-widget-model-shizuku
-  display:
-    position: right
-    width: 180
-    height: 360
-  mobile:
-    show: false
+aplayer:
+  meting: true
+  asset_inject: false
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+
+search:
+  path: search.xml
+  field: post
+  content: true

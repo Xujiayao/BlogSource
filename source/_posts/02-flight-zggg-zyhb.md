@@ -1,16 +1,14 @@
 ---
 title: 群日常连飞 ZGGG - ZYHB
-date: 2020-7-13 18:09:56
-cover: https://i.loli.net/2020/07/13/o4awWpdPSOqDn6V.jpg
-coverWidth: 1920
-coverHeight: 1080
-category: 游戏
+cover: 'https://i.loli.net/2020/07/13/o4awWpdPSOqDn6V.jpg'
 tags: 模拟飞行
+categories: 游戏
+description: 这次一样，还是小群里的日常连飞小活动喔~
+abbrlink: 8245f257
+date: 2020-07-13 18:09:56
 ---
 
 这次一样，还是小群里的日常连飞小活动喔~
-
-<!--more-->
 
 ## 简介
 

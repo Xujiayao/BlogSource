@@ -1,0 +1,27 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 奕奕生辉
+      link: https://www.yeyi.site/
+      avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
+      descr: 叶奕的空间
+    - name: JerryC
+      link: https://jerryc.me/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 今日事,今日畢
+    - name: 折影轻梦
+      link: https://nexmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
+      descr: 崇尚自由、热爱技术。
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/image/avatar.png
+      descr: "A Hexo Theme: Butterfly"
+    - name: Nexmoe
+      link: https://nexmoe.com/hexo-theme-nexmoe.html
+      avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
+      descr: 一个比较特别的 Hexo 主题
