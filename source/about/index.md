@@ -9,7 +9,7 @@ date: 2020-07-13 10:29:34
 
 > 博客名称：Xujiayao
 博客描述：没有个性，如何签名？
-建立日期：2020年7月8日
+建立日期：2020 年 7 月 8 日
 博客链接：https://xujiayao147.gitee.io/
 博客程序：[Hexo](https://hexo.io/)
 博客主机：[Gitee Pages](https://gitee.com/xujiayao147/Xujiayao147/pages)
