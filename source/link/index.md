@@ -10,5 +10,5 @@ type: "link"
 
 > 博客名称：Xujiayao
 博客描述：没有个性，如何签名？
-博客链接：https://xujiayao147.gitee.io/butterfly
-博客图标：https://xujiayao147.gitee.io/butterfly/img/favicon.jpg
+博客链接：https://xujiayao147.gitee.io/
+博客图标：https://xujiayao147.gitee.io/img/favicon.jpg
