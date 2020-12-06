@@ -288,14 +288,14 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: 10MWRojPyoSdRfMRLlhpgDUH-gzGzoHsz # leancloud application app id
-  appKey: G0t58d9ftO5JTmmWBxBkVBPL # leancloud application app key
+  appId: 7aamo4ORaa1qAC9SbtQ78g0P-MdYXbMMI # leancloud application app id
+  appKey: LSczhlXtci6flp6DRHAsva9D # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 记得要留下自己的昵称和邮箱，这样才能快速收到回复喔\\(￣︶￣*\\))\n昵称那里可以填自己的 QQ 号，填完之后点击其他地方就能自动识别并填入自己的 QQ 个人信息啦！ # valine comment input placeholder (like: Please leave your footprints)
+  placeholder: 记得要留下自己的昵称和邮箱，这样才能收到回复喔\\(￣︶￣*\\))\n\n昵称那里可以填自己的 QQ 号，填完之后点击其他地方稍等一下，\n就能自动识别并填入自己的 QQ 个人信息和头像啦！=￣ω￣= # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
+  recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /img/comment_bg.png # valine background
   emojiCDN: # emoji CDN
@@ -830,7 +830,7 @@ fragment_cache: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2249652_7h97sqfxlv.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2249652_61iset8f234.css">
   bottom:
     # - <script src="xxxx"></script>
     - <div class="aplayer no-destroy" data-id="3312264565" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="random" data-autoplay="true" data-volume="0.7"></div>
