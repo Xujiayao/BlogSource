@@ -186,7 +186,7 @@ reward:
   QR_code:
     - img: https://i.loli.net/2020/07/13/PdrM68pOsfc7AYn.png
       link:
-      text: 微信
+      text: 创作不易，您的支持是给我最大的动力！（＞人＜；）
     # - img: /img/alipay.jpg
     #   link:
     #   text: alipay
@@ -627,7 +627,7 @@ aside:
 
   card_announcement:
     enable: true
-    content: 欢迎光临！感谢访问本站\(￣︶￣*\))<br><br>博客新主题 Butterfly 目前正在测试阶段~<br><br>主题测试了没有问题之后，我打算写一篇跟 Java 相关的教程~<br><br>这里就先不透露内容啦(^人^)
+    content: 欢迎光临！感谢访问本站\(￣︶￣*\))<br><br>博客新主题 Butterfly 已经测试完毕，现在正式开始投入使用~<br><br>这几天内我会出一篇跟 Java 有关的教程~<br><br>这里就先不透露内容啦(^人^)
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
