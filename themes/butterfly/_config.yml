@@ -378,7 +378,7 @@ footer:
   ICP: # Chinese ICP License
     enable: true
     url: https://icp.gov.moe/?keyword=20200916
-    text: 申请萌ICP备20200916号
+    text: 萌ICP备20200916号
     icon: /img/icp.png
 
 # Analysis
