@@ -13,6 +13,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  后台: https://xujiayao.avosapps.us/ || fas fa-toolbox
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -833,7 +834,7 @@ inject:
     - <link rel="stylesheet" href="//at.alicdn.com/t/font_2249652_61iset8f234.css">
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="3312264565" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="random" data-autoplay="true" data-volume="0.7"></div>
+    - <div class="aplayer no-destroy" data-id="3312264565" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="list" data-autoplay="true" data-volume="0.7"></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
