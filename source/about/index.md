@@ -42,6 +42,7 @@ date: 2020-07-13 10:29:34
 - [ ] [约会大作战](https://www.bilibili.com/bangumi/media/md4188/) 全系列
 - [ ] [总之就是非常可爱](https://www.bilibili.com/bangumi/media/md28229676/)
 - [ ] [冰菓](https://www.bilibili.com/bangumi/media/md3398/)
+- [ ] [徒然喜欢你](https://www.bilibili.com/bangumi/media/md6312/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
