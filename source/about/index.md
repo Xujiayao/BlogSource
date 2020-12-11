@@ -43,6 +43,10 @@ date: 2020-07-13 10:29:34
 - [ ] [总之就是非常可爱](https://www.bilibili.com/bangumi/media/md28229676/)
 - [ ] [冰菓](https://www.bilibili.com/bangumi/media/md3398/)
 - [ ] [徒然喜欢你](https://www.bilibili.com/bangumi/media/md6312/)
+- [ ] [四月是你的谎言](https://www.bilibili.com/bangumi/media/md1699/)
+- [ ] [路人女主的养成方法](https://www.bilibili.com/bangumi/media/md1512/) 全系列
+- [ ] [我的青春恋爱物语果然有问题。](https://www.bilibili.com/bangumi/media/md1539/) 全系列
+- [ ] [请问您今天要来点兔子吗？](https://www.bilibili.com/bangumi/media/md191/) 全系列
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
