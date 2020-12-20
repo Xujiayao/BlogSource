@@ -47,6 +47,7 @@ date: 2020-07-13 10:29:34
 - [ ] [路人女主的养成方法](https://www.bilibili.com/bangumi/media/md1512/) 全系列
 - [ ] [我的青春恋爱物语果然有问题。](https://www.bilibili.com/bangumi/media/md1539/) 全系列
 - [ ] [请问您今天要来点兔子吗？](https://www.bilibili.com/bangumi/media/md191/) 全系列
+- [ ] [萤火之森](https://www.bilibili.com/bangumi/media/md27526419/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
