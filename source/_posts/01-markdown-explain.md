@@ -65,6 +65,7 @@ date: 2020-07-13 14:54:33
 
 嗯……听说你想看一看我这一段的源码？
 
+{% hideToggle 代码较长，为您收藏 %}
 ```markdown
 # 大标题 #
 
@@ -113,3 +114,4 @@ date: 2020-07-13 14:54:33
 
 > 以上这行是 [Typecho 程序](http://typecho.org/) 的功能，[Hexo 程序](https://hexo.io/) 似乎没有（？）
 ```
+{% endhideToggle %}
