@@ -1,13 +1,24 @@
 ---
 title: 关于
+aplayer: true
 date: 2020-07-13 10:29:34
 ---
 
 没有个性，如何签名？
 
+## 关于我
+
+> 事东方宅，老二次元了2333
+> 
+> 喜欢听《东方Project》的原曲和同人音乐~ \\(￣︶￣*\\))
+> 
+> 下面这个歌单是跟我 QQ音乐 的「我喜欢」歌单同步的~
+
+{% meting "3312264565" "tencent" "playlist" %}
+
 ## 关于博客
 
-> 博客名称：Xujiayao
+> 博客名称：Xujiayao's Blog
 博客描述：没有个性，如何签名？
 建立日期：2020 年 7 月 8 日
 博客链接：https://xujiayao147.gitee.io/
@@ -30,8 +41,6 @@ date: 2020-07-13 10:29:34
 > **补番完毕就像失去了一个好朋友。**
 > *——摘自[《我的妹妹不可能那么可爱 第二季》最后一集](https://www.bilibili.com/bangumi/play/ep65191) 底下 [ジャックくん](https://space.bilibili.com/10035466) 于 2015 年 7 月 15 日凌晨写的评论。*
 
-
-
 {% tabs bangumi %}
 <!-- tab 暂未观看 -->
 不分先后次序=￣ω￣=
@@ -48,6 +57,12 @@ date: 2020-07-13 10:29:34
 - [ ] [我的青春恋爱物语果然有问题。](https://www.bilibili.com/bangumi/media/md1539/) 全系列
 - [ ] [请问您今天要来点兔子吗？](https://www.bilibili.com/bangumi/media/md191/) 全系列
 - [ ] [萤火之森](https://www.bilibili.com/bangumi/media/md27526419/)
+- [ ] [小林家的龙女仆](https://www.bilibili.com/bangumi/media/md5800/)
+- [ ] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
+- [ ] [日常](https://www.bilibili.com/bangumi/media/md844/)
+- [ ] [Little Busters!](https://www.bilibili.com/bangumi/media/md3242/) 全系列
+- [ ] [某科学的超电磁炮](https://www.bilibili.com/bangumi/media/md425/) 全系列
+- [ ] [魔法禁书目录](https://www.bilibili.com/bangumi/media/md963/) 全系列
 <!-- endtab -->
 
 <!-- tab 已经观看 -->

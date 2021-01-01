@@ -611,9 +611,10 @@ aside:
     enable: true
     description: 没有个性，如何签名？
     button:
-      icon: iconfont icon-bilibili-fill
-      text: 哔哩哔哩 (゜-゜)つロ 干杯~
-      link: https://space.bilibili.com/270317970
+      enable: true
+      icon: fas fa-user-circle
+      text: 关于博客和作者
+      link: /about/
   card_announcement:
     enable: true
     content: 欢迎光临！感谢访问本站\(￣︶￣*\))
@@ -621,24 +622,29 @@ aside:
     enable: true
     limit: 5 # if set 0 will show all
     sort: date # date or updated
+    sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
     color: true
+    sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
   card_webinfo:
     enable: true
     post_count: true
     last_push_date: true
+    sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -656,14 +662,11 @@ runtimeshow:
 # Aside widget - Newest Comments
 newest_comments:
   enable: true
+  sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   avatar: true
-  leancloud:
-    enable: true
-    appId: 7aamo4ORaa1qAC9SbtQ78g0P-MdYXbMMI # leancloud application app id
-    appKey: LSczhlXtci6flp6DRHAsva9D # leancloud application app key
-    serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-    default_avatar: mp # mp/identicon/monsterid/wavatar/retro/robohash/blank
+  # You can only choose one, or neither
+  valine: true
   github_issues:
     enable: false
     repo:
@@ -672,6 +675,7 @@ newest_comments:
     forum:
     api_key:
   twikoo: false
+  waline: false
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
@@ -826,11 +830,13 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2249652_61iset8f234.css">
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="3312264565" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="list" data-autoplay="true" data-volume="0.7"></div>
+    - <div class="aplayer no-destroy" data-id="7838730606" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="random" data-autoplay="true" data-volume="0.7"></div>
 
+# CDN
+# Don't modify the following settings unless you know how they work
+# 非必要請不要修改
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
@@ -852,6 +858,7 @@ CDN:
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
   twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
