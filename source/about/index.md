@@ -65,6 +65,7 @@ date: 2020-07-13 10:29:34
 - [ ] [Little Busters!](https://www.bilibili.com/bangumi/media/md3242/) 全系列
 - [ ] [某科学的超电磁炮](https://www.bilibili.com/bangumi/media/md425/) 全系列
 - [ ] [魔法禁书目录](https://www.bilibili.com/bangumi/media/md963/) 全系列
+- [ ] [中二病也要谈恋爱！](https://www.bilibili.com/bangumi/media/md4340/) 全系列
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
