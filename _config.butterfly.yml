@@ -613,7 +613,7 @@ aside:
     button:
       enable: true
       icon: fas fa-user-circle
-      text: 关于博客和作者
+      text: 关于作者
       link: /about/
   card_announcement:
     enable: true
