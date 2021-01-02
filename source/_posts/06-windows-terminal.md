@@ -195,7 +195,7 @@ Windows Registry Editor Version 5.00
 
 运行 Windows Terminal，在软件里按 `CTRL + ,` 打开 Windows Terminal 的设置文件 (～￣▽￣)～
 
-我们需要修改一个叫做 `startingDirectory` 的变量 (￣▽￣)"
+我们需要修改一个叫做 `startingDirectory` 的变量 (￣▽￣)\"
 
 ```
 "startingDirectory": "."

@@ -14,6 +14,8 @@ date: 2020-07-13 10:29:34
 > 
 > 下面这个歌单是跟我 QQ音乐 的「我喜欢」歌单同步的~
 
+> [2020 年度报告](https://xujiayao147.gitee.io/posts/6abf4a82/)
+
 {% meting "3312264565" "tencent" "playlist" %}
 
 ## 关于博客
@@ -29,12 +31,12 @@ date: 2020-07-13 10:29:34
 
 ## 联系方式
 
-* 微信：Xujiayao147258369（大便超人JASON）
-* QQ：413139349（大便超人JASON）
-* 邮箱：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)
-* 社交平台：
-	* [哔哩哔哩](https://space.bilibili.com/270317970)
-	* [GitHub](https://github.com/Xujiayao147)
+> * 微信：Xujiayao147258369（大便超人JASON）
+> * QQ：413139349（大便超人JASON）
+> * 邮箱：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)
+> * 社交平台：
+> 	* [哔哩哔哩](https://space.bilibili.com/270317970)
+> 	* [GitHub](https://github.com/Xujiayao147)
 
 ## 番剧清单
 
