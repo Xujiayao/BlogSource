@@ -66,6 +66,12 @@ date: 2020-07-13 10:29:34
 - [ ] [某科学的超电磁炮](https://www.bilibili.com/bangumi/media/md425/) 全系列
 - [ ] [魔法禁书目录](https://www.bilibili.com/bangumi/media/md963/) 全系列
 - [ ] [中二病也要谈恋爱！](https://www.bilibili.com/bangumi/media/md4340/) 全系列
+- [ ] [这个美术社大有问题！](https://www.bilibili.com/bangumi/media/md5043/)
+- [ ] [出租女友](https://www.bilibili.com/bangumi/media/md28229298/)
+- [ ] [辉夜大小姐想让我告白～天才们的恋爱头脑战～](https://www.bilibili.com/bangumi/media/md5267730/)
+- [ ] [DARLING in the FRANXX](https://www.bilibili.com/bangumi/media/md9192/)
+- [ ] [玉子市场](https://www.bilibili.com/bangumi/media/md116772/)
+- [ ] [玉子爱情故事](https://www.bilibili.com/bangumi/media/md4155/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
