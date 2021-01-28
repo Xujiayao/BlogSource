@@ -1,6 +1,10 @@
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
+    - name: 青柠泡茶
+      link: https://blog.ningmit.com/
+      avatar: https://blog.ningmit.com/sitelogo.png
+      descr: 学习电脑和编程技术
     - name: 奕奕生辉
       link: https://www.yeyi.site/
       avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
