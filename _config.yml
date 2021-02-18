@@ -102,7 +102,6 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-  - .gitignore
 exclude:
 ignore:
 
@@ -116,6 +115,7 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:Xujiayao147/Xujiayao147.github.io.git
+  branch: master
 
 sitemap:
   path: sitemap.xml
