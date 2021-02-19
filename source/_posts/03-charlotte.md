@@ -1,6 +1,6 @@
 ---
 title: Charlotte 夏洛特
-cover: 'https://i.loli.net/2020/07/30/gCItmRGnYSLkdVj.png'
+cover: /file/posts/1da6e446/cover.png
 tags: Charlotte
 categories: 番剧
 description: 「我拯救了世界，却忘了你。」

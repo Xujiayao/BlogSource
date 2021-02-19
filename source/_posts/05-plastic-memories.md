@@ -1,6 +1,6 @@
 ---
 title: PLASTIC MEMORIES 可塑性记忆
-cover: 'https://i.loli.net/2020/07/31/qPh3xXl4CBHW579.png'
+cover: /file/posts/d69370a/cover.png
 tags: 可塑性记忆
 categories: 番剧
 description: 「愿你有一天能与你重要的人重逢。」

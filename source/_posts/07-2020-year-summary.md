@@ -1,6 +1,6 @@
 ---
 title: 新年快乐！2020 年度报告
-cover: 'https://i.loli.net/2021/01/01/buveG4WgCaS8IDP.jpg'
+cover: /file/posts/6abf4a82/cover.jpg
 tags: 年度报告
 categories: 日常
 description: 实「鼠」不易，「牛」转乾坤。祝大家新年快乐！

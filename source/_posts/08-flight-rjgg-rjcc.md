@@ -1,6 +1,6 @@
 ---
 title: 群不日常连飞 RJGG - RJCC
-cover: 'https://i.loli.net/2021/01/27/zUP324SlHJR7w1c.jpg'
+cover: /file/posts/381c7e40/cover.jpg
 tags: 模拟飞行
 categories:
   - 游戏

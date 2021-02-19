@@ -1,6 +1,6 @@
 ---
 title: 新年快乐！群日常连飞 ZYHB - ZSAM
-cover: 'https://i.loli.net/2021/02/12/OaFuxl2iM6toHI5.jpg'
+cover: /file/posts/140ab620/cover.jpg
 tags: 模拟飞行
 categories:
   - 游戏

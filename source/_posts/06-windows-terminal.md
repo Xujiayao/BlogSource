@@ -1,6 +1,6 @@
 ---
 title: 将 Windows Terminal 添加到右键菜单
-cover: 'https://i.loli.net/2021/01/01/Uf6dFPowZTjDin7.jpg'
+cover: /file/posts/5a8a6c8d/cover.jpg
 tags: Windows
 categories: 
   - 教程

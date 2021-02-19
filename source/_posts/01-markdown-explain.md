@@ -1,6 +1,6 @@
 ---
 title: Markdown 语法讲解
-cover: 'https://i.loli.net/2020/07/13/gQeGNjzncCIAVZy.jpg'
+cover: /file/posts/c81ea237/cover.jpg
 tags: Markdown
 categories:
   - 教程

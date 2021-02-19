@@ -1,6 +1,6 @@
 ---
 title: 群不日常连飞 RJFF - ZSSS
-cover: 'https://i.loli.net/2020/07/27/1kxOtbeq4J7lIoK.png'
+cover: /file/posts/62fbd8b8/cover.png
 tags: 模拟飞行
 categories:
   - 游戏

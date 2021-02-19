@@ -1,6 +1,6 @@
 ---
 title: 群日常连飞 ZGGG - ZYHB
-cover: 'https://i.loli.net/2020/07/13/o4awWpdPSOqDn6V.jpg'
+cover: /file/posts/8245f257/cover.jpg
 tags: 模拟飞行
 categories:
   - 游戏
