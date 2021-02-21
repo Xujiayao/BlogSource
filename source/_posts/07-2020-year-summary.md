@@ -1,7 +1,9 @@
 ---
 title: 新年快乐！2020 年度报告
 cover: /file/posts/6abf4a82/cover.jpg
-tags: 年度报告
+tags:
+  - 年度报告
+  - 2020
 categories: 日常
 description: 实「鼠」不易，「牛」转乾坤。祝大家新年快乐！
 abbrlink: 6abf4a82

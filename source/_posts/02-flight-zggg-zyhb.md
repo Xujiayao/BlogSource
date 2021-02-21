@@ -1,7 +1,9 @@
 ---
 title: 群日常连飞 ZGGG - ZYHB
 cover: /file/posts/8245f257/cover.jpg
-tags: 模拟飞行
+tags:
+  - 模拟飞行
+  - 群连飞
 categories:
   - 游戏
   - 模拟飞行

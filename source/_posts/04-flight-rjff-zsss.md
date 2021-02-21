@@ -1,7 +1,9 @@
 ---
 title: 群不日常连飞 RJFF - ZSSS
 cover: /file/posts/62fbd8b8/cover.png
-tags: 模拟飞行
+tags:
+  - 模拟飞行
+  - 群连飞
 categories:
   - 游戏
   - 模拟飞行

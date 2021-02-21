@@ -1,7 +1,9 @@
 ---
 title: Markdown 语法讲解
 cover: /file/posts/c81ea237/cover.jpg
-tags: Markdown
+tags:
+  - Markdown
+  - 写文章
 categories:
   - 教程
   - Markdown

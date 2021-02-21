@@ -14,8 +14,6 @@ date: 2020-07-13 10:29:34
 > 
 > 下面这个歌单是跟我 QQ音乐 的「我喜欢」歌单同步的~
 
-> [2020 年度报告](https://xujiayao147.gitee.io/posts/6abf4a82/)
-
 {% meting "3312264565" "tencent" "playlist" %}
 
 ## 关于博客
@@ -23,9 +21,10 @@ date: 2020-07-13 10:29:34
 > 博客名称：Xujiayao\'s Blog
 博客描述：没有个性，如何签名？
 建立日期：2020 年 7 月 8 日
-博客链接：https://xujiayao147.gitee.io/
+博客链接：https://blog.xujiayao.top/
 博客程序：[Hexo](https://hexo.io/)
-博客主机：[Gitee Pages](https://gitee.com/xujiayao147/Xujiayao147/pages)
+博客主机：[GitHub Pages](https://github.com/Xujiayao147/Xujiayao147.github.io/deployments?environment=github-pages)
+博客CDN：[Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn)
 评论系统：[Valine](https://valine.js.org/)
 特别感谢 [Butterfly - @Jerry](https://butterfly.js.org/) 提供的博客模板。
 
@@ -45,7 +44,7 @@ date: 2020-07-13 10:29:34
 
 {% tabs bangumi %}
 <!-- tab 暂未观看 -->
-不分先后次序=￣ω￣=
+不分先后次序 =￣ω￣=
 
 - [ ] [紫罗兰永恒花园](https://www.bilibili.com/bangumi/media/md8892/)
 - [ ] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)

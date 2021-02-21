@@ -1,7 +1,9 @@
 ---
 title: Charlotte 夏洛特
 cover: /file/posts/1da6e446/cover.png
-tags: Charlotte
+tags:
+  - Charlotte
+  - 二次元
 categories: 番剧
 description: 「我拯救了世界，却忘了你。」
 aplayer: true
@@ -123,55 +125,33 @@ date: 2020-07-26 23:59:02
 
 等个 3 分钟图片还没加载出来的话，就刷新一下网页吧(^人^)
 
+{% gallery %}
 ![1.png](https://i.loli.net/2020/07/30/gCItmRGnYSLkdVj.png)
-
 ![2.png](https://i.loli.net/2020/07/30/avPn6Uh8LRHDlAm.png)
-
 ![3.png](https://i.loli.net/2020/07/30/78hewMQY6yLOcn2.png)
-
 ![4.png](https://i.loli.net/2020/07/30/1wJN9MErs7O23aK.png)
-
 ![5.png](https://i.loli.net/2020/07/30/NqSKJwp9FPEtWo3.png)
-
 ![6.png](https://i.loli.net/2020/07/30/jFOzQZDloK47RrT.png)
-
 ![7.png](https://i.loli.net/2020/07/30/A2yqWxJS9sPdiz4.png)
-
 ![8.png](https://i.loli.net/2020/07/30/aVtUlJWRv6SN2Ek.png)
-
 ![9.png](https://i.loli.net/2020/07/30/XxNRAYzw1LTQ5qH.png)
-
 ![10.png](https://i.loli.net/2020/07/30/cw4YFlSkXIz9iug.png)
-
 ![11.png](https://i.loli.net/2020/07/30/Jte3sgP6cVrUSZ2.png)
-
 ![12.png](https://i.loli.net/2020/07/30/y6Drq793Xal54vc.png)
-
 ![13.png](https://i.loli.net/2020/07/30/QM621XzF9GqfbJL.png)
-
 ![14.png](https://i.loli.net/2020/07/30/38nk2fVWeGFpwJH.png)
-
 ![15.png](https://i.loli.net/2020/07/30/zkH3Wa752pf1KLN.png)
-
 ![16.png](https://i.loli.net/2020/07/30/y5FtHPIGurAq9wp.png)
-
 ![17.png](https://s1.ax1x.com/2020/08/01/a3hLjg.png)
-
 ![18.png](https://i.loli.net/2020/07/30/eXQJnrs214UtY8a.png)
-
 ![19.png](https://i.loli.net/2020/07/30/wMAatpDqKlSXGij.png)
-
 ![20.png](https://i.loli.net/2020/07/30/tmai1D2wE4ofzgX.png)
-
 ![21.png](https://i.loli.net/2020/07/30/jdaFhRg2UnPoVYC.png)
-
 ![22.png](https://i.loli.net/2020/08/01/KrdC5AOYSx9Q2FZ.png)
-
 ![23.png](https://i.loli.net/2020/08/01/e89qdfYAtKFZzgn.png)
-
 ![24.png](https://i.loli.net/2020/08/01/VLuWCH2PM9zqmil.png)
-
 ![25.png](https://i.loli.net/2020/08/01/ZouO4lhEJmvf8qQ.png)
+{% endgallery %}
 
 ## 安慰
 

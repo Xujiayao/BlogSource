@@ -1,7 +1,9 @@
 ---
 title: 将 Windows Terminal 添加到右键菜单
 cover: /file/posts/5a8a6c8d/cover.jpg
-tags: Windows
+tags:
+  - 命令行
+  - Windows Terminal
 categories: 
   - 教程
   - Windows
@@ -93,7 +95,7 @@ echo %LOCALAPPDATA%
 
 我们需要下载软件图标，这样右键菜单才会更好看 (～￣▽￣)～
 
-右键，在新标签页中打开这个链接：[Windows Terminal 软件图标](https://xujiayao147.gitee.io/file/posts/5a8a6c8d/icon.ico)
+右键，在新标签页中打开这个链接：[Windows Terminal 软件图标](https://blog.xujiayao.top/file/posts/5a8a6c8d/icon.ico)
 
 右键显示的图片，点击另存为，并存放在电脑中任意的位置~
 

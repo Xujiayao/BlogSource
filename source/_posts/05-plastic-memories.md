@@ -1,7 +1,9 @@
 ---
 title: PLASTIC MEMORIES 可塑性记忆
 cover: /file/posts/d69370a/cover.png
-tags: 可塑性记忆
+tags:
+  - 可塑性记忆
+  - 二次元
 categories: 番剧
 description: 「愿你有一天能与你重要的人重逢。」
 aplayer: true
@@ -146,85 +148,48 @@ date: 2020-08-13 23:34:07
 
 等个 3 分钟图片还没加载出来的话，就刷新一下网页吧(^人^)
 
+{% gallery %}
 ![1.png](https://i.loli.net/2020/07/31/qPh3xXl4CBHW579.png)
-
 ![2.png](https://i.loli.net/2020/07/31/lZXWkwd98gqxEMI.png)
-
 ![3.png](https://i.loli.net/2020/07/31/QX6nqgm5HkGPWp9.png)
-
 ![4.png](https://i.loli.net/2020/07/31/lJmDquijUzMx67n.png)
-
 ![5.png](https://i.loli.net/2020/07/31/Evai2xZ9TQM1VGg.png)
-
 ![6.png](https://i.loli.net/2020/07/31/DlsJKjgCZQiPxWp.png)
-
 ![7.png](https://i.loli.net/2020/07/31/LJ6KZ72av45m3rs.png)
-
 ![8.png](https://i.loli.net/2020/07/31/sEqxDBn63to2YQe.png)
-
 ![9.png](https://i.loli.net/2020/07/31/4pVgUrMWYO8jJxq.png)
-
 ![10.png](https://i.loli.net/2020/07/31/zbsxytj2RIUWKhO.png)
-
 ![11.png](https://i.loli.net/2020/07/31/4Rg9Tmszq3k5S8r.png)
-
 ![12.png](https://i.loli.net/2020/07/31/bgljrxv7uZNBOk6.png)
-
 ![13.png](https://i.loli.net/2020/07/31/Ib9FalqGUMLr7kV.png)
-
 ![14.png](https://i.loli.net/2020/07/31/EaDfZlBRdXt6IgY.png)
-
 ![15.png](https://i.loli.net/2020/07/31/wbP6OUCxHGkYX24.png)
-
 ![16.png](https://i.loli.net/2020/07/31/lFigjOKtuco3BMz.png)
-
 ![17.png](https://i.loli.net/2020/07/31/IS4rOUmCNJEhWxq.png)
-
 ![18.png](https://i.loli.net/2020/07/31/nzcrASxOIBGw3a5.png)
-
 ![19.png](https://i.loli.net/2020/07/31/CbJBVzcPn6Ij9RK.png)
-
 ![20.png](https://i.loli.net/2020/07/31/ABtd5mKaNjgDwZP.png)
-
 ![21.png](https://i.loli.net/2020/07/31/DnXJiWjCsFGUcyr.png)
-
 ![22.png](https://i.loli.net/2020/07/31/kUCHW4b31nZxyDf.png)
-
 ![23.png](https://i.loli.net/2020/07/31/Q1w4bBLrux2TpeU.png)
-
 ![24.png](https://i.loli.net/2020/07/31/3SUYN4RewIMBfXZ.png)
-
 ![25.png](https://i.loli.net/2020/07/31/6SrcCbWQLKlJFNZ.png)
-
 ![26.png](https://i.loli.net/2020/07/31/QPem5HpyKUvDTGO.png)
-
 ![27.png](https://i.loli.net/2020/07/31/GFS81OcnR25bMgC.png)
-
 ![28.png](https://i.loli.net/2020/07/31/wLMUexqGBtKPfRQ.png)
-
 ![29.png](https://i.loli.net/2020/07/31/V6yGSkzD2iJMEIm.png)
-
 ![30.png](https://i.loli.net/2020/08/01/Ijdt9phvZroBl5E.png)
-
 ![31.png](https://i.loli.net/2020/08/01/RBUsy1ld56JScT9.png)
-
 ![32.png](https://i.loli.net/2020/08/01/cChLBPytRiVMzlr.png)
-
 ![33.png](https://i.loli.net/2020/08/01/LhUz7kjlDb54wMJ.png)
-
 ![34.png](https://i.loli.net/2020/08/01/SijM9YGzbLmpQ8R.png)
-
 ![35.png](https://i.loli.net/2020/08/01/fAZNawuH4nyGgjh.png)
-
 ![36.png](https://i.loli.net/2020/08/01/sJNO3lrh918eCKS.png)
-
 ![37.png](https://i.loli.net/2020/08/01/mYDp1NFwfg85ctj.png)
-
 ![38.png](https://i.loli.net/2020/08/01/5s3Ynktob7W9SgZ.png)
-
 ![39.png](https://i.loli.net/2020/08/01/FufKBVd5p9Nmxto.png)
-
 ![40.png](https://i.loli.net/2020/08/01/Z2ivtsPdNBj5kF4.png)
+{% endgallery %}
 
 ## 安慰
 
