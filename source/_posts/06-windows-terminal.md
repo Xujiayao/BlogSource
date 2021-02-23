@@ -14,7 +14,9 @@ date: 2020-12-26 22:34:21
 
 如何将 Windows Terminal 添加到右键菜单，这篇文章能够告诉你！
 
-> 本文参考了 [JerryC - 今日事,今日畢](https://jerryc.me/posts/c621cf12/) 上的文章和 [知乎](https://www.zhihu.com/question/325948326) 上的回答喔！
+> <font color='red'>**从 [Windows Terminal v1.5.10271.0](https://github.com/microsoft/terminal/releases/tag/v1.5.10271.0) 开始，官方已经将 Windows Terminal 添加到右键菜单，无须自己添加啦！**</font>
+
+> 本文参考了 [MYW - I AM MYW](https://immyw.com/posts/c621cf12/) 上的文章和 [知乎](https://www.zhihu.com/question/325948326) 上的回答喔！
 > 
 > 我把这几篇文章整合，并在原文的基础上做了一些修改。下面是我认为最好的方案~
 
