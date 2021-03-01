@@ -861,10 +861,12 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/gitcalendar.css"/>
   bottom:
     # - <script src="xxxx"></script>
     # - <div class="aplayer no-destroy" data-id="7838730606" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="random" data-autoplay="true" data-volume="0.7"></div>
-
+    - <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    - <script src="/js/gitcalendar.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
