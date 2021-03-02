@@ -1,10 +1,18 @@
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
+    - name: Tmzncty
+      link: https://tmzncty.cn/
+      avatar: https://tmzncty.cn/wp-content/uploads/cropped-1614436137-logo.png
+      descr: 题目自拟的盒子
+    - name: Aki
+      link: https://akiyamarin.club/
+      avatar: https://akiyamarin.club/wp-content/uploads/2020/12/QQ%E5%9B%BE%E7%89%8720201230161235.jpg
+      descr: Aki的秘密基地
     - name: 和泉聆风
       link: https://blog.limewtea.com/
       avatar: https://blog.limewtea.com/sitelogo.png
-      descr: 学习电脑和编程技术
+      descr: 和泉聆风的博客
     - name: 奕奕生辉
       link: https://www.yeyi.site/
       avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
