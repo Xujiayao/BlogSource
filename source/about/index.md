@@ -9,9 +9,11 @@ date: 2020-07-13 10:29:34
 ## 关于我
 
 > 事东方宅，老二次元了2333
-> 
+>
 > 喜欢听《东方Project》的原曲和同人音乐~ \\(￣︶￣*\\))
-> 
+>
+> 最近在玩《东方风神录》，太难了啊啊啊啊，普通难度最佳记录才第五关ヾ(•ω•`)o
+>
 > 下面这个歌单是跟我 QQ音乐 的「我喜欢」歌单同步的~
 
 {% meting "3312264565" "tencent" "playlist" %}
@@ -23,8 +25,7 @@ date: 2020-07-13 10:29:34
 建立日期：2020 年 7 月 8 日
 博客链接：https://blog.xujiayao.top/
 博客程序：[Hexo](https://hexo.io/)
-博客主机：[GitHub Pages](https://github.com/Xujiayao147/Xujiayao147.github.io/deployments?environment=github-pages)
-博客CDN：[Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn)
+博客主机：[GitHub Pages](https://github.com/Xujiayao147/Xujiayao147.github.io/deployments?environment=github-pages) + [Vercel](https://github.com/Xujiayao147/Xujiayao147.github.io/deployments/?environment=Production)
 评论系统：[Valine](https://valine.js.org/)
 特别感谢 [Butterfly - @Jerry](https://butterfly.js.org/) 提供的博客模板。
 
@@ -71,12 +72,14 @@ date: 2020-07-13 10:29:34
 - [ ] [DARLING in the FRANXX](https://www.bilibili.com/bangumi/media/md9192/)
 - [ ] [玉子市场](https://www.bilibili.com/bangumi/media/md116772/)
 - [ ] [玉子爱情故事](https://www.bilibili.com/bangumi/media/md4155/)
+- [ ] [漆黑的子弹](https://www.bilibili.com/bangumi/media/md4181/)
+- [ ] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
 这些大部分还是有分先后次序的，主要是自己已经忘记自己是哪个番先看的了＞︿＜
 
-- [x] [我的妹妹不可能那么可爱 第一季](https://www.bilibili.com/bangumi/media/md2660/) <font color='red'>入坑番=￣ω￣=</font>
+- [x] [我的妹妹不可能那么可爱 第一季](https://www.bilibili.com/bangumi/media/md2660/) <font color='red'>入坑番 =￣ω￣=</font>
 - [x] [我的妹妹不可能那么可爱 第二季](https://www.bilibili.com/bangumi/media/md2661/)
 - [x] 漫画家与助手（目前哔哩哔哩已下架）
 - [x] [笨女孩](https://www.bilibili.com/bangumi/media/md6311/)

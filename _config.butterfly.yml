@@ -656,7 +656,7 @@ aside:
       link: /about/
   card_announcement:
     enable: true
-    content: 欢迎光临！感谢访问本站 \(￣︶￣*\))<br>更换新域名啦！ヾ(≧▽≦*)o
+    content: 欢迎光临！感谢访问本站 \(￣︶￣*\))<br>买新域名啦！ヾ(≧▽≦*)o<br><br>博客访问量是从二月初才开始算的哦！访问量在更换域名之后重置了，所以看起来比较少ヾ(•ω•`)o
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
