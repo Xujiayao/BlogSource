@@ -1,34 +1,41 @@
 - class_name: 友情链接
-  class_desc: 那些人，那些事
+  class_desc: <p>那些人，那些事</p><blockquote><p>非双向友链我会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签</p></blockquote>
   link_list:
     - name: Tmzncty
       link: https://tmzncty.cn/
       avatar: https://tmzncty.cn/wp-content/uploads/cropped-1614436137-logo.png
       descr: 题目自拟的盒子
+      nofollow: false
     - name: Aki
       link: https://akiyamarin.club/
       avatar: https://akiyamarin.club/wp-content/uploads/2020/12/QQ%E5%9B%BE%E7%89%8720201230161235.jpg
       descr: Aki的秘密基地
+      nofollow: true
     - name: 和泉聆风
       link: https://blog.limewtea.com/
       avatar: https://blog.limewtea.com/sitelogo.png
       descr: 和泉聆风的博客
+      nofollow: false
     - name: 奕奕生辉
       link: https://www.yeyi.site/
       avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
       descr: 叶奕的空间
+      nofollow: false
     - name: Cordelia
       link: https://xn--pss681d3kc.cn/
       avatar: https://xn--pss681d3kc.cn/wp-content/uploads/2020/10/Ayanami.Rei_.full_.1435517-%E5%89%AF%E6%9C%AC.jpg
       descr: Hydroxide's Secret Base
+      nofollow: true
     - name: MYW
       link: https://immyw.com/
       avatar: https://immyw.com/img/avatar.png
       descr: 今日事，今日畢
+      nofollow: true
     - name: 折影轻梦
       link: https://nexmoe.com/
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
       descr: 崇尚自由、热爱技术。
+      nofollow: true
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -37,7 +44,9 @@
       link: https://butterfly.js.org/
       avatar: https://butterfly.js.org/img/avatar.png
       descr: "A Hexo Theme: Butterfly"
+      nofollow: true
     - name: Nexmoe
       link: https://nexmoe.com/hexo-theme-nexmoe.html
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
       descr: 一个比较特别的 Hexo 主题
+      nofollow: true
