@@ -1,6 +1,11 @@
 - class_name: 友情链接
   class_desc: <p>那些人，那些事</p><blockquote><p>非双向友链我会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签</p></blockquote>
   link_list:
+    - name: Sakura
+      link: https://www.sakurax.ml/
+      avatar: https://secure.gravatar.com/avatar/43543b05911b76907f2b40a3dda76795?s=220&r=X&d=mm
+      descr: Sakuraの无聊日常
+      nofollow: false
     - name: Tmzncty
       link: https://tmzncty.cn/
       avatar: https://tmzncty.cn/wp-content/uploads/cropped-1614436137-logo.png
@@ -22,8 +27,8 @@
       descr: 叶奕的空间
       nofollow: false
     - name: Cordelia
-      link: https://xn--pss681d3kc.cn/
-      avatar: https://xn--pss681d3kc.cn/wp-content/uploads/2020/10/Ayanami.Rei_.full_.1435517-%E5%89%AF%E6%9C%AC.jpg
+      link: https://echoandmoonlight.com/
+      avatar: https://echoandmoonlight.com/wp-content/uploads/2020/10/Ayanami.Rei_.full_.1435517-%E5%89%AF%E6%9C%AC.jpg
       descr: Hydroxide's Secret Base
       nofollow: true
     - name: MYW
