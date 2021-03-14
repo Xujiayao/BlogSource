@@ -3,7 +3,7 @@
   link_list:
     - name: Sakura
       link: https://www.sakurax.ml/
-      avatar: https://secure.gravatar.com/avatar/43543b05911b76907f2b40a3dda76795?s=220&r=X&d=mm
+      avatar: https://cdn.v2ex.com/gravatar/43543b05911b76907f2b40a3dda76795?s=220&r=X&d=mm
       descr: Sakuraの无聊日常
       nofollow: false
     - name: Tmzncty
@@ -18,7 +18,7 @@
       nofollow: true
     - name: 和泉聆风
       link: https://blog.limewtea.com/
-      avatar: https://blog.limewtea.com/sitelogo.png
+      avatar: https://blog.limewtea.com/img/sitelogo.png
       descr: 和泉聆风的博客
       nofollow: false
     - name: 奕奕生辉
