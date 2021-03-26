@@ -1,6 +1,11 @@
 - class_name: 友情链接
   class_desc: <p>那些人，那些事</p><blockquote><p>非双向友链我会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签</p></blockquote>
   link_list:
+    - name: 蓝色闪电
+      link: https://chh6217.blogspot.com/
+      avatar: https://2.bp.blogspot.com/-xXRR5e-kqqI/YFOB4yyFtXI/AAAAAAAAAFk/SFXIYrbFquQAywuucxSpXuUjKLF_0TX_QCK4BGAYYCw/pf/20210109_084647.jpg
+      descr: 蓝色闪电的小窝
+      nofollow: true
     - name: Sakura
       link: https://www.sakurax.ml/
       avatar: https://cdn.v2ex.com/gravatar/43543b05911b76907f2b40a3dda76795?s=220&r=X&d=mm
