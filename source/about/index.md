@@ -76,6 +76,7 @@ date: 2020-07-13 10:29:34
 - [ ] [玉子爱情故事](https://www.bilibili.com/bangumi/media/md4155/)
 - [ ] [漆黑的子弹](https://www.bilibili.com/bangumi/media/md4181/)
 - [ ] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
+- [ ] [One Room](https://www.bilibili.com/bangumi/media/md5798/) 全系列
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
