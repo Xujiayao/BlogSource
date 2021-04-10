@@ -1,10 +1,10 @@
 - class_name: 友情链接
   class_desc: <p>那些人，那些事</p><blockquote><p>非双向友链我会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签</p></blockquote>
   link_list:
-    - name: Hezhihao
+    - name: 6067
       link: https://www.sino6067.love/
       avatar: https://www.sino6067.love/wp-content/uploads/2021/04/QQ图片20210403131902.jpg
-      descr: 6067's Blog
+      descr: 67不咕就发财了
       nofollow: false
     - name: 蓝色闪电
       link: https://chh6217.blogspot.com/
