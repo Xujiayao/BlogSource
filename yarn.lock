@@ -1102,6 +1102,11 @@ hexo-deployer-git@^3.0.0:
     moment "^2.18.0"
     nunjucks "^3.2.1"
 
+hexo-filter-nofollow@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-filter-nofollow/-/hexo-filter-nofollow-2.0.2.tgz#903692f95f26d6ad8933e9926c94d422bbf25d68"
+  integrity sha512-roIkEIkGOR22EPMoy8iKrufDoAH25LOT5ZeVXVLavEpM757Y96kfUhyathryMLXr326EURffgkZAKsVf3EDl0A==
+
 hexo-front-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
