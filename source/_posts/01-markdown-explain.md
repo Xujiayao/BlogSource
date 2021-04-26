@@ -16,7 +16,11 @@ date: 2020-07-13 14:54:33
 
 > 下面的文案是从 [奕奕生辉 - 叶奕的空间](https://www.yeyi.site) 复制的喔！我在原文的基础上做了一些修改~
 > 
-> 推荐使用 [Notepad++](https://notepad-plus-plus.org/) 进行编辑。（Notepad++ 的代码高亮功能完善，我目前用的编辑器就是它）
+> 推荐同时使用 [Typora](https://www.typora.io/) 和 [Notepad++](https://notepad-plus-plus.org/) 进行编辑。
+> 
+>> 1. Notepad++ 的代码高亮功能完善，看 Markdown 文件源代码的时候特别舒服。
+>> 2. Typora 可以实时渲染出效果，支持快速上传拖拽到窗口的图片到图床。
+>> 3. 两款软件都非常轻便简洁。
 
 # 大标题 #
 

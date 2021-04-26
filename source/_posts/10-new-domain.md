@@ -54,19 +54,19 @@ date: 2021-02-19 13:18:59
 
 ---
 
-### [ideea.xujiayao.top](https://ideea.xujiayao.top/)
+### [server.xujiayao.top](https://server.xujiayao.top/)
 
 这个是用来做学校的 IDEEA 项目的，大概就是做一个供学校用户交流的平台，可以理解为学校那垃圾内联网的升级版（？）
 
-这个站是用的 [Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn)，SSL 证书是 Cloudflare 颁发哒 q(≧▽≦q)
+算是一台个人服务器，用的 [Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn) q(≧▽≦q)
 
-这个项目会是用 `Java` 编写的动态网页，目前还用的我自己的电脑运行 [Apache Tomcat](https://tomcat.apache.org/) 当服务器 (～￣▽￣)～
+这个项目是用 `Java` 的后端框架 `SpringBoot` 编写的动态网页，目前是用的我自己的电脑运行 [Apache Tomcat](https://tomcat.apache.org/) 当服务器，用 [SakuraFrp](https://www.natfrp.com/) 做端口映射 (～￣▽￣)～
 
 > 这个只有我电脑的服务器有在运行才能正常访问的喔，平时访问出现 503 错误是正常的！ヾ(≧▽≦*)o
 
 ---
 
-目前只有这么多，后面可能会再添加新的记录吧 \\(￣︶￣*\\))
+目前只有这么多，后续可能会再添加新的记录吧 \\(￣︶￣*\\))
 
 ## 最后说多一些吧
 
