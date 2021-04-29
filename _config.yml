@@ -159,6 +159,7 @@ nofollow:
   enable: true
   field: site
   exclude:
+    - 'echoandmoonlight.com'
     - 'www.sakurax.ml'
     - 'tmzncty.cn'
     - 'blog.limewtea.com'
