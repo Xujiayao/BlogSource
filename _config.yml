@@ -159,6 +159,7 @@ nofollow:
   enable: true
   field: site
   exclude:
+    - 'sinoces6067.xyz'
     - 'echoandmoonlight.com'
     - 'www.sakurax.ml'
     - 'tmzncty.cn'

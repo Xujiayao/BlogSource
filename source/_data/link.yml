@@ -3,10 +3,10 @@
   link_list:
   # 记得要去 config.yml 修改 NoFollow 插件 Exclude 设置
     - name: az
-      link: https://www.sino6067.love/
-      avatar: https://www.sino6067.love/wp-content/uploads/2021/04/11039685-2157350109-53D93447E7D3B9CA1DCFA9462AEE46C9.jpg
+      link: https://sinoces6067.xyz/
+      avatar: https://sinoces6067.xyz/img/favicon.png
       descr: 67不咕就发财了
-      nofollow: true
+      nofollow: false
     - name: 蓝色闪电
       link: https://chh6217.blogspot.com/
       avatar: https://2.bp.blogspot.com/-xXRR5e-kqqI/YFOB4yyFtXI/AAAAAAAAAFk/SFXIYrbFquQAywuucxSpXuUjKLF_0TX_QCK4BGAYYCw/pf/20210109_084647.jpg
