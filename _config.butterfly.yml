@@ -4,7 +4,7 @@
 # format: name: link || icon
 # sub-menu
 # name || icon:
-#   name || link || icon
+#   name: link || icon
 
 menu:
   首页: / || fas fa-home
@@ -461,25 +461,11 @@ google_adsense:
 # Verification (站長驗證)
 # --------------------------------------
 
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters/
-google_site_verification:
-
-# Bing Webmaster tools verification setting
-# See: https://www.bing.com/webmaster/
-bing_site_verification: 725CF7E912C2BFE03EF095630BA437B6
-
-# Baidu Webmaster tools verification setting
-# See: https://ziyuan.baidu.com/site/
-baidu_site_verification: code-YGASehDmFC
-
-# 360 Webmaster tools verification setting
-# see http://zhanzhang.so.com/
-qihu_site_verification:
-
-# Yandex Webmaster tools verification setting
-# see https://webmaster.yandex.com/
-yandex_site_verification:
+site_verification:
+  - name: bing_site_verification
+    content: 725CF7E912C2BFE03EF095630BA437B6
+  - name: baidu_site_verification
+    content: code-YGASehDmFC
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -653,7 +639,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description: 没有个性，如何签名？
+    description: 没有个性，如何签名？<br><i class="fas fa-map-marker-alt"></i> Hong Kong
     button:
       enable: true
       icon: fas fa-user-circle
@@ -830,10 +816,12 @@ pangu:
   field: site # site/post
 
 # Lazyload (圖片懶加載)
-# https://github.com/verlok/lazyload
+# https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
-  post: /file/loading.gif
+  field: site # site/post
+  placeholder:
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
