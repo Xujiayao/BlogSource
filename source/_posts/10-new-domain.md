@@ -20,8 +20,6 @@ date: 2021-02-19 13:18:59
 
 > `xujiayao.top`
 >
-> （目前直接输入 `xujiayao.top` 是不能访问的哦，还没有打算设置 @ 解析记录）
->
 > 首年 9 块，续费 26 块╰(￣ω￣ｏ)
 
 至于后缀嘛。。对比了下 .top 和 .com 后缀的价格，一个 26 块，一个 69 块。。。其他的全是要么不喜欢要么太贵，果断选择 top 后缀 (～￣▽￣)～
@@ -32,7 +30,7 @@ date: 2021-02-19 13:18:59
 
 然而现在我几乎所有账号都是叫 Xujiayao 了，大部分账号的昵称以后还不能改，就很麻烦 ╮(╯▽╰)╭
 
-**这次整件事还要感谢 5283 的帮助，在文章最后再聊聊吧~**
+**这次整个过程还要感谢 5283 的帮助，在文章最后再聊聊吧！**
 
 ## 域名使用情况
 
@@ -50,19 +48,37 @@ date: 2021-02-19 13:18:59
 
 这个是给博客使用的，也就是大家现在访问我的博客用的网址 `blog.xujiayao.top`，短时间内是不会更改的啦~
 
-博客后面从 [Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn) 换到 [Vercel](https://vercel.com/) 啦~
+博客后面从 [Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn) 换到 [Vercel](https://vercel.com/) 了ヾ(•ω•`)o
 
 ---
 
 ### [server.xujiayao.top](https://server.xujiayao.top/)
 
-这个是用来做学校的 IDEEA 项目的，大概就是做一个供学校用户交流的平台，可以理解为学校那垃圾内联网的升级版（？）
+这个是用来做学校的 IDEEA 项目的，短时间内是不会更改的啦~
+
+这个项目大概就是做一个供学校用户交流的平台，可以理解为学校那垃圾内联网的升级版（？）
 
 算是一台个人服务器，用的 [Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn) q(≧▽≦q)
 
 这个项目是用 `Java` 的后端框架 `SpringBoot` 编写的动态网页，目前是用的我自己的电脑运行 [Apache Tomcat](https://tomcat.apache.org/) 当服务器，用 [SakuraFrp](https://www.natfrp.com/) 做端口映射 (～￣▽￣)～
 
 > 这个只有我电脑的服务器有在运行才能正常访问的喔，平时访问出现 503 错误是正常的！ヾ(≧▽≦*)o
+
+---
+
+### [www.xujiayao.top](https://www.xujiayao.top/)
+
+访问这个会通过 `301 Moved Permanently` 跳转到博客 `blog.xujiayao.top`，短时间内是不会更改的啦~
+
+是 [Vercel](https://vercel.com/) 帮忙做跳转的ヾ(•ω•`)o
+
+---
+
+### [xujiayao.top](https://xujiayao.top/)
+
+访问这个会通过 `301 Moved Permanently` 跳转到博客 `blog.xujiayao.top`，短时间内是不会更改的啦~
+
+是 [Vercel](https://vercel.com/) 帮忙做跳转的ヾ(•ω•`)o
 
 ---
 

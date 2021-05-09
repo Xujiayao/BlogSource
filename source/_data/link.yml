@@ -1,5 +1,5 @@
 - class_name:
-  class_desc: <blockquote><p>所有友链按添加时间排序。本站不提供免费广告位，非双向或加了 NoFollow 标签的友链本站会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签。</p></blockquote>
+  class_desc: <blockquote><p>所有友链按添加时间排序。</p><p>感谢您的到来。如果愿意和本站结为相识，很乐意与您互换友链。</p><p>需要注意的是，友链只是出于纯粹的友谊。本站不提出附加条件，但本站不提供免费广告位。单向或有添加 NoFollow 标签的友链本站会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签。</p></blockquote>
   empty_list: true
   link_list:
 
@@ -34,7 +34,7 @@
       descr: 叶奕的空间
       nofollow: false
 
-- class_name: 单向链接
+- class_name: 单向友链
   class_desc: 相识也是缘份
   empty_list: false
   link_list:
@@ -46,7 +46,7 @@
     - name: Aki
       link: https://akiyamarin.club/
       avatar: https://akiyamarin.club/wp-content/uploads/2021/04/QQ%E5%9B%BE%E7%89%8720210405210241.jpg
-      descr: Aki的秘密基地
+      descr: Aki's Secret Base
       nofollow: true
     - name: MYW
       link: https://immyw.com/
@@ -56,7 +56,7 @@
     - name: 折影轻梦
       link: https://nexmoe.com/
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
-      descr: 崇尚自由、热爱技术。
+      descr: 崇尚自由、热爱技术
       nofollow: true
 
 - class_name: 网站
