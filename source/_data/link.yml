@@ -39,8 +39,8 @@
   empty_list: false
   link_list:
     - name: 和泉聆风
-      link: https://www.limewtea.com/
-      avatar: https://www.limewtea.com/img/sitelogo.png
+      link: https://blog.limewtea.com/
+      avatar: https://cdn.jsdelivr.net/gh/limeblog/rc/img/sitelogo.png
       descr: 和泉聆风的博客
       nofollow: true
     - name: Aki
