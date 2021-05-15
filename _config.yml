@@ -159,7 +159,8 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - 'sinoces6067.xyz'
+    - 'www.limewtea.com'
+    - 'blog.sino6067.love'
     - 'echoandmoonlight.com'
     - 'www.sakurax.ml'
     - 'tmzncty.cn'

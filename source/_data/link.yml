@@ -8,46 +8,41 @@
   empty_list: false
   link_list:
   # 记得要去 config.yml 修改 NoFollow 插件 Exclude 设置
-    - name: az
-      link: https://sinoces6067.xyz/
-      avatar: https://sinoces6067.xyz/img/favicon.png
-      descr: 67不咕就发财了
-      nofollow: false
-    - name: Sakura
-      link: https://www.sakurax.ml/
-      avatar: https://cdn.v2ex.com/gravatar/43543b05911b76907f2b40a3dda76795?s=220&r=X&d=mm
-      descr: Sakuraの无聊日常
+    - name: 奕奕生辉
+      link: https://www.yeyi.site/
+      avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
+      descr: 叶奕的空间
       nofollow: false
     - name: Tmzncty
       link: https://tmzncty.cn/
       avatar: https://tmzncty.cn/wp-content/uploads/cropped-1614436137-logo.png
       descr: 题目自拟的盒子
       nofollow: false
+    - name: Sakura
+      link: https://www.sakurax.ml/
+      avatar: https://cdn.v2ex.com/gravatar/43543b05911b76907f2b40a3dda76795?s=220&r=X&d=mm
+      descr: Sakuraの无聊日常
+      nofollow: false
     - name: Hydroxide
       link: https://echoandmoonlight.com/
       avatar: https://echoandmoonlight.com/wp-content/uploads/2020/10/Ayanami.Rei_.full_.1435517-%E5%89%AF%E6%9C%AC.jpg
       descr: Echo & Moonlight
       nofollow: false
-    - name: 奕奕生辉
-      link: https://www.yeyi.site/
-      avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
-      descr: 叶奕的空间
+    - name: az
+      link: https://blog.sino6067.love/
+      avatar: https://blog.sino6067.love/img/favicon.png
+      descr: 67不咕就发财了
+      nofollow: false
+    - name: 和泉聆风
+      link: https://www.limewtea.com/
+      avatar: https://cdn.jsdelivr.net/gh/limeblog/rc/img/sitelogo.png
+      descr: 和泉聆风的博客
       nofollow: false
 
 - class_name: 单向友链
   class_desc: 相识也是缘份
   empty_list: false
   link_list:
-    - name: 和泉聆风
-      link: https://blog.limewtea.com/
-      avatar: https://cdn.jsdelivr.net/gh/limeblog/rc/img/sitelogo.png
-      descr: 和泉聆风的博客
-      nofollow: true
-    - name: Aki
-      link: https://akiyamarin.club/
-      avatar: https://akiyamarin.club/wp-content/uploads/2021/04/QQ%E5%9B%BE%E7%89%8720210405210241.jpg
-      descr: Aki's Secret Base
-      nofollow: true
     - name: MYW
       link: https://immyw.com/
       avatar: https://immyw.com/img/avatar.png
@@ -57,6 +52,11 @@
       link: https://nexmoe.com/
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
       descr: 崇尚自由、热爱技术
+      nofollow: true
+    - name: Aki
+      link: https://akiyamarin.club/
+      avatar: https://akiyamarin.club/wp-content/uploads/2021/04/QQ%E5%9B%BE%E7%89%8720210405210241.jpg
+      descr: Aki's Secret Base
       nofollow: true
 
 - class_name: 网站
