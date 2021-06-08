@@ -20,7 +20,7 @@
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
-    "hexo-generator-search": "^2.4.2",
+    "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-githubcalendar": "^1.2.3",
@@ -30,7 +30,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "hexo-tag-aplayer": "^3.0.4",
-    "hexo-theme-butterfly": "^3.7.7",
+    "hexo-theme-butterfly": "^3.7.8",
     "hexo-wordcount": "^6.0.1"
   }
 }
