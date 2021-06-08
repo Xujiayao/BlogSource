@@ -40,7 +40,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/Xujiayao147 || GitHub
+  fab fa-github: https://github.com/Xujiayao || GitHub
   fab fa-youtube: https://space.bilibili.com/270317970 || 哔哩哔哩
   fas fa-envelope: mailto:xujiayao147258369@gmail.com || Email
   fas fa-rss: /atom.xml || RSS

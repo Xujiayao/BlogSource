@@ -10,7 +10,6 @@ email: xujiayao147258369@gmail.com
 keywords:
   - 大便超人JASON
   - Xujiayao
-  - Xujiayao147
 author: Xujiayao
 language: zh-CN
 timezone: Asia/Shanghai
@@ -114,7 +113,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Xujiayao147/Xujiayao147.github.io.git
+  repo: git@github.com:Xujiayao/Xujiayao.github.io.git
   branch: master
 
 sitemap:
@@ -141,7 +140,7 @@ search:
 githubcalendar:
   enable: true
   enable_page: /
-  user: Xujiayao147
+  user: Xujiayao
   layout:
     type: id
     name: recent-posts

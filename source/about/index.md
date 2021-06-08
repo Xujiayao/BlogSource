@@ -32,7 +32,7 @@ date: 2020-07-13 10:29:34
 建立日期：2020 年 7 月 8 日
 博客链接：https://blog.xujiayao.top/
 博客程序：[Hexo](https://hexo.io/)
-博客主机：[GitHub Pages](https://github.com/Xujiayao147/Xujiayao147.github.io/deployments?environment=github-pages) + [Vercel](https://github.com/Xujiayao147/Xujiayao147.github.io/deployments/?environment=Production)
+博客主机：[GitHub Pages](https://github.com/Xujiayao/Xujiayao.github.io/deployments?environment=github-pages) + [Vercel](https://github.com/Xujiayao/Xujiayao.github.io/deployments/?environment=Production)
 评论系统：[Valine](https://valine.js.org/)
 特别感谢 [Butterfly - @Jerry](https://butterfly.js.org/) 提供的博客模板。
 
@@ -43,7 +43,7 @@ date: 2020-07-13 10:29:34
 > * 邮箱：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)
 > * 社交平台：
 > 	* [哔哩哔哩](https://space.bilibili.com/270317970)
-> 	* [GitHub](https://github.com/Xujiayao147)
+> 	* [GitHub](https://github.com/Xujiayao)
 
 ## 番剧清单
 
