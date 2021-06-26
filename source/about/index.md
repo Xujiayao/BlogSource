@@ -15,7 +15,7 @@ date: 2020-07-13 10:29:34
 > 东方正作 STG 混关玩家，虽然很菜就是了（＞人＜；）
 > 最近在玩《东方风神录》，《东方绀珠传》，《东方天空璋》和《东方星莲船》ヾ(•ω•`)o
 >
-> Minecraft Java Edition 正版老玩家，Lazy_Craft 私人服务器成员 (～￣▽￣)～
+> Minecraft Java Edition 正版八年老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
 >
 > 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，电脑配置太差只能带得动 FSX（＞人＜；）
 >
@@ -66,7 +66,7 @@ date: 2020-07-13 10:29:34
 - [ ] [我的青春恋爱物语果然有问题。](https://www.bilibili.com/bangumi/media/md1539/) 全系列
 - [ ] [请问您今天要来点兔子吗？](https://www.bilibili.com/bangumi/media/md191/) 全系列
 - [ ] [萤火之森](https://www.bilibili.com/bangumi/media/md27526419/)
-- [ ] [小林家的龙女仆](https://www.bilibili.com/bangumi/media/md5800/)
+- [ ] [小林家的龙女仆](https://www.bilibili.com/bangumi/media/md5800/) 全系列
 - [ ] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
 - [ ] [日常](https://www.bilibili.com/bangumi/media/md844/)
 - [ ] [Little Busters!](https://www.bilibili.com/bangumi/media/md3242/) 全系列
@@ -82,6 +82,8 @@ date: 2020-07-13 10:29:34
 - [ ] [漆黑的子弹](https://www.bilibili.com/bangumi/media/md4181/)
 - [ ] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
 - [ ] [One Room](https://www.bilibili.com/bangumi/media/md5798/) 全系列
+- [ ] [女仆咖啡厅](https://www.bilibili.com/bangumi/media/md992/)
+- [ ] [属性咖啡厅](https://www.bilibili.com/bangumi/media/md6432/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
