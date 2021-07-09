@@ -13,9 +13,9 @@ date: 2020-07-13 10:29:34
 > 事东方宅，老二次元了2333
 >
 > 东方正作 STG 混关玩家，虽然很菜就是了（＞人＜；）
-> 最近在玩《东方风神录》，《东方绀珠传》，《东方天空璋》和《东方星莲船》ヾ(•ω•`)o
+> 最近在玩《东方风神录》，《东方绀珠传》和《东方星莲船》ヾ(•ω•`)o
 >
-> Minecraft Java Edition 正版八年老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
+> Minecraft Java Edition 正版老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
 >
 > 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，电脑配置太差只能带得动 FSX（＞人＜；）
 >
@@ -87,6 +87,7 @@ date: 2020-07-13 10:29:34
 - [ ] [One Room](https://www.bilibili.com/bangumi/media/md5798/) 全系列
 - [ ] [女仆咖啡厅](https://www.bilibili.com/bangumi/media/md992/)
 - [ ] [属性咖啡厅](https://www.bilibili.com/bangumi/media/md6432/)
+- [ ] [Angel Beats!](https://www.bilibili.com/bangumi/media/md959/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
