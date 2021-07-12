@@ -15,19 +15,15 @@
               .flink-list-item
                 if item.nofollow
                   a(href=url_for(item.link)  title=item.name target="_blank" rel="noopener external nofollow noreferrer")
-                    if theme.lazyload.enable
-                      img(data-lazy-src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name )
-                    else
+                    .flink-item-icon
                       img(src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name )
-                    span.flink-item-name= item.name 
-                    span.flink-item-desc(title=item.descr)= item.descr
+                    .flink-item-name= item.name 
+                    .flink-item-desc(title=item.descr)= item.descr
                 else
                   a(href=url_for(item.link)  title=item.name target="_blank")
-                    if theme.lazyload.enable
-                      img(data-lazy-src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name )
-                    else
+                    .flink-item-icon
                       img(src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name )
-                    span.flink-item-name= item.name 
-                    span.flink-item-desc(title=item.descr)= item.descr
+                    .flink-item-name= item.name 
+                    .flink-item-desc(title=item.descr)= item.descr
     != page.content
 
