@@ -3,7 +3,7 @@ title: Markdown 语法讲解
 cover: /file/posts/c81ea237/cover.jpg
 tags:
   - Markdown
-  - 写作
+  - 标记语言
 categories:
   - 教程
   - Markdown
@@ -14,7 +14,7 @@ date: 2020-07-13 14:54:33
 
 如何使用 Markdown 语法撰写文章，这篇文章能够告诉你！
 
-> 下面的文案是从 [奕奕生辉 - 叶奕的空间](https://www.yeyi.site) 复制的喔！我在原文的基础上做了一些修改~
+> 下面的文案是从 [奕奕生辉 - 叶奕的空间](https://www.yeyi.site/) 复制的喔！我在原文的基础上做了一些修改~
 > 
 > 推荐同时使用 [Typora](https://www.typora.io/) 和 [Notepad++](https://notepad-plus-plus.org/) 进行编辑。
 > 

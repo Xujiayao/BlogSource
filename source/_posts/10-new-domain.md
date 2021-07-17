@@ -54,11 +54,13 @@ date: 2021-02-19 13:18:59
 
 ### [server.xujiayao.top](https://server.xujiayao.top/)
 
-IDEEA 项目不做了，这个就先空着吧。
+网页项目不做了，这个就先拿来当我的 Minecraft 速通服务器的 IP 吧（只有玩的时候才会开）\\(￣︶￣*\\))
 
-算是一台个人服务器，用的 [Cloudflare CDN](https://www.cloudflare.com/zh-cn/cdn) q(≧▽≦q)
+是用的 TCP 协议，浏览器打不开是正常的，只能通过 Minecraft 多人游戏来访问ヾ(•ω•`)o
 
-这个项目是用 `Java` 的后端框架 `Spring Boot` 编写的动态网页，目前是用的我自己的电脑运行 [Apache Tomcat](https://tomcat.apache.org/) 当服务器，用 [SakuraFrp](https://www.natfrp.com/) 做端口映射 (～￣▽￣)～
+之前写的那个网页项目是用 `Java` 的后端框架 `Spring Boot` 编写的动态网页，是用的我自己的电脑运行 [Apache Tomcat](https://tomcat.apache.org/) 当服务器。
+
+目前也是用 [SakuraFrp](https://www.natfrp.com/) 做端口映射 (～￣▽￣)～
 
 > 这个只有我电脑的服务器有在运行才能正常访问的喔，平时访问出现 503 错误是正常的！ヾ(≧▽≦*)o
 

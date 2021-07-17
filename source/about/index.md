@@ -10,19 +10,20 @@ date: 2020-07-13 10:29:34
 
 > 欢迎光临！ヾ(≧▽≦*)o
 >
-> 事东方宅，老二次元了2333
+> 是老二次元了2333
+>
+> Minecraft Java Edition 正版老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
+>
+> osu! 玩家，虽然很菜就是了（＞人＜；）
+> 不过《Red Battle》这个谱面能拿 S 评级，只剩下两个 100 ヾ(≧▽≦*)o
+>
+> 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，电脑配置太差只能带得动 Prepar3D v3（＞人＜；）
 >
 > 东方正作 STG 混关玩家，虽然很菜就是了（＞人＜；）
 > 最近在玩《东方风神录》，《东方绀珠传》和《东方星莲船》ヾ(•ω•`)o
 >
-> Minecraft Java Edition 正版老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
->
-> 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，电脑配置太差只能带得动 FSX（＞人＜；）
->
-> osu! 玩家，虽然很菜就是了（＞人＜；）
-> 不过《Red Battle》这个谱面能拿 S 评级，只有两个 100 ヾ(≧▽≦*)o
->
-> 网站内容以原创为主。受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
+> 博客内容以原创为主，不定期随缘更新文章。
+> 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
 >
 > 下面这个歌单是跟我的 QQ音乐「我喜欢」歌单同步的~
 
@@ -88,6 +89,9 @@ date: 2020-07-13 10:29:34
 - [ ] [女仆咖啡厅](https://www.bilibili.com/bangumi/media/md992/)
 - [ ] [属性咖啡厅](https://www.bilibili.com/bangumi/media/md6432/)
 - [ ] [Angel Beats!](https://www.bilibili.com/bangumi/media/md959/)
+- [ ] [关于完全听不懂老公在说什么的事](https://www.bilibili.com/bangumi/media/md1530/) 全系列
+- [ ] [少女编号](https://www.bilibili.com/bangumi/media/md5532/)
+- [ ] [URARA迷路帖](https://www.bilibili.com/bangumi/media/md5776/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
