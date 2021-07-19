@@ -640,7 +640,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description: 没有个性，如何签名？<br><i class="fas fa-map-marker-alt"></i> Hong Kong
+    description: 没有个性，如何签名？<br><i class="fas fa-map-marker-alt"></i> Shenzhen
     button:
       enable: true
       icon: fas fa-user-circle
