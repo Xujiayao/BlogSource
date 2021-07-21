@@ -38,6 +38,11 @@
       avatar: https://www.limewtea.com/img/avatar.png
       descr: 和泉聆风的博客
       nofollow: false
+    - name: DexterCai
+      link: https://blog.dextercai.com/
+      avatar: https://gravatar.loli.net/avatar/dd1e4ede7694a2c0e7b6e0e29b4f16bf?s=500
+      descr: 明天太远，今天太短
+      nofollow: false
 
 - class_name: 单向友链
   class_desc: 相识也是缘份
