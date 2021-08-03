@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /file/
+
+Sitemap: https://blog.xujiayao.top/sitemap.xml
