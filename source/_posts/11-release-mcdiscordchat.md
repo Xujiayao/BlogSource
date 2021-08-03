@@ -1,6 +1,6 @@
 ---
 title: 博客一周年啦！MCDiscordChat 发布
-cover: /file/posts/4ba0a17a/cover.png
+cover: /file/posts/4ba0a17a/cover.jpg
 tags:
   - Java
   - Minecraft

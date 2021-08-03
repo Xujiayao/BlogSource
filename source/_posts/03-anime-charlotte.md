@@ -1,6 +1,6 @@
 ---
 title: Charlotte 夏洛特
-cover: /file/posts/1da6e446/cover.png
+cover: /file/posts/1da6e446/cover.jpg
 tags:
   - Charlotte
   - 二次元

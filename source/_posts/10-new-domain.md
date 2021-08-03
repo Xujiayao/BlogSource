@@ -1,6 +1,6 @@
 ---
 title: 买新域名啦！
-cover: /file/posts/29edace0/cover.png
+cover: /file/posts/29edace0/cover.jpg
 tags:
   - 网络
   - 新域名
