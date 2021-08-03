@@ -93,7 +93,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /file/background.jpg
+index_img:
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: /file/background.jpg
@@ -514,7 +514,7 @@ footer_bg: true
 rightside-bottom:
 
 # Enter transitions (開啓網頁進入效果)
-enter_transitions: true
+enter_transitions: false
 
 # Background effects (背景特效)
 # --------------------------------------
@@ -522,7 +522,7 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
