@@ -375,21 +375,15 @@
         &:after
           width: 100%
 
+
+
 // Copied from https://noionion.top/10853.html
 
-#page-header{
+#page-header {
   background: transparent !important;
 }
 
-#footer{
-  background: transparent !important;
-}
-
-#page-header.post-bg::before {
-  background-color: rgba(0, 0, 0, 0.25) !important;
-}
-
-[data-theme="dark"] #footer::before {
+#footer {
   background: transparent !important;
 }
 
@@ -397,11 +391,15 @@
   background: transparent !important;
 }
 
-#page-header.full_page {
-  background-color: rgba(0, 0, 0, 0.25) !important;
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
 }
 
 [data-theme="dark"] #page-header.full_page {
+  background: transparent !important;
+}
+
+[data-theme="dark"] #page-header.not-home-page {
   background: transparent !important;
 }
 
@@ -409,6 +407,22 @@
   height: 300px;
 }
 
+#page-header.not-home-page {
+  height: 300px;
+}
+
+#page-header.full_page {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
 #footer::before {
   background: rgba(0, 0, 0, 0.25) !important;
+}
+
+#page-header.post-bg::before {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+#page-header.not-home-page {
+  background-color: rgba(0, 0, 0, 0.25) !important;
 }

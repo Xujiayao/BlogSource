@@ -1,6 +1,7 @@
 ---
 title: 新年快乐！群日常连飞 ZYHB - ZSAM
 cover: /file/posts/140ab620/cover.jpg
+background: url(/file/posts/140ab620/cover.jpg)
 tags:
   - 模拟飞行
   - 群连飞

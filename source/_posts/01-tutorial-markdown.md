@@ -1,6 +1,7 @@
 ---
 title: Markdown 语法讲解
 cover: /file/posts/c81ea237/cover.jpg
+background: url(/file/posts/c81ea237/cover.jpg)
 tags:
   - Markdown
   - 标记语言

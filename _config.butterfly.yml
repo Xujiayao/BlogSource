@@ -318,7 +318,7 @@ valine:
   pageSize: 10 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 记得要留下自己的昵称和邮箱，这样才能收到回复喔\\(￣︶￣*\\))\n\n昵称那里可以填自己的 QQ 号，填完之后点击其他地方稍等一下，\n就能自动识别并填入自己的 QQ 个人信息和头像啦！=￣ω￣= # valine comment input placeholder (like: Please leave your footprints)
+  placeholder: 记得要留下自己的昵称和邮箱，这样才能收到邮箱提醒哦\\(￣︶￣*\\))\n\n可以在昵称处填写自己的 QQ 号来自动补全 QQ 昵称和 QQ 邮箱ヾ(≧▽≦*)o # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
@@ -640,7 +640,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description: 没有个性，如何签名？<br><i class="fas fa-map-marker-alt"></i> Shenzhen
+    description: 没有个性，如何签名？<br><i class="fas fa-map-marker-alt"></i> Hong Kong
     button:
       enable: true
       icon: fas fa-user-circle

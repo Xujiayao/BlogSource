@@ -1,6 +1,7 @@
 ---
 title: PLASTIC MEMORIES 可塑性记忆
 cover: /file/posts/d69370a/cover.jpg
+background: url(/file/posts/d69370a/cover.jpg)
 tags:
   - 可塑性记忆
   - 二次元

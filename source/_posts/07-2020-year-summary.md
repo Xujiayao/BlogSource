@@ -1,6 +1,7 @@
 ---
 title: 新年快乐！2020 年度报告
 cover: /file/posts/6abf4a82/cover.jpg
+background: url(/file/posts/6abf4a82/cover.jpg)
 tags:
   - 年度报告
   - 2020

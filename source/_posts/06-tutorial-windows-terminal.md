@@ -1,6 +1,7 @@
 ---
 title: 将 Windows Terminal 添加到右键菜单
 cover: /file/posts/5a8a6c8d/cover.jpg
+background: url(/file/posts/5a8a6c8d/cover.jpg)
 tags:
   - 命令行
   - Windows Terminal
