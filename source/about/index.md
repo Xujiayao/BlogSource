@@ -92,6 +92,9 @@ date: 2020-07-13 10:29:34
 - [ ] [关于完全听不懂老公在说什么的事](https://www.bilibili.com/bangumi/media/md1530/) 全系列
 - [ ] [少女编号](https://www.bilibili.com/bangumi/media/md5532/)
 - [ ] [URARA迷路帖](https://www.bilibili.com/bangumi/media/md5776/)
+- [ ] 女神宿舍的管理员
+- [ ] [珈百璃的堕落](https://www.bilibili.com/bangumi/media/md5793/)
+- [ ] [Comic Girls](https://www.bilibili.com/bangumi/media/md77812/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
