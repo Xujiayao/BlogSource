@@ -48,25 +48,33 @@ MCDiscordChat 已经更新到 1.9.2 - 2021/9/9 啦！
 ## 更新日志
 
 {% hideToggle 1.9.2 - 2021/9/9（最新版本） %}
-### MCDiscordChat 1.9.2 for Minecraft 1.17.x - 2021/9/9
+### 1.9.2 - 2021/9/9
+
+MCDiscordChat 1.9.2 for Minecraft 1.17.x - 2021/9/9
 
 1. 修复中英文标点符号错误的问题
 {% endhideToggle %}
 
 {% hideToggle 1.9.1 - 2021/9/1 %}
-### MCDiscordChat 1.9.1 for Minecraft 1.17.x - 2021/9/1
+### 1.9.1 - 2021/9/1
+
+MCDiscordChat 1.9.1 for Minecraft 1.17.x - 2021/9/1
 
 1. 修复语言反转的问题
 {% endhideToggle %}
 
 {% hideToggle 1.9.0 - 2021/9/1 %}
-### MCDiscordChat 1.9.0 for Minecraft 1.17.x - 2021/9/1
+### 1.9.0 - 2021/9/1
+
+MCDiscordChat 1.9.0 for Minecraft 1.17.x - 2021/9/1
 
 1. 添加英文翻译，支持多语言
 {% endhideToggle %}
 
 {% hideToggle 1.8.0 - 2021/8/28 %}
-### MCDiscordChat 1.8.0 for Minecraft 1.17.x - 2021/8/28
+### 1.8.0 - 2021/8/28
+
+MCDiscordChat 1.8.0 for Minecraft 1.17.x - 2021/8/28
 
 1. 优化代码
 2. 添加普通管理员名单管理命令
@@ -74,7 +82,9 @@ MCDiscordChat 已经更新到 1.9.2 - 2021/9/9 啦！
 {% endhideToggle %}
 
 {% hideToggle 1.7.0 - 2021/8/28 %}
-### MCDiscordChat 1.7.0 for Minecraft 1.17.x - 2021/8/28
+### 1.7.0 - 2021/8/28
+
+MCDiscordChat 1.7.0 for Minecraft 1.17.x - 2021/8/28
 
 1. 优化代码
 2. 添加Config热重载命令
@@ -82,13 +92,17 @@ MCDiscordChat 已经更新到 1.9.2 - 2021/9/9 啦！
 {% endhideToggle %}
 
 {% hideToggle 1.6.0 - 2021/6/30 %}
-### MCDiscordChat 1.6.0 for Minecraft 1.17.x - 2021/6/30
+### 1.6.0 - 2021/6/30
+
+MCDiscordChat 1.6.0 for Minecraft 1.17.x - 2021/6/30
 
 1. 更新到 1.17
 {% endhideToggle %}
 
 {% hideToggle 1.5.3 - 2021/6/13（首个公开发布的版本） %}
-### MCDiscordChat 1.5.3 for Minecraft 1.16.x - 2021/6/13
+### 1.5.3 - 2021/6/13
+
+MCDiscordChat 1.5.3 for Minecraft 1.16.x - 2021/6/13
 
 首个公开发布的版本。
 {% endhideToggle %}
