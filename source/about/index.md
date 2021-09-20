@@ -14,13 +14,14 @@ date: 2020-07-13 10:29:34
 >
 > Minecraft Java Edition 正版老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
 >
-> osu! 玩家，虽然很菜就是了（＞人＜；）
-> 不过《Red Battle》这个谱面能拿 S 评级，只剩下两个 100 ヾ(≧▽≦*)o
+> 欧卡玩家，自认为技术还可以 ヾ(≧▽≦*)o
 >
-> 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，电脑配置太差只能带得动 Prepar3D v3（＞人＜；）
+> 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，换新电脑后终于能玩 Prepar3D v5 了（＞人＜；）
 >
-> 东方正作 STG 混关玩家，虽然很菜就是了（＞人＜；）
-> 最近在玩《东方风神录》，《东方绀珠传》和《东方星莲船》ヾ(•ω•`)o
+> 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
+> 目前在维护这两个项目（GitHub）：
+> - [GIF签名图生成工具 - Java](https://github.com/Xujiayao/GIFSignaturesGenerator)
+> - [MCDiscordChat - Java](https://github.com/Xujiayao/MCDiscordChat)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
 > 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
