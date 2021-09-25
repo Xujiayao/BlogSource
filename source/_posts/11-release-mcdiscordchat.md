@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.9.3 - 2021/9/16 啦！
+description: MCDiscordChat 已经更新到 1.10.0 - 2021/9/25 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.9.3 - 2021/9/16 啦！
+MCDiscordChat 已经更新到 1.10.0 - 2021/9/25 啦！
 
-> 本文更新于 2021 年 9 月 16 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 9 月 25 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -58,11 +58,27 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 ### 安装
 
-（在写了）
+（有空再写）
 
 ## 更新日志
 
-{% hideToggle 1.9.3 - 2021/9/16（最新版本） %}
+{% hideToggle 1.10.1 - 2021/9/25（最新版本） %}
+### 1.10.1 - 2021/9/25
+
+MCDiscordChat 1.10.1 for Minecraft 1.17.x - 2021/9/25
+
+1. 使用多服务器模式时处理其它MCDC Bot发送的广播消息
+{% endhideToggle %}
+
+{% hideToggle 1.10.0 - 2021/9/25 %}
+### 1.10.0 - 2021/9/25
+
+MCDiscordChat 1.10.0 for Minecraft 1.17.x - 2021/9/25
+
+1. 实现MCDC同Discord频道多服务器运行
+{% endhideToggle %}
+
+{% hideToggle 1.9.3 - 2021/9/16 %}
 ### 1.9.3 - 2021/9/16
 
 MCDiscordChat 1.9.3 for Minecraft 1.17.x - 2021/9/16
