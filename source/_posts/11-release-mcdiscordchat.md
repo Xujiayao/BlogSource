@@ -13,7 +13,7 @@ date: 2021-07-08 15:59:28
 
 MCDiscordChat 已经更新到 1.10.3 - 2021/9/26 啦！
 
-> 本文更新于 2021 年 9 月 26 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 9 月 27 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -45,6 +45,7 @@ MCDiscordChat 已经更新到 1.10.3 - 2021/9/26 啦！
 - 可使用黑名单禁止处理某位玩家或用户的消息
 - 可使用管理员名单配置用户使用某些命令的权限
 - 支持配置文件热重载
+- 启动时检查更新
 
 ## 文档
 
@@ -174,22 +175,22 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 |          webhookURL         |                     https:\/\/xxxxxx                     | 【必选】Webhook 链接                                                                                           |
 |          channelId          |                         12345678                         | 【必选】Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）                            |
 |    useUUIDInsteadNickname   |                           true                           | 【必选】发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）                          |
-|        superAdminsIds       |                        ["000001"]                        | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个） |
-|          adminsIds          |                   ["000002", "000003"]                   | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）          |
+|        superAdminsIds       |                       [\"000001\"]                       | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个） |
+|          adminsIds          |                 [\"000002\", \"000003\"]                 | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）          |
 |        membersIntents       |                           true                           | 【必选】是否启用游戏内提及 (@) Discord 用户功能                                                                |
 |       announcePlayers       |                           true                           | 【必选】是否在玩家加入 / 离开服务器时发出通知                                                                  |
 |     announceAdvancements    |                           true                           | 【必选】是否在玩家达成进度 / 达成目标 / 完成挑战时发出通知                                                     |
 |        announceDeaths       |                           true                           | 【必选】是否在玩家死亡时发出通知                                                                               |
 |          worldName          |                           world                          | 【必选】服务器存档名                                                                                           |
-|        bannedDiscord        |                        ["000004"]                        | 【可选】MCDiscordChat ID 黑名单，禁止处理某位 Discord 用户的消息（可多于一个）                                 |
-|       bannedMinecraft       |                         ["Steve"]                        | 【可选】MCDiscordChat 昵称黑名单，禁止处理某位 Minecraft 玩家的消息（可多于一个）                              |
+|        bannedDiscord        |                       [\"000004\"]                       | 【可选】MCDiscordChat ID 黑名单，禁止处理某位 Discord 用户的消息（可多于一个）                                 |
+|       bannedMinecraft       |                        [\"Steve\"]                       | 【可选】MCDiscordChat 昵称黑名单，禁止处理某位 Minecraft 玩家的消息（可多于一个）                              |
 
 > MultiServer 多服务器
 
 |             变量            |                       示例 / 默认值                      |                                                      说明                                                      |
 | :-------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
 |      serverDisplayName      |                           SMP                            | 【必选】多服务器模式时显示的服务器名称                                                                         |
-|           botName           |                         MCDC Bot                         | 【必选】Discord 机器人名称（实例：当机器人的名称是 '[SMP] MCDC Bot'，设为 'MCDC Bot'）                         |
+|           botName           |                         MCDC Bot                         | 【必选】Discord 机器人名称（实例：当机器人的名称是 \'[SMP] MCDC Bot\'，设为 \'MCDC Bot\'）                     |
 
 > TextsZH / TextsEN 多语言自定义消息
 >
@@ -202,7 +203,7 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 |         %playername%        | 玩家昵称                                                     |
 |        %deathmessage%       | 死亡消息                                                     |
 |        %advancement%        | 进度 / 目标 / 挑战名                                         |
-|         %servername%        | 'Discord' 或使用多服务器模式时的服务器名称                   |
+|         %servername%        | \'Discord\' 或使用多服务器模式时的服务器名称                   |
 |            %name%           | Discord 服务器中用户的昵称（使用多服务器模式时则为玩家昵称） |
 |          %message%          | 消息内容                                                     |
 
