@@ -20,7 +20,7 @@ date: 2020-07-13 10:29:34
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：
-> - [GIF签名图生成工具 - Java](https://github.com/Xujiayao/GIFSignaturesGenerator)
+> - [LazyToolkit - Java](https://github.com/Xujiayao/LazyToolkit)
 > - [MCDiscordChat - Java](https://github.com/Xujiayao/MCDiscordChat)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
