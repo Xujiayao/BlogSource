@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.10.3 - 2021/9/26 啦！
+description: MCDiscordChat 已经更新到 1.10.4 - 2021/10/24 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.10.3 - 2021/9/26 啦！
+MCDiscordChat 已经更新到 1.10.4 - 2021/10/24 啦！
 
-> 本文更新于 2021 年 9 月 27 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 10 月 24 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -32,6 +32,7 @@ MCDiscordChat 已经更新到 1.10.3 - 2021/9/26 啦！
 - Minecraft <-> Discord 跨服聊天
 - 支持 Discord Webhook 功能
 - 支持游戏内 Markdown 解析
+- 支持游戏内 Emoji 解析
 - 支持游戏内提及 (@) Discord 用户
 - 支持多语言（中文 / 英文）
 - 支持同 Discord 频道多服务器运行
@@ -203,15 +204,23 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 |         %playername%        | 玩家昵称                                                     |
 |        %deathmessage%       | 死亡消息                                                     |
 |        %advancement%        | 进度 / 目标 / 挑战名                                         |
-|         %servername%        | \'Discord\' 或使用多服务器模式时的服务器名称                   |
+|         %servername%        | \'Discord\' 或使用多服务器模式时的服务器名称                 |
 |            %name%           | Discord 服务器中用户的昵称（使用多服务器模式时则为玩家昵称） |
 |          %message%          | 消息内容                                                     |
 
 ## 更新日志
 
+### 1.10.4 - 2021/10/24
+
+MCDiscordChat 1.10.4 for Minecraft 1.17.x - 2021/10/24（最新版本）
+
+更新日志：
+
+1. 修复无法正确显示默认Emoji的问题
+
 ### 1.10.3 - 2021/9/26
 
-MCDiscordChat 1.10.3 for Minecraft 1.17.x - 2021/9/26（最新版本）
+MCDiscordChat 1.10.3 for Minecraft 1.17.x - 2021/9/26
 
 更新日志：
 
