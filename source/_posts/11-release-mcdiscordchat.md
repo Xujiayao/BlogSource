@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.10.4 - 2021/10/24 啦！
+description: MCDiscordChat 已经更新到 1.10.5 - 2021/10/29 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.10.4 - 2021/10/24 啦！
+MCDiscordChat 已经更新到 1.10.5 - 2021/10/29 啦！
 
-> 本文更新于 2021 年 10 月 24 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 10 月 29 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -32,7 +32,7 @@ MCDiscordChat 已经更新到 1.10.4 - 2021/10/24 啦！
 - Minecraft <-> Discord 跨服聊天
 - 支持 Discord Webhook 功能
 - 支持游戏内 Markdown 解析
-- 支持游戏内 Emoji 解析
+- 支持在游戏内使用 Discord 默认和服务器表情符号
 - 支持游戏内提及 (@) Discord 用户
 - 支持多语言（中文 / 英文）
 - 支持同 Discord 频道多服务器运行
@@ -210,9 +210,17 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 ## 更新日志
 
+### 1.10.5 - 2021/10/29
+
+MCDiscordChat 1.10.5 for Minecraft 1.17.x - 2021/10/29（最新版本）
+
+更新日志：
+
+1. 支持在游戏内使用服务器表情符号
+
 ### 1.10.4 - 2021/10/24
 
-MCDiscordChat 1.10.4 for Minecraft 1.17.x - 2021/10/24（最新版本）
+MCDiscordChat 1.10.4 for Minecraft 1.17.x - 2021/10/24
 
 更新日志：
 
