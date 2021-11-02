@@ -19,7 +19,7 @@ MCDiscordChat 已经更新到 1.10.5 - 2021/10/29 啦！
 
 ## 简介
 
-{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat 20px %}
+{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total 20px %}
 
 [MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个基于 Java 和 Fabric 的 Minecraft <-> Discord 跨服聊天工具，是 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 跨服聊天工具的功能补充和增强。
 
