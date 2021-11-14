@@ -12,11 +12,13 @@ date: 2020-07-13 10:29:34
 >
 > 是老二次元了2333
 >
-> Minecraft Java Edition 正版老玩家，Lazy_Craft 私人服务器成员，喜欢玩速通 (～￣▽￣)～
->
-> 欧卡玩家，自认为技术还可以 ヾ(≧▽≦*)o
->
-> 模拟飞行玩家，SinoFSX 中国模拟飞行论坛用户，换新电脑后终于能玩 Prepar3D v5 了（＞人＜；）
+> Minecraft Java Edition 玩家，Lazy_Craft 私人服务器成员，平时还有玩以下这些游戏：ヾ(≧▽≦*)o
+> - osu!
+> - Euro Truck Simulator 2
+> - 东方风神录
+> - Grand Theft Auto V
+> - Rebel Inc. (Escalation)
+> - Watch_Dogs 2
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：
