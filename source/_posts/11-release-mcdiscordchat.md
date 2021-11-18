@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.10.6 - 2021/11/5 啦！
+description: MCDiscordChat 已经更新到 1.10.7 - 2021/11/18 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.10.6 - 2021/11/5 啦！
+MCDiscordChat 已经更新到 1.10.7 - 2021/11/18 啦！
 
-> 本文更新于 2021 年 11 月 5 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 11 月 18 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -212,9 +212,17 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 ## 更新日志
 
+### 1.10.7 - 2021/11/18
+
+MCDiscordChat 1.10.7 for Minecraft 1.17.x - 2021/11/18（最新版本）
+
+更新日志：
+
+1. Discord消息的用户名称显示其身份组的颜色
+
 ### 1.10.6 - 2021/11/5
 
-MCDiscordChat 1.10.6 for Minecraft 1.17.x - 2021/11/5（最新版本）
+MCDiscordChat 1.10.6 for Minecraft 1.17.x - 2021/11/5
 
 更新日志：
 
