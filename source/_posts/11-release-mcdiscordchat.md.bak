@@ -23,6 +23,7 @@ MCDiscordChat 已经更新到 1.10.9 - 2021/11/26 啦！
 
 {% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
 
+
 MCDiscordChat - Java
 
 MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and enhances BRForgers/DisFabric
