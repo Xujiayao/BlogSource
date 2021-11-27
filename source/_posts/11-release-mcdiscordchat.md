@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.10.9 - 2021/11/26 啦！
+description: MCDiscordChat 已经更新到 1.10.10 - 2021/11/27 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.10.9 - 2021/11/26 啦！
+MCDiscordChat 已经更新到 1.10.10 - 2021/11/27 啦！
 
-> 本文更新于 2021 年 11 月 26 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 11 月 27 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -220,9 +220,17 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 ## 更新日志
 
+### 1.10.10 - 2021/11/27
+
+MCDiscordChat 1.10.10 for Minecraft 1.17.x - 2021/11/27（最新版本）
+
+更新日志：
+
+1. 解决mixins在检测到JAVA_17版本不兼容后闪退的问题
+
 ### 1.10.9 - 2021/11/26
 
-MCDiscordChat 1.10.9 for Minecraft 1.17.x - 2021/11/26（最新版本）
+MCDiscordChat 1.10.9 for Minecraft 1.17.x - 2021/11/26
 
 更新日志：
 

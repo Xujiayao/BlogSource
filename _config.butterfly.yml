@@ -13,7 +13,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
-  后台: https://xujiayao.avosapps.us/ || fas fa-toolbox
+  管理评论: https://comments.xujiayao.top/ui || fas fa-toolbox
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -263,7 +263,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-    - Valine
+    - Waline
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -313,18 +313,18 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: 7aamo4ORaa1qAC9SbtQ78g0P-MdYXbMMI # leancloud application app id
-  appKey: LSczhlXtci6flp6DRHAsva9D # leancloud application app key
+  appId: # leancloud application app id
+  appKey: # leancloud application app key
   pageSize: 10 # comment list page size
-  avatar: mp # gravatar style https://valine.js.org/#/avatar
-  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 记得要留下自己的昵称和邮箱，这样才能收到邮箱提醒哦\\(￣︶￣*\\))\n\n可以在昵称处填写自己的 QQ 号来自动补全 QQ 昵称和 QQ 邮箱ヾ(≧▽≦*)o # valine comment input placeholder (like: Please leave your footprints)
+  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+  lang: en # i18n: zh-CN/zh-TW/en/ja
+  placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: true # Record reviewer IP
+  recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /file/comment_bg.png # valine background
+  bg: # valine background
   emojiCDN: # emoji CDN
-  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
   visitor: false
   option:
@@ -332,12 +332,15 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+  serverURL: https://comments.xujiayao.top # Waline server address url
+  avatar: mp # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
   avatarCDN: # Gravatar CDN baseURL
-  bg: # waline background
+  bg: /file/comment_bg.png # waline background
   visitor: false
   option:
+    login: force
+    uploadImage: false
+    placeholder: 大侠请留步，留下评论再走也不迟 \(￣︶￣*\))
 
 # utterances
 # https://utteranc.es/
