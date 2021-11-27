@@ -340,7 +340,7 @@ waline:
   option:
     login: force
     uploadImage: false
-    placeholder: 大侠请留步，留下评论再走也不迟 \(￣︶￣*\))
+    placeholder: "大侠请留步，留下评论再走也不迟 \\(￣︶￣*\\))\n\n注册时记得填写正确的昵称和邮箱，这样才能收到邮件通知哦 ヾ(•ω•`)o\n\n若登录后没有自动返回到此页面，请更换浏览器访问（已知微信会出问题）（＞人＜；）"
 
 # utterances
 # https://utteranc.es/

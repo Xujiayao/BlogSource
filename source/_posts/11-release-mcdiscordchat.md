@@ -29,7 +29,7 @@ MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and 
 
 ## 简介
 
-[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个基于 Java 和 Fabric 的 Minecraft <-> Discord 跨服聊天工具，是 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 跨服聊天工具的功能补充和增强。
+[MCDiscordChat](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat)（简称为 MCDC），一个基于 Java 和 Fabric 的 Minecraft <-> Discord 跨服聊天工具，是 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 跨服聊天工具的功能补充和增强。
 
 非常感谢 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 的原始源代码，该项目使用 Mozilla Public License 2.0 (MPL-2.0) 开源协议许可开源。
 
@@ -74,6 +74,7 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 ### 安装
 
 前往 [Release](https://github.com/Xujiayao/MCDiscordChat/releases) 页面下载 MCDiscordChat 最新版本（Latest release），只需下载后缀名为 `.jar` 的文件。
+也可以前往 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files) 下载。
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
