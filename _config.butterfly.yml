@@ -13,7 +13,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
-  管理评论: https://comments.xujiayao.top/ui || fas fa-toolbox
+  评论管理系统: https://comments.xujiayao.top/ui || fas fa-toolbox
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
