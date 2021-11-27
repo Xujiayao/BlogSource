@@ -13,17 +13,17 @@ date: 2020-07-13 10:29:34
 > 是老二次元了2333
 >
 > Minecraft Java Edition 玩家，Lazy_Craft 私人服务器成员，平时还有玩以下这些游戏：ヾ(≧▽≦*)o
+>
 > - osu!
 > - Euro Truck Simulator 2
 > - 东方风神录
 > - Grand Theft Auto V
 > - Rebel Inc. (Escalation)
-> - Watch_Dogs 2
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：
-> - [LazyToolkit - Java](https://github.com/Xujiayao/LazyToolkit)
 > - [MCDiscordChat - Java](https://github.com/Xujiayao/MCDiscordChat)
+> - [LazyToolkit - Java](https://github.com/Xujiayao/LazyToolkit)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
 > 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
@@ -40,7 +40,7 @@ date: 2020-07-13 10:29:34
 博客链接：https://blog.xujiayao.top/
 博客程序：[Hexo](https://hexo.io/)
 博客主机：[GitHub Pages](https://github.com/Xujiayao/Xujiayao.github.io/deployments?environment=github-pages) + [Vercel](https://github.com/Xujiayao/Xujiayao.github.io/deployments/?environment=Production)
-评论系统：[Valine](https://valine.js.org/)
+评论系统：[Waline](https://waline.js.org/)
 特别感谢 [Butterfly - @Jerry](https://butterfly.js.org/) 提供的博客模板。
 
 ## 联系方式
