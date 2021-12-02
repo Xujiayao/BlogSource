@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.10.10 - 2021/11/27 啦！
+description: MCDiscordChat 已经更新到 1.11.0 - 2021/12/2 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.10.10 - 2021/11/27 啦！
+MCDiscordChat 已经更新到 1.11.0 - 2021/12/2 啦！
 
-> 本文更新于 2021 年 11 月 27 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 12 月 2 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -60,10 +60,16 @@ MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and 
 
 ### 依赖
 
+MCDiscordChat 支持以下游戏版本：
+
+- Minecraft 1.16.x
+- Minecraft 1.17.x
+- Minecraft 1.18.x
+
 MCDiscordChat 最新版本依赖以下几个运行环境：
 
-- Minecraft Server 1.17.x
-- Fabric
+- Minecraft Server 1.18.x
+- Fabric Loader \>=0.12.8
 - Fabric API
 - Java \>=17
 
@@ -221,9 +227,19 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 ## 更新日志
 
+### 1.11.0 - 2021/12/2
+
+MCDiscordChat 1.11.0 for Minecraft 1.16.x/1.17.x/1.18.x - 2021/12/2（最新版本）
+
+更新日志：
+
+1. 更新到1.18
+2. 修改检查更新的判断逻辑
+3. 修复 !scoreboard 功能找不到玩家统计信息所在目录的问题
+
 ### 1.10.10 - 2021/11/27
 
-MCDiscordChat 1.10.10 for Minecraft 1.17.x - 2021/11/27（最新版本）
+MCDiscordChat 1.10.10 for Minecraft 1.17.x - 2021/11/27
 
 更新日志：
 
