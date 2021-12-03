@@ -185,7 +185,7 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 |             变量            |                       示例 / 默认值                      |                                                      说明                                                      |
 | :-------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
-|      modifyChatMessages     |                           true                           | 【必选】是否启用 MCDiscordChat                                                                                 |
+|      modifyChatMessages     |                           true                           | 【必选】是否修改聊天消息（不是是否启用 MCDiscordChat）                                                         |
 | switchLanguageFromChinToEng |                           false                          | 【必选】MCDiscordChat 使用的语言（true 时为中文，false 时为英文）                                              |
 |         multiServer         |                           false                          | 【必选】是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）                                |
 |           botToken          |                     xxxxxx.xxx.xxxxxx                    | 【必选】Discord 机器人令牌                                                                                     |
