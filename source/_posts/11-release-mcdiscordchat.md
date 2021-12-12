@@ -53,6 +53,14 @@ MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and 
 - 支持配置文件热重载
 - 检查更新
 
+## 贡献者
+
+![https://github.com/Xujiayao/mcdiscordchat/graphs/contributors](https://contrib.rocks/image?repo=xujiayao/mcdiscordchat)
+
+## 帮助
+
+如果有 bug 或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
+
 ## 文档
 
 ### 依赖
@@ -383,7 +391,3 @@ MCDiscordChat 1.6.0 for Minecraft 1.17.x - 2021/6/30
 MCDiscordChat 1.5.3 for Minecraft 1.16.x - 2021/6/13（首个公开发布的版本）
 
 首个公开发布的版本。
-
-## 帮助
-
-如果有 bug 或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
