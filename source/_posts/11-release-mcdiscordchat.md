@@ -59,7 +59,7 @@ MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and 
 
 ## 帮助
 
-如果有 bug 或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
+如果有 bug 或建议，或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
 
 ## 文档
 
