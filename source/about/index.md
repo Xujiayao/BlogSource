@@ -14,15 +14,15 @@ date: 2020-07-13 10:29:34
 >
 > Minecraft Java Edition 玩家，Lazy_Craft 私人服务器成员，平时还有玩以下这些游戏：ヾ(≧▽≦*)o
 >
-> - osu!
-> - Euro Truck Simulator 2
-> - 东方风神录
 > - Grand Theft Auto V
+> - Euro Truck Simulator 2
+> - osu!
+> - 东方风神录
 > - Rebel Inc. (Escalation)
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：
-> - [MCDiscordChat - Java](https://github.com/Xujiayao/MCDiscordChat)
+> - [MCDiscordChat (MCDC)](https://github.com/Xujiayao/MCDiscordChat)
 > - [LazyToolkit - Java](https://github.com/Xujiayao/LazyToolkit)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
@@ -45,8 +45,8 @@ date: 2020-07-13 10:29:34
 
 ## 联系方式
 
-> * 微信：Xujiayao147258369（大便超人JASON）
-> * QQ：413139349（大便超人JASON）
+> * 微信：JasonXu06（Jason Xu）
+> * QQ：413139349（Jason Xu）
 > * 邮箱：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)
 > * 社交平台：
 > 	* [哔哩哔哩](https://space.bilibili.com/270317970)

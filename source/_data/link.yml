@@ -33,10 +33,10 @@
       avatar: https://blog.sino6067.love/img/avatar.png
       descr: 67不咕就发财了
       nofollow: false
-    - name: 和泉聆风
+    - name: Erythritol
       link: https://www.limewtea.com/
-      avatar: https://cdn.jsdelivr.net/gh/limewtea/rc/img/avatar.png
-      descr: 和泉聆风的博客
+      avatar: https://www.limewtea.com/img/avatar.png
+      descr: Erythritol's World
       nofollow: false
     - name: DexterCai
       link: https://blog.dextercai.com/
@@ -58,15 +58,10 @@
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
       descr: 崇尚自由、热爱技术
       nofollow: true
-    - name: CrazyWong
+    - name: Jerry
       link: https://crazywong.com/
       avatar: https://crazywong.com/img/avatar.png
       descr: 今日事，今日畢
-      nofollow: true
-    - name: Aki
-      link: https://akiyamarin.club/
-      avatar: https://akiyamarin.club/wp-content/uploads/2021/08/QQ%E5%9B%BE%E7%89%8720210808222251.jpg
-      descr: Aki's Secret Base
       nofollow: true
 
 - class_name: 网站

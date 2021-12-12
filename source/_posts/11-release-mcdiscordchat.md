@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.11.0 - 2021/12/2 啦！
+description: MCDiscordChat 已经更新到 1.11.1 - 2021/12/10 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.11.0 - 2021/12/2 啦！
+MCDiscordChat 已经更新到 1.11.1 - 2021/12/10 啦！
 
-> 本文更新于 2021 年 12 月 2 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 12 月 12 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
-> 如果使用旧版或 `Pre-release` 版，文章内容会有些出入哦ヾ(•ω•`)o
+> 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -23,21 +23,17 @@ MCDiscordChat 已经更新到 1.11.0 - 2021/12/2 啦！
 
 {% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
 
-MCDiscordChat - Java
-
 MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and enhances BRForgers/DisFabric
 
 ## 简介
 
-[MCDiscordChat](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat)（简称为 MCDC），一个基于 Java 和 Fabric 的 Minecraft <-> Discord 跨服聊天工具，是 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 跨服聊天工具的功能补充和增强。
+[MCDiscordChat](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat)（简称为 MCDC），一个基于 Java 和 Fabric 的 Minecraft <> Discord 跨服聊天工具，是 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 跨服聊天工具的功能补充和增强。
 
 非常感谢 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 的原始源代码，该项目使用 Mozilla Public License 2.0 (MPL-2.0) 开源协议许可开源。
 
-（此处加画廊）
-
 ## 功能特色
 
-- Minecraft <-> Discord 跨服聊天
+- Minecraft <> Discord 跨服聊天
 - 支持 Discord Webhook 功能
 - 支持游戏内 Markdown 解析
 - 支持在游戏内使用 Discord 默认和服务器表情符号
@@ -53,6 +49,7 @@ MCDC is a highly-modified Minecraft <> Discord chat bridge that complements and 
 - 可自定义游戏内消息显示格式
 - 可使用黑名单禁止处理某位玩家或用户的消息
 - 可使用管理员名单配置用户使用某些命令的权限
+- 可广播玩家指令执行
 - 支持配置文件热重载
 - 检查更新
 
@@ -66,9 +63,9 @@ MCDiscordChat 支持以下游戏版本：
 - Minecraft 1.17.x
 - Minecraft 1.18.x
 
-MCDiscordChat 最新版本依赖以下几个运行环境：
+MCDiscordChat 最新版本依赖以下运行环境：
 
-- Minecraft Server 1.18.x
+- Minecraft Server 1.17.x/1.18.x
 - Fabric Loader \>=0.12.8
 - Fabric API
 - Java \>=17
@@ -185,21 +182,22 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 |             变量            |                       示例 / 默认值                      |                                                      说明                                                      |
 | :-------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
-|      modifyChatMessages     |                           true                           | 【必选】是否修改聊天消息（不是是否启用 MCDiscordChat）                                                         |
 | switchLanguageFromChinToEng |                           false                          | 【必选】MCDiscordChat 使用的语言（true 时为中文，false 时为英文）                                              |
-|         multiServer         |                           false                          | 【必选】是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）                                |
 |           botToken          |                     xxxxxx.xxx.xxxxxx                    | 【必选】Discord 机器人令牌                                                                                     |
 |      botListeningStatus     |                     主人敲键盘的声音                     | 【可选】设置机器人活动状态（留空为空）                                                                         |
 |          webhookURL         |                     https:\/\/xxxxxx                     | 【必选】Webhook 链接                                                                                           |
 |          channelId          |                         12345678                         | 【必选】Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）                            |
+|          worldName          |                           world                          | 【必选】服务器存档名                                                                                           |
+|      modifyChatMessages     |                           true                           | 【必选】是否修改聊天消息（不是是否启用 MCDiscordChat）                                                         |
+|  broadcastCommandExecution  |                           true                           | 【必选】是否广播玩家指令执行                                                                                   |
+|         multiServer         |                           false                          | 【必选】是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）                                |
 |    useUUIDInsteadNickname   |                           true                           | 【必选】发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）                          |
-|        superAdminsIds       |                       [\"000001\"]                       | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个） |
-|          adminsIds          |                 [\"000002\", \"000003\"]                 | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）          |
 |        membersIntents       |                           true                           | 【必选】是否启用游戏内提及 (@) Discord 用户功能                                                                |
 |       announcePlayers       |                           true                           | 【必选】是否在玩家加入 / 离开服务器时发出通知                                                                  |
 |     announceAdvancements    |                           true                           | 【必选】是否在玩家达成进度 / 达成目标 / 完成挑战时发出通知                                                     |
 |        announceDeaths       |                           true                           | 【必选】是否在玩家死亡时发出通知                                                                               |
-|          worldName          |                           world                          | 【必选】服务器存档名                                                                                           |
+|        superAdminsIds       |                       [\"000001\"]                       | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个） |
+|          adminsIds          |                 [\"000002\", \"000003\"]                 | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）          |
 |        bannedDiscord        |                       [\"000004\"]                       | 【可选】MCDiscordChat ID 黑名单，禁止处理某位 Discord 用户的消息（可多于一个）                                 |
 |       bannedMinecraft       |                        [\"Steve\"]                       | 【可选】MCDiscordChat 昵称黑名单，禁止处理某位 Minecraft 玩家的消息（可多于一个）                              |
 
@@ -214,7 +212,7 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 >
 > 非必要时建议不要修改。
 >
-> 以下为占位符的说明。
+>> 以下为占位符的说明：
 
 |            占位符           |                             说明                             |
 | :-------------------------: | :----------------------------------------------------------: |
@@ -227,9 +225,19 @@ MCDiscordChat 最新版本依赖以下几个运行环境：
 
 ## 更新日志
 
+### 1.11.1 - 2021/12/10
+
+MCDiscordChat 1.11.1 for Minecraft 1.17.x/1.18.x - 2021/12/10（最新版本）
+
+更新日志：
+
+1. 添加停止服务器功能
+2. 修复 !reload 没有修改机器人动态的问题
+3. 设置英文为默认语言
+
 ### 1.11.0 - 2021/12/2
 
-MCDiscordChat 1.11.0 for Minecraft 1.16.x/1.17.x/1.18.x - 2021/12/2（最新版本）
+MCDiscordChat 1.11.0 for Minecraft 1.16.x/1.17.x/1.18.x - 2021/12/2
 
 更新日志：
 
@@ -376,6 +384,6 @@ MCDiscordChat 1.5.3 for Minecraft 1.16.x - 2021/6/13（首个公开发布的版�
 
 首个公开发布的版本。
 
-## 最后
+## 帮助
 
-有什么不懂的可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
+如果有 bug 或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
