@@ -6,14 +6,14 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.11.1 - 2021/12/10 啦！
+description: MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.11.1 - 2021/12/10 啦！
+MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
 
-> 本文更新于 2021 年 12 月 12 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 12 月 13 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -74,7 +74,7 @@ MCDiscordChat 支持以下游戏版本：
 MCDiscordChat 最新版本依赖以下运行环境：
 
 - Minecraft Server 1.17.x/1.18.x
-- Fabric Loader \>=0.12.8
+- Fabric Loader \>=0.12.11
 - Fabric API
 - Java \>=17
 
@@ -233,9 +233,19 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ## 更新日志
 
+### 1.11.2 - 2021/12/13
+
+MCDiscordChat 1.11.2 for Minecraft 1.17.x/1.18.x - 2021/12/13（最新版本）
+
+更新日志：
+
+1. 增加玩家指令执行广播开关
+2. 指令执行广播添加时间间隔限制
+3. 优化Config顺序
+
 ### 1.11.1 - 2021/12/10
 
-MCDiscordChat 1.11.1 for Minecraft 1.17.x/1.18.x - 2021/12/10（最新版本）
+MCDiscordChat 1.11.1 for Minecraft 1.17.x/1.18.x - 2021/12/10
 
 更新日志：
 
