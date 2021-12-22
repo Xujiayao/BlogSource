@@ -13,7 +13,7 @@ date: 2021-07-08 15:59:28
 
 MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
 
-> 本文更新于 2021 年 12 月 14 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 12 月 23 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -21,19 +21,27 @@ MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
 
 ## MCDiscordChat
 
-{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
+{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
 
 MCDiscordChat (MCDC), the most practical and powerful Fabric Minecraft <> Discord chat bridge
 
 ## 简介
 
-[MCDiscordChat](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat)（简称为 MCDC），最实用、最强大的 Fabric Minecraft <> Discord 跨服聊天工具。
+[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），最实用、最强大的 Fabric Minecraft <> Discord 跨服聊天工具。
 
 非常感谢 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 的原始源代码，该项目使用 Mozilla Public License 2.0 (MPL-2.0) 开源协议许可开源。
 
+## 下载
+
+所有发行版均可以在以下站点下载：
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
+- [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
+- [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
+
 ## 帮助
 
-如果有 bug 或建议，或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) 询问。
+如果有 bug 或建议，或者有什么不懂的，可以 [发表评论](/posts/4ba0a17a/#post-comment) 或在 GitHub [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new)。
 
 ## 功能特色
 
@@ -84,8 +92,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ### 安装
 
-前往 [Release](https://github.com/Xujiayao/MCDiscordChat/releases) 页面下载 MCDiscordChat 最新版本（Latest release），只需下载后缀名为 `.jar` 的文件。
-也可以前往 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files) 下载。
+前往 [上述站点](/posts/4ba0a17a/#下载) 下载 MCDiscordChat 最新版本（Latest release），只需下载后缀名为 `.jar` 的文件。
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
