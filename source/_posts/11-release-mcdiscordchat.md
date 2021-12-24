@@ -11,9 +11,11 @@ abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
+{% tabs lang %}
+<!-- tab 中文 -->
 MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
 
-> 本文更新于 2021 年 12 月 23 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 12 月 24 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -104,17 +106,19 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 安装 MCDiscordChat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `mcdiscordchat.json` 的文件，需要在再次启动服务器前编辑 `mcdiscordchat.json` 以配置 MCDiscordChat：
 
+> 你可以在 [此处](/posts/4ba0a17a/#配置-MCDiscordChat) 找到更多说明。
+
 ![03.png](/file/posts/4ba0a17a/03.png)
 
 ![04.png](/file/posts/4ba0a17a/04.png)
 
-### 配置 Discord 机器人用户
+### 配置 Discord 机器人
 
 确保您已经登录 [Discord 网页版](https://discord.com/login)。
 
 ![05.png](/file/posts/4ba0a17a/05.png)
 
-前往 Discord Developer Portal 的 [Application 页面](https://discord.com/developers/applications)，然后点击右上角的 `New Application` 按钮创建新应用。
+前往 Discord Developer Portal 的 [Applications 页面](https://discord.com/developers/applications)，然后点击右上角的 `New Application` 按钮创建新应用。
 
 ![06.png](/file/posts/4ba0a17a/06.png)
 
@@ -131,11 +135,11 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ![08.png](/file/posts/4ba0a17a/08.png)
 
-转到 `Bot` 选项卡，然后点击右上角的 `Add Bot` 创建机器人用户。
+转到 `Bot` 选项卡，然后点击右上角的 `Add Bot` 创建机器人。
 
 ![09.png](/file/posts/4ba0a17a/09.png)
 
-可以改一下机器人用户的头像和用户名。按 `Copy` 按钮复制机器人令牌，后面会用到。
+可以改一下机器人的头像和用户名。按 `Copy` 按钮复制机器人令牌，后面会用到。
 
 > 推荐命名为 `MCDC Bot`。
 >
@@ -148,7 +152,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ![11.png](/file/posts/4ba0a17a/11.png)
 
-至此，机器人用户创建完成，但它实际上不在任何服务器中。
+至此，机器人创建完成，但它实际上不在任何服务器中。
 
 转到 `OAuth2` 选项卡，勾选 `SCOPES` 下的 `bot` 复选框。
 
@@ -170,7 +174,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ![16.png](/file/posts/4ba0a17a/16.png)
 
-至此，机器人用户配置完毕。
+至此，机器人配置完毕。
 
 ### 配置 Webhook
 
@@ -237,8 +241,242 @@ MCDiscordChat 最新版本依赖以下运行环境：
 |         %servername%        | \'Discord\' 或使用多服务器模式时的服务器名称                 |
 |            %name%           | Discord 服务器中用户的昵称（使用多服务器模式时则为玩家昵称） |
 |          %message%          | 消息内容                                                     |
+<!-- endtab -->
 
-## 更新日志
+<!-- tab English -->
+MCDiscordChat has been updated to 1.11.2 - 2021/12/13!
+
+> This article was updated on December 24, 2021. The content is updated for the latest `Release` version. ヾ(≧▽≦*)o
+>
+> For older versions, the content will be sightly different. ヾ(•ω•`)o
+
+<img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
+
+## MCDiscordChat
+
+{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
+
+MCDiscordChat (MCDC), the most practical and powerful Fabric Minecraft <> Discord chat bridge
+
+## Introduction
+
+[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), the most practical and powerful Fabric Minecraft <> Discord chat bridge.
+
+A big thanks to [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) for the original source code, which was
+licensed under the Mozilla Public License 2.0 (MPL-2.0).
+
+## Download
+
+All releases can be downloaded at the following sites:
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
+- [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
+- [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
+
+## Support
+
+If there is a bug or suggestion, or something you don't understand, you can [post a comment](/posts/4ba0a17a/#post-comment) or [submit an issue](https://github.com/Xujiayao/MCDiscordChat/issues/new) on GitHub.
+
+## Features
+
+- Minecraft <> Discord cross server chat
+- Support Discord Webhook function
+- Support in-game Markdown parsing
+- Support using Discord default and server emoji in the game
+- Support in-game mentions (@) Discord users
+- Support multiple languages (Chinese / English)
+- Support multi-server operation on the same Discord channel
+- Remotely execute server console commands through Discord
+- Query player scoreboards of a certain statistic information through Discord
+- Query server operating status through Discord
+- Announce when a player dies
+- Announce when a player join / leave the server
+- Announce when a player reached a progress / achieved a goal / completed a challenge
+- Customizable in-game message display format
+- Blacklist can be used to prohibit the processing of a player or user's message
+- Admin list can be used to configure the user's authority to use certain commands
+- Broadcast player command execution
+- Support Hot Reloading of the configuration file
+- Check for updates
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=xujiayao/mcdiscordchat)](https://github.com/Xujiayao/mcdiscordchat/graphs/contributors)
+
+## Docs
+
+### Dependencies
+
+MCDiscordChat supports the following Minecraft versions:
+
+- Minecraft 1.16.x
+- Minecraft 1.17.x
+- Minecraft 1.18.x
+
+The latest version of MCDiscordChat depends on the following environment.
+
+- Minecraft Server 1.17.x/1.18.x
+- Fabric Loader \>=0.12.11
+- Fabric API
+- Java \>=17
+
+---
+
+> Used MCDiscordChat 1.10.1 to demonstrate, other versions may have slight differences.
+
+### Install
+
+Go to one of the [above sites](/posts/4ba0a17a/#Download) to download the latest release of MCDiscordChat. You only need to download the file with the extension `.jar`.
+
+![01.png](/file/posts/4ba0a17a/01.png)
+
+Move the downloaded file to the `mods` folder of your Minecraft Server.
+
+![02.png](/file/posts/4ba0a17a/02.png)
+
+### Run the first time
+
+After installing MCDiscordChat, when the server is started for the first time, the following error will appear, and a file named `mcdiscordchat.json` will be generated in the `config` folder. You have to edit the file `mcdiscordchat.json` to setup MCDiscordChat before starting the server again:
+
+> You can find more instructions [here](/posts/4ba0a17a/#Setup-MCDiscordChat).
+
+![03.png](/file/posts/4ba0a17a/03.png)
+
+![04.png](/file/posts/4ba0a17a/04.png)
+
+### Setup Discord Bot
+
+Make sure you are logged into [Discord Web](https://discord.com/login)。
+
+![05.png](/file/posts/4ba0a17a/05.png)
+
+Go to [Applications Page](https://discord.com/developers/applications) of Discord Developer Portal, then click the `New Application` button in the upper right corner to create a new application.
+
+![06.png](/file/posts/4ba0a17a/06.png)
+
+Give a name and click the `Create` button to create it.
+
+> It is recommended to name it as `MCDiscordChat`.
+>
+> If you will run MCDiscordChat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDiscordChat`.
+> Example: `[SMP] MCDiscordChat`, `[CMP] MCDiscordChat`
+
+![07.png](/file/posts/4ba0a17a/07.png)
+
+You can change the icon and description of the application.
+
+![08.png](/file/posts/4ba0a17a/08.png)
+
+Go to `Bot` tab and click `Add Bot` in the upper right corner to create a bot.
+
+![09.png](/file/posts/4ba0a17a/09.png)
+
+You can change the icon and description of the bot. Click the `Copy` button to copy the bot token, which will be used later.
+
+> It is recommended to name it as `MCDC Bot`.
+>
+> If you will run MCDiscordChat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDC Bot`.
+> Example: `[SMP] MCDC Bot`, `[CMP] MCDC Bot`
+
+![10.png](/file/posts/4ba0a17a/10.png)
+
+Disable `PUBLIC BOT` and `REQUIRES OAUTH2 CODE GRANT`, enable `PRESENCE INTENT` and `SERVER MEMBERS INTENT`.
+
+![11.png](/file/posts/4ba0a17a/11.png)
+
+At this point, the bot is created, but it is not actually in any discord server.
+
+Go to `OAuth2` tab, check the `bot` checkbox under `SCOPES`.
+
+![12.png](/file/posts/4ba0a17a/12.png)
+
+Under `BOT PERMISSIONS`, check the permissions required for the bot, refer to the figure below:
+
+![13.png](/file/posts/4ba0a17a/13.png)
+
+After checking, the `permission` in the invitation link generated in `SCOPES` should be `248832`, click the `Copy` button on the right to copy the link.
+
+![14.png](/file/posts/4ba0a17a/14.png)
+
+Paste the copied link into the browser. Select the Discord server you want to invite the bot to, and click the `Authorize` button.
+
+> Inviting bots requires `Manage Server` permission in the server.
+
+![15.png](/file/posts/4ba0a17a/15.png)
+
+![16.png](/file/posts/4ba0a17a/16.png)
+
+At this point, the Discord Bot setup is completed.
+
+### Setup Webhook
+
+First create a text channel. It is recommended to name it `in-game-chat`.
+
+![17.png](/file/posts/4ba0a17a/17.png)
+
+Open `Server Settings`, go to `Integrations` tab, and click the `New Webhook` button to create a new Webhook.
+
+![18.png](/file/posts/4ba0a17a/18.png)
+
+You can change the avatar and name of the Webhook. For channel, select the text channel you just created.
+Click the `Copy Webhook URL` button to copy the Webhook URL, which will be used later.
+
+![19.png](/file/posts/4ba0a17a/19.png)
+
+At this point, the Webhook setup is completed.
+
+### Setup MCDiscordChat
+
+Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
+
+> Generic
+
+|          Variables          |                  Example / Default value                 |                                                                       Description                                                                             |
+| :-------------------------: | :------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| switchLanguageFromChinToEng |                           true                           | [Required] Language MCDiscordChat uses (Chinese if true, English if false)                                                                                    |
+|           botToken          |                     xxxxxx.xxx.xxxxxx                    | [Required] Discord Bot token                                                                                                                                  |
+|      botListeningStatus     |                     主人敲键盘的声音                     | [Optional] Discord bot\'s activity status (null when empty)                                                                                                   |
+|          webhookURL         |                     https:\/\/xxxxxx                     | [Required] Webhook URL                                                                                                                                        |
+|          channelId          |                         12345678                         | [Required] Discord Channel ID (Right click the channel to copy the ID, you have to turn on developer mode in Discord settings)                                |
+|          worldName          |                           world                          | [Required] Server world name                                                                                                                                  |
+|      modifyChatMessages     |                           true                           | [Required] Set if MCDiscordChat should modify in-game chat messages (not enable or disable MCDiscordChat)                                                     |
+|  broadcastCommandExecution  |                           true                           | [Required] Set if MCDiscordChat should broadcast player command execution                                                                                     |
+|         multiServer         |                           false                          | [Required] Set if using more than two MCDiscordChat in one Discord channel (name of the bot must be in the following format: [%serverDisplayName%] %botName%) |
+|    useUUIDInsteadNickname   |                           true                           | [Required] Use UUID instead nickname to request player head on Webhook                                                                                        |
+|        membersIntents       |                           true                           | [Required] Set if MCDiscordChat should enable in-game mentions (@) Discord users                                                                              |
+|       announcePlayers       |                           true                           | [Required] Set if MCDiscordChat should announce when a player join / leave the server                                                                         |
+|     announceAdvancements    |                           true                           | [Required] Set if MCDiscordChat should announce when a player reached a progress / achieved a goal / completed a challenge                                    |
+|        announceDeaths       |                           true                           | [Required] Set if MCDiscordChat should announce when a player die                                                                                             |
+|        superAdminsIds       |                       [\"000001\"]                       | [Required] MCDiscordChat Super Admin ID List, has permission to add and remove admins, and have all permissions admins have (can have more than one)          |
+|          adminsIds          |                 [\"000002\", \"000003\"]                 | [Optional] MCDiscordChat Admin ID List, has permission to modify blacklist, etc. (can have more than one)                                                     |
+|        bannedDiscord        |                       [\"000004\"]                       | [Optional] MCDiscordChat Discord ID Blacklist, disallow processing of messages from a Discord user (can have more than one)                                   |
+|       bannedMinecraft       |                        [\"Steve\"]                       | [Optional] MCDiscordChat Player Name Blacklist, disallow processing of messages from a Minecraft player (can have more than one)                              |
+
+> MultiServer
+
+|          Variables          |                  Example / Default value                 |                                                 Description                                                   |
+| :-------------------------: | :------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+|      serverDisplayName      |                           SMP                            | [Required] Server display name                                                                                |
+|           botName           |                         MCDC Bot                         | [Required] Discord Bot name (Example: When the name of the bot is \'[SMP] MCDC Bot\', set it to \'MCDC Bot\') |
+
+> TextsZH / TextsEN
+>
+> It is recommended not to modify it when it is not necessary.
+>
+>> The following is a description of the placeholders:
+
+|         Placeholders        |                                   Description                                    |
+| :-------------------------: | :------------------------------------------------------------------------------: |
+|         %playername%        | Name of a Minecraft player                                                       |
+|        %deathmessage%       | Death message                                                                    |
+|        %advancement%        | Progress / goal / challenge name                                                 |
+|         %servername%        | \'Discord\' (becomes server name when using multi-server mode)                   |
+|            %name%           | Nickname of a user in Discord (becomes player name when using multi-server mode) |
+|          %message%          | Content of message                                                               |
+<!-- endtab -->
+{% endtabs %}
+
+## 更新日志 Changelog
 
 ### 1.11.2 - 2021/12/13
 
