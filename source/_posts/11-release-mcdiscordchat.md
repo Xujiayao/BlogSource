@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
+description: MCDiscordChat 已经更新到 1.11.3 - 2021/12/28 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
 {% tabs lang %}
 <!-- tab 中文 -->
-MCDiscordChat 已经更新到 1.11.2 - 2021/12/13 啦！
+MCDiscordChat 已经更新到 1.11.3 - 2021/12/28 啦！
 
-> 本文更新于 2021 年 12 月 24 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2021 年 12 月 28 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -60,6 +60,7 @@ MCDiscordChat (MCDC), the most practical and powerful Fabric Minecraft <> Discor
 - 在玩家死亡时发出通知
 - 在玩家加入 / 离开服务器时发出通知
 - 在玩家达成进度 / 达成目标 / 完成挑战时发出通知
+- 在服务器 MSPT 高于一定值时发出通知
 - 可自定义游戏内消息显示格式
 - 可使用黑名单禁止处理某位玩家或用户的消息
 - 可使用管理员名单配置用户使用某些命令的权限
@@ -215,6 +216,8 @@ MCDiscordChat 最新版本依赖以下运行环境：
 |       announcePlayers       |                           true                           | 【必选】是否在玩家加入 / 离开服务器时发出通知                                                                  |
 |     announceAdvancements    |                           true                           | 【必选】是否在玩家达成进度 / 达成目标 / 完成挑战时发出通知                                                     |
 |        announceDeaths       |                           true                           | 【必选】是否在玩家死亡时发出通知                                                                               |
+|       announceHighMSPT      |                           true                           | 【必选】是否在服务器 MSPT 高于一定值时发出通知                                                                 |
+|          msptLimit          |                            50                            | 【必选】服务器 MSPT 预警值                                                                                     |
 |        superAdminsIds       |                       [\"000001\"]                       | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个） |
 |          adminsIds          |                 [\"000002\", \"000003\"]                 | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）          |
 |        bannedDiscord        |                       [\"000004\"]                       | 【可选】MCDiscordChat ID 黑名单，禁止处理某位 Discord 用户的消息（可多于一个）                                 |
@@ -240,13 +243,16 @@ MCDiscordChat 最新版本依赖以下运行环境：
 |        %advancement%        | 进度 / 目标 / 挑战名                                         |
 |         %servername%        | \'Discord\' 或使用多服务器模式时的服务器名称                 |
 |            %name%           | Discord 服务器中用户的昵称（使用多服务器模式时则为玩家昵称） |
-|          %message%          | 消息内容                                                     |
+|           %message%         | 消息内容                                                     |
+|            %mspt%           | 服务器 MSPT                                                  |
+|          %msptLimit%        | 服务器 MSPT 预警值                                           |
+|      %mentionAllAdmins%     | 用于提及所有 MCDiscordChat 管理员的字符串                    |
 <!-- endtab -->
 
 <!-- tab English -->
-MCDiscordChat has been updated to 1.11.2 - 2021/12/13!
+MCDiscordChat has been updated to 1.11.3 - 2021/12/28!
 
-> This article was updated on December 24, 2021. The content is updated for the latest `Release` version. ヾ(≧▽≦*)o
+> This article was updated on December 28, 2021. The content is updated for the latest `Release` version. ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•`)o
 
@@ -292,6 +298,7 @@ If there is a bug or suggestion, or something you don't understand, you can [pos
 - Announce when a player dies
 - Announce when a player join / leave the server
 - Announce when a player reached a progress / achieved a goal / completed a challenge
+- Announce when Server MSPT is higher than a certain value
 - Customizable in-game message display format
 - Blacklist can be used to prohibit the processing of a player or user's message
 - Admin list can be used to configure the user's authority to use certain commands
@@ -447,6 +454,8 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 |       announcePlayers       |                           true                           | [Required] Set if MCDiscordChat should announce when a player join / leave the server                                                                         |
 |     announceAdvancements    |                           true                           | [Required] Set if MCDiscordChat should announce when a player reached a progress / achieved a goal / completed a challenge                                    |
 |        announceDeaths       |                           true                           | [Required] Set if MCDiscordChat should announce when a player die                                                                                             |
+|       announceHighMSPT      |                           true                           | [Required] Set if MCDiscordChat should announce when Server MSPT is above MSPT Limit?                                                                         |
+|          msptLimit          |                            50                            | [Required] Server MSPT Limit                                                                                                                                  |
 |        superAdminsIds       |                       [\"000001\"]                       | [Required] MCDiscordChat Super Admin ID List, has permission to add and remove admins, and have all permissions admins have (can have more than one)          |
 |          adminsIds          |                 [\"000002\", \"000003\"]                 | [Optional] MCDiscordChat Admin ID List, has permission to modify blacklist, etc. (can have more than one)                                                     |
 |        bannedDiscord        |                       [\"000004\"]                       | [Optional] MCDiscordChat Discord ID Blacklist, disallow processing of messages from a Discord user (can have more than one)                                   |
@@ -472,15 +481,27 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 |        %advancement%        | Progress / goal / challenge name                                                 |
 |         %servername%        | \'Discord\' (becomes server name when using multi-server mode)                   |
 |            %name%           | Nickname of a user in Discord (becomes player name when using multi-server mode) |
-|          %message%          | Content of message                                                               |
+|           %message%         | Content of message                                                               |
+|            %mspt%           | Server MSPT                                                                      |
+|          %msptLimit%        | Server MSPT Limit                                                                |
+|      %mentionAllAdmins%     | String used to mention all MCDiscordChat admins                                  |
 <!-- endtab -->
 {% endtabs %}
 
 ## 更新日志 Changelog
 
+### 1.11.3 - 2021/12/28
+
+MCDiscordChat 1.11.3 for Minecraft 1.17.x/1.18.x - 2021/12/28（最新版本）
+
+更新日志：
+
+1. 删除/shrug指令
+2. 添加MSPT监测功能
+
 ### 1.11.2 - 2021/12/13
 
-MCDiscordChat 1.11.2 for Minecraft 1.17.x/1.18.x - 2021/12/13（最新版本）
+MCDiscordChat 1.11.2 for Minecraft 1.17.x/1.18.x - 2021/12/13
 
 更新日志：
 
