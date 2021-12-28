@@ -11,7 +11,7 @@ abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-{% tabs lang %}
+{% tabs lang, 2 %}
 <!-- tab 中文 -->
 MCDiscordChat 已经更新到 1.11.3 - 2021/12/28 啦！
 
