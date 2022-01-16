@@ -1,85 +1,68 @@
 - class_name:
   class_desc: <blockquote><p>所有友链按添加时间排序。</p><p>感谢您的到来。如果愿意和本站结为相识，很乐意与您互换友链。</p><p>需要注意的是，本站不提出附加条件，但本站不提供免费广告位。单向或有添加 NoFollow 标签的友链本站会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签。</p></blockquote>
-  empty_list: true
   link_list:
 
 - class_name: 友情链接
   class_desc: 那些人，那些事
-  empty_list: false
   link_list:
   # 记得要去 config.yml 修改 NoFollow 插件 Exclude 设置
     - name: 奕奕生辉
       link: https://www.yeyi.site/
       avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
       descr: 叶奕的空间
-      nofollow: false
     - name: Tmzncty
       link: https://tmzncty.cn/
       avatar: https://tmzncty.cn/tianyi/%E5%A4%B4%E5%83%8F5.jpg
       descr: 题目自拟的盒子
-      nofollow: false
     - name: Sakura
       link: https://www.sakurax.ml/
       avatar: https://gravatar.loli.net/avatar/43543b05911b76907f2b40a3dda76795?s=500
       descr: Sakuraの无聊日常
-      nofollow: false
     - name: Hydroxide
       link: https://echoandmoonlight.com/
       avatar: https://echoandmoonlight.com/wp-content/uploads/2021/03/enm_logo.png
       descr: Echo & Moonlight
-      nofollow: false
     - name: az
       link: https://blog.sino6067.love/
       avatar: https://blog.sino6067.love/img/avatar.png
       descr: 67不咕就发财了
-      nofollow: false
     - name: Erythritol
       link: https://www.limewtea.com/
       avatar: https://www.limewtea.com/img/avatar.png
       descr: Erythritol's World
-      nofollow: false
     - name: DexterCai
       link: https://blog.dextercai.com/
       avatar: https://cdn.jsdelivr.net/gh/dextercai/staticStore@latest/avatar/blog.png
       descr: 明天太远，今天太短
-      nofollow: false
     - name: noionion
       link: https://noionion.top/
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 贰猹の小窝
-      nofollow: false
     - name: souldjl
       link: https://www.daijl.cn/
       avatar: https://www.daijl.cn/img/avatar.png
       descr: 高级前端进阶
-      nofollow: false
 
 - class_name: 单向友链
   class_desc: 相识也是缘份
-  empty_list: false
   link_list:
     - name: 折影轻梦
       link: https://nexmoe.com/
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
       descr: 崇尚自由、热爱技术
-      nofollow: true
     - name: Jerry
       link: https://crazywong.com/
       avatar: https://crazywong.com/img/avatar.png
       descr: 今日事，今日畢
-      nofollow: true
 
 - class_name: 网站
   class_desc: 值得推荐的网站
-  empty_list: false
   link_list:
     - name: Nexmoe
       link: https://nexmoe.com/hexo-theme-nexmoe.html
       avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
       descr: 一个比较特别的 Hexo 主题
-      nofollow: true
     - name: Butterfly
       link: https://butterfly.js.org/
       avatar: https://butterfly.js.org/img/avatar.png
       descr: "A Hexo Theme: Butterfly"
-      nofollow: true
