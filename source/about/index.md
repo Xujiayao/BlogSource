@@ -102,6 +102,7 @@ date: 2020-07-13 10:29:34
 - [ ] [Comic Girls](https://www.bilibili.com/bangumi/media/md77812/)
 - [ ] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235216/)
 - [ ] [更衣人偶坠入爱河](https://www.bilibili.com/bangumi/media/md28236374/)
+- [ ] [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
