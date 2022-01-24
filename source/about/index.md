@@ -103,6 +103,9 @@ date: 2020-07-13 10:29:34
 - [ ] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235216/)
 - [ ] [更衣人偶坠入爱河](https://www.bilibili.com/bangumi/media/md28236374/)
 - [ ] [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
+- [ ] 莉兹与青鸟
+- [ ] citrus～柑橘味香气～
+- [ ] [川柳少女](https://www.bilibili.com/bangumi/media/md24069719/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
