@@ -106,6 +106,8 @@ date: 2020-07-13 10:29:34
 - [ ] 莉兹与青鸟
 - [ ] citrus～柑橘味香气～
 - [ ] [川柳少女](https://www.bilibili.com/bangumi/media/md24069719/)
+- [ ] [我们仍未知道那天所看见的花的名字。](https://www.bilibili.com/bangumi/media/md835/)
+- [ ] [侦探已死](https://www.bilibili.com/bangumi/media/md28234730/)
 <!-- endtab -->
 
 <!-- tab 已经观看 -->
