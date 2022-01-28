@@ -74,7 +74,8 @@ date: 2020-07-13 10:29:34
 - [x] [<font color='green'>**博客文章点此**</font>](/posts/1da6e446/) [Charlotte SP (TV 未放送第 14 话)](https://www.bilibili.com/bangumi/play/ep100895)
 - [x] [<font color='green'>**博客文章点此**</font>](/posts/d69370a/) [可塑性记忆](https://www.bilibili.com/bangumi/media/md1552/)
 - [x] <font color='orange'>**敬请期待**</font> [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
-- [x] [租借女友](https://www.bilibili.com/bangumi/media/md28229298/)
+- [x] 租借女友 / [出租女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28229298/)
+- [x] [侦探已死](https://www.bilibili.com/bangumi/media/md28234637/) / [偵探已經，死了。（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28234730/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -122,7 +123,6 @@ date: 2020-07-13 10:29:34
 - [ ] citrus～柑橘味香气～
 - [ ] [川柳少女](https://www.bilibili.com/bangumi/media/md24069719/)
 - [ ] [我们仍未知道那天所看见的花的名字。](https://www.bilibili.com/bangumi/media/md835/)
-- [ ] [侦探已死](https://www.bilibili.com/bangumi/media/md28234730/)
 - [ ] 时光沙漏
 <!-- endtab -->
 {% endtabs %}

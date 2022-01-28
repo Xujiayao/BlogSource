@@ -630,7 +630,7 @@ aside:
       link: /about/
   card_announcement:
     enable: true
-    content: <font color='orange'><strong>新文章即将发布，敬请期待！</strong></font><br>欢迎光临！感谢访问本站 \(￣︶￣*\))
+    content: <a href="/about/#%E7%95%AA%E5%89%A7%E6%B8%85%E5%8D%95" data-pjax-state=""><font color='orange'><strong>新文章即将发布，敬请期待！</strong></font></a><br>欢迎光临！感谢访问本站 \(￣︶￣*\))
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
