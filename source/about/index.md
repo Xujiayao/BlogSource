@@ -76,13 +76,14 @@ date: 2020-07-13 10:29:34
 - [x] <font color='orange'>**敬请期待**</font> [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
 - [x] 租借女友 / [出租女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28229298/)
 - [x] [侦探已死](https://www.bilibili.com/bangumi/media/md28234637/) / [偵探已經，死了。（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28234730/)
+- [x] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
 不分先后次序 =￣ω￣=
 
+- [ ] [名侦探柯南](https://www.bilibili.com/bangumi/media/md28228775/) / [名侦探柯南（中配）](https://www.bilibili.com/bangumi/media/md28228813)
 - [ ] [紫罗兰永恒花园](https://www.bilibili.com/bangumi/media/md8892/)
-- [ ] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)
 - [ ] [我女友与青梅竹马的惨烈修罗场](https://www.bilibili.com/bangumi/media/md2667/)
 - [ ] [约会大作战](https://www.bilibili.com/bangumi/media/md4188/) 全系列
 - [ ] [总之就是非常可爱](https://www.bilibili.com/bangumi/media/md28229676/)
