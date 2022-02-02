@@ -78,6 +78,7 @@ date: 2020-07-13 10:29:34
 - [x] [侦探已死](https://www.bilibili.com/bangumi/media/md28234637/) / [偵探已經，死了。（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28234730/)
 - [x] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)
 - [x] [我女友与青梅竹马的惨烈修罗场](https://www.bilibili.com/bangumi/media/md2667/)
+- [x] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235116/) / [前輩有夠煩（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28235216/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -118,7 +119,6 @@ date: 2020-07-13 10:29:34
 - [ ] 女神宿舍的管理员
 - [ ] [珈百璃的堕落](https://www.bilibili.com/bangumi/media/md5793/)
 - [ ] [Comic Girls](https://www.bilibili.com/bangumi/media/md77812/)
-- [ ] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235216/)
 - [ ] [更衣人偶坠入爱河](https://www.bilibili.com/bangumi/media/md28236374/)
 - [ ] 莉兹与青鸟
 - [ ] citrus～柑橘味香气～
