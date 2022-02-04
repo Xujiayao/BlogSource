@@ -79,6 +79,7 @@ date: 2020-07-13 10:29:34
 - [x] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)
 - [x] [我女友与青梅竹马的惨烈修罗场](https://www.bilibili.com/bangumi/media/md2667/)
 - [x] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235116/) / [前輩有夠煩（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28235216/)
+- [x] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -96,7 +97,6 @@ date: 2020-07-13 10:29:34
 - [ ] [请问您今天要来点兔子吗？](https://www.bilibili.com/bangumi/media/md191/) 全系列
 - [ ] [萤火之森](https://www.bilibili.com/bangumi/media/md27526419/)
 - [ ] [小林家的龙女仆](https://www.bilibili.com/bangumi/media/md5800/) 全系列
-- [ ] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
 - [ ] [日常](https://www.bilibili.com/bangumi/media/md844/)
 - [ ] [Little Busters!](https://www.bilibili.com/bangumi/media/md3242/) 全系列
 - [ ] [某科学的超电磁炮](https://www.bilibili.com/bangumi/media/md425/) 全系列
@@ -125,5 +125,7 @@ date: 2020-07-13 10:29:34
 - [ ] [川柳少女](https://www.bilibili.com/bangumi/media/md24069719/)
 - [ ] [我们仍未知道那天所看见的花的名字。](https://www.bilibili.com/bangumi/media/md835/)
 - [ ] 时光沙漏
+- [ ] [吹响吧！上低音号](https://www.bilibili.com/bangumi/media/md1547/) 全系列
+- [ ] [大正少女御伽话](https://www.bilibili.com/bangumi/media/md28235177/)
 <!-- endtab -->
 {% endtabs %}
