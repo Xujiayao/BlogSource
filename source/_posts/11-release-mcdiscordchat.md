@@ -15,7 +15,7 @@ date: 2021-07-08 15:59:28
 <!-- tab 中文 -->
 MCDiscordChat 已经更新到 1.11.4 - 2022/1/13 啦！
 
-> 本文更新于 2022 年 1 月 13 日，文章的内容针对最新 `Release` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2022 年 2 月 16 日，文章的内容针对最新 `Build` 版更新ヾ(≧▽≦*)o
 >
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
 
@@ -63,9 +63,11 @@ MCDiscordChat (MCDC), a practical and powerful Fabric Minecraft <> Discord chat 
 - 在服务器 MSPT 高于一定值时发出通知
 - 可自定义游戏内消息显示格式
 - 可自定义 Webhook 头像 API
+- 可自定义 Discord 机器人命令前缀
 - 可使用黑名单禁止处理某位玩家或用户的消息
 - 可使用管理员名单配置用户使用某些命令的权限
 - 可广播玩家指令执行
+- 可广播服务器控制台日志
 - 支持配置文件热重载
 - 检查更新
 
@@ -208,6 +210,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 |          botListeningStatus        |                     主人敲键盘的声音                     | 【可选】设置机器人活动状态（留空为空）                                                                                                         |
 |              webhookURL            |                     https:\/\/xxxxxx                     | 【必选】Webhook 链接                                                                                                                           |
 |              channelId             |                         12345678                         | 【必选】Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）                                                            |
+|         consoleLogChannelId        |                         87654321                         | 【可选】广播控制台日志的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）                                                             |
 |              worldName             |                           world                          | 【必选】服务器存档名                                                                                                                           |
 |              avatarAPI             |     https:\/\/visage.surgeplay.com/bust/%player%.png     | 【必选】自定义 Webhook 头像 API 链接（实例：2D: https://mc-heads.net/avatar/%player%.png 3D: https://visage.surgeplay.com/bust/%player%.png ） |
 |          modifyChatMessages        |                           true                           | 【必选】是否修改聊天消息（不是是否启用 MCDiscordChat）                                                                                         |
@@ -251,12 +254,13 @@ MCDiscordChat 最新版本依赖以下运行环境：
 |           %message%         | 消息内容                                                     |
 |            %mspt%           | 服务器 MSPT                                                  |
 |          %msptLimit%        | 服务器 MSPT 预警值                                           |
+|          %timestamp%        | 当前时间戳                                                   |
 <!-- endtab -->
 
 <!-- tab English -->
 MCDiscordChat has been updated to 1.11.4 - 2022/1/13!
 
-> This article was updated on January 13, 2022. The content is updated for the latest `Release` version. ヾ(≧▽≦*)o
+> This article was updated on February 16, 2022. The content is updated for the latest `Build` version. ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•`)o
 
@@ -305,9 +309,11 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
 - Announce when Server MSPT is higher than a certain value
 - Customizable Webhook Avatar API
 - Customizable in-game message display format
+- Customizable Discord bot command prefix
 - Blacklist can be used to prohibit the processing of a player or user's message
 - Admin list can be used to configure the user's authority to use certain commands
 - Broadcast player command execution
+- Broadcast server console log
 - Support Hot Reloading of the configuration file
 - Check for updates
 
@@ -450,6 +456,7 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 |          botListeningStatus        |                     主人敲键盘的声音                     | [Optional] Discord bot activity status (null when empty)                                                                                                      |
 |              webhookURL            |                     https:\/\/xxxxxx                     | [Required] Webhook URL                                                                                                                                        |
 |              channelId             |                         12345678                         | [Required] Discord Channel ID (Right click the channel to copy the ID, you have to turn on developer mode in Discord settings)                                |
+|         consoleLogChannelId        |                         87654321                         | [Optional] Discord Channel ID for Console Log Broadcast (leave blank to disable this feature) (the method to get the ID is the same)                          |
 |              worldName             |                           world                          | [Required] Server world name                                                                                                                                  |
 |              avatarAPI             |     https:\/\/visage.surgeplay.com/bust/%player%.png     | [Required] URL of the Avatar API for Webhook (example: 2D: https://mc-heads.net/avatar/%player%.png 3D: https://visage.surgeplay.com/bust/%player%.png)       |
 |          modifyChatMessages        |                           true                           | [Required] Set if MCDiscordChat should modify in-game chat messages (not enable or disable MCDiscordChat)                                                     |
@@ -493,6 +500,7 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 |           %message%         | Content of message                                                               |
 |            %mspt%           | Server MSPT                                                                      |
 |          %msptLimit%        | Server MSPT Limit                                                                |
+|          %timestamp%        | Current timestamp                                                                |
 <!-- endtab -->
 {% endtabs %}
 
