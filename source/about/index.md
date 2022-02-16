@@ -12,14 +12,15 @@ date: 2020-07-13 10:29:34
 >
 > 是老二次元了2333
 >
-> Minecraft Java Edition 玩家，Lazy_Craft 私人服务器初始成员，平时还有玩以下这些游戏：ヾ(≧▽≦*)o
+> Minecraft Java Edition 玩家，Lazy_Craft 私人服务器初始成员，平时玩以下这些游戏：ヾ(≧▽≦*)o
 >
 > - Grand Theft Auto V
+> - Euro Truck Simulator 2
 > - osu!
 > - osu!droid
-> - Euro Truck Simulator 2
-> - Rebel Inc. (Escalation)
+> - Minecraft Java Edition
 > - 东方风神录
+> - Rebel Inc. (Escalation)
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：

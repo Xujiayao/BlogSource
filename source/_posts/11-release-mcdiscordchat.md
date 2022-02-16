@@ -203,40 +203,40 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > Generic 通用
 
-|                变量                |                       示例 / 默认值                      |                                                      说明                                                                                      |
-| :--------------------------------: | :------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
-|     switchLanguageFromChinToEng    |                           false                          | 【必选】MCDiscordChat 使用的语言（true 时为中文，false 时为英文）                                                                              |
-|               botToken             |                     xxxxxx.xxx.xxxxxx                    | 【必选】Discord 机器人令牌                                                                                                                     |
-|          botListeningStatus        |                     主人敲键盘的声音                     | 【可选】设置机器人活动状态（留空为空）                                                                                                         |
-|              webhookURL            |                     https:\/\/xxxxxx                     | 【必选】Webhook 链接                                                                                                                           |
-|              channelId             |                         12345678                         | 【必选】Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）                                                            |
-|         consoleLogChannelId        |                         87654321                         | 【可选】广播控制台日志的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）                                                             |
-|              worldName             |                           world                          | 【必选】服务器存档名                                                                                                                           |
-|              avatarAPI             |     https:\/\/visage.surgeplay.com/bust/%player%.png     | 【必选】自定义 Webhook 头像 API 链接（实例：2D: https://mc-heads.net/avatar/%player%.png 3D: https://visage.surgeplay.com/bust/%player%.png ） |
-|          modifyChatMessages        |                           true                           | 【必选】是否修改聊天消息（不是是否启用 MCDiscordChat）                                                                                         |
-|      broadcastCommandExecution     |                           true                           | 【必选】是否广播玩家指令执行                                                                                                                   |
-|             multiServer            |                           false                          | 【必选】是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）                                                                |
-|        useUUIDInsteadNickname      |                           true                           | 【必选】发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）                                                          |
-|            membersIntents          |                           true                           | 【必选】是否启用游戏内提及 (@) Discord 用户功能                                                                                                |
-|           announcePlayers          |                           true                           | 【必选】是否在玩家加入 / 离开服务器时发出通知                                                                                                  |
-|         announceAdvancements       |                           true                           | 【必选】是否在玩家达成进度 / 达成目标 / 完成挑战时发出通知                                                                                     |
-|            announceDeaths          |                           true                           | 【必选】是否在玩家死亡时发出通知                                                                                                               |
-|           announceHighMSPT         |                           true                           | 【必选】是否在服务器 MSPT 高于一定值时发出通知                                                                                                 |
-|              msptLimit             |                            50                            | 【必选】服务器 MSPT 预警值                                                                                                                     |
-| removeVanillaFormattingFromDiscord |                           false                          | 【必选】是否用 & 替换 Discord 消息中的 § 符号以避免消息格式化                                                                                  |
-|      removeLineBreakFromDiscord    |                           false                          | 【必选】是否删除 Discord 消息中的换行符以避免刷屏                                                                                              |
-|           excludedCommands         |                        [\"\/tell\"]                      | 【可选】MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）                                                                         |
-|            superAdminsIds          |                       [\"000001\"]                       | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个）                                 |
-|              adminsIds             |                 [\"000002\", \"000003\"]                 | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）                                          |
-|            bannedDiscord           |                       [\"000004\"]                       | 【可选】MCDiscordChat ID 黑名单，禁止处理某位 Discord 用户的消息（可多于一个）                                                                 |
-|           bannedMinecraft          |                        [\"Steve\"]                       | 【可选】MCDiscordChat 昵称黑名单，禁止处理某位 Minecraft 玩家的消息（可多于一个）                                                              |
+|                变量                |          示例 / 默认值         |                                                      说明                                                                                      |
+| :--------------------------------: | :----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
+|     switchLanguageFromChinToEng    |              false             | 【必选】MCDiscordChat 使用的语言（true 时为中文，false 时为英文）                                                                              |
+|               botToken             |        xxxxxx.xxx.xxxxxx       | 【必选】Discord 机器人令牌                                                                                                                     |
+|          botListeningStatus        |        主人敲键盘的声音        | 【可选】设置机器人活动状态（留空为空）                                                                                                         |
+|              webhookURL            |        https:\/\/xxxxxx        | 【必选】Webhook 链接                                                                                                                           |
+|              channelId             |            12345678            | 【必选】Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）                                                            |
+|         consoleLogChannelId        |            87654321            | 【可选】广播控制台日志的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）                                                             |
+|              worldName             |              world             | 【必选】服务器存档名                                                                                                                           |
+|              avatarAPI             |        https:\/\/xxxxxx        | 【必选】自定义 Webhook 头像 API 链接（实例：2D: https://mc-heads.net/avatar/%player%.png 3D: https://visage.surgeplay.com/bust/%player%.png ） |
+|          modifyChatMessages        |              true              | 【必选】是否修改聊天消息（不是是否启用 MCDiscordChat）                                                                                         |
+|      broadcastCommandExecution     |              true              | 【必选】是否广播玩家指令执行                                                                                                                   |
+|             multiServer            |              false             | 【必选】是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）                                                                |
+|        useUUIDInsteadNickname      |              true              | 【必选】发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）                                                          |
+|            membersIntents          |              true              | 【必选】是否启用游戏内提及 (@) Discord 用户功能                                                                                                |
+|           announcePlayers          |              true              | 【必选】是否在玩家加入 / 离开服务器时发出通知                                                                                                  |
+|         announceAdvancements       |              true              | 【必选】是否在玩家达成进度 / 达成目标 / 完成挑战时发出通知                                                                                     |
+|            announceDeaths          |              true              | 【必选】是否在玩家死亡时发出通知                                                                                                               |
+|           announceHighMSPT         |              true              | 【必选】是否在服务器 MSPT 高于一定值时发出通知                                                                                                 |
+|              msptLimit             |               50               | 【必选】服务器 MSPT 预警值                                                                                                                     |
+| removeVanillaFormattingFromDiscord |              false             | 【必选】是否用 & 替换 Discord 消息中的 § 符号以避免消息格式化                                                                                  |
+|      removeLineBreakFromDiscord    |              false             | 【必选】是否删除 Discord 消息中的换行符以避免刷屏                                                                                              |
+|           excludedCommands         |           [\"\/tell\"]         | 【可选】MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）                                                                         |
+|            superAdminsIds          |          [\"000001\"]          | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个）                                 |
+|              adminsIds             |    [\"000002\", \"000003\"]    | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）                                          |
+|            bannedDiscord           |          [\"000004\"]          | 【可选】MCDiscordChat ID 黑名单，禁止处理某位 Discord 用户的消息（可多于一个）                                                                 |
+|           bannedMinecraft          |           [\"Steve\"]          | 【可选】MCDiscordChat 昵称黑名单，禁止处理某位 Minecraft 玩家的消息（可多于一个）                                                              |
 
 > MultiServer 多服务器
 
-|             变量            |                       示例 / 默认值                      |                                                      说明                                                      |
-| :-------------------------: | :------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
-|      serverDisplayName      |                           SMP                            | 【必选】多服务器模式时显示的服务器名称                                                                         |
-|           botName           |                         MCDC Bot                         | 【必选】Discord 机器人名称（实例：当机器人的名称是 \'[SMP] MCDC Bot\'，设为 \'MCDC Bot\'）                     |
+|             变量            |              示例 / 默认值             |                                                      说明                                                      |
+| :-------------------------: | :------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+|      serverDisplayName      |                  SMP                   | 【必选】多服务器模式时显示的服务器名称                                                                         |
+|           botName           |                MCDC Bot                | 【必选】Discord 机器人名称（实例：当机器人的名称是 \'[SMP] MCDC Bot\'，设为 \'MCDC Bot\'）                     |
 
 > TextsZH / TextsEN 多语言自定义消息
 >
@@ -449,40 +449,40 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 
 > Generic
 
-|              Variables             |                  Example / Default value                 |                                                                       Description                                                                             |
-| :--------------------------------: | :------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|     switchLanguageFromChinToEng    |                           true                           | [Required] Language MCDiscordChat uses (Chinese if true, English if false)                                                                                    |
-|               botToken             |                     xxxxxx.xxx.xxxxxx                    | [Required] Discord Bot token                                                                                                                                  |
-|          botListeningStatus        |                     主人敲键盘的声音                     | [Optional] Discord bot activity status (null when empty)                                                                                                      |
-|              webhookURL            |                     https:\/\/xxxxxx                     | [Required] Webhook URL                                                                                                                                        |
-|              channelId             |                         12345678                         | [Required] Discord Channel ID (Right click the channel to copy the ID, you have to turn on developer mode in Discord settings)                                |
-|         consoleLogChannelId        |                         87654321                         | [Optional] Discord Channel ID for Console Log Broadcast (leave blank to disable this feature) (the method to get the ID is the same)                          |
-|              worldName             |                           world                          | [Required] Server world name                                                                                                                                  |
-|              avatarAPI             |     https:\/\/visage.surgeplay.com/bust/%player%.png     | [Required] URL of the Avatar API for Webhook (example: 2D: https://mc-heads.net/avatar/%player%.png 3D: https://visage.surgeplay.com/bust/%player%.png)       |
-|          modifyChatMessages        |                           true                           | [Required] Set if MCDiscordChat should modify in-game chat messages (not enable or disable MCDiscordChat)                                                     |
-|      broadcastCommandExecution     |                           true                           | [Required] Set if MCDiscordChat should broadcast player command execution                                                                                     |
-|             multiServer            |                           false                          | [Required] Set if using more than two MCDiscordChat in one Discord channel (name of the bot must be in the following format: [%serverDisplayName%] %botName%) |
-|        useUUIDInsteadNickname      |                           true                           | [Required] Use UUID instead nickname to request player head on Webhook                                                                                        |
-|            membersIntents          |                           true                           | [Required] Set if MCDiscordChat should enable in-game mentions (@) Discord users                                                                              |
-|           announcePlayers          |                           true                           | [Required] Set if MCDiscordChat should announce when a player join / leave the server                                                                         |
-|         announceAdvancements       |                           true                           | [Required] Set if MCDiscordChat should announce when a player reached a progress / achieved a goal / completed a challenge                                    |
-|            announceDeaths          |                           true                           | [Required] Set if MCDiscordChat should announce when a player die                                                                                             |
-|           announceHighMSPT         |                           true                           | [Required] Set if MCDiscordChat should announce when Server MSPT is above MSPT Limit?                                                                         |
-|              msptLimit             |                            50                            | [Required] Server MSPT Limit                                                                                                                                  |
-| removeVanillaFormattingFromDiscord |                           false                          | [Required] Replaces the § symbol with & in any discord message to avoid formatted messages                                                                    |
-|      removeLineBreakFromDiscord    |                           false                          | [Required] Removes line break from any discord message to avoid spam                                                                                          |
-|           excludedCommands         |                       [\"\/tell\"]                       | [Optional] MCDiscordChat Excluded Commands List, do not process and send specified commands (can have more than one)                                          |
-|            superAdminsIds          |                       [\"000001\"]                       | [Required] MCDiscordChat Super Admin ID List, has permission to add and remove admins, and have all permissions admins have (can have more than one)          |
-|              adminsIds             |                 [\"000002\", \"000003\"]                 | [Optional] MCDiscordChat Admin ID List, has permission to modify blacklist, etc. (can have more than one)                                                     |
-|            bannedDiscord           |                       [\"000004\"]                       | [Optional] MCDiscordChat Discord ID Blacklist, disallow processing of messages from a Discord user (can have more than one)                                   |
-|           bannedMinecraft          |                        [\"Steve\"]                       | [Optional] MCDiscordChat Player Name Blacklist, disallow processing of messages from a Minecraft player (can have more than one)                              |
+|              Variables             |     Example / Default value    |                                                                       Description                                                                             |
+| :--------------------------------: | :----------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|     switchLanguageFromChinToEng    |              true              | [Required] Language MCDiscordChat uses (Chinese if true, English if false)                                                                                    |
+|               botToken             |        xxxxxx.xxx.xxxxxx       | [Required] Discord Bot token                                                                                                                                  |
+|          botListeningStatus        |        主人敲键盘的声音        | [Optional] Discord bot activity status (null when empty)                                                                                                      |
+|              webhookURL            |        https:\/\/xxxxxx        | [Required] Webhook URL                                                                                                                                        |
+|              channelId             |            12345678            | [Required] Discord Channel ID (Right click the channel to copy the ID, you have to turn on developer mode in Discord settings)                                |
+|         consoleLogChannelId        |            87654321            | [Optional] Discord Channel ID for Console Log Broadcast (leave blank to disable this feature) (the method to get the ID is the same)                          |
+|              worldName             |              world             | [Required] Server world name                                                                                                                                  |
+|              avatarAPI             |        https:\/\/xxxxxx        | [Required] URL of the Avatar API for Webhook (example: 2D: https://mc-heads.net/avatar/%player%.png 3D: https://visage.surgeplay.com/bust/%player%.png)       |
+|          modifyChatMessages        |              true              | [Required] Set if MCDiscordChat should modify in-game chat messages (not enable or disable MCDiscordChat)                                                     |
+|      broadcastCommandExecution     |              true              | [Required] Set if MCDiscordChat should broadcast player command execution                                                                                     |
+|             multiServer            |              false             | [Required] Set if using more than two MCDiscordChat in one Discord channel (name of the bot must be in the following format: [%serverDisplayName%] %botName%) |
+|        useUUIDInsteadNickname      |              true              | [Required] Use UUID instead nickname to request player head on Webhook                                                                                        |
+|            membersIntents          |              true              | [Required] Set if MCDiscordChat should enable in-game mentions (@) Discord users                                                                              |
+|           announcePlayers          |              true              | [Required] Set if MCDiscordChat should announce when a player join / leave the server                                                                         |
+|         announceAdvancements       |              true              | [Required] Set if MCDiscordChat should announce when a player reached a progress / achieved a goal / completed a challenge                                    |
+|            announceDeaths          |              true              | [Required] Set if MCDiscordChat should announce when a player die                                                                                             |
+|           announceHighMSPT         |              true              | [Required] Set if MCDiscordChat should announce when Server MSPT is above MSPT Limit?                                                                         |
+|              msptLimit             |               50               | [Required] Server MSPT Limit                                                                                                                                  |
+| removeVanillaFormattingFromDiscord |              false             | [Required] Replaces the § symbol with & in any discord message to avoid formatted messages                                                                    |
+|      removeLineBreakFromDiscord    |              false             | [Required] Removes line break from any discord message to avoid spam                                                                                          |
+|           excludedCommands         |          [\"\/tell\"]          | [Optional] MCDiscordChat Excluded Commands List, do not process and send specified commands (can have more than one)                                          |
+|            superAdminsIds          |          [\"000001\"]          | [Required] MCDiscordChat Super Admin ID List, has permission to add and remove admins, and have all permissions admins have (can have more than one)          |
+|              adminsIds             |    [\"000002\", \"000003\"]    | [Optional] MCDiscordChat Admin ID List, has permission to modify blacklist, etc. (can have more than one)                                                     |
+|            bannedDiscord           |          [\"000004\"]          | [Optional] MCDiscordChat Discord ID Blacklist, disallow processing of messages from a Discord user (can have more than one)                                   |
+|           bannedMinecraft          |           [\"Steve\"]          | [Optional] MCDiscordChat Player Name Blacklist, disallow processing of messages from a Minecraft player (can have more than one)                              |
 
 > MultiServer
 
-|          Variables          |                  Example / Default value                 |                                                 Description                                                   |
-| :-------------------------: | :------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|      serverDisplayName      |                           SMP                            | [Required] Server display name                                                                                |
-|           botName           |                         MCDC Bot                         | [Required] Discord Bot name (Example: When the name of the bot is \'[SMP] MCDC Bot\', set it to \'MCDC Bot\') |
+|          Variables          |         Example / Default value        |                                                 Description                                                   |
+| :-------------------------: | :------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+|      serverDisplayName      |                  SMP                   | [Required] Server display name                                                                                |
+|           botName           |                MCDC Bot                | [Required] Discord Bot name (Example: When the name of the bot is \'[SMP] MCDC Bot\', set it to \'MCDC Bot\') |
 
 > TextsZH / TextsEN
 >
