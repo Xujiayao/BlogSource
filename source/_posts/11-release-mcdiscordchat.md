@@ -6,18 +6,19 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.11.4 - 2022/1/13 啦！
+description: MCDiscordChat 已经更新到 1.12.0 - 2022/3/3 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-{% tabs lang, 2 %}
-<!-- tab 中文 -->
-MCDiscordChat 已经更新到 1.11.4 - 2022/1/13 啦！
+MCDiscordChat 已经更新到 1.12.0 - 2022/3/3 啦！
+MCDiscordChat has been updated to 1.12.0 - 2022/3/3!
 
-> 本文更新于 2022 年 2 月 16 日，文章的内容针对最新 `Build` 版更新ヾ(≧▽≦*)o
+> 本文更新于 2022 年 3 月 4 日，文章的内容针对最新 `Build` 版更新ヾ(≧▽≦*)o
+> This article was updated on March 4, 2022. The content is updated for the latest `Build` version. ヾ(≧▽≦*)o
 >
-> 如果使用旧版，文章内容会有些出入哦ヾ(•ω•`)o
+> 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
+> For older versions, the content will be sightly different. ヾ(•ω•\`)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -27,11 +28,15 @@ MCDiscordChat 已经更新到 1.11.4 - 2022/1/13 啦！
 
 MCDiscordChat (MCDC), a practical and powerful Fabric Minecraft <> Discord chat bridge
 
+{% tabs lang, 2 %}
+<!-- tab 中文 -->
 ## 简介
 
-[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric Minecraft <> Discord 跨服聊天工具，是 BRForgers/DisFabric 的功能补充和增强。
+[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric Minecraft <> Discord 跨服聊天工具，是
+BRForgers/DisFabric 的功能补充和增强。
 
-非常感谢 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 的原始源代码，该项目使用 Mozilla Public License 2.0 (MPL-2.0) 开源协议许可开源。
+非常感谢 [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) 的原始源代码，该项目使用 Mozilla Public License 2.0 (MPL-2.0)
+开源协议许可开源。
 
 ## 下载
 
@@ -40,6 +45,8 @@ MCDiscordChat (MCDC), a practical and powerful Fabric Minecraft <> Discord chat 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
 - [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
 - [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
+
+你可以在 [GitHub Actions](https://github.com/Xujiayao/MCDiscordChat/actions) 找到最新的构建 JAR 文件。
 
 ## 帮助
 
@@ -88,7 +95,7 @@ MCDiscordChat 支持以下游戏版本：
 MCDiscordChat 最新版本依赖以下运行环境：
 
 - Minecraft Server 1.17.x/1.18.x
-- Fabric Loader \>=0.12.11
+- Fabric Loader \>=0.13.3
 - Fabric API
 - Java \>=17
 
@@ -225,6 +232,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 |              msptLimit             |               50               | 【必选】服务器 MSPT 预警值                                                                                                                     |
 | removeVanillaFormattingFromDiscord |              false             | 【必选】是否用 & 替换 Discord 消息中的 § 符号以避免消息格式化                                                                                  |
 |      removeLineBreakFromDiscord    |              false             | 【必选】是否删除 Discord 消息中的换行符以避免刷屏                                                                                              |
+|           botCommandPrefix         |                !               | 【必选】Discord 机器人命令前缀                                                                                                                 |
 |           excludedCommands         |           [\"\/tell\"]         | 【可选】MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）                                                                         |
 |            superAdminsIds          |          [\"000001\"]          | 【必选】MCDiscordChat 超级管理员 ID 列表，拥有添加移出普通管理员的权限和普通管理员拥有的全部权限（可多于一个）                                 |
 |              adminsIds             |    [\"000002\", \"000003\"]    | 【可选】MCDiscordChat 普通管理员 ID 列表，拥有添加移出 MCDiscordChat 黑名单等操作的权限（可多于一个）                                          |
@@ -258,26 +266,11 @@ MCDiscordChat 最新版本依赖以下运行环境：
 <!-- endtab -->
 
 <!-- tab English -->
-MCDiscordChat has been updated to 1.11.4 - 2022/1/13!
-
-> This article was updated on February 16, 2022. The content is updated for the latest `Build` version. ヾ(≧▽≦*)o
->
-> For older versions, the content will be sightly different. ヾ(•ω•`)o
-
-<img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
-
-## MCDiscordChat
-
-{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
-
-MCDiscordChat (MCDC), a practical and powerful Fabric Minecraft <> Discord chat bridge
-
 ## Introduction
 
 [MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), a practical and powerful Fabric Minecraft <> Discord chat bridge that complements and enhances BRForgers/DisFabric.
 
-A big thanks to [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) for the original source code, which was
-licensed under the Mozilla Public License 2.0 (MPL-2.0).
+A big thanks to [BRForgers/DisFabric](https://github.com/BRForgers/DisFabric) for the original source code, which was licensed under the Mozilla Public License 2.0 (MPL-2.0).
 
 ## Download
 
@@ -286,6 +279,8 @@ All releases can be downloaded at the following sites:
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
 - [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
 - [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
+
+You can find the latest build JAR files at [GitHub Actions](https://github.com/Xujiayao/MCDiscordChat/actions).
 
 ## Support
 
@@ -334,7 +329,7 @@ MCDiscordChat supports the following Minecraft versions:
 The latest version of MCDiscordChat depends on the following environment.
 
 - Minecraft Server 1.17.x/1.18.x
-- Fabric Loader \>=0.12.11
+- Fabric Loader \>=0.13.3
 - Fabric API
 - Java \>=17
 
@@ -471,6 +466,7 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 |              msptLimit             |               50               | [Required] Server MSPT Limit                                                                                                                                  |
 | removeVanillaFormattingFromDiscord |              false             | [Required] Replaces the § symbol with & in any discord message to avoid formatted messages                                                                    |
 |      removeLineBreakFromDiscord    |              false             | [Required] Removes line break from any discord message to avoid spam                                                                                          |
+|           botCommandPrefix         |                !               | [Required] Discord bot command prefix                                                                                                                         |
 |           excludedCommands         |          [\"\/tell\"]          | [Optional] MCDiscordChat Excluded Commands List, do not process and send specified commands (can have more than one)                                          |
 |            superAdminsIds          |          [\"000001\"]          | [Required] MCDiscordChat Super Admin ID List, has permission to add and remove admins, and have all permissions admins have (can have more than one)          |
 |              adminsIds             |    [\"000002\", \"000003\"]    | [Optional] MCDiscordChat Admin ID List, has permission to modify blacklist, etc. (can have more than one)                                                     |
@@ -506,9 +502,45 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 
 ## 更新日志 Changelog
 
+### 1.12.0 - 2022/3/3
+
+MCDiscordChat 1.12.0 for Minecraft 1.17.x/1.18.x - 2022/3/3
+
+从此版本开始，更新日志将重新设计并同时使用中英文编写。
+Changelog will be redesigned and written in both Chinese and English starting from this version.
+
+#### 新特性 New Features
+
+- 可自定义 Discord 机器人命令前缀
+  Customizable Discord bot command prefix
+  @Xujiayao (#13)
+
+- 可广播服务器控制台日志
+  Broadcast server console log
+  @Xujiayao (#15)
+
+- 使用 GitHub Actions
+  Use GitHub Actions
+  @Xujiayao 
+
+#### 更改 Changes
+
+- 使用 OkHttp
+  Use OkHttp
+  @Xujiayao 
+
+#### 移除 Removed
+
+N/A
+
+#### 详细信息 Detailed Information
+
+https://github.com/Xujiayao/MCDiscordChat/compare/1.11.4...1.12.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 1.11.4 - 2022/1/13
 
-MCDiscordChat 1.11.4 for Minecraft 1.17.x/1.18.x - 2022/1/13（最新版本）
+MCDiscordChat 1.11.4 for Minecraft 1.17.x/1.18.x - 2022/1/13
 
 更新日志：
 
@@ -693,3 +725,4 @@ MCDiscordChat 1.6.0 for Minecraft 1.17.x - 2021/6/30
 MCDiscordChat 1.5.3 for Minecraft 1.16.x - 2021/6/13（首个公开发布的版本）
 
 首个公开发布的版本。
+{% endhideToggle %}

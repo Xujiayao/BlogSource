@@ -12,15 +12,15 @@ date: 2020-07-13 10:29:34
 >
 > 是老二次元了2333
 >
-> Minecraft Java Edition 玩家，Lazy_Craft 私人服务器初始成员，平时玩以下这些游戏：ヾ(≧▽≦*)o
+> 平时玩以下这些游戏：ヾ(≧▽≦*)o
 >
-> - Grand Theft Auto V
-> - Euro Truck Simulator 2
+> - Minecraft Java Edition (Lazy_Craft Private Server)
+> - Grand Theft Auto V (Online)
+> - Euro Truck Simulator 2 (TruckersMP)
 > - osu!
 > - osu!droid
-> - Minecraft Java Edition
-> - 东方风神录
-> - Rebel Inc. (Escalation)
+> - Prepar3D v5
+> - 东方风神录 ～ Mountain of Faith. (TH10)
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：
@@ -128,5 +128,7 @@ date: 2020-07-13 10:29:34
 - [ ] 时光沙漏
 - [ ] [吹响吧！上低音号](https://www.bilibili.com/bangumi/media/md1547/) 全系列
 - [ ] [大正少女御伽话](https://www.bilibili.com/bangumi/media/md28235177/)
+- [ ] [牵牛花与加濑同学。](https://www.bilibili.com/bangumi/media/md952544/)
+- [ ] [轻音少女](https://www.bilibili.com/bangumi/media/md28220978/) 全系列
 <!-- endtab -->
 {% endtabs %}
