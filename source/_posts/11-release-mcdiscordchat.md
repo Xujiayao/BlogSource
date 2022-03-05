@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.12.0 - 2022/3/3 啦！
+description: MCDiscordChat 已经更新到 1.12.1 - 2022/3/5 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat 已经更新到 1.12.0 - 2022/3/3 啦！
-MCDiscordChat has been updated to 1.12.0 - 2022/3/3!
+MCDiscordChat 已经更新到 1.12.1 - 2022/3/5 啦！
+MCDiscordChat has been updated to 1.12.1 - 2022/3/5!
 
-> 本文更新于 2022 年 3 月 4 日，文章的内容针对最新 `Build` 版更新ヾ(≧▽≦*)o
-> This article was updated on March 4, 2022. The content is updated for the latest `Build` version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 3 月 5 日，文章的内容针对最新 `Build` 版更新ヾ(≧▽≦*)o
+> This article was updated on March 5, 2022. The content is updated for the latest `Build` version. ヾ(≧▽≦*)o
 >
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
 > For older versions, the content will be sightly different. ヾ(•ω•\`)o
@@ -502,6 +502,29 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 
 ## 更新日志 Changelog
 
+### 1.12.1 - 2022/3/5
+
+MCDiscordChat 1.12.1 for Minecraft 1.17.x/1.18.x - 2022/3/5
+
+#### 新特性 New Features
+
+N/A
+
+#### 更改 Changes
+
+- 修复使用 1.18.2 时 Mixin 注入失败的问题
+  Fix Mixin injection failure when using 1.18.2
+  @Xujiayao (#16)
+
+#### 移除 Removed
+
+N/A
+
+#### 详细信息 Detailed Information
+
+https://github.com/Xujiayao/MCDiscordChat/compare/1.12.0...1.12.1
+
+{% hideToggle 旧版本 Older Versions %}
 ### 1.12.0 - 2022/3/3
 
 MCDiscordChat 1.12.0 for Minecraft 1.17.x/1.18.x - 2022/3/3
@@ -537,7 +560,6 @@ N/A
 
 https://github.com/Xujiayao/MCDiscordChat/compare/1.11.4...1.12.0
 
-{% hideToggle 旧版本 Older Versions %}
 ### 1.11.4 - 2022/1/13
 
 MCDiscordChat 1.11.4 for Minecraft 1.17.x/1.18.x - 2022/1/13
