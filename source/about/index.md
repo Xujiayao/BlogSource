@@ -130,5 +130,7 @@ date: 2020-07-13 10:29:34
 - [ ] [大正少女御伽话](https://www.bilibili.com/bangumi/media/md28235177/)
 - [ ] [牵牛花与加濑同学。](https://www.bilibili.com/bangumi/media/md952544/)
 - [ ] [轻音少女](https://www.bilibili.com/bangumi/media/md28220978/) 全系列
+- [ ] [境界的彼方](https://www.bilibili.com/bangumi/media/md3365/) 全系列
+- [ ] 甘城光辉游乐园
 <!-- endtab -->
 {% endtabs %}
