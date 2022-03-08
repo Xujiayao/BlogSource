@@ -132,5 +132,7 @@ date: 2020-07-13 10:29:34
 - [ ] [轻音少女](https://www.bilibili.com/bangumi/media/md28220978/) 全系列
 - [ ] [境界的彼方](https://www.bilibili.com/bangumi/media/md3365/) 全系列
 - [ ] 甘城光辉游乐园
+- [ ] 安达与岛村
+- [ ] [龙与虎](https://www.bilibili.com/bangumi/media/md1672/)
 <!-- endtab -->
 {% endtabs %}
