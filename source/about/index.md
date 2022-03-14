@@ -68,6 +68,7 @@ date: 2020-07-13 10:29:34
 - [x] [我的妹妹不可能那么可爱 第二季](https://www.bilibili.com/bangumi/media/md2661/)
 - [x] 漫画家与助手（目前哔哩哔哩已下架）
 - [x] [笨女孩](https://www.bilibili.com/bangumi/media/md6311/)
+- [x] 机巧少女不会受伤
 - [x] [樱花庄的宠物女孩](https://www.bilibili.com/bangumi/media/md687/)
 - [x] [青春猪头少年不会梦到兔女郎学姐](https://www.bilibili.com/bangumi/media/md134932/)
 - [x] [青春猪头少年不会梦到怀梦美少女](https://www.bilibili.com/bangumi/media/md28223480/)
