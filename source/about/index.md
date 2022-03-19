@@ -75,14 +75,14 @@ date: 2020-07-13 10:29:34
 - [x] [<font color='orange'>**博客文章点此**</font>](/posts/1da6e446/) [Charlotte](https://www.bilibili.com/bangumi/media/md2572/)
 - [x] [<font color='orange'>**博客文章点此**</font>](/posts/1da6e446/) [Charlotte SP (TV 未放送第 14 话)](https://www.bilibili.com/bangumi/play/ep100895/)
 - [x] [<font color='orange'>**博客文章点此**</font>](/posts/d69370a/) [可塑性记忆](https://www.bilibili.com/bangumi/media/md1552/)
-- [x] <font color='ForestGreen'>**敬请期待**</font> [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
+- [x] [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
 - [x] 租借女友 / [出租女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28229298/)
 - [x] [侦探已死](https://www.bilibili.com/bangumi/media/md28234637/) / [偵探已經，死了。（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28234730/)
 - [x] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)
 - [x] [我女友与青梅竹马的惨烈修罗场](https://www.bilibili.com/bangumi/media/md2667/)
 - [x] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235116/) / [前輩有夠煩（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28235216/)
 - [x] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
-- [x] <font color='YellowGreen'>**考虑中**</font> [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
+- [x] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -135,5 +135,7 @@ date: 2020-07-13 10:29:34
 - [ ] 甘城光辉游乐园
 - [ ] 安达与岛村
 - [ ] [龙与虎](https://www.bilibili.com/bangumi/media/md1672/)
+- [ ] [声之形](https://www.bilibili.com/bangumi/media/md12116/)
+- [ ] [月色真美](https://www.bilibili.com/bangumi/media/md5989/)
 <!-- endtab -->
 {% endtabs %}
