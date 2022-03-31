@@ -21,11 +21,12 @@ date: 2020-07-13 10:29:34
 > - osu!droid
 > - Prepar3D v5
 > - 东方风神录 ～ Mountain of Faith. (TH10)
+> - PUBG: BATTLEGROUNDS
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前在维护这两个项目（GitHub）：
 > - [MCDiscordChat (MCDC)](https://github.com/Xujiayao/MCDiscordChat)
-> - [LazyToolkit](https://github.com/Xujiayao/LazyToolkit)
+> - [~~LazyToolkit~~](https://github.com/Xujiayao/LazyToolkit)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
 > 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
@@ -88,6 +89,8 @@ date: 2020-07-13 10:29:34
 <!-- tab 暂未观看 -->
 不分先后次序 =￣ω￣=
 
+- [ ] 再看一遍《萤火虫之墓》
+- [ ] 再看一遍宫崎骏的那些动画电影
 - [ ] [名侦探柯南](https://www.bilibili.com/bangumi/media/md28228775/) / [名侦探柯南（中配）](https://www.bilibili.com/bangumi/media/md28228813/)
 - [ ] [紫罗兰永恒花园](https://www.bilibili.com/bangumi/media/md8892/)
 - [ ] [约会大作战](https://www.bilibili.com/bangumi/media/md4188/) 全系列
