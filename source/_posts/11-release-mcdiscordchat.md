@@ -36,6 +36,10 @@ MCDiscordChat (MCDC), a practical and powerful Fabric Minecraft <> Discord chat 
 
 MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说明你使用的确切版本。
 
+![0001.png](/file/posts/4ba0a17a/0001.png)
+
+![001.png](/file/posts/4ba0a17a/001.png)
+
 ## 简介
 
 [MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
@@ -63,6 +67,7 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
     - 可自定义 Webhook 玩家头像 API
   - 支持游戏内 Markdown 解析
   - 支持游戏内使用默认和服务器表情符号
+  - 支持游戏内显示 Discord 用户身份组颜色
   - 支持游戏内提及 (@) Discord 用户
   - 可广播玩家指令执行
   - 可广播服务器控制台日志
@@ -117,19 +122,21 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ### 安装
 
-前往 [上述站点](/posts/4ba0a17a/#下载) 下载 MCDiscordChat 最新版本（Latest release），只需下载后缀名为 `.jar` 的文件。
+前往 [上述站点](/posts/4ba0a17a/#下载) 下载 MCDiscordChat 最新版本（Latest release），只需下载对应 Minecraft 版本后缀名为 `.jar` 的文件。
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
+![02.png](/file/posts/4ba0a17a/02.png)
+
 将下载下来的文件移动到 Minecraft 服务器的 `mods` 文件夹即可。
 
-![02.png](/file/posts/4ba0a17a/02.png)
+![03.png](/file/posts/4ba0a17a/03.png)
 
 ### 配置 Discord 机器人
 
 前往 Discord Developer Portal 的 [Applications 页面](https://discord.com/developers/applications)，然后点击右上角的 `New Application` 按钮创建新应用。
 
-![03.png](/file/posts/4ba0a17a/03.png)
+![04.png](/file/posts/4ba0a17a/04.png)
 
 给应用命名，然后点击 `Create` 按钮创建。
 
@@ -140,15 +147,15 @@ MCDiscordChat 最新版本依赖以下运行环境：
 >
 > 没有格式限制。
 
-![04.png](/file/posts/4ba0a17a/04.png)
+![05.png](/file/posts/4ba0a17a/05.png)
 
 可以改一下应用的头像和描述，其余资料无需修改。
 
-![05.png](/file/posts/4ba0a17a/05.png)
+![06.png](/file/posts/4ba0a17a/06.png)
 
 转到 `Bot` 选项卡，然后点击右上角的 `Add Bot` 创建机器人。
 
-![06.png](/file/posts/4ba0a17a/06.png)
+![07.png](/file/posts/4ba0a17a/07.png)
 
 可以改一下机器人的头像和用户名。保存机器人令牌，后面会用到。
 
@@ -159,33 +166,33 @@ MCDiscordChat 最新版本依赖以下运行环境：
 >
 > 没有格式限制。
 
-![07.png](/file/posts/4ba0a17a/07.png)
+![08.png](/file/posts/4ba0a17a/08.png)
 
 设置 `Authorization Flow` 和 `Privileged Gateway Intents`，参考下图：
 
-![08.png](/file/posts/4ba0a17a/08.png)
+![09.png](/file/posts/4ba0a17a/09.png)
 
 至此，机器人创建完成，但它实际上不在任何服务器中。
 
 转到 `OAuth2 -> URL Generator` 选项卡，勾选 `SCOPES` 下的 `bot` 和 `applications.commands` 复选框。
 
-![09.png](/file/posts/4ba0a17a/09.png)
+![10.png](/file/posts/4ba0a17a/10.png)
 
 在 `BOT PERMISSIONS` 下勾选机器人运行所需的权限，参考下图：
 
-![10.png](/file/posts/4ba0a17a/10.png)
+![11.png](/file/posts/4ba0a17a/11.png)
 
 检查 `GENERATED URL` 生成的邀请链接中包含的数值是否与下图相符。确认无误后，点击右侧的 `Copy` 按钮复制链接。
 
-![11.png](/file/posts/4ba0a17a/11.png)
+![12.png](/file/posts/4ba0a17a/12.png)
 
 将复制的链接粘贴到浏览器中。选择要邀请机器人进入的 Discord 服务器，然后点击 `授权` 按钮。
 
 > 邀请机器人需要拥有该服务器的 `管理服务器` 权限。
 
-![12.png](/file/posts/4ba0a17a/12.png)
-
 ![13.png](/file/posts/4ba0a17a/13.png)
+
+![14.png](/file/posts/4ba0a17a/14.png)
 
 至此，机器人配置完毕。
 
@@ -195,11 +202,11 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > 没有格式限制。
 
-![14.png](/file/posts/4ba0a17a/14.png)
+![15.png](/file/posts/4ba0a17a/15.png)
 
 打开 `服务器设置`，转到 `整合` 选项卡，然后点击 `创建 Webhook` 按钮创建一个新的 Webhook。
 
-![15.png](/file/posts/4ba0a17a/15.png)
+![16.png](/file/posts/4ba0a17a/16.png)
 
 可以改一下 Webhook 的头像和名称，频道选择刚刚创建的文字频道。
 
@@ -207,7 +214,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 按 `复制 Webhook URL` 按钮复制并保存 Webhook 链接，后面会用到。
 
-![16.png](/file/posts/4ba0a17a/16.png)
+![17.png](/file/posts/4ba0a17a/17.png)
 
 至此，Webhook 配置完毕。
 
@@ -215,9 +222,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 安装 MCDiscordChat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `mcdiscordchat.json` 的文件，需要在再次启动服务器前编辑 `mcdiscordchat.json` 以配置 MCDiscordChat：
 
-![17.png](/file/posts/4ba0a17a/17.png)
-
 ![18.png](/file/posts/4ba0a17a/18.png)
+
+![19.png](/file/posts/4ba0a17a/19.png)
 
 ### 配置 MCDiscordChat
 
@@ -307,6 +314,10 @@ I highly recommend you update MCDC and take advantage of the new features! Bug r
 
 MCDC is completely rewritten, so there may be some bugs. Please state the exact version you are using when reporting an issue.
 
+![0001.png](/file/posts/4ba0a17a/0001.png)
+
+![001.png](/file/posts/4ba0a17a/001.png)
+
 ## Introduction
 
 [MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), a practical and powerful Fabric Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
@@ -335,6 +346,7 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
   - Support in-game Markdown parsing
   - Support using default and server emoji in-game
   - Support in-game mentions (@) Discord users
+  - Support in-game display of Discord user role colour
   - Broadcast player command execution
   - Broadcast server console log
 - Server Commands available
@@ -388,19 +400,21 @@ The latest version of MCDiscordChat depends on the following environment:
 
 ### Install
 
-Go to one of the [above sites](/posts/4ba0a17a/#Download) to download the latest release of MCDiscordChat. You only need to download the file with the extension `.jar`.
+Go to one of the [above sites](/posts/4ba0a17a/#Download) to download the latest release of MCDiscordChat. You only need to download the file with the extension `.jar` for your Minecraft version.
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
+![02.png](/file/posts/4ba0a17a/02.png)
+
 Move the downloaded file to the `mods` folder of your Minecraft Server.
 
-![02.png](/file/posts/4ba0a17a/02.png)
+![03.png](/file/posts/4ba0a17a/03.png)
 
 ### Setup Discord Bot
 
 Go to [Applications Page](https://discord.com/developers/applications) of Discord Developer Portal, then click the `New Application` button in the upper right corner to create a new application.
 
-![03.png](/file/posts/4ba0a17a/03.png)
+![04.png](/file/posts/4ba0a17a/04.png)
 
 Give a name and click the `Create` button to create it.
 
@@ -411,15 +425,15 @@ Give a name and click the `Create` button to create it.
 >
 > No format restrictions.
 
-![04.png](/file/posts/4ba0a17a/04.png)
+![05.png](/file/posts/4ba0a17a/05.png)
 
 You can change the icon and description of the application. The rest does not need to be modified.
 
-![05.png](/file/posts/4ba0a17a/05.png)
+![06.png](/file/posts/4ba0a17a/06.png)
 
 Go to `Bot` tab and click `Add Bot` in the upper right corner to create a bot.
 
-![06.png](/file/posts/4ba0a17a/06.png)
+![07.png](/file/posts/4ba0a17a/07.png)
 
 You can change the icon and description of the bot. Save the bot token, it will be used later.
 
@@ -430,33 +444,33 @@ You can change the icon and description of the bot. Save the bot token, it will 
 >
 > No format restrictions.
 
-![07.png](/file/posts/4ba0a17a/07.png)
+![08.png](/file/posts/4ba0a17a/08.png)
 
 Set `Authorization Flow` and `Privileged Gateway Intents`, refer to the following figure:
 
-![08.png](/file/posts/4ba0a17a/08.png)
+![09.png](/file/posts/4ba0a17a/09.png)
 
 At this point, the bot is created, but it is not actually in any discord server.
 
 Go to `OAuth2 -> URL Generator` tab, check the `bot` and `applications.commands` checkboxes under `SCOPES`.
 
-![09.png](/file/posts/4ba0a17a/09.png)
+![10.png](/file/posts/4ba0a17a/10.png)
 
 Under `BOT PERMISSIONS`, check the permissions required for the bot, refer to the figure below:
 
-![10.png](/file/posts/4ba0a17a/10.png)
+![11.png](/file/posts/4ba0a17a/11.png)
 
 Check that the values contained in the invitation link generated in the `GENERATED URL` match the image below. After confirmation, click the `Copy` button on the right to copy the link.
 
-![11.png](/file/posts/4ba0a17a/11.png)
+![12.png](/file/posts/4ba0a17a/12.png)
 
 Paste the copied link into the browser. Select the Discord server you want to invite the bot to, then click the `Authorize` button.
 
 > Inviting bots requires `Manage Server` permission in the server.
 
-![12.png](/file/posts/4ba0a17a/12.png)
-
 ![13.png](/file/posts/4ba0a17a/13.png)
+
+![14.png](/file/posts/4ba0a17a/14.png)
 
 At this point, the Discord Bot setup is completed.
 
@@ -466,11 +480,11 @@ First create a text channel. It is recommended to name it `in-game-chat` or `ser
 
 > No format restrictions.
 
-![14.png](/file/posts/4ba0a17a/14.png)
+![15.png](/file/posts/4ba0a17a/15.png)
 
 Open `Server Settings`, go to `Integrations` tab, and click the `New Webhook` button to create a new Webhook.
 
-![15.png](/file/posts/4ba0a17a/15.png)
+![16.png](/file/posts/4ba0a17a/16.png)
 
 You can change the avatar and name of the Webhook. For channel, select the text channel you just created.
 
@@ -478,7 +492,7 @@ You can change the avatar and name of the Webhook. For channel, select the text 
 
 Click the `Copy Webhook URL` button and save the Webhook URL, it will be used later.
 
-![16.png](/file/posts/4ba0a17a/16.png)
+![17.png](/file/posts/4ba0a17a/17.png)
 
 At this point, the Webhook setup is completed.
 
@@ -486,9 +500,9 @@ At this point, the Webhook setup is completed.
 
 After installing MCDiscordChat, when the server is started for the first time, the following error will appear, and a file named `mcdiscordchat.json` will be generated in the `config` folder. You have to edit the file `mcdiscordchat.json` to setup MCDiscordChat before starting the server again:
 
-![17.png](/file/posts/4ba0a17a/17.png)
-
 ![18.png](/file/posts/4ba0a17a/18.png)
+
+![19.png](/file/posts/4ba0a17a/19.png)
 
 ### Setup MCDiscordChat
 
