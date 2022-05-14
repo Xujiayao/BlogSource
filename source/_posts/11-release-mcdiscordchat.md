@@ -292,7 +292,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`true`
 说明：是否在服务器 MSPT 高于预警值时发出通知
 
-14. `【必选】` msptCheckInterval
+14. `【可选】` msptCheckInterval
 示例 / 默认值：`5000`
 说明：自定义 MSPT 检查间隔
 
@@ -308,7 +308,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
-18. `【必选】` channelTopicUpdateInterval
+18. `【可选】` channelTopicUpdateInterval
 示例 / 默认值：`true`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
@@ -380,13 +380,17 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
 
 - Support multi-server mode (multi-server operation on the same Discord channel)
 - Support multiple languages (English / Chinese)
+- Support displaying server status using Discord channel topic feature
 - Minecraft <> Discord cross server chat
   - Support Discord Webhook feature
     - Customizable Webhook Avatar API
   - Support in-game Markdown parsing
-  - Support using default and server emoji in-game
-  - Support in-game mentions (@) Discord users
+  - Support highlighting and using default and server emoji in-game
+  - Support highlighting and mentions (@) in-game
+    - Support disabling mentions (@) in-game
+  - Support highlighting and opening hyperlinks in-game
   - Support in-game display of Discord user role colour
+  - Support in-game display of response messages
   - Broadcast player command execution
   - Broadcast server console log
 - Server Commands available
@@ -400,18 +404,24 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
     - /console \<command\>     | Execute a command in the server console (admin only)
     - /log                     | Get the latest server log (admin only)
     - /stop                    | Stop the server (admin only)
-- Customizable message format
-  - Server started
-  - Server stopped
-  - Player joined server
-  - Player left server
-  - Player reached a progress / achieved a goal / completed a challenge
-  - Player died
-  - Server MSPT is higher than a certain value
-  - Server sent a console log message
+- Fully customizable message format
+  - In-game
+    - Chat messages from Discord
+    - Response messages from Discord
+    - Messages from other servers
+  - Discord
+    - Server started
+    - Server stopped
+    - Player joined server
+    - Player left server
+    - Player reached a progress / achieved a goal / completed a challenge
+    - Player died
+    - Server MSPT is higher than a certain value
+    - Server sent a console log message
 - Use admin list to configure user permissions to use special commands
 - Support Hot Reloading of the config file
-- Check for updates
+- Support backup every time the config file is loaded
+- Check for updates regularly
 
 ## Contributors
 
@@ -520,11 +530,9 @@ First create a text channel. It is recommended to name it `in-game-chat` or `ser
 
 > No format restrictions.
 
-![15.png](/file/posts/4ba0a17a/15.png)
-
 Open `Server Settings`, go to `Integrations` tab, and click the `New Webhook` button to create a new Webhook.
 
-![16.png](/file/posts/4ba0a17a/16.png)
+![15.png](/file/posts/4ba0a17a/15.png)
 
 You can change the avatar and name of the Webhook. For channel, select the text channel you just created.
 
@@ -532,7 +540,7 @@ You can change the avatar and name of the Webhook. For channel, select the text 
 
 Click the `Copy Webhook URL` button and save the Webhook URL, it will be used later.
 
-![17.png](/file/posts/4ba0a17a/17.png)
+![16.png](/file/posts/4ba0a17a/16.png)
 
 At this point, the Webhook setup is completed.
 
@@ -540,9 +548,9 @@ At this point, the Webhook setup is completed.
 
 After installing MCDiscordChat, when the server is started for the first time, the following error will appear, and a file named `mcdiscordchat.json` will be generated in the `config` folder. You have to edit the file `mcdiscordchat.json` to setup MCDiscordChat before starting the server again:
 
-![18.png](/file/posts/4ba0a17a/18.png)
+![17.png](/file/posts/4ba0a17a/17.png)
 
-![19.png](/file/posts/4ba0a17a/19.png)
+![18.png](/file/posts/4ba0a17a/18.png)
 
 ### Setup MCDiscordChat
 
@@ -586,19 +594,47 @@ Description: URL of the Avatar API for Webhook
 Example / Default value: `true`
 Description: Whether to broadcast player command execution
 
+9. `[Required]` allowMentions
+Example / Default value: `true`
+Description: Whether to allow in-game mentions (@)
+
+9. `[Required]` modifyChatMessages
+Example / Default value: `true`
+Description: Whether to modify in-game chat messages
+
+9. `[Required]` useServerNickname
+Example / Default value: `true`
+Description: Whether to display Discord server nickname
+
 10. `[Required]` announceHighMspt
 Example / Default value: `true`
 Description: Whether to announce when the server MSPT is higher than the MSPT Limit
+
+11. `[Optional]` msptCheckInterval
+Example / Default value: `5000`
+Description: Customize MSPT check interval
 
 11. `[Optional]` msptLimit
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-12. `[Optional]` excludedCommands
+9. `[Required]` mentionAdmins
+Example / Default value: `true`
+Description: Whether to allow mentions (@) of MCDiscordChat admins
+
+9. `[Required]` updateChannelTopic
+Example / Default value: `true`
+Description: Whether to display server status using Discord channel topic feature
+
+9. `[Optional]` channelTopicUpdateInterval
+Example / Default value: `true`
+Description: Customize update server status using Discord channel topic interval
+
+19. `[Optional]` excludedCommands
 Example / Default value: `["/tell"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-13. `[Required]` adminsIds
+20. `[Required]` adminsIds
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List, have permission to use special commands (can be more than one)
 
@@ -620,9 +656,13 @@ Description: The port used for multi-server communication (if you don't know wha
 Example / Default value: `SMP`
 Description: Minecraft server name displayed when using multi-server mode
 
+4. `[Optional]` botIds
+Example / Default value: `["/123456789"]`
+Description: IDs of all MCDiscordChat bots (right click on the bot to copy the ID, you have to turn on developer mode in Discord settings)
+
 > TextsZH / TextsEN (Multi-language custom message format)
 >
-> Can be modified freely, but keep the `%xxx%` placeholders.
+> Can modify freely, but keep the `%xxx%` placeholders.
 <!-- endtab -->
 {% endtabs %}
 
