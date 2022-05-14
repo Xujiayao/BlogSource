@@ -312,14 +312,11 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: https://comments.xujiayao.top # Waline server address url
-  avatar: mp # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-  avatarCDN: # Gravatar CDN baseURL
   bg: /file/comment_bg.png # waline background
   pageview: false
   option:
     login: force
-    # uploadImage: false
-    placeholder: "大侠请留步，留下评论再走也不迟 \\(￣︶￣*\\))\n注册需要验证邮箱，记得填写正确的资料，这样才能收到邮件通知哦 ヾ(•ω•`)o\n若登录后没有自动返回到此页面，请更换浏览器访问（已知微信会出问题）（＞人＜；）"
+    locale: {placeholder: '大侠请留步，留下评论再走也不迟 \(￣︶￣*\))        （注册需要验证邮箱，记得填写正确的资料）'}
 
 # utterances
 # https://utteranc.es/
