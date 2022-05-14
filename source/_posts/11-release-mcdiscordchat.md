@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.1 - 2022/3/31 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.2 - 2022/5/14 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.1 - 2022/3/31!
-MCDiscordChat 已经更新到 2.0.0-alpha.1 - 2022/3/31 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.2 - 2022/5/14!
+MCDiscordChat 已经更新到 2.0.0-alpha.2 - 2022/5/14 啦！
 
-> This article was updated on March 31, 2022. The content is updated for the latest `Build` version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 3 月 31 日，文章的内容针对最新 `Build` 版更新ヾ(≧▽≦*)o
+> This article was updated on May 14, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 5 月 14 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•\`)o
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
@@ -62,13 +62,17 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
 
 - 支持多服务器模式（同 Discord 频道多服务器运行 MCDC）
 - 支持多语言（英文 / 中文）
+- 支持使用 Discord 频道主题功能显示服务器状态
 - Minecraft <> Discord 跨服聊天
   - 支持 Discord Webhook 功能
     - 可自定义 Webhook 玩家头像 API
   - 支持游戏内 Markdown 解析
-  - 支持游戏内使用默认和服务器表情符号
-  - 支持游戏内提及 (@) Discord 用户
+  - 支持游戏内高亮和使用默认和服务器表情符号
+  - 支持游戏内高亮和提及 (@)
+    - 支持禁用游戏内提及 (@)
+  - 支持游戏内高亮和打开超链接
   - 支持游戏内显示 Discord 用户身份组颜色
+  - 支持游戏内显示回复的消息
   - 可广播玩家指令执行
   - 可广播服务器控制台日志
 - 可使用服务器命令
@@ -82,18 +86,24 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
     - /log                     | 获取服务器最新日志（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
-- 可自定义消息格式
-  - 在服务器自动时
-  - 在服务器关闭时
-  - 在玩家加入服务器时
-  - 在玩家离开服务器时
-  - 在玩家达成进度 / 达成目标 / 完成挑战时
-  - 在玩家死亡时
-  - 在服务器 MSPT 高于预警值时
-  - 在服务器发送控制台日志消息时
+- 可完全自定义所有消息格式
+  - 游戏内
+    - 来自 Discord 的聊天消息
+    - 来自 Discord 的回复消息
+    - 来自其它服务器的消息
+  - Discord
+    - 在服务器自动时
+    - 在服务器关闭时
+    - 在玩家加入服务器时
+    - 在玩家离开服务器时
+    - 在玩家达成进度 / 达成目标 / 完成挑战时
+    - 在玩家死亡时
+    - 在服务器 MSPT 高于预警值时
+    - 在服务器发送控制台日志消息时
 - 可使用管理员名单配置用户使用特殊命令的权限
 - 支持配置文件热重载
-- 检查更新
+- 支持每次加载配置文件时进行备份
+- 定期检查更新
 
 ## 贡献者
 
@@ -202,11 +212,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > 没有格式限制。
 
-![15.png](/file/posts/4ba0a17a/15.png)
-
 打开 `服务器设置`，转到 `整合` 选项卡，然后点击 `创建 Webhook` 按钮创建一个新的 Webhook。
 
-![16.png](/file/posts/4ba0a17a/16.png)
+![15.png](/file/posts/4ba0a17a/15.png)
 
 可以改一下 Webhook 的头像和名称，频道选择刚刚创建的文字频道。
 
@@ -214,7 +222,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 按 `复制 Webhook URL` 按钮复制并保存 Webhook 链接，后面会用到。
 
-![17.png](/file/posts/4ba0a17a/17.png)
+![16.png](/file/posts/4ba0a17a/16.png)
 
 至此，Webhook 配置完毕。
 
@@ -222,9 +230,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 安装 MCDiscordChat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `mcdiscordchat.json` 的文件，需要在再次启动服务器前编辑 `mcdiscordchat.json` 以配置 MCDiscordChat：
 
-![18.png](/file/posts/4ba0a17a/18.png)
+![17.png](/file/posts/4ba0a17a/17.png)
 
-![19.png](/file/posts/4ba0a17a/19.png)
+![18.png](/file/posts/4ba0a17a/18.png)
 
 ### 配置 MCDiscordChat
 
@@ -268,19 +276,47 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`true`
 说明：是否广播玩家指令执行
 
-10. `【必选】` announceHighMspt
+10. `【必选】` allowMentions
+示例 / 默认值：`true`
+说明：是否允许游戏内提及 (@)
+
+11. `【必选】` modifyChatMessages
+示例 / 默认值：`true`
+说明：是否修改游戏内聊天消息
+
+12. `【必选】` useServerNickname
+示例 / 默认值：`true`
+说明：是否显示 Discord 服务器昵称
+
+13. `【必选】` announceHighMspt
 示例 / 默认值：`true`
 说明：是否在服务器 MSPT 高于预警值时发出通知
 
-11. `【可选】` msptLimit
+14. `【必选】` msptCheckInterval
+示例 / 默认值：`5000`
+说明：自定义 MSPT 检查间隔
+
+15. `【可选】` msptLimit
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-12. `【可选】` excludedCommands
+16. `【必选】` mentionAdmins
+示例 / 默认值：`true`
+说明：是否允许提及 MCDiscordChat 管理员
+
+17. `【必选】` updateChannelTopic
+示例 / 默认值：`true`
+说明：是否使用 Discord 频道主题功能显示服务器状态
+
+18. `【必选】` channelTopicUpdateInterval
+示例 / 默认值：`true`
+说明：自定义 Discord 频道主题更新服务器状态的间隔
+
+19. `【可选】` excludedCommands
 示例 / 默认值：`["/tell"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-13. `【必选】` adminsIds
+20. `【必选】` adminsIds
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表，拥有使用特殊命令的权限（可多于一个）
 
@@ -301,6 +337,10 @@ MCDiscordChat 最新版本依赖以下运行环境：
 4. `【可选】` name
 示例 / 默认值：`SMP`
 说明：使用多服务器模式时显示的 Minecraft 服务器名称
+
+5. `【可选】` botIds
+示例 / 默认值：`["/123456789"]`
+说明：所有 MCDiscordChat 机器人的 ID（右键机器人即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
 > TextsZH / TextsEN 多语言自定义消息格式
 >
