@@ -1,0 +1,27 @@
+#recent-posts > .recent-post-item {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.card-widget {
+  background: rgba(255, 255, 255, 0.75) !important;
+}
+
+div#post {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+div#page {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+div#archive {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+div#tag {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+div#category {
+  background: rgba(255, 255, 255, 0.75);
+}
