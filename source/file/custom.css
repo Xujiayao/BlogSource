@@ -1,27 +1,62 @@
 #recent-posts > .recent-post-item {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .card-widget {
-  background: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
 }
 
 div#post {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 div#page {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 div#archive {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 div#tag {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 div#category {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"]
+#recent-posts > .recent-post-item {
+  background: rgba(18, 18, 18, 0.7);
+}
+
+[data-theme="dark"]
+.card-widget {
+  background: rgba(18, 18, 18, 0.7) !important;
+}
+
+[data-theme="dark"]
+div#post {
+  background: rgba(18, 18, 18, 0.7);
+}
+
+[data-theme="dark"]
+div#page {
+  background: rgba(18, 18, 18, 0.7);
+}
+
+[data-theme="dark"]
+div#archive {
+  background: rgba(18, 18, 18, 0.7);
+}
+
+[data-theme="dark"]
+div#tag {
+  background: rgba(18, 18, 18, 0.7);
+}
+
+[data-theme="dark"]
+div#category {
+  background: rgba(18, 18, 18, 0.7);
 }
