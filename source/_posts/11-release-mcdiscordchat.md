@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.2 - 2022/5/14 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.3 - 2022/6/10 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.2 - 2022/5/14!
-MCDiscordChat 已经更新到 2.0.0-alpha.2 - 2022/5/14 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.3 - 2022/6/10!
+MCDiscordChat 已经更新到 2.0.0-alpha.3 - 2022/6/10 啦！
 
-> This article was updated on May 14, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 5 月 14 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
+> This article was updated on June 10, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 6 月 10 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•\`)o
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
@@ -66,6 +66,7 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
 - Minecraft <> Discord 跨服聊天
   - 支持 Discord Webhook 功能
     - 可自定义 Webhook 玩家头像 API
+	- 未填写 Webhook URL 时使用机器人自身发送聊天消息
   - 支持游戏内 Markdown 解析
   - 支持游戏内高亮和使用默认和服务器表情符号
   - 支持游戏内高亮和提及 (@)
@@ -74,6 +75,7 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
   - 支持游戏内显示 Discord 用户身份组颜色
   - 支持游戏内显示回复的消息
   - 可广播玩家指令执行
+    - 执行指令的玩家也可以看到自己执行的指令
   - 可广播服务器控制台日志
 - 可使用服务器命令
   - 普通命令
@@ -102,7 +104,7 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
     - 在服务器发送控制台日志消息时
 - 可使用管理员名单配置用户使用特殊命令的权限
 - 支持配置文件热重载
-- 支持每次加载配置文件时进行备份
+  - 每次加载配置文件时进行备份
 - 定期检查更新
 
 ## 贡献者
@@ -118,11 +120,12 @@ MCDiscordChat 支持以下游戏版本：
 - Minecraft 1.16.x
 - Minecraft 1.17.x
 - Minecraft 1.18.x
+- Minecraft 1.19.x
 
 MCDiscordChat 最新版本依赖以下运行环境：
 
-- Minecraft Server 1.16.x/1.17.x/1.18.x
-- Fabric Loader \>=0.13.3
+- Minecraft Server 1.17.x/1.18.x/1.19.x
+- Fabric Loader \>=0.14.7
 - Fabric API
 - Java \>=17
 
@@ -384,6 +387,7 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
 - Minecraft <> Discord cross server chat
   - Support Discord Webhook feature
     - Customizable Webhook Avatar API
+	- Use the bot itself to send chat messages when Webhook URL is not filled
   - Support in-game Markdown parsing
   - Support highlighting and using default and server emoji in-game
   - Support highlighting and mentions (@) in-game
@@ -392,6 +396,7 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
   - Support in-game display of Discord user role colour
   - Support in-game display of response messages
   - Broadcast player command execution
+    - Players who execute commands can also see the commands themselves
   - Broadcast server console log
 - Server Commands available
   - Normal Commands
@@ -420,7 +425,7 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
     - Server sent a console log message
 - Use admin list to configure user permissions to use special commands
 - Support Hot Reloading of the config file
-- Support backup every time the config file is loaded
+  - Backup every time the config file is loaded
 - Check for updates regularly
 
 ## Contributors
@@ -436,11 +441,12 @@ MCDiscordChat supports the following Minecraft versions:
 - Minecraft 1.16.x
 - Minecraft 1.17.x
 - Minecraft 1.18.x
+- Minecraft 1.19.x
 
 The latest version of MCDiscordChat depends on the following environment:
 
-- Minecraft Server 1.16.x/1.17.x/1.18.x
-- Fabric Loader \>=0.13.3
+- Minecraft Server 1.17.x/1.18.x/1.19.x
+- Fabric Loader \>=0.14.7
 - Fabric API
 - Java \>=17
 
@@ -668,6 +674,42 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.3 - 2022/6/10
+
+> #### MCDiscordChat 2.0.0-alpha.3 for Minecraft 1.17.x/1.18.x/1.19.x - 2022/6/10
+> 
+> #### New Features 新特性
+> 
+> - Version 1.19.x supported
+>   支持 1.19.x 版本
+> 
+> - Players who execute commands can also see the commands themselves
+>   执行指令的玩家也可以看到自己执行的指令
+> 
+> - Use the bot itself to send chat messages when Webhook URL is not filled (#36)
+>   未填写 Webhook URL 时使用机器人自身发送聊天消息
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> - Version 1.16.x is no longer supported
+>   不再支持 1.16.x 版本
+> 
+> - Check for updates is no longer compatible with MCDC v1 versions
+>   检查更新不再兼容 MCDC v1 版本
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.2...2.0.0-alpha.3
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.2 - 2022/5/14
 
 > #### MCDiscordChat 2.0.0-alpha.2 for Minecraft 1.16.x/1.17.x/1.18.x - 2022/5/14
@@ -752,7 +794,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.1...2.0.0-alpha.2
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.1 - 2022/3/31
 
 > #### 🥳 Welcome to MCDC v2!
