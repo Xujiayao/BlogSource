@@ -342,7 +342,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 说明：使用多服务器模式时显示的 Minecraft 服务器名称
 
 5. `【可选】` botIds
-示例 / 默认值：`["/123456789"]`
+示例 / 默认值：`["123456789"]`
 说明：所有 MCDiscordChat 机器人的 ID（右键机器人即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
 > TextsZH / TextsEN 多语言自定义消息格式
@@ -663,7 +663,7 @@ Example / Default value: `SMP`
 Description: Minecraft server name displayed when using multi-server mode
 
 4. `[Optional]` botIds
-Example / Default value: `["/123456789"]`
+Example / Default value: `["123456789"]`
 Description: IDs of all MCDiscordChat bots (right click on the bot to copy the ID, you have to turn on developer mode in Discord settings)
 
 > TextsZH / TextsEN (Multi-language custom message format)
