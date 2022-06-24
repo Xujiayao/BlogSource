@@ -356,6 +356,13 @@ giscus:
     dark: dark
   option:
 
+# Remark42
+# https://remark42.com/docs/configuration/frontend/
+remark42:
+  host: # Your Host URL
+  siteId: # Your Site ID
+  option:
+
 # Chat Services
 # --------------------------------------
 
@@ -624,7 +631,10 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
-  archives: true
+  display:
+    archive: true
+    tag: true
+    category: true
   card_author:
     enable: true
     description: 没有个性，如何签名？<br><i class="fas fa-map-marker-alt"></i> Hong Kong
@@ -842,13 +852,22 @@ inject:
 # 非必要請不要修改
 CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
-  # option: local/jsdelivr
-  # Dev version cannot choose jsdelivr (dev版的主題不能設置為 jsdelivr)
+  # option: local/jsdelivr/unpkg/cdnjs/custom
+  # Dev version can only choose. ( dev版的主題只能設置為 local )
   internal_provider: local
+
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
-  # option: local/jsdelivr
+  # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
+
+  # Add version number to CDN, true or false  
+  version: false
+
+  # Custom format
+  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format:
+
   option:
     # main_css:
     # main:
@@ -873,7 +892,6 @@ CDN:
     # mathjax:
     # katex:
     # katex_copytex:
-    # katex_copytex_css:
     # mermaid:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
