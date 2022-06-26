@@ -21,12 +21,10 @@ date: 2020-07-13 10:29:34
 > - osu!droid
 > - Prepar3D v5
 > - 东方风神录 ～ Mountain of Faith. (TH10)
-> - PUBG: BATTLEGROUNDS
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
-> 目前在维护这两个项目（GitHub）：
+> 目前只在维护这一个项目（GitHub）：
 > - [MCDiscordChat (MCDC)](https://github.com/Xujiayao/MCDiscordChat)
-> - [~~LazyDownloadManager~~](https://github.com/Xujiayao/LazyDownloadManager)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
 > 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
@@ -50,7 +48,7 @@ date: 2020-07-13 10:29:34
 
 > * 微信：JasonXu06（Jason Xu）
 > * Discord：Xujiayao#2275
-> * QQ：413139349（Jason Xu）
+> * ~~QQ：413139349（Jason Xu）~~
 > * 邮箱：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)
 > * 社交平台：
 > 	* [哔哩哔哩](https://space.bilibili.com/270317970)
@@ -65,9 +63,9 @@ date: 2020-07-13 10:29:34
 <!-- tab 已经观看 -->
 这些大部分还是有分先后次序的，主要是自己已经忘记自己是哪个番先看的了＞︿＜
 
-- [x] [我的妹妹不可能那么可爱 第一季](https://www.bilibili.com/bangumi/media/md2660/) <font color='red'>入坑番 =￣ω￣=</font>
-- [x] [我的妹妹不可能那么可爱 第二季](https://www.bilibili.com/bangumi/media/md2661/)
-- [x] 漫画家与助手（目前哔哩哔哩已下架）
+- [x] <font color='red'>**入坑番 =￣ω￣=**</font> [我的妹妹不可能那么可爱 第一季](https://www.bilibili.com/bangumi/media/md2660/) <font color='green'>**妹妹赛高！**</font>
+- [x] [我的妹妹不可能那么可爱 第二季](https://www.bilibili.com/bangumi/media/md2661/) <font color='green'>**妹妹赛高！**</font>
+- [x] 漫画家与助手
 - [x] [笨女孩](https://www.bilibili.com/bangumi/media/md6311/)
 - [x] 机巧少女不会受伤
 - [x] [樱花庄的宠物女孩](https://www.bilibili.com/bangumi/media/md687/)
@@ -79,11 +77,12 @@ date: 2020-07-13 10:29:34
 - [x] [终将成为你](https://www.bilibili.com/bangumi/media/md138832/)
 - [x] 租借女友 / [出租女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28229298/)
 - [x] [侦探已死](https://www.bilibili.com/bangumi/media/md28234637/) / [偵探已經，死了。（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28234730/)
-- [x] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/)
+- [x] [埃罗芒阿老师](https://www.bilibili.com/bangumi/media/md5997/) <font color='green'>**妹妹赛高！**</font>
 - [x] [我女友与青梅竹马的惨烈修罗场](https://www.bilibili.com/bangumi/media/md2667/)
 - [x] [关于前辈很烦人的事](https://www.bilibili.com/bangumi/media/md28235116/) / [前輩有夠煩（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28235216/)
 - [x] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
 - [x] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
+- [x] 缘之空 <font color='green'>**妹妹赛高！**</font>
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -113,7 +112,6 @@ date: 2020-07-13 10:29:34
 - [ ] [DARLING in the FRANXX](https://www.bilibili.com/bangumi/media/md9192/)
 - [ ] [玉子市场](https://www.bilibili.com/bangumi/media/md116772/)
 - [ ] [玉子爱情故事](https://www.bilibili.com/bangumi/media/md4155/)
-- [ ] [漆黑的子弹](https://www.bilibili.com/bangumi/media/md4181/)
 - [ ] [One Room](https://www.bilibili.com/bangumi/media/md5798/) 全系列
 - [ ] [女仆咖啡厅](https://www.bilibili.com/bangumi/media/md992/)
 - [ ] [属性咖啡厅](https://www.bilibili.com/bangumi/media/md6432/)
