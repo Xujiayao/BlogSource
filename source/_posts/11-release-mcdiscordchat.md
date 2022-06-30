@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.3 - 2022/6/10 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.4 - 2022/6/30 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.3 - 2022/6/10!
-MCDiscordChat 已经更新到 2.0.0-alpha.3 - 2022/6/10 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.4 - 2022/6/30!
+MCDiscordChat 已经更新到 2.0.0-alpha.4 - 2022/6/30 啦！
 
-> This article was updated on June 10, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 6 月 10 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
+> This article was updated on June 30, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 6 月 30 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•\`)o
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
@@ -68,16 +68,19 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
     - 可自定义 Webhook 玩家头像 API
 	- 未填写 Webhook URL 时使用机器人自身发送聊天消息
   - 支持游戏内 Markdown 解析
-  - 支持游戏内高亮和使用默认和服务器表情符号
+  - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
+    - 支持禁用默认 Unicode 表情符号解析
+  - 支持游戏内高亮贴纸
   - 支持游戏内高亮和提及 (@)
     - 支持禁用游戏内提及 (@)
-  - 支持游戏内高亮和打开超链接
+  - 支持游戏内高亮和打开超链接和 GIF
   - 支持游戏内显示 Discord 用户身份组颜色
   - 支持游戏内显示回复的消息
   - 可广播玩家指令执行
     - 执行指令的玩家也可以看到自己执行的指令
   - 可广播服务器控制台日志
 - 可使用服务器命令
+  - 可使用 Discord 管理可执行 MCDC 命令的频道
   - 普通命令
     - /info                    | 查询服务器运行状态
     - /help                    | 获取可用命令列表
@@ -117,6 +120,8 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
 
 MCDiscordChat 支持以下游戏版本：
 
+- Minecraft 1.14.x
+- Minecraft 1.15.x
 - Minecraft 1.16.x
 - Minecraft 1.17.x
 - Minecraft 1.18.x
@@ -124,7 +129,7 @@ MCDiscordChat 支持以下游戏版本：
 
 MCDiscordChat 最新版本依赖以下运行环境：
 
-- Minecraft Server 1.17.x/1.18.x/1.19.x
+- Minecraft Server 1.14+
 - Fabric Loader \>=0.14.7
 - Fabric API
 - Java \>=17
@@ -389,16 +394,19 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
     - Customizable Webhook Avatar API
 	- Use the bot itself to send chat messages when Webhook URL is not filled
   - Support in-game Markdown parsing
-  - Support highlighting and using default and server emoji in-game
+  - Support highlighting and using default Unicode and server custom emoji in-game
+    - Support disabling default Unicode emoji parsing
+  - Support highlighting stickers in-game
   - Support highlighting and mentions (@) in-game
     - Support disabling mentions (@) in-game
-  - Support highlighting and opening hyperlinks in-game
+  - Support highlighting and opening hyperlinks and GIFs in-game
   - Support in-game display of Discord user role colour
   - Support in-game display of response messages
   - Broadcast player command execution
     - Players who execute commands can also see the commands themselves
   - Broadcast server console log
 - Server Commands available
+  - Use Discord to manage channels that can execute MCDC commands
   - Normal Commands
     - /info                    | Query server running status
     - /help                    | Get a list of available commands
@@ -438,6 +446,8 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
 
 MCDiscordChat supports the following Minecraft versions:
 
+- Minecraft 1.14.x
+- Minecraft 1.15.x
 - Minecraft 1.16.x
 - Minecraft 1.17.x
 - Minecraft 1.18.x
@@ -445,7 +455,7 @@ MCDiscordChat supports the following Minecraft versions:
 
 The latest version of MCDiscordChat depends on the following environment:
 
-- Minecraft Server 1.17.x/1.18.x/1.19.x
+- Minecraft Server 1.14+
 - Fabric Loader \>=0.14.7
 - Fabric API
 - Java \>=17
@@ -674,6 +684,54 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.4 - 2022/6/30
+
+> #### Changelog 更新日志
+> 
+> #### MCDiscordChat 2.0.0-alpha.4 for Minecraft 1.14+ - 2022/6/30
+> 
+> #### New Features 新特性
+> 
+> - Support all Fabric Minecraft versions (Minecraft 1.14+) (#39)
+>   支持所有 Fabric 版本（Minecraft 1.14+）
+> 
+> - Use Discord to manage channels that can execute MCDC commands (#44)
+>   使用 Discord 管理可执行 MCDC 命令的频道
+> 
+> - Add support for Stickers and GIFs (#49)
+>   添加对贴纸和 GIF 的支持
+> 
+> - Messages from bots or users can be excluded without enabling multi-server mode
+>   不启用多服务器模式也可以排除其它机器人或者用户的消息
+> 
+> - Unicode emoji parsing can be disabled (#50)
+>   可以禁用 Unicode 表情符号解析
+> 
+> #### Changes 更改
+> 
+> - Fix process not terminating when updateChannelTopic is enabled
+>   修复启用更新频道主题功能时进程没有终止的问题
+> 
+> - Fix custom advancements not translated (#35)
+>   修复自定义进度不翻译的问题
+> 
+> - Fix in-game hyperlink parsing error when sending URLs
+>   修复发送网址时游戏内超链接解析错误的问题
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @svr333
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.3...2.0.0-alpha.4
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.3 - 2022/6/10
 
 > #### MCDiscordChat 2.0.0-alpha.3 for Minecraft 1.17.x/1.18.x/1.19.x - 2022/6/10
@@ -709,7 +767,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.2...2.0.0-alpha.3
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.2 - 2022/5/14
 
 > #### MCDiscordChat 2.0.0-alpha.2 for Minecraft 1.16.x/1.17.x/1.18.x - 2022/5/14
