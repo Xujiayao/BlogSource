@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.4 - 2022/6/30 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.5 - 2022/7/1 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.4 - 2022/6/30!
-MCDiscordChat 已经更新到 2.0.0-alpha.4 - 2022/6/30 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.5 - 2022/7/1!
+MCDiscordChat 已经更新到 2.0.0-alpha.5 - 2022/7/1 啦！
 
-> This article was updated on June 30, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 6 月 30 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
+> This article was updated on July 1, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 7 月 1 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•\`)o
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
@@ -69,11 +69,11 @@ MCDC 已完全重写，因此可能存在一些错误。请在报告问题时说
 	- 未填写 Webhook URL 时使用机器人自身发送聊天消息
   - 支持游戏内 Markdown 解析
   - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
-    - 支持禁用默认 Unicode 表情符号解析
   - 支持游戏内高亮贴纸
   - 支持游戏内高亮和提及 (@)
     - 支持禁用游戏内提及 (@)
   - 支持游戏内高亮和打开超链接和 GIF
+  - 支持禁用所有解析
   - 支持游戏内显示 Discord 用户身份组颜色
   - 支持游戏内显示回复的消息
   - 可广播玩家指令执行
@@ -353,6 +353,11 @@ MCDiscordChat 最新版本依赖以下运行环境：
 > TextsZH / TextsEN 多语言自定义消息格式
 >
 > 可自由修改，但需保留 `%xxx%` 占位符。
+
+> latestVersion & latestCheckTime
+>
+> 不要修改。修改了也不会停止检查更新。
+
 <!-- endtab -->
 
 <!-- tab English -->
@@ -395,11 +400,11 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
 	- Use the bot itself to send chat messages when Webhook URL is not filled
   - Support in-game Markdown parsing
   - Support highlighting and using default Unicode and server custom emoji in-game
-    - Support disabling default Unicode emoji parsing
   - Support highlighting stickers in-game
   - Support highlighting and mentions (@) in-game
     - Support disabling mentions (@) in-game
   - Support highlighting and opening hyperlinks and GIFs in-game
+  - Support disabling all parsing
   - Support in-game display of Discord user role colour
   - Support in-game display of response messages
   - Broadcast player command execution
@@ -679,11 +684,47 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > TextsZH / TextsEN (Multi-language custom message format)
 >
 > Can modify freely, but keep the `%xxx%` placeholders.
+
+> latestVersion & latestCheckTime
+>
+> Do NOT modify. Modifying them doesn\'t stop checking for updates.
 <!-- endtab -->
 {% endtabs %}
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.5 - 2022/7/1
+
+> #### Changelog 更新日志
+> 
+> #### MCDiscordChat 2.0.0-alpha.5 for Minecraft 1.14+ - 2022/7/1
+> 
+> #### New Features 新特性
+> 
+> - All parsing can be disabled (#51)
+>   可以禁用所有解析
+> 
+> #### Changes 更改
+> 
+> - Fix Okio compatibility issue (#55)
+>   修复 Okio 兼容性问题
+> 
+> - Change the logic of check for updates function (#52)
+>   更改检查更新功能的逻辑
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.4...2.0.0-alpha.5
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.4 - 2022/6/30
 
 > #### Changelog 更新日志
@@ -731,7 +772,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.3...2.0.0-alpha.4
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.3 - 2022/6/10
 
 > #### MCDiscordChat 2.0.0-alpha.3 for Minecraft 1.17.x/1.18.x/1.19.x - 2022/6/10
