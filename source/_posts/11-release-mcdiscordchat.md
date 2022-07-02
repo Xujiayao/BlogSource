@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 MCDiscordChat has been updated to 2.0.0-alpha.5 - 2022/7/1!
 MCDiscordChat 已经更新到 2.0.0-alpha.5 - 2022/7/1 啦！
 
-> This article was updated on July 1, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 7 月 1 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
+> This article was updated on July 2, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 7 月 2 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
 >
 > For older versions, the content will be sightly different. ヾ(•ω•\`)o
 > 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
@@ -260,9 +260,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`botPlayingStatus: Minecraft`
 说明：设置机器人活动状态（二选一）（留空则禁用此功能）
 
-4. `【必选】` webhookUrl
+4. `【可选】` webhookUrl
 示例 / 默认值：`https://xxxxx`
-说明：Webhook 链接
+说明：Webhook 链接（留空则使用机器人自身发送聊天消息）
 
 5. `【必选】` channelId
 示例 / 默认值：`123456`
@@ -591,9 +591,9 @@ Description: Discord bot token
 Example / Default value: `botPlayingStatus: Minecraft`
 Description: Set the bot activity status (choose one of two) (leave blank to disable this feature)
 
-4. `[Required]` webhookUrl
+4. `[Optional]` webhookUrl
 Example / Default value: `https://xxxxx`
-Description: Webhook URL
+Description: Webhook URL (leave blank to use the bot itself to send chat messages)
 
 5. `[Required]` channelId
 Example / Default value: `123456`
