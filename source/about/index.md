@@ -83,6 +83,7 @@ date: 2020-07-13 10:29:34
 - [x] [天使降临到我身边](https://www.bilibili.com/bangumi/media/md4316442/)
 - [x] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
 - [x] 缘之空 <font color='green'>**妹妹赛高！**</font>
+- [x] 更衣人偶坠入爱河 / [戀上換裝娃娃（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28236374/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -122,7 +123,6 @@ date: 2020-07-13 10:29:34
 - [ ] 女神宿舍的管理员
 - [ ] [珈百璃的堕落](https://www.bilibili.com/bangumi/media/md5793/)
 - [ ] [Comic Girls](https://www.bilibili.com/bangumi/media/md77812/)
-- [ ] [更衣人偶坠入爱河](https://www.bilibili.com/bangumi/media/md28236374/)
 - [ ] 莉兹与青鸟
 - [ ] citrus～柑橘味香气～
 - [ ] [川柳少女](https://www.bilibili.com/bangumi/media/md24069719/)
