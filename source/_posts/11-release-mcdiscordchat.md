@@ -6,19 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.5 - 2022/7/1 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.6 - 2022/7/9 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.5 - 2022/7/1!
-MCDiscordChat 已经更新到 2.0.0-alpha.5 - 2022/7/1 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.6 - 2022/7/9!
+MCDiscordChat 已经更新到 2.0.0-alpha.6 - 2022/7/9 啦！
 
-> This article was updated on July 2, 2022. The content is updated for the latest build version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 7 月 2 日，文章的内容针对最新构建版本更新ヾ(≧▽≦*)o
->
-> For older versions, the content will be sightly different. ヾ(•ω•\`)o
-> 如果使用旧版，文章内容会有些出入哦ヾ(•ω•\`)o
+> This article was updated on July 9, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 7 月 9 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -26,7 +23,7 @@ MCDiscordChat 已经更新到 2.0.0-alpha.5 - 2022/7/1 啦！
 
 {% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
 
-MCDiscordChat (MCDC), a practical and powerful Fabric Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric
+MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric
 
 {% tabs lang, 2 %}
 <!-- tab 中文 -->
@@ -42,7 +39,7 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
 
 ## 简介
 
-[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
+[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric 和 Quilt Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
 
 ![0001.png](https://cdn.jsdelivr.net/gh/Xujiayao/BlogSource@master/source/file/posts/4ba0a17a/0001.png)
 
@@ -85,6 +82,7 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
   - 可广播服务器控制台日志
 - 可使用服务器命令
   - 可使用 Discord 管理可执行 MCDC 命令的频道
+  - 当有人执行 MCDC 命令时通知游戏内玩家
   - 普通命令
     - /info                    | 查询服务器运行状态
     - /help                    | 获取可用命令列表
@@ -133,10 +131,12 @@ MCDiscordChat 支持以下游戏版本：
 
 MCDiscordChat 最新版本依赖以下运行环境：
 
-- Minecraft Server 1.14+
-- Fabric Loader \>=0.14.7
-- Fabric API
-- Java \>=17
+| Fabric | Quilt |
+| ----- | ----- |
+| Minecraft 服务端 1.14+ | Minecraft 服务端 1.14+ |
+| Java \>=17 | Java \>=17 |
+| Fabric Loader | Quilt Loader |
+| Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
 
@@ -377,7 +377,7 @@ For more details, check out [#52 (comment)](https://github.com/Xujiayao/MCDiscor
 
 ## Introduction
 
-[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), a practical and powerful Fabric Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
+[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
 
 ![0001.png](https://cdn.jsdelivr.net/gh/Xujiayao/BlogSource@master/source/file/posts/4ba0a17a/0001.png)
 
@@ -420,6 +420,7 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
   - Broadcast server console log
 - Server Commands available
   - Use Discord to manage channels that can execute MCDC commands
+  - Notify in-game players when someone executes an MCDC command
   - Normal Commands
     - /info                    | Query server running status
     - /help                    | Get a list of available commands
@@ -468,10 +469,12 @@ MCDiscordChat supports the following Minecraft versions:
 
 The latest version of MCDiscordChat depends on the following environment:
 
-- Minecraft Server 1.14+
-- Fabric Loader \>=0.14.7
-- Fabric API
-- Java \>=17
+| Fabric | Quilt |
+| ----- | ----- |
+| Minecraft Server 1.14+ | Minecraft Server 1.14+ |
+| Java \>=17 | Java \>=17 |
+| Fabric Loader | Quilt Loader |
+| Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
 
@@ -701,10 +704,44 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.6 - 2022/7/9
+
+> #### MCDiscordChat 2.0.0-alpha.6 for Minecraft 1.14+ - 2022/7/9
+> 
+> #### New Features 新特性
+> 
+> - Compatible with Quilt Mod Loader (#62)
+>   兼容 Quilt 模组加载器
+> 
+> - Integrate all versions (Minecraft 1.14-1.19+) into a single JAR file (#58)
+>   将所有版本 (Minecraft 1.14-1.19+) 集成到一个 JAR 文件中
+> 
+> - Notify in-game players when someone executes an MCDC command (#48)
+>   当有人执行 MCDC 命令时通知游戏内玩家
+> 
+> #### Changes 更改
+> 
+> - Fix SLF4J exception when running lower Minecraft versions
+>   修复运行低 Minecraft 版本时的 SLF4J 异常
+> 
+> - Optimize the way to implement custom advancement translation
+>   优化实现翻译自定义进度的方式
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.5...2.0.0-alpha.6
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.5 - 2022/7/1
 
-> #### Changelog 更新日志
-> 
 > #### MCDiscordChat 2.0.0-alpha.5 for Minecraft 1.14+ - 2022/7/1
 > 
 > #### New Features 新特性
@@ -732,11 +769,8 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.4...2.0.0-alpha.5
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.4 - 2022/6/30
 
-> #### Changelog 更新日志
-> 
 > #### MCDiscordChat 2.0.0-alpha.4 for Minecraft 1.14+ - 2022/6/30
 > 
 > #### New Features 新特性
