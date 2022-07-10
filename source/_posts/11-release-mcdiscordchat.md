@@ -325,7 +325,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
 19. `【可选】` excludedCommands
-示例 / 默认值：`["/msg", "/tell", "/w"]`
+示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
 20. `【必选】` adminsIds
@@ -663,7 +663,7 @@ Example / Default value: `true`
 Description: Customize update server status using Discord channel topic interval
 
 19. `[Optional]` excludedCommands
-Example / Default value: `["/msg", "/tell", "/w"]`
+Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
 20. `[Required]` adminsIds
