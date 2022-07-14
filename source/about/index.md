@@ -16,9 +16,9 @@ date: 2020-07-13 10:29:34
 >
 > - Minecraft Java Edition (Lazy_Craft Private Server)
 > - Grand Theft Auto V (Online)
-> - Euro Truck Simulator 2 (TruckersMP)
 > - osu!
 > - osu!droid
+> - Euro Truck Simulator 2 (TruckersMP)
 > - Prepar3D v5
 > - 东方风神录 ～ Mountain of Faith. (TH10)
 >
@@ -109,7 +109,7 @@ date: 2020-07-13 10:29:34
 - [ ] [魔法禁书目录](https://www.bilibili.com/bangumi/media/md963/) 全系列
 - [ ] [中二病也要谈恋爱！](https://www.bilibili.com/bangumi/media/md4340/) 全系列
 - [ ] [这个美术社大有问题！](https://www.bilibili.com/bangumi/media/md5043/)
-- [ ] [辉夜大小姐想让我告白～天才们的恋爱头脑战～](https://www.bilibili.com/bangumi/media/md5267730/)
+- [ ] [辉夜大小姐想让我告白](https://www.bilibili.com/bangumi/media/md5267730/) 全系列
 - [ ] [DARLING in the FRANXX](https://www.bilibili.com/bangumi/media/md9192/)
 - [ ] [玉子市场](https://www.bilibili.com/bangumi/media/md116772/)
 - [ ] [玉子爱情故事](https://www.bilibili.com/bangumi/media/md4155/)
@@ -138,5 +138,6 @@ date: 2020-07-13 10:29:34
 - [ ] [龙与虎](https://www.bilibili.com/bangumi/media/md1672/)
 - [ ] [声之形](https://www.bilibili.com/bangumi/media/md12116/)
 - [ ] [月色真美](https://www.bilibili.com/bangumi/media/md5989/)
+- [ ] [继母的拖油瓶是我的前女友](https://www.bilibili.com/bangumi/media/md28338523/)
 <!-- endtab -->
 {% endtabs %}
