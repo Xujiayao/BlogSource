@@ -84,6 +84,7 @@ date: 2020-07-13 10:29:34
 - [x] [龙王的工作！](https://www.bilibili.com/bangumi/media/md8932/)
 - [x] 缘之空 <font color='green'>**妹妹赛高！**</font>
 - [x] 更衣人偶坠入爱河 / [戀上換裝娃娃（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28236374/)
+- [x] [徒然喜欢你](https://www.bilibili.com/bangumi/media/md6312/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -96,7 +97,6 @@ date: 2020-07-13 10:29:34
 - [ ] [约会大作战](https://www.bilibili.com/bangumi/media/md4188/) 全系列
 - [ ] [总之就是非常可爱](https://www.bilibili.com/bangumi/media/md28229676/)
 - [ ] [冰菓](https://www.bilibili.com/bangumi/media/md3398/)
-- [ ] [徒然喜欢你](https://www.bilibili.com/bangumi/media/md6312/)
 - [ ] [四月是你的谎言](https://www.bilibili.com/bangumi/media/md1699/)
 - [ ] [路人女主的养成方法](https://www.bilibili.com/bangumi/media/md1512/) 全系列
 - [ ] [我的青春恋爱物语果然有问题。](https://www.bilibili.com/bangumi/media/md1539/) 全系列
