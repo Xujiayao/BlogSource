@@ -85,6 +85,7 @@ date: 2020-07-13 10:29:34
 - [x] 缘之空 <font color='green'>**妹妹赛高！**</font>
 - [x] 更衣人偶坠入爱河 / [戀上換裝娃娃（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28236374/)
 - [x] [徒然喜欢你](https://www.bilibili.com/bangumi/media/md6312/)
+- [x] 满脑都是○○的我没办法谈恋爱（淫乱的青酱不能学习）
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -139,5 +140,6 @@ date: 2020-07-13 10:29:34
 - [ ] [声之形](https://www.bilibili.com/bangumi/media/md12116/)
 - [ ] [月色真美](https://www.bilibili.com/bangumi/media/md5989/)
 - [ ] [继母的拖油瓶是我的前女友](https://www.bilibili.com/bangumi/media/md28338523/)
+- [ ] 剃须。然后捡到女高中生。（刮掉胡子的我与捡到的女高中生）
 <!-- endtab -->
 {% endtabs %}
