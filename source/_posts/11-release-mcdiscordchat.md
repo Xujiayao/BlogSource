@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.6 - 2022/7/9 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.7 - 2022/7/26 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.6 - 2022/7/9!
-MCDiscordChat 已经更新到 2.0.0-alpha.6 - 2022/7/9 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.7 - 2022/7/26!
+MCDiscordChat 已经更新到 2.0.0-alpha.7 - 2022/7/26 啦！
 
-> This article was updated on July 9, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 7 月 9 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on July 26, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 7 月 26 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -67,7 +67,7 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
 - Minecraft <> Discord 跨服聊天
   - 支持 Discord Webhook 功能
     - 可自定义 Webhook 玩家头像 API
-	- 未填写 Webhook URL 时使用机器人自身发送聊天消息
+    - 未填写 Webhook URL 时使用机器人自身发送聊天消息
   - 支持游戏内 Markdown 解析
   - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
   - 支持游戏内高亮贴纸
@@ -79,7 +79,8 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
   - 支持游戏内显示回复的消息
   - 可广播玩家指令执行
     - 执行指令的玩家也可以看到自己执行的指令
-  - 可广播服务器控制台日志
+    - 可排除执行特定指令的广播
+  - 可将所有控制台日志消息发送到 Discord
 - 可使用服务器命令
   - 可使用 Discord 管理可执行 MCDC 命令的频道
   - 当有人执行 MCDC 命令时通知游戏内玩家
@@ -91,9 +92,10 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
   - 管理员命令
     - /reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
-    - /log                     | 获取服务器最新日志（仅限管理员）
+    - /log                     | 获取指定的服务器日志（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
 - 可完全自定义所有消息格式
+  - 可禁用向 Discord 频道发送特定服务器消息
   - 游戏内
     - 来自 Discord 的聊天消息
     - 来自 Discord 的回复消息
@@ -106,11 +108,11 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
     - 在玩家达成进度 / 达成目标 / 完成挑战时
     - 在玩家死亡时
     - 在服务器 MSPT 高于预警值时
-    - 在服务器发送控制台日志消息时
 - 可使用管理员名单配置用户使用特殊命令的权限
 - 支持配置文件热重载
   - 每次加载配置文件时进行备份
 - 定期检查更新
+  - 可自定义更新通知频道
 
 ## 贡献者
 
@@ -276,59 +278,79 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`654321`
 说明：广播控制台日志的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
 
-7. `【必选】` useUuidInsteadOfName
+7. `【可选】` updateNotificationChannelId
+示例 / 默认值：`456789`
+说明：自定义用于发送更新通知的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
+
+8. `【必选】` useUuidInsteadOfName
 示例 / 默认值：`true`
 说明：发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）
 
-8. `【必选】` avatarApi
+9. `【必选】` avatarApi
 示例 / 默认值：`https://mc-heads.net/avatar/%player%.png`
 说明：自定义 Webhook 头像 API 链接
 
-9. `【必选】` broadcastCommandExecution
+10. `【必选】` broadcastCommandExecution
 示例 / 默认值：`true`
 说明：是否广播玩家指令执行
 
-10. `【必选】` allowMentions
+11. `【必选】` announceServerStartStop
+示例 / 默认值：`true`
+说明：是否广播服务器启动和关闭
+
+12. `【必选】` announcePlayerJoinLeave
+示例 / 默认值：`true`
+说明：是否广播玩家加入和离开服务器
+
+13. `【必选】` announceDeathMessages
+示例 / 默认值：`true`
+说明：是否广播玩家死亡消息
+
+14. `【必选】` announceAdvancements
+示例 / 默认值：`true`
+说明：是否广播玩家达成进度 / 达成目标 / 完成挑战
+
+15. `【必选】` allowMentions
 示例 / 默认值：`true`
 说明：是否允许游戏内提及 (@)
 
-11. `【必选】` modifyChatMessages
+16. `【必选】` formatChatMessages
 示例 / 默认值：`true`
-说明：是否修改游戏内聊天消息
+说明：是否格式化游戏内聊天消息
 
-12. `【必选】` useServerNickname
+17. `【必选】` useServerNickname
 示例 / 默认值：`true`
 说明：是否显示 Discord 服务器昵称
 
-13. `【必选】` announceHighMspt
+18. `【必选】` announceHighMspt
 示例 / 默认值：`true`
 说明：是否在服务器 MSPT 高于预警值时发出通知
 
-14. `【可选】` msptCheckInterval
+19. `【可选】` msptCheckInterval
 示例 / 默认值：`5000`
 说明：自定义 MSPT 检查间隔
 
-15. `【可选】` msptLimit
+20. `【可选】` msptLimit
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-16. `【必选】` mentionAdmins
+21. `【必选】` mentionAdminsForUpdates
 示例 / 默认值：`true`
-说明：是否允许提及 MCDiscordChat 管理员
+说明：是否在发送更新通知时提及 MCDiscordChat 管理员
 
-17. `【必选】` updateChannelTopic
+22. `【必选】` updateChannelTopic
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
-18. `【可选】` channelTopicUpdateInterval
+23. `【可选】` channelTopicUpdateInterval
 示例 / 默认值：`true`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
-19. `【可选】` excludedCommands
+24. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-20. `【必选】` adminsIds
+25. `【必选】` adminsIds
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表，拥有使用特殊命令的权限（可多于一个）
 
@@ -405,7 +427,7 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
 - Minecraft <> Discord cross server chat
   - Support Discord Webhook feature
     - Customizable Webhook Avatar API
-	- Use the bot itself to send chat messages when Webhook URL is not filled
+    - Use the bot itself to send chat messages when Webhook URL is not filled
   - Support in-game Markdown parsing
   - Support highlighting and using default Unicode and server custom emoji in-game
   - Support highlighting stickers in-game
@@ -417,7 +439,8 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
   - Support in-game display of response messages
   - Broadcast player command execution
     - Players who execute commands can also see the commands themselves
-  - Broadcast server console log
+    - Exclude broadcasts for execution of specific commands
+  - Send all console log messages to Discord
 - Server Commands available
   - Use Discord to manage channels that can execute MCDC commands
   - Notify in-game players when someone executes an MCDC command
@@ -429,9 +452,10 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
   - Admin Commands
     - /reload                  | Reload MCDiscordChat config file (admin only)
     - /console \<command\>     | Execute a command in the server console (admin only)
-    - /log                     | Get the latest server log (admin only)
+    - /log                     | Get the specified server log (admin only)
     - /stop                    | Stop the server (admin only)
 - Fully customizable message format
+  - Sending specific server messages to Discord can be disabled
   - In-game
     - Chat messages from Discord
     - Response messages from Discord
@@ -444,11 +468,11 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
     - Player reached a progress / achieved a goal / completed a challenge
     - Player died
     - Server MSPT is higher than a certain value
-    - Server sent a console log message
 - Use admin list to configure user permissions to use special commands
 - Support Hot Reloading of the config file
   - Backup every time the config file is loaded
 - Check for updates regularly
+  - Customizable update notification channel
 
 ## Contributors
 
@@ -614,59 +638,79 @@ Description: Discord Channel ID (right click the channel to copy the ID, you hav
 Example / Default value: `654321`
 Description: Discord Channel ID for console log broadcast (leave blank to disable this feature) (the method to get the ID is the same)
 
-7. `[Required]` useUuidInsteadOfName
+7. `[Optional]` updateNotificationChannelId
+Example / Default value: `456789`
+Description: Discord Channel ID for custom update notification (leave blank to disable this feature) (the method to get the ID is the same)
+
+8. `[Required]` useUuidInsteadOfName
 Example / Default value: `true`
 Description: Use UUID or nickname to get player avatar when sending Webhook (UUID when true, nickname when false)
 
-8. `[Required]` avatarApi
+9. `[Required]` avatarApi
 Example / Default value: `https://mc-heads.net/avatar/%player%.png`
 Description: URL of the Avatar API for Webhook
 
-9. `[Required]` broadcastCommandExecution
+10. `[Required]` broadcastCommandExecution
 Example / Default value: `true`
 Description: Whether to broadcast player command execution
 
-9. `[Required]` allowMentions
+11. `[Required]` announceServerStartStop
+Example / Default value: `true`
+Description: Whether to broadcast server start and stop
+
+12. `[Required]` announcePlayerJoinLeave
+Example / Default value: `true`
+Description: Whether to broadcast player join and leave the server
+
+13. `[Required]` announceDeathMessages
+Example / Default value: `true`
+Description: Whether to broadcast player death messages
+
+14. `[Required]` announceAdvancements
+Example / Default value: `true`
+Description: Whether to broadcast player reach a progress / achieve a goal / complete a challenge
+
+15. `[Required]` allowMentions
 Example / Default value: `true`
 Description: Whether to allow in-game mentions (@)
 
-9. `[Required]` modifyChatMessages
+16. `[Required]` formatChatMessages
 Example / Default value: `true`
-Description: Whether to modify in-game chat messages
+Description: Whether to format in-game chat messages
 
-9. `[Required]` useServerNickname
+17. `[Required]` useServerNickname
 Example / Default value: `true`
 Description: Whether to display Discord server nickname
 
-10. `[Required]` announceHighMspt
+18. `[Required]` announceHighMspt
 Example / Default value: `true`
 Description: Whether to announce when the server MSPT is higher than the MSPT Limit
 
-11. `[Optional]` msptCheckInterval
+19. `[Optional]` msptCheckInterval
 Example / Default value: `5000`
 Description: Customize MSPT check interval
 
-11. `[Optional]` msptLimit
+20. `[Optional]` msptLimit
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-9. `[Required]` mentionAdmins
+21. `[Required]` mentionAdminsForUpdates
 Example / Default value: `true`
-Description: Whether to allow mentions (@) of MCDiscordChat admins
+Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
 
-9. `[Required]` updateChannelTopic
+22. `[Required]` updateChannelTopic
 Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
-9. `[Optional]` channelTopicUpdateInterval
+23. `[Optional]` channelTopicUpdateInterval
 Example / Default value: `true`
 Description: Customize update server status using Discord channel topic interval
 
-19. `[Optional]` excludedCommands
+24. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-20. `[Required]` adminsIds
+25. `[Required]` adminsIds
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List, have permission to use special commands (can be more than one)
 
@@ -704,6 +748,49 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.7 - 2022/7/26
+
+> #### MCDiscordChat 2.0.0-alpha.7 for Minecraft 1.14+ - 2022/7/26
+> 
+> #### New Features 新特性
+> 
+> - Customizable update notification channel (#66)
+>   可自定义更新通知频道
+> 
+> - Add practical logs for multi-server feature
+>   为多服务器功能添加实用日志
+> 
+> - Sending specific server messages to Discord can be disabled (#70)
+>   可禁用向 Discord 频道发送特定服务器消息
+> 
+> - Send all console log messages to Discord console log channel (#72)
+>   将所有控制台日志消息发送到 Discord 控制台日志频道
+> 
+> - Add the ability for /log command to specify the log file to send
+>   添加 /log 命令指定要发送的日志文件的功能
+> 
+> #### Changes 更改
+> 
+> - Fix exclude option for broadcast command execution does not work (#64)
+>   修复广播指令执行的排除选项不起作用
+> 
+> - Fix NPE when someone sends a message before server fully starts (#68)
+>   修复服务器完全启动前接收消息时的空指针异常
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @LofiTurtle
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.6...2.0.0-alpha.7
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.6 - 2022/7/9
 
 > #### MCDiscordChat 2.0.0-alpha.6 for Minecraft 1.14+ - 2022/7/9
@@ -739,7 +826,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.5...2.0.0-alpha.6
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.5 - 2022/7/1
 
 > #### MCDiscordChat 2.0.0-alpha.5 for Minecraft 1.14+ - 2022/7/1
