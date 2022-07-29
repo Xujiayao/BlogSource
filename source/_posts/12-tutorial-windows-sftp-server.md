@@ -9,7 +9,7 @@ categories:
   - 教程
   - Windows
 description: 如何在 Windows 平台下搭建 SFTP 文件服务器，这篇文章能够告诉你！
-abbrlink: 6e913454
+abbrlink: "6e913454"
 date: 2022-07-29 10:37:57
 ---
 
