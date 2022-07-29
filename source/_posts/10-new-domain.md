@@ -59,7 +59,7 @@ date: 2021-02-19 13:18:59
 
 是用的 TCP 协议，浏览器打不开是正常的，只能通过 SSH 客户端用账号密码登录来访问ヾ(•ω•`)o
 
-使用 [SakuraFrp VIP](https://www.natfrp.com/) 做端口映射 (～￣▽￣)～
+使用 [Sakura Frp VIP](https://www.natfrp.com/) 做内网穿透 (～￣▽￣)～
 
 ---
 
