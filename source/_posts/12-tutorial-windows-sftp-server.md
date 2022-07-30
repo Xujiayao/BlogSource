@@ -207,6 +207,8 @@ Match User fileuser
 > + Match User fileadmin
 > +   AllowTcpForwarding no
 > ```
+>
+> 在系统设置账户页更改账户类型成管理员即可访问所有文件。
 
 保存文件后运行以下命令重启 OpenSSH Server 服务即可：
 
