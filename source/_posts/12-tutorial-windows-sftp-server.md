@@ -207,8 +207,10 @@ Match User fileuser
 > + Match User fileadmin
 > +   AllowTcpForwarding no
 > ```
->
+
 > 在系统设置账户页更改账户类型成管理员即可访问所有文件。
+>
+> ![13.png](/file/posts/6e913454/13.png)
 
 保存文件后运行以下命令重启 OpenSSH Server 服务即可：
 
@@ -232,17 +234,17 @@ Restart-Service sshd
 
 打开 FileZilla Client 软件，菜单栏点击 `文件 -> 站点管理器` 进入站点管理器：
 
-![13.png](/file/posts/6e913454/13.png)
+![14.png](/file/posts/6e913454/14.png)
 
 点击 `新站点` 按钮创建新站点。参考下图填写资料后，直接点击 `连接` 按钮即可：
 
-![14.png](/file/posts/6e913454/14.png)
+![15.png](/file/posts/6e913454/15.png)
 
 软件界面特别直观，自己摸索就好了。双击文件即可下载到本地或上传到服务器，右键可查看更多操作。
 
 这里放一张演示图，从服务器下载 `/JASON/音乐/Alstroemeria Records (六出花) - Bad Apple!!.mp3` 到本地，存放在 `C:/Users/Xujiayao/Desktop/Test Folder/` 文件夹：（单击图片即可放大）
 
-![15.png](/file/posts/6e913454/15.png)
+![16.png](/file/posts/6e913454/16.png)
 
 **恭喜！你已经学会使用 SFTP 文件服务器啦 √**
 
@@ -250,7 +252,7 @@ Restart-Service sshd
 
 运行以下命令获取服务器的内网 IPv4 地址（192.168.XXX.XXX），登录 SFTP 时将 `localhost` 替换为该地址即可访问：
 
-![16.png](/file/posts/6e913454/16.png)
+![17.png](/file/posts/6e913454/17.png)
 
 **恭喜！你已经学会从内网访问文件服务器啦 √**
 
@@ -263,9 +265,9 @@ Restart-Service sshd
 
 参考下图（`-P XXXXX` 为端口）：
 
-![17.png](/file/posts/6e913454/17.png)
-
 ![18.png](/file/posts/6e913454/18.png)
+
+![19.png](/file/posts/6e913454/19.png)
 
 具体方法篇幅太长，这里就不讲啦。可以自行 Google 搜索教程。
 
@@ -279,9 +281,9 @@ Restart-Service sshd
 
 > <font color='red'>**`C:/Users/fileuser` 文件夹中所有文件都将被删除！记得打开文件夹查看是否有重要文件，有的话要记得提前移走！**</font>
 
-![19.png](/file/posts/6e913454/19.png)
+![20.png](/file/posts/6e913454/20.png)
 
-在设置删除完可能还有残留。重启系统后手动前往 `C:/Users/fileuser` 文件夹所在位置可完全删除文件夹。
+在设置删除完可能还有残留。重启系统后可手动前往 `C:/Users/fileuser` 文件夹所在位置完全删除文件夹。
 
 **到这里就已经删除好账户啦 √**
 
