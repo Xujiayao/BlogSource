@@ -115,7 +115,9 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Wi
 
 ### 创建账户
 
-Windows 版本的 OpenSSH Server 只接受 `password` 和 `publickey` 这两种身份验证方式。默认使用 `password`（密码）进行身份验证，这里只探讨此方法。
+Windows 版本的 OpenSSH Server 只接受 `password`（密码）和 `publickey`（公钥）这两种身份验证方式，默认使用密码进行身份验证。
+
+使用公钥进行身份认证更安全，但是配置麻烦，因此本教程不包含。这里只探讨密码方法。
 
 > <font color='red'>**如果文件服务器完全只有自己在用，那直接使用 Windows 的登录账户名作为用户名，登录密码作为密码登录即可。不需要做下面的步骤，可以直接跳转到下一个部分。**
 >
@@ -176,19 +178,35 @@ Match User fileuser
   ForceCommand internal-sftp
 ```
 
+> `Match User fileuser` 代表以下参数只对 `fileuser` 账户生效。
+>
 > `AllowTcpForwarding no` 参数为禁用端口转发，不知道是啥的话就保持 `no`。
 >
 > `ChrootDirectory F:/` 参数即 `Change root directory`，是用来更改 root (/) 根目录的位置。用户通过 SFTP 登录时限制只能访问特定目录下（和子目录下）的文件。通过 SFTP 登录时，是无法访问目录之外的任何文件的。
 > 我自己是暂时在用 F 盘做文件服务器专用盘，也可以替换成其它目录。例如：`C:/Files`、`D:/`、`E:/FileServer/fileuser`。
+> 不需要做任何访问限制（全部盘都能访问）的话就可以删掉这行。
 >
 > ![10.png](/file/posts/6e913454/10.png)
 >
-> `ForceCommand internal-sftp` 参数限制该用户只能使用 SFTP 访问文件，无法登录 SSH 运行其它命令。需要远程运行命令的就要删掉这行了。
+> `ForceCommand internal-sftp` 参数限制该用户只能使用 SFTP 访问文件，无法登录 SSH 运行其它命令。
 > 启用后再使用 `ssh fileuser@localhost` 连接的话会关闭连接，必须使用 `sftp fileuser@localhost` 连接。
+> 需要远程运行命令的就要删掉这行了。
 >
 > ![11.png](/file/posts/6e913454/11.png)
 >
 > ![12.png](/file/posts/6e913454/12.png)
+
+> 想要设置多个账户的话，继续添加即可。例如：
+>
+> ```diff
+> Match User fileuser
+>   AllowTcpForwarding no
+>   ChrootDirectory F:/
+>   ForceCommand internal-sftp
+> +
+> + Match User fileadmin
+> +   AllowTcpForwarding no
+> ```
 
 保存文件后运行以下命令重启 OpenSSH Server 服务即可：
 
