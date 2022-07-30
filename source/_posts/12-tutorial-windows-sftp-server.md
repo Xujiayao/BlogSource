@@ -228,7 +228,7 @@ Restart-Service sshd
 
 使用桌面端跨平台且免费的 [FileZilla](https://filezilla-project.org/) 演示，支持 Windows、macOS 和 Linux 系统，是大多数用户的首选。
 
-移动端也有很多选择，可以去应用商店下载几个看看哪个最好用，排除到只剩下一个来用就好。配置方法与桌面端相似，就不单独讲啦。
+移动端也有很多选择。安卓端我推荐 Cx File Explorer，良心无广告完全免费，还超级好用。配置方法与桌面端相似，就不单独讲啦。
 
 ---
 
