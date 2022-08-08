@@ -141,5 +141,9 @@ date: 2020-07-13 10:29:34
 - [ ] [月色真美](https://www.bilibili.com/bangumi/media/md5989/)
 - [ ] [继母的拖油瓶是我的前女友](https://www.bilibili.com/bangumi/media/md28338523/)
 - [ ] 剃须。然后捡到女高中生。（刮掉胡子的我与捡到的女高中生）
+- [ ] [夏目友人帐](https://www.bilibili.com/bangumi/media/md1660/) 全系列
+- [ ] [打了300年的史莱姆，不知不觉就练到了满级](https://www.bilibili.com/bangumi/media/md28233911/)
+- [ ] [间谍过家家](https://www.bilibili.com/bangumi/media/md28237119/)
+- [ ] [哆啦A梦](https://www.bilibili.com/bangumi/media/md28228115/) 全系列
 <!-- endtab -->
 {% endtabs %}
