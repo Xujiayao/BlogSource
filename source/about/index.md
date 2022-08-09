@@ -145,5 +145,6 @@ date: 2020-07-13 10:29:34
 - [ ] [打了300年的史莱姆，不知不觉就练到了满级](https://www.bilibili.com/bangumi/media/md28233911/)
 - [ ] [间谍过家家](https://www.bilibili.com/bangumi/media/md28237119/)
 - [ ] [哆啦A梦](https://www.bilibili.com/bangumi/media/md28228115/) 全系列
+- [ ] [水果篮子](https://www.bilibili.com/bangumi/media/md21984454/) 全系列（要记得电视动画有分旧版和新版）
 <!-- endtab -->
 {% endtabs %}
