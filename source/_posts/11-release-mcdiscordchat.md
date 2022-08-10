@@ -6,22 +6,22 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.7 - 2022/7/26 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.9 - 2022/8/10 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.7 - 2022/7/26!
-MCDiscordChat 已经更新到 2.0.0-alpha.7 - 2022/7/26 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.9 - 2022/8/10!
+MCDiscordChat 已经更新到 2.0.0-alpha.9 - 2022/8/10 啦！
 
-> This article was updated on July 26, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 7 月 26 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on August 10, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 8 月 10 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
 ## MCDiscordChat
 
-{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
+{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://data.jsdelivr.com/v1/package/gh/Xujiayao/MCDiscordChat/badge?style=rounded 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
 
 MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric
 
@@ -29,13 +29,13 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 <!-- tab 中文 -->
 ## ⚠️ 提醒
 
-MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良好做法，尤其是对于像 MCDC 这样不稳定且经常修复错误的模组。
+目前，MCDC 不提供关闭自动检查更新的选项，因为 MCDC 仍处于 alpha 状态。保持最新是良好做法，尤其是对于 MCDC 这种不稳定且经常修复错误的模组。MCDC 将在 alpha 状态结束后提供关闭自动检查更新的选项。
 
-如果你坚持不想更新，那么相信你有能力经常维护 MCDC 并自己修复 bug。请复刻仓库以删除检查更新的代码。但是，不要为该更改提交拉取请求 :)
+如果你坚持不想更新，而且不想等到 alpha 状态结束，那么相信你有能力经常维护 MCDC 并自己修复 bug。请复刻仓库以删除检查更新的代码。但是，不要为该更改提交拉取请求 :)
 
-请注意，复刻中的良好更改可能会通过拉取请求添加到上游仓库，恕不另行通知。
+请注意，复刻中的良好更改可能会添加到上游仓库，恕不另行通知。
 
-更多详情请查看 [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781)。谢谢。
+更多详情请查看 [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781)。
 
 ## 简介
 
@@ -81,7 +81,7 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
     - 执行指令的玩家也可以看到自己执行的指令
     - 可排除执行特定指令的广播
   - 可将所有控制台日志消息发送到 Discord
-- 可使用服务器命令
+- 可使用 Discord 命令
   - 可使用 Discord 管理可执行 MCDC 命令的频道
   - 当有人执行 MCDC 命令时通知游戏内玩家
   - 普通命令
@@ -94,6 +94,15 @@ MCDiscordChat 不会提供关闭自动检查更新的选项。保持最新是良
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
     - /log                     | 获取指定的服务器日志（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
+- 可使用 Minecraft 命令
+  - 仅限管理员的命令仅对 4 级管理员可用
+  - 普通命令
+    - /mcdc info                    | 查询服务器运行状态
+    - /mcdc help                    | 获取可用命令列表
+    - /mcdc update                  | 检查更新
+    - /mcdc stats \<type\> \<name\> | 查询该统计信息的排行榜
+  - 管理员命令
+    - /mcdc reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
 - 可完全自定义所有消息格式
   - 可禁用向 Discord 频道发送特定服务器消息
   - 游戏内
@@ -389,13 +398,13 @@ MCDiscordChat 最新版本依赖以下运行环境：
 <!-- tab English -->
 ## ⚠️ Reminder
 
-MCDiscordChat Will NOT provide an option to turn off auto-checking for updates, as it is good practice to stay up to date, especially for a mod like MCDC, which is unstable and has frequent bug fixes.
+Currently, MCDC does NOT provide an option to turn off automatic checking for updates, as MCDC is still in alpha state. It is a good practice to stay up to date, especially for MCDC, which is unstable and has frequent bug fixes. MCDC will provide an option to turn off auto-checking for updates after the alpha state is over.
 
-If you insist that you do not want to update, then I believe you have the ability to maintain MCDC frequently and fix bugs yourself. Please fork the repository to delete the code of check for updates. However, Do NOT submit Pull Requests for that change :)
+If you insist that you do not want to update, and do not want to wait until the alpha state is over, then I believe you have the ability to maintain MCDC frequently and fix bugs yourself. Please fork the repository to delete the code of check for updates. However, Do NOT submit Pull Requests for that change :)
 
-Note that the good changes in the forks may be added to the upstream repository via Pull Requests without notice.
+Note that the good changes in the forks may be added to the upstream repository without notice.
 
-For more details, check out [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781). Thank you.
+For more details, check out [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781).
 
 ## Introduction
 
@@ -441,7 +450,7 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
     - Players who execute commands can also see the commands themselves
     - Exclude broadcasts for execution of specific commands
   - Send all console log messages to Discord
-- Server Commands available
+- Discord Commands available
   - Use Discord to manage channels that can execute MCDC commands
   - Notify in-game players when someone executes an MCDC command
   - Normal Commands
@@ -454,6 +463,15 @@ If there is a bug or suggestion, or something you don\'t understand, you can [su
     - /console \<command\>     | Execute a command in the server console (admin only)
     - /log                     | Get the specified server log (admin only)
     - /stop                    | Stop the server (admin only)
+- Minecraft Commands available
+  - Admin-only commands require a level 4 operator at minimum
+  - Normal Commands
+    - /mcdc info                    | Query server running status
+    - /mcdc help                    | Get a list of available commands
+    - /mcdc update                  | Check for update
+    - /mcdc stats \<type\> \<name\> | Query the scoreboard of a statistic
+  - Admin Commands
+    - /mcdc reload                  | Reload MCDiscordChat config file (admin only)
 - Fully customizable message format
   - Sending specific server messages to Discord can be disabled
   - In-game
@@ -748,6 +766,87 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.9 - 2022/8/10
+
+> #### MCDiscordChat 2.0.0-alpha.9 for Minecraft 1.14+ - 2022/8/10
+> 
+> **Important notice:**
+> 
+> This update brings support for executing MCDC commands in-game and fixes update notifications not showing changelog when using the English language.
+> 
+> This version is released first because the next version will bring breaking changes. Users who do not update in time may not see the changelog and important notices, resulting in data loss.
+> 
+> **重要通知：**
+> 
+> 此更新带来了在游戏中执行 MCDC 命令的支持，并修复了使用英文时更新通知不显示更新日志的问题。
+> 
+> 这个版本首先发布是因为下一个版本会带来破坏性改动 (breaking changes)。没有及时更新的用户可能会因看不到更新日志和重要通知而导致数据丢失。
+> 
+> #### New Features 新特性
+> 
+> - Execute MCDC commands in-game (#80)
+>   在游戏中执行 MCDC 命令
+> 
+> #### Changes 更改
+> 
+> - Format MSPT value with 2 decimal places (#79)
+>   MSPT 值取两位小数
+> 
+> - Fix update notifications not showing changelog when using the English language
+>   修复使用英文时更新通知不显示更新日志
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.8...2.0.0-alpha.9
+
+{% hideToggle 旧版本 Older Versions %}
+### 2.0.0-alpha.8 - 2022/8/6
+
+> #### MCDiscordChat 2.0.0-alpha.8 for Minecraft 1.14+ - 2022/8/6
+> 
+> **Important notice:**
+> 
+> This update brings support for versions 1.19.1 and 1.19.2. However, due to Mojang's breaking changes to `ServerPlayNetworkHandler` and version 1.19.0 being out of date, version 1.19.0 is no longer supported in this update.
+> 
+> Therefore, if you are using 1.19.0, please update to 1.19.2 as soon as possible. If you have some mods that do not support 1.19.2 yet, please temporarily update to 1.19.1 first, and update to 1.19.2 after they support 1.19.2.
+> 
+> **重要通知：**
+> 
+> 此更新带来了对 1.19.1 和 1.19.2 版本的支持。但由于 Mojang 对 `ServerPlayNetworkHandler` 的破坏性改动 (breaking changes) 再加上 1.19.0 已过时，本次更新不再支持 1.19.0 版本。
+> 
+> 因此，如果你使用的是 1.19.0，请尽快更新到 1.19.2。如果你有一些模组尚未支持 1.19.2，请先暂时更新到 1.19.1，等支持 1.19.2 后再更新到 1.19.2。
+> 
+> #### New Features 新特性
+> 
+> - Compatible with versions 1.19.1 and 1.19.2
+>   兼容 1.19.1 和 1.19.2 版本
+> 
+> #### Changes 更改
+> 
+> - Fix incomplete logic of check for updates function
+>   修复检查更新的不完整逻辑
+> 
+> #### Removed 移除
+> 
+> - No longer compatible with version 1.19
+>   不再兼容 1.19 版本
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.7...2.0.0-alpha.8
+
 ### 2.0.0-alpha.7 - 2022/7/26
 
 > #### MCDiscordChat 2.0.0-alpha.7 for Minecraft 1.14+ - 2022/7/26
@@ -790,7 +889,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.6...2.0.0-alpha.7
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.6 - 2022/7/9
 
 > #### MCDiscordChat 2.0.0-alpha.6 for Minecraft 1.14+ - 2022/7/9
