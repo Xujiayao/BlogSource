@@ -18,6 +18,7 @@ date: 2020-07-13 10:29:34
 > - Grand Theft Auto V (Online)
 > - osu!
 > - osu!droid
+> - Cities: Skylines
 > - Euro Truck Simulator 2 (TruckersMP)
 > - Prepar3D v5
 > - 东方风神录 ～ Mountain of Faith. (TH10)
