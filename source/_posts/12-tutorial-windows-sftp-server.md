@@ -175,7 +175,7 @@ start $env:ProgramData\ssh\sshd_config
 Match User fileuser
   AllowTcpForwarding no
   ChrootDirectory F:/
-  ForceCommand internal-sftp
+  ForceCommand internal-sftp -R
 ```
 
 > `Match User fileuser` 代表以下参数只对 `fileuser` 账户生效。
@@ -188,8 +188,8 @@ Match User fileuser
 >
 > ![10.png](/file/posts/6e913454/10.png)
 >
-> `ForceCommand internal-sftp` 参数限制该用户只能使用 SFTP 访问文件，无法登录 SSH 运行其它命令。
-> 启用后再使用 `ssh fileuser@localhost` 连接的话会关闭连接，必须使用 `sftp fileuser@localhost` 连接。
+> `ForceCommand internal-sftp -R` 参数限制该用户只能使用 SFTP 访问文件，无法登录 SSH 运行其它命令。
+> 设置 `internal-sftp` 后再使用 `ssh fileuser@localhost` 连接的话会关闭连接，必须使用 `sftp fileuser@localhost` 连接。跟在后面的 `-R` 为启用只读模式。
 > 需要远程运行命令的就要删掉这行了。
 >
 > ![11.png](/file/posts/6e913454/11.png)
@@ -202,7 +202,7 @@ Match User fileuser
 > Match User fileuser
 >   AllowTcpForwarding no
 >   ChrootDirectory F:/
->   ForceCommand internal-sftp
+>   ForceCommand internal-sftp -R
 > +
 > + Match User fileadmin
 > +   AllowTcpForwarding no
