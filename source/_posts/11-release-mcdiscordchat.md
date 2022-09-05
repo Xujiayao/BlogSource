@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.9 - 2022/8/10 啦！
+description: MCDiscordChat 已经更新到 2.0.0-alpha.10 - 2022/9/4 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.9 - 2022/8/10!
-MCDiscordChat 已经更新到 2.0.0-alpha.9 - 2022/8/10 啦！
+MCDiscordChat has been updated to 2.0.0-alpha.10 - 2022/9/4!
+MCDiscordChat 已经更新到 2.0.0-alpha.10 - 2022/9/4 啦！
 
-> This article was updated on August 10, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 8 月 10 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on September 5, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 9 月 5 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -59,10 +59,20 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 如果有 bug 或建议，或者有什么不懂的，可以 [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose)。
 
+## 贡献
+
+**欢迎你为 MCDC 做出贡献！**
+
+如果你有兴趣为 MCDC 做出贡献，你可以在 GitHub 上提交拉取请求。
+
+对于代码贡献，构建文件位于 `/wrapper/build/libs/` 文件夹中。
+
+对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为您的语言代码以开始翻译。请提供整个文件中所有键的翻译，除了以 `death` 前缀开头的，那些是以 Minecraft 官方翻译为准。
+
 ## 功能特色
 
+- 全面的多语言支持
 - 支持多服务器模式（同 Discord 频道多服务器运行 MCDC）
-- 支持多语言（英文 / 中文）
 - 支持使用 Discord 频道主题功能显示服务器状态
 - Minecraft <> Discord 跨服聊天
   - 支持 Discord Webhook 功能
@@ -263,9 +273,15 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > Generic 通用
 
-1. `【必选】` useEngInsteadOfChin
-示例 / 默认值：`true`
-说明：MCDiscordChat 使用的语言（false 时为中文，true 时为英文）
+1. `【必选】` language
+示例 / 默认值：`en_us`
+说明：MCDiscordChat 使用的语言
+目前可用的语言：**（欢迎你贡献翻译！）**
+贡献：https://github.com/Xujiayao/MCDiscordChat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
+| 代码 | 语言 |
+| ----- | ----- |
+| `en_us` | 英语（美国） |
+| `zh_cn` | 中文（简体） |
 
 2. `【必选】` botToken
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
@@ -385,9 +401,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`["123456789"]`
 说明：所有 MCDiscordChat 机器人的 ID（右键机器人即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
-> TextsZH / TextsEN 多语言自定义消息格式
+> CustomMessage 自定义消息格式
 >
-> 可自由修改，但需保留 `%xxx%` 占位符。
+> 将选项留空以使用默认值，填写其中任何一个以使用自定义值。
 
 > latestVersion & latestCheckTime
 >
@@ -428,10 +444,20 @@ You can find the latest build JAR files at [GitHub Actions](https://github.com/X
 
 If there is a bug or suggestion, or something you don\'t understand, you can [submit an issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose) on GitHub.
 
+## Contributing
+
+**You are welcome to contribute to MCDC!**
+
+If you are interested in contributing to MCDC, you can submit a pull request on GitHub.
+
+For code contributions, the build file is located in the `/wrapper/build/libs/` folder.
+
+For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for all keys in the entire file, except those keys beginning with the `death` prefix, which are the official Minecraft translations.
+
 ## Features
 
+- Full multi-language support
 - Support multi-server mode (multi-server operation on the same Discord channel)
-- Support multiple languages (English / Chinese)
 - Support displaying server status using Discord channel topic feature
 - Minecraft <> Discord cross server chat
   - Support Discord Webhook feature
@@ -632,9 +658,15 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 
 > Generic
 
-1. `[Required]` useEngInsteadOfChin
-Example / Default value: `true`
-Description: The language MCDiscordChat uses (Chinese when false, English when true)
+1. `[Required]` language
+Example / Default value: `en_us`
+Description: The language MCDiscordChat uses
+Languages currently available: **(You are welcome to contribute translations!)**
+Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
+| Code | Language |
+| ----- | ----- |
+| `en_us` | English (United States) |
+| `zh_cn` | Chinese (Simplified) |
 
 2. `[Required]` botToken
 Example / Default value: `xxxxxx.xxx.xxxxxx`
@@ -754,9 +786,9 @@ Description: Minecraft server name displayed when using multi-server mode
 Example / Default value: `["123456789"]`
 Description: IDs of all MCDiscordChat bots (right click on the bot to copy the ID, you have to turn on developer mode in Discord settings)
 
-> TextsZH / TextsEN (Multi-language custom message format)
+> CustomMessage (custom message format)
 >
-> Can modify freely, but keep the `%xxx%` placeholders.
+> Leave the options blank to use the default values, and fill in any of them to use the custom values.
 
 > latestVersion & latestCheckTime
 >
@@ -766,6 +798,80 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-alpha.10 - 2022/9/4
+
+> #### MCDiscordChat 2.0.0-alpha.10 for Minecraft 1.14+ - 2022/9/4
+> 
+> **Important notice:**
+> 
+> This update adds full multi-language support and therefore simplifies the config file.
+> 
+> **You should back up your config file before updating to this version!**
+> 
+> Use option `language` to set the language, and class `CustomMessage` to customize the messages.
+> 
+> Leave the options in class `CustomMessage` blank to use the default values, and fill in any of them to use the custom values.
+> 
+> ---
+> 
+> At the time of releasing this update, only two languages are available:
+> 
+> 1. `en_us` - English (United States)
+> 2. `zh_cn` - Chinese (Simplified)
+> 
+> **You are welcome to contribute translations!**
+> 
+> Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
+> 
+> ---
+> 
+> **重要通知：**
+> 
+> 此更新添加了全面的多语言支持，因此简化了配置文件。
+> 
+> **你应该在更新到此版本之前备份你的配置文件！**
+> 
+> 使用 `language` 选项设置语言，使用 `CustomMessage` 类自定义消息。
+> 
+> 将 `CustomMessage` 类中的选项留空以使用默认值，填写其中任何一个以使用自定义值。
+> 
+> ---
+> 
+> 在发布此更新时，只有两种语言可用：
+> 
+> 1. `en_us` - 英语（美国）
+> 2. `zh_cn` - 中文（简体）
+> 
+> **欢迎你贡献翻译！**
+> 
+> 贡献：https://github.com/Xujiayao/MCDiscordChat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
+> 
+> #### New Features 新特性
+> 
+> - Full multi-language support (#83)
+>   全面的多语言支持
+> 
+> - Multi-language support for player death messages
+>   玩家死亡消息实现多语言支持
+> 
+> #### Changes 更改
+> 
+> - Disable cache when checking for updates
+>   检查更新时禁止使用缓存
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.9...2.0.0-alpha.10
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.9 - 2022/8/10
 
 > #### MCDiscordChat 2.0.0-alpha.9 for Minecraft 1.14+ - 2022/8/10
@@ -807,7 +913,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.8...2.0.0-alpha.9
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.8 - 2022/8/6
 
 > #### MCDiscordChat 2.0.0-alpha.8 for Minecraft 1.14+ - 2022/8/6
