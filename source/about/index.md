@@ -84,6 +84,8 @@ date: 2020-07-13 10:29:34
 - [x] 更衣人偶坠入爱河 / [戀上換裝娃娃（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28236374/)
 - [x] [徒然喜欢你](https://www.bilibili.com/bangumi/media/md6312/)
 - [x] 满脑都是○○的我没办法谈恋爱（淫乱的青酱不能学习）
+- [x] 租借女友S2 / [出租女友S2（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28338419/)
+- [x] 继母的拖油瓶是我的前女友 / [繼母的拖油瓶是我的前女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28338523/)
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -137,12 +139,21 @@ date: 2020-07-13 10:29:34
 - [ ] [龙与虎](https://www.bilibili.com/bangumi/media/md1672/)
 - [ ] [声之形](https://www.bilibili.com/bangumi/media/md12116/)
 - [ ] [月色真美](https://www.bilibili.com/bangumi/media/md5989/)
-- [ ] [继母的拖油瓶是我的前女友](https://www.bilibili.com/bangumi/media/md28338523/)
 - [ ] 剃须。然后捡到女高中生。（刮掉胡子的我与捡到的女高中生）
 - [ ] [夏目友人帐](https://www.bilibili.com/bangumi/media/md1660/) 全系列
 - [ ] [打了300年的史莱姆，不知不觉就练到了满级](https://www.bilibili.com/bangumi/media/md28233911/)
 - [ ] [间谍过家家](https://www.bilibili.com/bangumi/media/md28237119/)
 - [ ] [哆啦A梦](https://www.bilibili.com/bangumi/media/md28228115/) 全系列
 - [ ] [水果篮子](https://www.bilibili.com/bangumi/media/md21984454/) 全系列（要记得电视动画有分旧版和新版）
+- [ ] [恋爱小行星](https://www.bilibili.com/bangumi/media/md28224128/)
+- [ ] [青梅竹马绝对不会输的恋爱喜剧](https://www.bilibili.com/bangumi/media/md28234080/)
+- [ ] [契约之吻](https://www.bilibili.com/bangumi/media/md28338525/)
+- [ ] [最近雇的女仆有点怪](https://www.bilibili.com/bangumi/media/md28338642/)
+- [ ] [相合之物](https://www.bilibili.com/bangumi/media/md28237207/)
+- [ ] [魔法少女什么的已经够了啦。](https://www.bilibili.com/bangumi/media/md3126/)
+- [ ] [Lycoris Recoil（莉可丽丝）](https://www.bilibili.com/bangumi/media/md28338623/)
+- [ ] 少女波子汽水
+- [ ] <span class="heimu" title="你知道的太多了">思春期のお勉強</span>
+- [ ] <span class="heimu" title="你知道的太多了">晚安SEX</span>
 <!-- endtab -->
 {% endtabs %}
