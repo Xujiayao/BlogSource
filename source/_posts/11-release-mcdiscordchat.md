@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-alpha.10 - 2022/9/4 啦！
+description: MCDiscordChat 已经更新到 2.0.0-rc.1 - 2022/9/28 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-alpha.10 - 2022/9/4!
-MCDiscordChat 已经更新到 2.0.0-alpha.10 - 2022/9/4 啦！
+MCDiscordChat has been updated to 2.0.0-rc.1 - 2022/9/28!
+MCDiscordChat 已经更新到 2.0.0-rc.1 - 2022/9/28 啦！
 
-> This article was updated on September 5, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 9 月 5 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on September 28, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 9 月 28 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -87,6 +87,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 支持禁用所有解析
   - 支持游戏内显示 Discord 用户身份组颜色
   - 支持游戏内显示回复的消息
+  - 支持限制 Discord 消息的换行次数
   - 可广播玩家指令执行
     - 执行指令的玩家也可以看到自己执行的指令
     - 可排除执行特定指令的广播
@@ -359,23 +360,31 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-21. `【必选】` mentionAdminsForUpdates
+21. `【必选】` notifyUpdates
+示例 / 默认值：`true`
+说明：是否发送更新通知
+
+22. `【必选】` mentionAdminsForUpdates
 示例 / 默认值：`true`
 说明：是否在发送更新通知时提及 MCDiscordChat 管理员
 
-22. `【必选】` updateChannelTopic
+23. `【必选】` updateChannelTopic
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
-23. `【可选】` channelTopicUpdateInterval
+24. `【可选】` channelTopicUpdateInterval
 示例 / 默认值：`true`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
-24. `【可选】` excludedCommands
+25. `【可选】` discordNewlineLimit
+示例 / 默认值：`3`
+说明：自定义 Discord 消息换行次数限制（若超出限制，所有换行将全部替换为 `\n` 反斜杠符号）
+
+26. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-25. `【必选】` adminsIds
+27. `【必选】` adminsIds
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表，拥有使用特殊命令的权限（可多于一个）
 
@@ -472,6 +481,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
   - Support disabling all parsing
   - Support in-game display of Discord user role colour
   - Support in-game display of response messages
+  - Support limiting the number of newlines for Discord messages
   - Broadcast player command execution
     - Players who execute commands can also see the commands themselves
     - Exclude broadcasts for execution of specific commands
@@ -744,23 +754,31 @@ Description: Customize MSPT check interval
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-21. `[Required]` mentionAdminsForUpdates
+21. `[Required]` notifyUpdates
+Example / Default value: `true`
+Description: Whether to send update notifications
+
+22. `[Required]` mentionAdminsForUpdates
 Example / Default value: `true`
 Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
 
-22. `[Required]` updateChannelTopic
+23. `[Required]` updateChannelTopic
 Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
-23. `[Optional]` channelTopicUpdateInterval
+24. `[Optional]` channelTopicUpdateInterval
 Example / Default value: `true`
 Description: Customize update server status using Discord channel topic interval
 
-24. `[Optional]` excludedCommands
+25. `[Optional]` discordNewlineLimit
+Example / Default value: `3`
+Description: Customize the newline limit for Discord messages (if the limit is exceeded, all newlines will be replaced with `\n` backslash symbols)
+
+26. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-25. `[Required]` adminsIds
+27. `[Required]` adminsIds
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List, have permission to use special commands (can be more than one)
 
@@ -798,6 +816,36 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0-rc.1 - 2022/9/28
+
+> #### MCDiscordChat 2.0.0-rc.1 for Minecraft 1.14+ - 2022/9/28
+> 
+> #### New Features 新特性
+> 
+> - Add newline limit for Discord messages (#86)
+>   为 Discord 消息添加换行次数限制
+> 
+> #### Changes 更改
+> 
+> - Completely rewrite the parsing of mentions (@) (#87)
+>   完全重写提及 (@) 的解析
+> 
+> - Add appropriate spaces to Chinese death messages
+>   中文的死亡消息添加适当空格
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.10...2.0.0-rc.1
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.10 - 2022/9/4
 
 > #### MCDiscordChat 2.0.0-alpha.10 for Minecraft 1.14+ - 2022/9/4
@@ -871,7 +919,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.9...2.0.0-alpha.10
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.9 - 2022/8/10
 
 > #### MCDiscordChat 2.0.0-alpha.9 for Minecraft 1.14+ - 2022/8/10
