@@ -86,6 +86,8 @@ date: 2020-07-13 10:29:34
 - [x] 满脑都是○○的我没办法谈恋爱（淫乱的青酱不能学习）
 - [x] 租借女友S2 / [出租女友S2（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28338419/)
 - [x] 继母的拖油瓶是我的前女友 / [繼母的拖油瓶是我的前女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28338523/)
+- [x] <span class="heimu" title="你知道的太多了">おやすみせっくす（晚安SEX）</span>
+- [x] 就算是哥哥，有爱就没问题了，对吧
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -153,7 +155,5 @@ date: 2020-07-13 10:29:34
 - [ ] [魔法少女什么的已经够了啦。](https://www.bilibili.com/bangumi/media/md3126/)
 - [ ] [Lycoris Recoil（莉可丽丝）](https://www.bilibili.com/bangumi/media/md28338623/)
 - [ ] 少女波子汽水
-- [ ] <span class="heimu" title="你知道的太多了">思春期のお勉強</span>
-- [ ] <span class="heimu" title="你知道的太多了">晚安SEX</span>
 <!-- endtab -->
 {% endtabs %}
