@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0-rc.1 - 2022/9/28 啦！
+description: MCDiscordChat 已经更新到 2.0.0 - 2022/10/8 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0-rc.1 - 2022/9/28!
-MCDiscordChat 已经更新到 2.0.0-rc.1 - 2022/9/28 啦！
+MCDiscordChat has been updated to 2.0.0 - 2022/10/8!
+MCDiscordChat 已经更新到 2.0.0 - 2022/10/8 啦！
 
-> This article was updated on September 28, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 9 月 28 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on October 8, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 10 月 8 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -27,16 +27,6 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 {% tabs lang, 2 %}
 <!-- tab 中文 -->
-## ⚠️ 提醒
-
-目前，MCDC 不提供关闭自动检查更新的选项，因为 MCDC 仍处于 alpha 状态。保持最新是良好做法，尤其是对于 MCDC 这种不稳定且经常修复错误的模组。MCDC 将在 alpha 状态结束后提供关闭自动检查更新的选项。
-
-如果你坚持不想更新，而且不想等到 alpha 状态结束，那么相信你有能力经常维护 MCDC 并自己修复 bug。请复刻仓库以删除检查更新的代码。但是，不要为该更改提交拉取请求 :)
-
-请注意，复刻中的良好更改可能会添加到上游仓库，恕不另行通知。
-
-更多详情请查看 [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781)。
-
 ## 简介
 
 [MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric 和 Quilt Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
@@ -57,7 +47,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 ## 帮助
 
-如果有 bug 或建议，或者有什么不懂的，可以 [发表 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose)。
+如果有 bug 或建议，或者有什么不懂的，可以 [提交 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose)。
 
 ## 贡献
 
@@ -133,6 +123,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 每次加载配置文件时进行备份
 - 定期检查更新
   - 可自定义更新通知频道
+  - 可禁用检查更新
 
 ## 贡献者
 
@@ -421,16 +412,6 @@ MCDiscordChat 最新版本依赖以下运行环境：
 <!-- endtab -->
 
 <!-- tab English -->
-## ⚠️ Reminder
-
-Currently, MCDC does NOT provide an option to turn off automatic checking for updates, as MCDC is still in alpha state. It is a good practice to stay up to date, especially for MCDC, which is unstable and has frequent bug fixes. MCDC will provide an option to turn off auto-checking for updates after the alpha state is over.
-
-If you insist that you do not want to update, and do not want to wait until the alpha state is over, then I believe you have the ability to maintain MCDC frequently and fix bugs yourself. Please fork the repository to delete the code of check for updates. However, Do NOT submit Pull Requests for that change :)
-
-Note that the good changes in the forks may be added to the upstream repository without notice.
-
-For more details, check out [#52 (comment)](https://github.com/Xujiayao/MCDiscordChat/issues/52#issuecomment-1172137781).
-
 ## Introduction
 
 [MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
@@ -527,6 +508,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
   - Backup every time the config file is loaded
 - Check for updates regularly
   - Customizable update notification channel
+  - Check for updates can be disabled
 
 ## Contributors
 
@@ -816,6 +798,42 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.0.0 - 2022/10/8
+
+> #### MCDiscordChat 2.0.0 for Minecraft 1.14+ - 2022/10/8
+> 
+> This is the first stable release of MCDC v2.
+> 
+> You are strongly recommended to update to this version if you are using any of the alpha or release candidate versions.
+> 
+> #### New Features 新特性
+> 
+> - Add role support for admin checks (#88)
+>   为管理员检查添加身份组支持
+> 
+> - Add option to disable slash command broadcast (#89)
+>   添加禁用斜线命令广播的选项
+> 
+> - Check for updates can be disabled
+>   可禁用检查更新
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-rc.1...2.0.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-rc.1 - 2022/9/28
 
 > #### MCDiscordChat 2.0.0-rc.1 for Minecraft 1.14+ - 2022/9/28
@@ -845,7 +863,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-alpha.10...2.0.0-rc.1
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-alpha.10 - 2022/9/4
 
 > #### MCDiscordChat 2.0.0-alpha.10 for Minecraft 1.14+ - 2022/9/4
