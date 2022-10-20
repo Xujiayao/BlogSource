@@ -51,6 +51,8 @@ date: 2020-07-13 10:29:34
 > * 社交平台：
 > 	* [哔哩哔哩](https://space.bilibili.com/270317970)
 > 	* [GitHub](https://github.com/Xujiayao)
+> 	* [Facebook](https://www.facebook.com/xujiayao.147/)
+> 	* [Instagram](https://www.instagram.com/xujiayao.147/)
 
 ## 番剧清单
 
