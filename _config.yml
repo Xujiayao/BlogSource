@@ -167,3 +167,7 @@ nofollow:
     - 'www.limewtea.com'
     - 'blog.dextercai.com'
     - 'noionion.top'
+
+# hexo-renderer-marked
+marked:
+  smartypants: false

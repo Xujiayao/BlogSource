@@ -67,7 +67,7 @@ Windows Terminal 这款软件**整合了 CMD 和 PowerShell，还可以创建多
 
 下面的操作需要用到 `LOCALAPPDATA` 这个环境变量，让我们先测试下这个变量是否正常 (～￣▽￣)～
 
-在命令行中运行这条命令，注意区分 CMD 和 PowerShell 标签页 (●\'◡\'●)
+在命令行中运行这条命令，注意区分 CMD 和 PowerShell 标签页 (●'◡'●)
 
 {% tabs test %}
 <!-- tab PowerShell -->
@@ -110,7 +110,7 @@ echo %LOCALAPPDATA%
 
 ### 存放图标
 
-在命令行中运行这两条命令，注意区分 CMD 和 PowerShell 标签页 (●\'◡\'●)
+在命令行中运行这两条命令，注意区分 CMD 和 PowerShell 标签页 (●'◡'●)
 
 {% tabs mkdir %}
 <!-- tab PowerShell -->

@@ -432,7 +432,7 @@ You can find the latest build JAR files at [GitHub Actions](https://github.com/X
 
 ## Support
 
-If there is a bug or suggestion, or something you don\'t understand, you can [submit an issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose) on GitHub.
+If there is a bug or suggestion, or something you don't understand, you can [submit an issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose) on GitHub.
 
 ## Contributing
 
@@ -772,11 +772,11 @@ Description: Whether to enable multi-server mode (using more than one MCDiscordC
 
 2. `[Optional]` host
 Example / Default value: `127.0.0.1`
-Description: The host used for multi-server communication (if you don\'t know what this is, use the default settings)
+Description: The host used for multi-server communication (if you don't know what this is, use the default settings)
 
 3. `[Optional]` port
 Example / Default value: `5000`
-Description: The port used for multi-server communication (if you don\'t know what this is, use the default settings)
+Description: The port used for multi-server communication (if you don't know what this is, use the default settings)
 
 4. `[Optional]` name
 Example / Default value: `SMP`
@@ -792,7 +792,7 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 > latestVersion & latestCheckTime
 >
-> Do NOT modify. Modifying them doesn\'t stop checking for updates.
+> Do NOT modify. Modifying them doesn't stop checking for updates.
 <!-- endtab -->
 {% endtabs %}
 
@@ -1324,7 +1324,7 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 >   Unicode 表情符号（非服务器自定义表情符号）也可以在游戏中高亮显示
 >   @Xujiayao
 > 
-> - Bot activity status can be switched between \'playing\' and \'listening\'
+> - Bot activity status can be switched between 'playing' and 'listening'
 >   机器人活动状态可以在「正在玩」和「正在听」之间切换
 >   @Xujiayao
 > 
