@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.0.0 - 2022/10/8 啦！
+description: MCDiscordChat 已经更新到 2.1.0 - 2022/11/7 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.0.0 - 2022/10/8!
-MCDiscordChat 已经更新到 2.0.0 - 2022/10/8 啦！
+MCDiscordChat has been updated to 2.1.0 - 2022/11/7!
+MCDiscordChat 已经更新到 2.1.0 - 2022/11/7 啦！
 
-> This article was updated on October 8, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 10 月 8 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on November 7, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2022 年 11 月 7 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -63,8 +63,9 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 - 全面的多语言支持
 - 支持多服务器模式（同 Discord 频道多服务器运行 MCDC）
-- 支持使用 Discord 频道主题功能显示服务器状态
 - Minecraft <> Discord 跨服聊天
+  - 支持使用 Discord 频道主题功能显示服务器状态
+  - 支持使用机器人活动状态显示服务器玩家数
   - 支持 Discord Webhook 功能
     - 可自定义 Webhook 玩家头像 API
     - 未填写 Webhook URL 时使用机器人自身发送聊天消息
@@ -85,6 +86,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 - 可使用 Discord 命令
   - 可使用 Discord 管理可执行 MCDC 命令的频道
   - 当有人执行 MCDC 命令时通知游戏内玩家
+  - /console 命令支持 Minecraft 命令自动补全
   - 普通命令
     - /info                    | 查询服务器运行状态
     - /help                    | 获取可用命令列表
@@ -124,6 +126,14 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 - 定期检查更新
   - 可自定义更新通知频道
   - 可禁用检查更新
+
+目前可用的语言：
+
+| 代码 | 语言 |
+| ----- | ----- |
+| `en_us` | English (US) |
+| `zh_cn` | 中文（简体） |
+| `ru_ru` | Русский (Россия) |
 
 ## 贡献者
 
@@ -272,8 +282,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 贡献：https://github.com/Xujiayao/MCDiscordChat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
 | 代码 | 语言 |
 | ----- | ----- |
-| `en_us` | 英语（美国） |
+| `en_us` | English (US) |
 | `zh_cn` | 中文（简体） |
+| `ru_ru` | Русский (Россия) |
 
 2. `【必选】` botToken
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
@@ -448,8 +459,9 @@ For translation contributions, language files are located in the `/wrapper/src/m
 
 - Full multi-language support
 - Support multi-server mode (multi-server operation on the same Discord channel)
-- Support displaying server status using Discord channel topic feature
 - Minecraft <> Discord cross server chat
+  - Support displaying server status using Discord channel topic feature
+  - Support displaying server player count in bot activity status
   - Support Discord Webhook feature
     - Customizable Webhook Avatar API
     - Use the bot itself to send chat messages when Webhook URL is not filled
@@ -470,6 +482,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
 - Discord Commands available
   - Use Discord to manage channels that can execute MCDC commands
   - Notify in-game players when someone executes an MCDC command
+  - /console command supports Minecraft command auto-completion
   - Normal Commands
     - /info                    | Query server running status
     - /help                    | Get a list of available commands
@@ -509,6 +522,14 @@ For translation contributions, language files are located in the `/wrapper/src/m
 - Check for updates regularly
   - Customizable update notification channel
   - Check for updates can be disabled
+
+Languages currently available:
+
+| Code | Language |
+| ----- | ----- |
+| `en_us` | English (US) |
+| `zh_cn` | 中文（简体） |
+| `ru_ru` | Русский (Россия) |
 
 ## Contributors
 
@@ -657,8 +678,9 @@ Languages currently available: **(You are welcome to contribute translations!)**
 Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
 | Code | Language |
 | ----- | ----- |
-| `en_us` | English (United States) |
-| `zh_cn` | Chinese (Simplified) |
+| `en_us` | English (US) |
+| `zh_cn` | 中文（简体） |
+| `ru_ru` | Русский (Россия) |
 
 2. `[Required]` botToken
 Example / Default value: `xxxxxx.xxx.xxxxxx`
@@ -798,6 +820,40 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.1.0 - 2022/11/7
+
+> #### MCDiscordChat 2.1.0 for Minecraft 1.14+ - 2022/11/7
+> 
+> #### New Features 新特性
+> 
+> - Russian translation (#94)
+>   俄语翻译
+> 
+> - Bot activity status supports displaying server player count (#90)
+>   机器人活动状态支持显示服务器玩家数
+> 
+> - Minecraft command auto-completion for Discord /console command (#25)
+>   Discord /console 命令实现 Minecraft 命令自动补全
+> 
+> #### Changes 更改
+> 
+> - Fix GSON Invalid escape sequence exception when escaping Markdown (#92)
+>   修复转义 Markdown 时 GSON 解析报错
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @ZetThunder
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0...2.1.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0 - 2022/10/8
 
 > #### MCDiscordChat 2.0.0 for Minecraft 1.14+ - 2022/10/8
@@ -833,7 +889,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.0.0-rc.1...2.0.0
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.0.0-rc.1 - 2022/9/28
 
 > #### MCDiscordChat 2.0.0-rc.1 for Minecraft 1.14+ - 2022/9/28
