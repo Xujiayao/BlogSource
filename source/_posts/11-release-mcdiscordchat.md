@@ -241,7 +241,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 至此，机器人配置完毕。
 
-### 配置 Webhook
+### 配置 Webhook（可选但推荐）
 
 先在服务器创建一个新的文字频道，推荐命名为 `in-game-chat`、`server-chat`。
 
@@ -275,7 +275,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > Generic 通用
 
-1. `【必选】` language
+1. **`【必选】` language**
 示例 / 默认值：`en_us`
 说明：MCDiscordChat 使用的语言
 目前可用的语言：**（欢迎你贡献翻译！）**
@@ -286,7 +286,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 | `zh_cn` | 中文（简体） |
 | `ru_ru` | Русский (Россия) |
 
-2. `【必选】` botToken
+2. **`【必选】` botToken**
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
 说明：Discord 机器人令牌
 
@@ -298,7 +298,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`https://xxxxx`
 说明：Webhook 链接（留空则使用机器人自身发送聊天消息）
 
-5. `【必选】` channelId
+5. **`【必选】` channelId**
 示例 / 默认值：`123456`
 说明：Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
@@ -310,47 +310,47 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`456789`
 说明：自定义用于发送更新通知的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
 
-8. `【必选】` useUuidInsteadOfName
+8. **`【必选】` useUuidInsteadOfName**
 示例 / 默认值：`true`
 说明：发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）
 
-9. `【必选】` avatarApi
+9. **`【必选】` avatarApi**
 示例 / 默认值：`https://mc-heads.net/avatar/%player%.png`
 说明：自定义 Webhook 头像 API 链接
 
-10. `【必选】` broadcastCommandExecution
+10. **`【必选】` broadcastCommandExecution**
 示例 / 默认值：`true`
 说明：是否广播玩家指令执行
 
-11. `【必选】` announceServerStartStop
+11. **`【必选】` announceServerStartStop**
 示例 / 默认值：`true`
 说明：是否广播服务器启动和关闭
 
-12. `【必选】` announcePlayerJoinLeave
+12. **`【必选】` announcePlayerJoinLeave**
 示例 / 默认值：`true`
 说明：是否广播玩家加入和离开服务器
 
-13. `【必选】` announceDeathMessages
+13. **`【必选】` announceDeathMessages**
 示例 / 默认值：`true`
 说明：是否广播玩家死亡消息
 
-14. `【必选】` announceAdvancements
+14. **`【必选】` announceAdvancements**
 示例 / 默认值：`true`
 说明：是否广播玩家达成进度 / 达成目标 / 完成挑战
 
-15. `【必选】` allowMentions
+15. **`【必选】` allowMentions**
 示例 / 默认值：`true`
 说明：是否允许游戏内提及 (@)
 
-16. `【必选】` formatChatMessages
+16. **`【必选】` formatChatMessages**
 示例 / 默认值：`true`
 说明：是否格式化游戏内聊天消息
 
-17. `【必选】` useServerNickname
+17. **`【必选】` useServerNickname**
 示例 / 默认值：`true`
 说明：是否显示 Discord 服务器昵称
 
-18. `【必选】` announceHighMspt
+18. **`【必选】` announceHighMspt**
 示例 / 默认值：`true`
 说明：是否在服务器 MSPT 高于预警值时发出通知
 
@@ -362,15 +362,15 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-21. `【必选】` notifyUpdates
+21. **`【必选】` notifyUpdates**
 示例 / 默认值：`true`
 说明：是否发送更新通知
 
-22. `【必选】` mentionAdminsForUpdates
+22. **`【必选】` mentionAdminsForUpdates**
 示例 / 默认值：`true`
 说明：是否在发送更新通知时提及 MCDiscordChat 管理员
 
-23. `【必选】` updateChannelTopic
+23. **`【必选】` updateChannelTopic**
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
@@ -386,13 +386,13 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-27. `【必选】` adminsIds
+27. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
-说明：MCDiscordChat 管理员 ID 列表，拥有使用特殊命令的权限（可多于一个）
+说明：MCDiscordChat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
 > MultiServer 多服务器
 
-1. `【必选】` enable
+1. **`【必选】` enable**
 示例 / 默认值：`false`
 说明：是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）
 
@@ -609,7 +609,7 @@ You can change the icon and description of the bot. Save the bot token, it will 
 
 ![08.png](/file/posts/4ba0a17a/08.png)
 
-Set `Authorization Flow` and `Privileged Gateway Intents`, refer to the following figure:
+Set `Authorization Flow` and `Privileged Gateway Intents`, refer to the following picture:
 
 ![09.png](/file/posts/4ba0a17a/09.png)
 
@@ -619,7 +619,7 @@ Go to `OAuth2 -> URL Generator` tab, check the `bot` and `applications.commands`
 
 ![10.png](/file/posts/4ba0a17a/10.png)
 
-Under `BOT PERMISSIONS`, check the permissions required for the bot, refer to the figure below:
+Under `BOT PERMISSIONS`, check the permissions required for the bot, refer to the picture below:
 
 ![11.png](/file/posts/4ba0a17a/11.png)
 
@@ -637,7 +637,7 @@ Paste the copied link into the browser. Select the Discord server you want to in
 
 At this point, the Discord Bot setup is completed.
 
-### Setup Webhook
+### Setup Webhook (Optional but recommended)
 
 First create a text channel. It is recommended to name it `in-game-chat` or `server-chat`.
 
@@ -671,7 +671,7 @@ Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 
 > Generic
 
-1. `[Required]` language
+1. **`[Required]` language**
 Example / Default value: `en_us`
 Description: The language MCDiscordChat uses
 Languages currently available: **(You are welcome to contribute translations!)**
@@ -682,7 +682,7 @@ Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
 | `zh_cn` | 中文（简体） |
 | `ru_ru` | Русский (Россия) |
 
-2. `[Required]` botToken
+2. **`[Required]` botToken**
 Example / Default value: `xxxxxx.xxx.xxxxxx`
 Description: Discord bot token
 
@@ -694,7 +694,7 @@ Description: Set the bot activity status (choose one of two) (leave blank to dis
 Example / Default value: `https://xxxxx`
 Description: Webhook URL (leave blank to use the bot itself to send chat messages)
 
-5. `[Required]` channelId
+5. **`[Required]` channelId**
 Example / Default value: `123456`
 Description: Discord Channel ID (right click the channel to copy the ID, you have to turn on developer mode in Discord settings)
 
@@ -706,47 +706,47 @@ Description: Discord Channel ID for console log broadcast (leave blank to disabl
 Example / Default value: `456789`
 Description: Discord Channel ID for custom update notification (leave blank to disable this feature) (the method to get the ID is the same)
 
-8. `[Required]` useUuidInsteadOfName
+8. **`[Required]` useUuidInsteadOfName**
 Example / Default value: `true`
 Description: Use UUID or nickname to get player avatar when sending Webhook (UUID when true, nickname when false)
 
-9. `[Required]` avatarApi
+9. **`[Required]` avatarApi**
 Example / Default value: `https://mc-heads.net/avatar/%player%.png`
 Description: URL of the Avatar API for Webhook
 
-10. `[Required]` broadcastCommandExecution
+10. **`[Required]` broadcastCommandExecution**
 Example / Default value: `true`
 Description: Whether to broadcast player command execution
 
-11. `[Required]` announceServerStartStop
+11. **`[Required]` announceServerStartStop**
 Example / Default value: `true`
 Description: Whether to broadcast server start and stop
 
-12. `[Required]` announcePlayerJoinLeave
+12. **`[Required]` announcePlayerJoinLeave**
 Example / Default value: `true`
 Description: Whether to broadcast player join and leave the server
 
-13. `[Required]` announceDeathMessages
+13. **`[Required]` announceDeathMessages**
 Example / Default value: `true`
 Description: Whether to broadcast player death messages
 
-14. `[Required]` announceAdvancements
+14. **`[Required]` announceAdvancements**
 Example / Default value: `true`
 Description: Whether to broadcast player reach a progress / achieve a goal / complete a challenge
 
-15. `[Required]` allowMentions
+15. **`[Required]` allowMentions**
 Example / Default value: `true`
 Description: Whether to allow in-game mentions (@)
 
-16. `[Required]` formatChatMessages
+16. **`[Required]` formatChatMessages**
 Example / Default value: `true`
 Description: Whether to format in-game chat messages
 
-17. `[Required]` useServerNickname
+17. **`[Required]` useServerNickname**
 Example / Default value: `true`
 Description: Whether to display Discord server nickname
 
-18. `[Required]` announceHighMspt
+18. **`[Required]` announceHighMspt**
 Example / Default value: `true`
 Description: Whether to announce when the server MSPT is higher than the MSPT Limit
 
@@ -758,15 +758,15 @@ Description: Customize MSPT check interval
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-21. `[Required]` notifyUpdates
+21. **`[Required]` notifyUpdates**
 Example / Default value: `true`
 Description: Whether to send update notifications
 
-22. `[Required]` mentionAdminsForUpdates
+22. **`[Required]` mentionAdminsForUpdates**
 Example / Default value: `true`
 Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
 
-23. `[Required]` updateChannelTopic
+23. **`[Required]` updateChannelTopic**
 Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
@@ -782,13 +782,13 @@ Description: Customize the newline limit for Discord messages (if the limit is e
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-27. `[Required]` adminsIds
+27. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
-Description: MCDiscordChat Admin ID List, have permission to use special commands (can be more than one)
+Description: MCDiscordChat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
 > MultiServer
 
-1. `[Required]` enable
+1. **`[Required]` enable**
 Example / Default value: `false`
 Description: Whether to enable multi-server mode (using more than one MCDiscordChat in a Discord channel)
 
