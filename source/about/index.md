@@ -157,5 +157,11 @@ date: 2020-07-13 10:29:34
 - [ ] [魔法少女什么的已经够了啦。](https://www.bilibili.com/bangumi/media/md3126/)
 - [ ] [Lycoris Recoil（莉可丽丝）](https://www.bilibili.com/bangumi/media/md28338623/)
 - [ ] 少女波子汽水
+- [ ] 别当欧尼酱了！
+- [ ] 摇曳露营△
+- [ ] 夏日重现
+- [ ] 宇崎学妹想要玩！
+- [ ] 孤独摇滚！
+- [ ] 邪神与厨二病少女
 <!-- endtab -->
 {% endtabs %}
