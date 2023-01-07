@@ -19,10 +19,28 @@ date: 2020-07-13 10:29:34
 > - osu!
 > - osu!droid
 > - Euro Truck Simulator 2 (TruckersMP)
+> - Beat Saber
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前只在维护这一个项目（GitHub）：
 > - [MCDiscordChat (MCDC)](https://github.com/Xujiayao/MCDiscordChat)
+> 
+> 设备：
+> 
+> - 台式机
+>   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.33V Overclocked)
+>   - MB : MSI MAG B550M MORTAR WIFI
+>   - GPU: Galaxy NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
+>   - RAM: Galaxy HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.35V C14 Overclocked)
+> - 服务器 (NAS)
+>   - CPU: Intel Core i7-870
+>   - MB : ASUS P7P55D-E Deluxe
+>   - GPU: N/A
+>   - RAM: CORSAIR VENGEANCE 16GB (DDR3 4GB x4 1600MHz 1.50V C9)
+> - 手机
+>   - Google Pixel 6 Pro
+> - 平板
+>   - HUAWEI MatePad Pro 10.8 (2019)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
 > 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
