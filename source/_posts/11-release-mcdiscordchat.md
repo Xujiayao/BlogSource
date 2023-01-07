@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.1.1 - 2022/12/10 啦！
+description: MCDiscordChat 已经更新到 2.1.2 - 2023/1/7 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.1.1 - 2022/12/10!
-MCDiscordChat 已经更新到 2.1.1 - 2022/12/10 啦！
+MCDiscordChat has been updated to 2.1.2 - 2023/1/7!
+MCDiscordChat 已经更新到 2.1.2 - 2023/1/7 啦！
 
-> This article was updated on December 10, 2022. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2022 年 12 月 10 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on January 7, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 1 月 7 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -64,6 +64,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 - 全面的多语言支持
 - 支持多服务器模式（同 Discord 频道多服务器运行 MCDC）
 - Minecraft <> Discord 跨服聊天
+  - 支持禁用 Discord 和游戏内聊天广播
   - 支持使用 Discord 频道主题功能显示服务器状态
   - 支持使用机器人活动状态显示服务器玩家数
   - 支持 Discord Webhook 功能
@@ -138,6 +139,10 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 ## 贡献者
 
 [![Contributors](https://contrib.rocks/image?repo=xujiayao/mcdiscordchat)](https://github.com/Xujiayao/mcdiscordchat/graphs/contributors)
+
+## 星标历史
+
+[![Stargazers over time](https://starchart.cc/Xujiayao/MCDiscordChat.svg)](https://starchart.cc/Xujiayao/MCDiscordChat)
 
 ## 文档
 
@@ -338,55 +343,59 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`true`
 说明：是否广播玩家达成进度 / 达成目标 / 完成挑战
 
-15. **`【必选】` allowMentions**
+15. **`【必选】` broadcastChatMessages**
 示例 / 默认值：`true`
-说明：是否允许游戏内提及 (@)
+说明：是否广播 Discord 和游戏内聊天
 
 16. **`【必选】` formatChatMessages**
 示例 / 默认值：`true`
 说明：是否格式化游戏内聊天消息
 
-17. **`【必选】` useServerNickname**
+17. **`【必选】` allowMentions**
+示例 / 默认值：`true`
+说明：是否允许游戏内提及 (@)
+
+18. **`【必选】` useServerNickname**
 示例 / 默认值：`true`
 说明：是否显示 Discord 服务器昵称
 
-18. **`【必选】` announceHighMspt**
-示例 / 默认值：`true`
-说明：是否在服务器 MSPT 高于预警值时发出通知
-
-19. `【可选】` msptCheckInterval
-示例 / 默认值：`5000`
-说明：自定义 MSPT 检查间隔
-
-20. `【可选】` msptLimit
-示例 / 默认值：`50`
-说明：服务器 MSPT 预警值
-
-21. **`【必选】` notifyUpdates**
-示例 / 默认值：`true`
-说明：是否发送更新通知
-
-22. **`【必选】` mentionAdminsForUpdates**
-示例 / 默认值：`true`
-说明：是否在发送更新通知时提及 MCDiscordChat 管理员
-
-23. **`【必选】` updateChannelTopic**
-示例 / 默认值：`true`
-说明：是否使用 Discord 频道主题功能显示服务器状态
-
-24. `【可选】` channelTopicUpdateInterval
-示例 / 默认值：`true`
-说明：自定义 Discord 频道主题更新服务器状态的间隔
-
-25. `【可选】` discordNewlineLimit
+19. `【可选】` discordNewlineLimit
 示例 / 默认值：`3`
 说明：自定义 Discord 消息换行次数限制（若超出限制，所有换行将全部替换为 `\n` 反斜杠符号）
 
-26. `【可选】` excludedCommands
+20. **`【必选】` announceHighMspt**
+示例 / 默认值：`true`
+说明：是否在服务器 MSPT 高于预警值时发出通知
+
+21. `【可选】` msptCheckInterval
+示例 / 默认值：`5000`
+说明：自定义 MSPT 检查间隔
+
+22. `【可选】` msptLimit
+示例 / 默认值：`50`
+说明：服务器 MSPT 预警值
+
+23. **`【必选】` notifyUpdates**
+示例 / 默认值：`true`
+说明：是否发送更新通知
+
+24. **`【必选】` mentionAdminsForUpdates**
+示例 / 默认值：`true`
+说明：是否在发送更新通知时提及 MCDiscordChat 管理员
+
+25. **`【必选】` updateChannelTopic**
+示例 / 默认值：`true`
+说明：是否使用 Discord 频道主题功能显示服务器状态
+
+26. `【可选】` channelTopicUpdateInterval
+示例 / 默认值：`true`
+说明：自定义 Discord 频道主题更新服务器状态的间隔
+
+27. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-27. **`【必选】` adminsIds**
+28. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
@@ -460,6 +469,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
 - Full multi-language support
 - Support multi-server mode (multi-server operation on the same Discord channel)
 - Minecraft <> Discord cross server chat
+  - Support disabling Discord and in-game chat broadcasts
   - Support displaying server status using Discord channel topic feature
   - Support displaying server player count in bot activity status
   - Support Discord Webhook feature
@@ -534,6 +544,10 @@ Languages currently available:
 ## Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=xujiayao/mcdiscordchat)](https://github.com/Xujiayao/mcdiscordchat/graphs/contributors)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Xujiayao/MCDiscordChat.svg)](https://starchart.cc/Xujiayao/MCDiscordChat)
 
 ## Docs
 
@@ -734,55 +748,59 @@ Description: Whether to broadcast player death messages
 Example / Default value: `true`
 Description: Whether to broadcast player reach a progress / achieve a goal / complete a challenge
 
-15. **`[Required]` allowMentions**
+15. **`[Required]` broadcastChatMessages**
 Example / Default value: `true`
-Description: Whether to allow in-game mentions (@)
+Description: Whether to broadcast Discord and in-game chat
 
 16. **`[Required]` formatChatMessages**
 Example / Default value: `true`
 Description: Whether to format in-game chat messages
 
-17. **`[Required]` useServerNickname**
+17. **`[Required]` allowMentions**
+Example / Default value: `true`
+Description: Whether to allow in-game mentions (@)
+
+18. **`[Required]` useServerNickname**
 Example / Default value: `true`
 Description: Whether to display Discord server nickname
 
-18. **`[Required]` announceHighMspt**
-Example / Default value: `true`
-Description: Whether to announce when the server MSPT is higher than the MSPT Limit
-
-19. `[Optional]` msptCheckInterval
-Example / Default value: `5000`
-Description: Customize MSPT check interval
-
-20. `[Optional]` msptLimit
-Example / Default value: `50`
-Description: Server MSPT Limit
-
-21. **`[Required]` notifyUpdates**
-Example / Default value: `true`
-Description: Whether to send update notifications
-
-22. **`[Required]` mentionAdminsForUpdates**
-Example / Default value: `true`
-Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
-
-23. **`[Required]` updateChannelTopic**
-Example / Default value: `true`
-Description: Whether to display server status using Discord channel topic feature
-
-24. `[Optional]` channelTopicUpdateInterval
-Example / Default value: `true`
-Description: Customize update server status using Discord channel topic interval
-
-25. `[Optional]` discordNewlineLimit
+19. `[Optional]` discordNewlineLimit
 Example / Default value: `3`
 Description: Customize the newline limit for Discord messages (if the limit is exceeded, all newlines will be replaced with `\n` backslash symbols)
 
-26. `[Optional]` excludedCommands
+20. **`[Required]` announceHighMspt**
+Example / Default value: `true`
+Description: Whether to announce when the server MSPT is higher than the MSPT Limit
+
+21. `[Optional]` msptCheckInterval
+Example / Default value: `5000`
+Description: Customize MSPT check interval
+
+22. `[Optional]` msptLimit
+Example / Default value: `50`
+Description: Server MSPT Limit
+
+23. **`[Required]` notifyUpdates**
+Example / Default value: `true`
+Description: Whether to send update notifications
+
+24. **`[Required]` mentionAdminsForUpdates**
+Example / Default value: `true`
+Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
+
+25. **`[Required]` updateChannelTopic**
+Example / Default value: `true`
+Description: Whether to display server status using Discord channel topic feature
+
+26. `[Optional]` channelTopicUpdateInterval
+Example / Default value: `true`
+Description: Customize update server status using Discord channel topic interval
+
+27. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-27. **`[Required]` adminsIds**
+28. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
@@ -820,6 +838,45 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 
 ## Changelog 更新日志
 
+### 2.1.2 - 2023/1/7
+
+> #### MCDiscordChat 2.1.2 for Minecraft 1.14+ - 2023/1/7
+> 
+> The 'chat message validation failure' issue in 1.19.3 has been fixed in this new version.
+> You may remove the 'no-chat-reports' mod and set `formatChatMessages` back to `true` in MCDC config now.
+> 
+> 1.19.3 中的 "聊天消息验证失败" 问题已在此新版本中修复。
+> 你现在可以删除 "no-chat-reports" 模组并在 MCDC 配置中将 `formatChatMessages` 改回 `true`。
+> 
+> #### New Features 新特性
+> 
+> - Re-add support for version 1.19.2 (#101)
+>   重新添加对 1.19.2 版本的支持
+> 
+> - Add option to disable Discord and in-game chat broadcasts (#103)
+>   添加禁用 Discord 和游戏内聊天广播的选项
+> 
+> #### Changes 更改
+> 
+> - Fix chat message validation failure (#100)
+>   修复聊天记录验证失败报错
+> 
+> - Fix in-game highlighted mentions not being escaped (#104)
+>   修复游戏内高亮提及没有进行转义
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.1.1...2.1.2
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.1.1 - 2022/12/10
 
 > #### MCDiscordChat 2.1.1 for Minecraft 1.14+ - 2022/12/10
@@ -847,7 +904,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.1.0...2.1.1
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.1.0 - 2022/11/7
 
 > #### MCDiscordChat 2.1.0 for Minecraft 1.14+ - 2022/11/7
