@@ -11,4 +11,4 @@ type: "link"
 > 博客名称：Xujiayao's Blog
 博客描述：没有个性，如何签名？
 博客链接：https://blog.xujiayao.top/
-博客图标：https://blog.xujiayao.top/file/avatar.jpg
+博客图标：https://blog.xujiayao.top/file/avatar.png
