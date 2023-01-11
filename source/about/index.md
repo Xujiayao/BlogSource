@@ -181,5 +181,7 @@ date: 2020-07-13 10:29:34
 - [ ] 宇崎学妹想要玩！
 - [ ] 孤独摇滚！
 - [ ] 邪神与厨二病少女
+- [ ] [散华礼弥](https://www.bilibili.com/bangumi/media/md710/)
+- [ ] 潜行吧！奈亚子
 <!-- endtab -->
 {% endtabs %}
