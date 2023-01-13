@@ -31,7 +31,7 @@ date: 2020-07-13 10:29:34
 >   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.33V Overclocked)
 >   - MB : MSI MAG B550M MORTAR WIFI
 >   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
->   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.35V C14 Overclocked)
+>   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.45V C14 Overclocked)
 > - 服务器 (NAS)
 >   - CPU: Intel Core i7-870
 >   - MB : ASUS P7P55D-E Deluxe
