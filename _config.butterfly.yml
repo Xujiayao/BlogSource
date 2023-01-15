@@ -11,6 +11,11 @@ menu:
   关于: /about/ || fas fa-heart
   评论管理系统: https://comments.xujiayao.top/ui || fas fa-toolbox
 
+nav:
+  logo: # image
+  display_title: true
+  fixed: false # fixed navigation bar
+
 # Code Blocks (代碼相關)
 # --------------------------------------
 
@@ -185,6 +190,7 @@ toc:
   number: true
   expand: false
   style_simple: false # for post
+  scroll_percent: true
 
 post_copyright:
   enable: true
@@ -398,7 +404,7 @@ tidio:
   public_key:
 
 # daovoice
-# http://daovoice.io/
+# http://dashboard.daovoice.io/app
 daovoice:
   enable: false
   app_id:
@@ -441,10 +447,6 @@ baidu_analytics: 274cf2c3d2a4c01677acb12b54a1b5ad
 # Google Analytics
 # https://analytics.google.com/analytics/web/
 google_analytics: G-4FP887EWVP
-
-# CNZZ Analytics
-# https://www.umeng.com/
-cnzz_analytics:
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
@@ -634,7 +636,7 @@ subtitle:
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
-  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: 1
@@ -755,6 +757,9 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: false
+
+# show scroll percent in scroll-to-top button
+rightside_scroll_percent: false
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -900,7 +905,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
-  # Add version number to CDN, true or false  
+  # Add version number to CDN, true or false
   version: false
 
   # Custom format
