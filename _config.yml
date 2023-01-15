@@ -159,15 +159,14 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - 'www.yeyi.site'
     - 'tmzncty.cn'
-    - 'www.sakurax.ml'
     - 'echoandmoonlight.com'
     - 'blog.hezhihaolove.cn'
     - 'www.limewtea.com'
     - 'blog.dextercai.com'
     - 'noionion.top'
     - 'wu-youchao.github.io'
+    - 'www.daijl.cn'
 
 # hexo-renderer-marked
 marked:

@@ -1,23 +1,15 @@
 - class_name:
-  class_desc: <blockquote><p>所有友链按添加时间排序。</p><p>感谢您的到来。如果愿意和本站结为相识，很乐意与您互换友链。</p><p>需要注意的是，本站不提出附加条件，但本站不提供免费广告位。单向或有添加 NoFollow 标签的友链本站会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签。</p></blockquote>
+  class_desc: <blockquote><p>所有友链按添加时间排序。</p><p>感谢您的到来。如果愿意和本站结为相识，很乐意与您互换友链。</p><p>需要注意的是，本站不提供免费广告位。单向或有添加 NoFollow 标签的友链本站会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签。</p></blockquote>
   link_list:
 
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
   # 记得要去 config.yml 修改 NoFollow 插件 Exclude 设置
-    - name: 奕奕生辉
-      link: https://www.yeyi.site/
-      avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
-      descr: 叶奕的空间
     - name: Tmzncty
       link: https://tmzncty.cn/
       avatar: https://tmzncty.cn/tianyi/%E5%A4%B4%E5%83%8F5.jpg
       descr: 题目自拟的盒子
-    - name: Sakura
-      link: https://www.sakurax.ml/
-      avatar: https://gravatar.loli.net/avatar/43543b05911b76907f2b40a3dda76795?s=500
-      descr: Sakuraの无聊日常
     - name: Hydroxide
       link: https://echoandmoonlight.com/
       avatar: https://echoandmoonlight.com/wp-content/uploads/2021/03/enm_logo.png
@@ -38,13 +30,17 @@
       link: https://noionion.top/
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 贰猹の小窝
+    - name: souldjl
+      link: https://www.daijl.cn/
+      avatar: https://www.daijl.cn/img/avatar.png
+      descr: 高级前端进阶
     - name: Wyc
       link: https://wu-youchao.github.io/
       avatar: https://wu-youchao.github.io/file/avatar.png
       descr: 6575很懒的qwq
 
-- class_name: 单向友链
-  class_desc: 相识也是缘份
+- class_name: 单向友链 / 取消本站的友链 / 无法访问的友链
+  class_desc: <p>相识也是缘份</p><blockquote><p>若您与本站的友链已经恢复，请在下方评论区留言。我看到后会第一时间恢复友链。</p></blockquote>
   link_list:
     - name: 折影轻梦
       link: https://nexmoe.com/
@@ -54,10 +50,14 @@
       link: https://crazywong.com/
       avatar: https://crazywong.com/img/avatar.png
       descr: 今日事，今日畢
-    - name: souldjl
-      link: https://www.daijl.cn/
-      avatar: https://www.daijl.cn/img/avatar.png
-      descr: 高级前端进阶
+    - name: 奕奕生辉
+      link: https://www.yeyi.site/
+      avatar: https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
+      descr: 叶奕的空间
+    - name: Sakura
+      link: https://www.sakurax.ml/
+      avatar: https://gravatar.loli.net/avatar/43543b05911b76907f2b40a3dda76795?s=500
+      descr: Sakuraの无聊日常
 
 - class_name: 网站
   class_desc: 值得推荐的网站
