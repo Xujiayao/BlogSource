@@ -32,6 +32,10 @@ date: 2020-07-13 10:29:34
 >   - MB : MSI MAG B550M MORTAR WIFI
 >   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
 >   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.45V C14 Overclocked)
+> - 笔记本 (MSI Vector GP76HX 12UHS)
+>   - CPU: Intel Core i7-12800HX
+>   - GPU: NVIDIA GeForce RTX 3080 Ti Laptop GPU 16GB GDDR6
+>   - RAM: 32GB (DDR5 16GB x2 4800MHz)
 > - 服务器 (NAS)
 >   - CPU: Intel Core i7-870
 >   - MB : ASUS P7P55D-E Deluxe
