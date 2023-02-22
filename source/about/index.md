@@ -8,7 +8,7 @@ date: 2020-07-13 10:29:34
 
 ## 关于我
 
-> 欢迎光临！博客一周年啦！ヾ(≧▽≦*)o
+> 欢迎光临！博客二周年啦！ヾ(≧▽≦*)o
 >
 > 是老二次元了2333
 >
@@ -20,6 +20,7 @@ date: 2020-07-13 10:29:34
 > - osu!droid
 > - Euro Truck Simulator 2 (TruckersMP)
 > - Beat Saber
+> - Phigros
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前只在维护这一个项目（GitHub）：
@@ -28,7 +29,7 @@ date: 2020-07-13 10:29:34
 > 设备：
 > 
 > - 台式机
->   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.33V Overclocked)
+>   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.30V Overclocked)
 >   - MB : MSI MAG B550M MORTAR WIFI
 >   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
 >   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.45V C14 Overclocked)
@@ -187,5 +188,6 @@ date: 2020-07-13 10:29:34
 - [ ] 邪神与厨二病少女
 - [ ] [散华礼弥](https://www.bilibili.com/bangumi/media/md710/)
 - [ ] 潜行吧！奈亚子
+- [ ] 隔壁的吸血鬼美眉
 <!-- endtab -->
 {% endtabs %}
