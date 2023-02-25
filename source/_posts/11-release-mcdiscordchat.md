@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 MCDiscordChat has been updated to 2.1.2 - 2023/1/7!
 MCDiscordChat 已经更新到 2.1.2 - 2023/1/7 啦！
 
-> This article was updated on January 7, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 1 月 7 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on February 25, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 2 月 25 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -55,9 +55,9 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 如果你有兴趣为 MCDC 做出贡献，你可以在 GitHub 上提交拉取请求。
 
-对于代码贡献，构建文件位于 `/wrapper/build/libs/` 文件夹中。
+对于代码贡献，构建文件位于本地 `/wrapper/build/libs/` 文件夹中。
 
-对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为您的语言代码以开始翻译。请提供整个文件中所有键的翻译，除了以 `death` 前缀开头的，那些是以 Minecraft 官方翻译为准。
+对于翻译贡献，语言文件位于 [`/wrapper/src/main/resources/lang/` 文件夹](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang) 中。复制 `en_us.json` 并将新的文件重命名为您的语言代码以开始翻译。请提供整个文件中所有键的翻译，除了以 `death` 前缀开头的，那些是以 Minecraft 官方翻译为准。
 
 ## 功能特色
 
@@ -278,7 +278,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 打开 `mcdiscordchat.json`，配置以下变量后即可使用 MCDiscordChat。
 
-> Generic 通用
+> **Generic 通用**
 
 1. **`【必选】` language**
 示例 / 默认值：`en_us`
@@ -399,7 +399,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
-> MultiServer 多服务器
+> **MultiServer 多服务器**
 
 1. **`【必选】` enable**
 示例 / 默认值：`false`
@@ -421,11 +421,11 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`["123456789"]`
 说明：所有 MCDiscordChat 机器人的 ID（右键机器人即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
-> CustomMessage 自定义消息格式
+> **CustomMessage 自定义消息格式**
 >
 > 将选项留空以使用默认值，填写其中任何一个以使用自定义值。
 
-> latestVersion & latestCheckTime
+> **latestVersion & latestCheckTime**
 >
 > 不要修改。修改了也不会停止检查更新。
 
@@ -460,9 +460,9 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
 
 If you are interested in contributing to MCDC, you can submit a pull request on GitHub.
 
-For code contributions, the build file is located in the `/wrapper/build/libs/` folder.
+For code contributions, the build file is located in the local `/wrapper/build/libs/` folder.
 
-For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for all keys in the entire file, except those keys beginning with the `death` prefix, which are the official Minecraft translations.
+For translation contributions, language files are located in the [`/wrapper/src/main/resources/lang/` folder](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang). Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for all keys in the entire file, except those keys beginning with the `death` prefix, which are the official Minecraft translations.
 
 ## Features
 
@@ -683,7 +683,7 @@ After installing MCDiscordChat, when the server is started for the first time, t
 
 Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
 
-> Generic
+> **Generic**
 
 1. **`[Required]` language**
 Example / Default value: `en_us`
@@ -804,7 +804,7 @@ Description: MCDiscordChat Command Exclusion List, do not process and send speci
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
-> MultiServer
+> **MultiServer**
 
 1. **`[Required]` enable**
 Example / Default value: `false`
@@ -826,11 +826,11 @@ Description: Minecraft server name displayed when using multi-server mode
 Example / Default value: `["123456789"]`
 Description: IDs of all MCDiscordChat bots (right click on the bot to copy the ID, you have to turn on developer mode in Discord settings)
 
-> CustomMessage (custom message format)
+> **CustomMessage (custom message format)**
 >
 > Leave the options blank to use the default values, and fill in any of them to use the custom values.
 
-> latestVersion & latestCheckTime
+> **latestVersion & latestCheckTime**
 >
 > Do NOT modify. Modifying them doesn't stop checking for updates.
 <!-- endtab -->
