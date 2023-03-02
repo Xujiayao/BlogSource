@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 MCDiscordChat has been updated to 2.1.2 - 2023/1/7!
 MCDiscordChat 已经更新到 2.1.2 - 2023/1/7 啦！
 
-> This article was updated on February 25, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 2 月 25 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on March 2, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 3 月 2 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -424,6 +424,105 @@ MCDiscordChat 最新版本依赖以下运行环境：
 > **CustomMessage 自定义消息格式**
 >
 > 将选项留空以使用默认值，填写其中任何一个以使用自定义值。
+>
+> 默认语言文件位于 [`/wrapper/src/main/resources/lang/` 文件夹](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang) 中。你可以访问该文件夹以获取默认值，并参考默认值及以下说明来自定义消息格式。
+
+1. `unformattedResponseMessage` / `formattedResponseMessage`
+说明：在发送回复聊天消息时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%server%` | 消息来源（`Discord`） |
+| `%name%` | Discord 用户名或服务器昵称 / Discord Webhook 用户名 |
+| `%roleName%` | 用户身份组名称 |
+| `%roleColor%` | 用户身份组颜色（仅限 `formattedResponseMessage`） |
+| `%message%` | 发送的消息 |
+
+2. `unformattedChatMessage` / `formattedChatMessage`
+说明：在发送聊天消息时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%server%` | 消息来源（`Discord` 或 Minecraft 服务器名） |
+| `%name%` | Discord 用户名或服务器昵称 / Minecraft 玩家昵称 |
+| `%roleName%` | 用户身份组名称（仅限 Discord 来源） |
+| `%roleColor%` | 用户身份组颜色（仅限 Discord 来源 + `formattedChatMessage`） |
+| `%message%` | 发送的消息 |
+
+3. `unformattedOtherMessage` / `formattedOtherMessage`
+说明：在发送其它消息时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%server%` | 消息来源（`Discord` 或 Minecraft 服务器名） |
+| `%message%` | 发送的消息 |
+
+4. `unformattedCommandNotice` / `formattedCommandNotice`
+说明：在发送执行命令通知时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%name%` | Discord 用户名或服务器昵称 |
+| `%roleName%` | 用户身份组名称 |
+| `%roleColor%` | 用户身份组颜色（仅限 `formattedCommandNotice`） |
+| `%command%` | 执行的命令 |
+
+5. `serverStarted` / `serverStopped`
+说明：在服务器启动 / 关闭时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| N/A | N/A |
+
+6. `joinServer` / `leftServer`
+说明：在玩家加入 / 离开服务器时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%playerName%` | 玩家昵称 |
+
+7. `deathMessage`
+说明：在玩家死亡时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%deathMessage%` | 死亡消息 |
+| `%playerName%` | 玩家昵称 |
+
+8. `advancementTask` / `advancementGoal` / `advancementChallenge`
+说明：在玩家达成进度 / 达成目标 / 完成挑战时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%playerName%` | 玩家昵称 |
+| `%advancement%` | 进度 / 目标 / 挑战名称 |
+
+9. `highMspt`
+说明：在服务器 MSPT 高于预警值时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%mspt%` | 当前服务器 MSPT |
+| `%msptLimit%` | MSPT 预警值 |
+
+10. `offlineChannelTopic`
+说明：在服务器关闭时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%lastUpdateTime%` | 最后更新时间 |
+
+11. `onlineChannelTopic`
+说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%onlinePlayerCount%` | 服务器在线玩家数量 |
+| `%maxPlayerCount%` | 服务器玩家数量限制 |
+| `%uniquePlayerCount%` | 服务器玩家总数 |
+| `%serverStartedTime%` | 服务器启动时间 |
+| `%lastUpdateTime%` | 最后更新时间 |
+
+12. `onlineChannelTopicForMultiServer`
+说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用（启用多服务器模式时适用）
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%onlinePlayerCount%` | 服务器在线玩家数量 |
+| `%maxPlayerCount%` | 服务器玩家数量限制 |
+| `%uniquePlayerCount%` | 服务器玩家总数 |
+| `%onlineServerCount%` | 在线服务器数量 |
+| `%onlineServerList%` | 在线服务器列表 |
+| `%serverStartedTime%` | 服务器启动时间 |
+| `%lastUpdateTime%` | 最后更新时间 |
 
 > **latestVersion & latestCheckTime**
 >
@@ -829,6 +928,105 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > **CustomMessage (custom message format)**
 >
 > Leave the options blank to use the default values, and fill in any of them to use the custom values.
+>
+> The default language files are located in the [`/wrapper/src/main/resources/lang/` folder](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang). You may access this folder to get the default values, then refer to the default values and the descriptions below to customize the message format.
+
+1. `unformattedResponseMessage` / `formattedResponseMessage`
+Description: Used when sending replies to chat messages
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%server%` | Message source (`Discord`) |
+| `%name%` | Discord username or server nickname / Discord Webhook username |
+| `%roleName%` | User role name |
+| `%roleColor%` | User role color (`formattedResponseMessage` only) |
+| `%message%` | Message sent |
+
+2. `unformattedChatMessage` / `formattedChatMessage`
+Description: Used when sending chat messages
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%server%` | Message source (`Discord` or Minecraft server name) |
+| `%name%` | Discord username or server nickname / Minecraft player username |
+| `%roleName%` | User role name (Discord source only) |
+| `%roleColor%` | User role color (Discord source + `formattedChatMessage` only) |
+| `%message%` | Message sent |
+
+3. `unformattedOtherMessage` / `formattedOtherMessage`
+Description: Used when sending other messages
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%server%` | Message source (`Discord` or Minecraft server name) |
+| `%message%` | Message sent |
+
+4. `unformattedCommandNotice` / `formattedCommandNotice`
+Description: Used when sending command execution notifications
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%name%` | Discord username or server nickname |
+| `%roleName%` | User role name |
+| `%roleColor%` | User role color (`formattedCommandNotice` only) |
+| `%command%` | Command executed |
+
+5. `serverStarted` / `serverStopped`
+Description: Used when server started / stopped
+| Available Placeholders | Description |
+| ----- | ----- |
+| N/A | N/A |
+
+6. `joinServer` / `leftServer`
+Description: Used when players joined / left the server
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%playerName%` | Player username  |
+
+7. `deathMessage`
+Description: Used when players died
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%deathMessage%` | Death message |
+| `%playerName%` | Player username |
+
+8. `advancementTask` / `advancementGoal` / `advancementChallenge`
+Description: Used when players reached a progress / achieved a goal / completed a challenge
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%playerName%` | Player username |
+| `%advancement%` | Progress / goal / challenge name |
+
+9. `highMspt`
+Description: Used when the server MSPT is higher than the MSPT Limit
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%mspt%` | Current server MSPT |
+| `%msptLimit%` | MSPT Limit |
+
+10. `offlineChannelTopic`
+Description: Used when server stopped
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%lastUpdateTime%` | Last update time |
+
+11. `onlineChannelTopic`
+Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%onlinePlayerCount%` | Number of online players on the server |
+| `%maxPlayerCount%` | Limit on the number of players on the server |
+| `%uniquePlayerCount%` | Number of unique players who have ever joined the server |
+| `%serverStartedTime%` | Server started time |
+| `%lastUpdateTime%` | Last update time |
+
+12. `onlineChannelTopicForMultiServer`
+Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started (applicable when multi-server mode is enabled)
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%onlinePlayerCount%` | Number of online players on all servers |
+| `%maxPlayerCount%` | Limit on the number of players on all servers |
+| `%uniquePlayerCount%` | Number of unique players who have ever joined all servers |
+| `%onlineServerCount%` | Number of online servers |
+| `%onlineServerList%` | List of online servers |
+| `%serverStartedTime%` | Server started time |
+| `%lastUpdateTime%` | Last update time |
 
 > **latestVersion & latestCheckTime**
 >
