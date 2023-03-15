@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.1.2 - 2023/1/7 啦！
+description: MCDiscordChat 已经更新到 2.1.3 - 2023/3/16 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.1.2 - 2023/1/7!
-MCDiscordChat 已经更新到 2.1.2 - 2023/1/7 啦！
+MCDiscordChat has been updated to 2.1.3 - 2023/3/16!
+MCDiscordChat 已经更新到 2.1.3 - 2023/3/16 啦！
 
-> This article was updated on March 2, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 3 月 2 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on March 16, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 3 月 16 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -1036,6 +1036,46 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.1.3 - 2023/3/16
+
+> #### MCDiscordChat 2.1.3 for Minecraft 1.14+ - 2023/3/16
+> 
+> This version still supports versions 1.19.2 and 1.19.3, which have been integrated into the same file.
+> 
+> 此版本仍然支持 1.19.2 和 1.19.3 版本，已集成到同一个文件中。
+> 
+> #### New Features 新特性
+> 
+> - Support using %playerName% placeholder for custom death messages (#115)
+>   自定义死亡消息支持 %playerName% 占位符
+> 
+> - Compatible with version 1.19.4
+>   兼容 1.19.4 版本
+> 
+> #### Changes 更改
+> 
+> - Fix ru_ru lang causing player disconnections on death (#111)
+>   修复 ru_ru 语言导致玩家死亡时报错
+> 
+> - Fix modded death source causing player disconnections on death (#114)
+>   修复来自模组的死亡源导致玩家死亡时报错
+> 
+> - Fix exception when Discord message contains quotation marks (#119)
+>   修复 Discord 消息包含引号时报错
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.1.2...2.1.3
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.1.2 - 2023/1/7
 
 > #### MCDiscordChat 2.1.2 for Minecraft 1.14+ - 2023/1/7
@@ -1074,7 +1114,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.1.1...2.1.2
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.1.1 - 2022/12/10
 
 > #### MCDiscordChat 2.1.1 for Minecraft 1.14+ - 2022/12/10
