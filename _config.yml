@@ -161,11 +161,12 @@ nofollow:
   exclude:
     - 'tmzncty.cn'
     - 'echoandmoonlight.com'
-    - 'blog.hezhihaolove.cn'
+    - 'blog.ariven-sky.cn'
     - 'www.limewtea.com'
     - 'blog.dextercai.com'
     - 'noionion.top'
-    - 'wu-youchao.github.io'
+    - 'blog.wuyouchao.top'
+    - 'blissfulalloy79.github.io'
 
 # hexo-renderer-marked
 marked:

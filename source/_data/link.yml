@@ -13,11 +13,11 @@
     - name: Hydroxide
       link: https://echoandmoonlight.com/
       avatar: https://echoandmoonlight.com/wp-content/uploads/2021/03/enm_logo.png
-      descr: Echo & Moonlight
+      descr: 回声与月光
     - name: Ariven
-      link: https://blog.hezhihaolove.cn/
-      avatar: https://blog.hezhihaolove.cn/img/avatar.png
-      descr: MAN TOGA
+      link: https://blog.ariven-sky.cn/ # https://sino6067.github.io/
+      avatar: https://blog.ariven-sky.cn/img/avatar.png
+      descr: Ariven的博客
     - name: 秋月夏茗
       link: https://www.limewtea.com/
       avatar: https://www.limewtea.com/img/avatar.png
@@ -31,11 +31,27 @@
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 贰猹の小窝
     - name: Wyc
-      link: https://wu-youchao.github.io/
-      avatar: https://wu-youchao.github.io/file/avatar.png
+      link: https://blog.wuyouchao.top/ # https://wu-youchao.github.io/
+      avatar: https://blog.wuyouchao.top/file/avatar.png
       descr: 6575很懒的qwq
+    - name: BlissfulAlloy79
+      link: https://blissfulalloy79.github.io/
+      avatar: https://blissfulalloy79.github.io/img/avatar.jpg
+      descr: 既来之，则安之
 
-- class_name: 单向友链 / 取消本站的友链 / 无法访问的友链
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Nexmoe
+      link: https://nexmoe.com/hexo-theme-nexmoe.html
+      avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
+      descr: 一个比较特别的 Hexo 主题
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: "A Hexo Theme: Butterfly"
+
+- class_name: 单向 (NoFollow) 友链 / 取消本站的友链 / 无法访问的友链
   class_desc: <p>相识也是缘份</p><blockquote><p>若您与本站的友链已经恢复，请在下方评论区留言。我看到后会第一时间恢复友链。</p></blockquote>
   link_list:
     - name: 折影轻梦
@@ -58,15 +74,3 @@
       link: https://www.daijl.cn/
       avatar: https://www.daijl.cn/img/avatar.png
       descr: 高级前端进阶
-
-- class_name: 网站
-  class_desc: 值得推荐的网站
-  link_list:
-    - name: Nexmoe
-      link: https://nexmoe.com/hexo-theme-nexmoe.html
-      avatar: https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png
-      descr: 一个比较特别的 Hexo 主题
-    - name: Butterfly
-      link: https://butterfly.js.org/
-      avatar: https://butterfly.js.org/img/avatar.png
-      descr: "A Hexo Theme: Butterfly"

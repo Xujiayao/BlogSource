@@ -29,7 +29,7 @@ date: 2020-07-13 10:29:34
 > 设备：
 > 
 > - 台式机
->   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.30V Overclocked)
+>   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.33V Overclocked)
 >   - MB : MSI MAG B550M MORTAR WIFI
 >   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
 >   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.45V C14 Overclocked)
