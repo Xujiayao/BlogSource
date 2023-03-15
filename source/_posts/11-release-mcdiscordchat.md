@@ -190,10 +190,10 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 给应用命名，然后点击 `Create` 按钮创建。
 
-> 推荐命名为 `MCDiscordChat`。
+> 推荐命名为 `MCDC`。
 >
-> 如果要在多个 Minecraft 服务器运行 MCDiscordChat，推荐命名为 `[服务器名] MCDiscordChat`。
-> 举例：`[SMP] MCDiscordChat`、`[CMP] MCDiscordChat`
+> 如果要在多个 Minecraft 服务器运行 MCDiscordChat，推荐命名为 `[服务器名] MCDC`。
+> 举例：`[SMP] MCDC`、`[CMP] MCDC`
 >
 > 没有格式限制。
 
@@ -694,10 +694,10 @@ Go to [Applications Page](https://discord.com/developers/applications) of Discor
 
 Give a name and click the `Create` button to create it.
 
-> It is recommended to name it as `MCDiscordChat`.
+> It is recommended to name it as `MCDC`.
 >
-> If you will run MCDiscordChat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDiscordChat`.
-> Example: `[SMP] MCDiscordChat`, `[CMP] MCDiscordChat`
+> If you will run MCDiscordChat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDC`.
+> Example: `[SMP] MCDC`, `[CMP] MCDC`
 >
 > No format restrictions.
 
