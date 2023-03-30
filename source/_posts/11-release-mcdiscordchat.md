@@ -388,7 +388,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
 26. `【可选】` channelTopicUpdateInterval
-示例 / 默认值：`true`
+示例 / 默认值：`600000`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
 27. `【可选】` excludedCommands
@@ -892,7 +892,7 @@ Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
 26. `[Optional]` channelTopicUpdateInterval
-Example / Default value: `true`
+Example / Default value: `600000`
 Description: Customize update server status using Discord channel topic interval
 
 27. `[Optional]` excludedCommands
