@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 MCDiscordChat has been updated to 2.1.3 - 2023/3/16!
 MCDiscordChat 已经更新到 2.1.3 - 2023/3/16 啦！
 
-> This article was updated on March 16, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 3 月 16 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on April 3, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 4 月 3 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -323,79 +323,83 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`https://mc-heads.net/avatar/%player%.png`
 说明：自定义 Webhook 头像 API 链接
 
-10. **`【必选】` broadcastCommandExecution**
+10. **`【必选】` broadcastPlayerCommandExecution**
 示例 / 默认值：`true`
-说明：是否广播玩家指令执行
+说明：是否广播 Minecraft 玩家指令执行
 
-11. **`【必选】` announceServerStartStop**
+11. **`【必选】` broadcastSlashCommandExecution**
+示例 / 默认值：`true`
+说明：是否广播 Discord 斜线命令执行
+
+12. **`【必选】` announceServerStartStop**
 示例 / 默认值：`true`
 说明：是否广播服务器启动和关闭
 
-12. **`【必选】` announcePlayerJoinLeave**
+13. **`【必选】` announcePlayerJoinLeave**
 示例 / 默认值：`true`
 说明：是否广播玩家加入和离开服务器
 
-13. **`【必选】` announceDeathMessages**
+14. **`【必选】` announceDeathMessages**
 示例 / 默认值：`true`
 说明：是否广播玩家死亡消息
 
-14. **`【必选】` announceAdvancements**
+15. **`【必选】` announceAdvancements**
 示例 / 默认值：`true`
 说明：是否广播玩家达成进度 / 达成目标 / 完成挑战
 
-15. **`【必选】` broadcastChatMessages**
+16. **`【必选】` broadcastChatMessages**
 示例 / 默认值：`true`
 说明：是否广播 Discord 和游戏内聊天
 
-16. **`【必选】` formatChatMessages**
+17. **`【必选】` formatChatMessages**
 示例 / 默认值：`true`
 说明：是否格式化游戏内聊天消息
 
-17. **`【必选】` allowMentions**
+18. **`【必选】` allowMentions**
 示例 / 默认值：`true`
 说明：是否允许游戏内提及 (@)
 
-18. **`【必选】` useServerNickname**
+19. **`【必选】` useServerNickname**
 示例 / 默认值：`true`
 说明：是否显示 Discord 服务器昵称
 
-19. `【可选】` discordNewlineLimit
+20. `【可选】` discordNewlineLimit
 示例 / 默认值：`3`
 说明：自定义 Discord 消息换行次数限制（若超出限制，所有换行将全部替换为 `\n` 反斜杠符号）
 
-20. **`【必选】` announceHighMspt**
+21. **`【必选】` announceHighMspt**
 示例 / 默认值：`true`
 说明：是否在服务器 MSPT 高于预警值时发出通知
 
-21. `【可选】` msptCheckInterval
+22. `【可选】` msptCheckInterval
 示例 / 默认值：`5000`
 说明：自定义 MSPT 检查间隔
 
-22. `【可选】` msptLimit
+23. `【可选】` msptLimit
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-23. **`【必选】` notifyUpdates**
+24. **`【必选】` notifyUpdates**
 示例 / 默认值：`true`
 说明：是否发送更新通知
 
-24. **`【必选】` mentionAdminsForUpdates**
+25. **`【必选】` mentionAdminsForUpdates**
 示例 / 默认值：`true`
 说明：是否在发送更新通知时提及 MCDiscordChat 管理员
 
-25. **`【必选】` updateChannelTopic**
+26. **`【必选】` updateChannelTopic**
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
-26. `【可选】` channelTopicUpdateInterval
+27. `【可选】` channelTopicUpdateInterval
 示例 / 默认值：`600000`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
-27. `【可选】` excludedCommands
+28. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-28. **`【必选】` adminsIds**
+29. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
@@ -827,79 +831,83 @@ Description: Use UUID or nickname to get player avatar when sending Webhook (UUI
 Example / Default value: `https://mc-heads.net/avatar/%player%.png`
 Description: URL of the Avatar API for Webhook
 
-10. **`[Required]` broadcastCommandExecution**
+10. **`[Required]` broadcastPlayerCommandExecution**
 Example / Default value: `true`
-Description: Whether to broadcast player command execution
+Description: Whether to broadcast Minecraft player command execution
 
-11. **`[Required]` announceServerStartStop**
+11. **`[Required]` broadcastSlashCommandExecution**
+Example / Default value: `true`
+Description: Whether to broadcast Discord slash command execution
+
+12. **`[Required]` announceServerStartStop**
 Example / Default value: `true`
 Description: Whether to broadcast server start and stop
 
-12. **`[Required]` announcePlayerJoinLeave**
+13. **`[Required]` announcePlayerJoinLeave**
 Example / Default value: `true`
 Description: Whether to broadcast player join and leave the server
 
-13. **`[Required]` announceDeathMessages**
+14. **`[Required]` announceDeathMessages**
 Example / Default value: `true`
 Description: Whether to broadcast player death messages
 
-14. **`[Required]` announceAdvancements**
+15. **`[Required]` announceAdvancements**
 Example / Default value: `true`
 Description: Whether to broadcast player reach a progress / achieve a goal / complete a challenge
 
-15. **`[Required]` broadcastChatMessages**
+16. **`[Required]` broadcastChatMessages**
 Example / Default value: `true`
 Description: Whether to broadcast Discord and in-game chat
 
-16. **`[Required]` formatChatMessages**
+17. **`[Required]` formatChatMessages**
 Example / Default value: `true`
 Description: Whether to format in-game chat messages
 
-17. **`[Required]` allowMentions**
+18. **`[Required]` allowMentions**
 Example / Default value: `true`
 Description: Whether to allow in-game mentions (@)
 
-18. **`[Required]` useServerNickname**
+19. **`[Required]` useServerNickname**
 Example / Default value: `true`
 Description: Whether to display Discord server nickname
 
-19. `[Optional]` discordNewlineLimit
+20. `[Optional]` discordNewlineLimit
 Example / Default value: `3`
 Description: Customize the newline limit for Discord messages (if the limit is exceeded, all newlines will be replaced with `\n` backslash symbols)
 
-20. **`[Required]` announceHighMspt**
+21. **`[Required]` announceHighMspt**
 Example / Default value: `true`
 Description: Whether to announce when the server MSPT is higher than the MSPT Limit
 
-21. `[Optional]` msptCheckInterval
+22. `[Optional]` msptCheckInterval
 Example / Default value: `5000`
 Description: Customize MSPT check interval
 
-22. `[Optional]` msptLimit
+23. `[Optional]` msptLimit
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-23. **`[Required]` notifyUpdates**
+24. **`[Required]` notifyUpdates**
 Example / Default value: `true`
 Description: Whether to send update notifications
 
-24. **`[Required]` mentionAdminsForUpdates**
+25. **`[Required]` mentionAdminsForUpdates**
 Example / Default value: `true`
 Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
 
-25. **`[Required]` updateChannelTopic**
+26. **`[Required]` updateChannelTopic**
 Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
-26. `[Optional]` channelTopicUpdateInterval
+27. `[Optional]` channelTopicUpdateInterval
 Example / Default value: `600000`
 Description: Customize update server status using Discord channel topic interval
 
-27. `[Optional]` excludedCommands
+28. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-28. **`[Required]` adminsIds**
+29. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
