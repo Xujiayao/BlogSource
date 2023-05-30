@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.1.3 - 2023/3/16 啦！
+description: MCDiscordChat 已经更新到 2.1.4 - 2023/5/30 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.1.3 - 2023/3/16!
-MCDiscordChat 已经更新到 2.1.3 - 2023/3/16 啦！
+MCDiscordChat has been updated to 2.1.4 - 2023/5/30!
+MCDiscordChat 已经更新到 2.1.4 - 2023/5/30 啦！
 
-> This article was updated on April 3, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 4 月 3 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on May 30, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 5 月 30 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -57,7 +57,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 对于代码贡献，构建文件位于本地 `/wrapper/build/libs/` 文件夹中。
 
-对于翻译贡献，语言文件位于 [`/wrapper/src/main/resources/lang/` 文件夹](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang) 中。复制 `en_us.json` 并将新的文件重命名为您的语言代码以开始翻译。请提供整个文件中所有键的翻译，除了以 `death` 前缀开头的，那些是以 Minecraft 官方翻译为准。
+对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为您的语言代码以开始翻译。请为整个文件中除了以 `death` 前缀开头的键之外其它所有键提供翻译。死亡消息是 Minecraft 的官方翻译，可随时从官方翻译同步。
 
 ## 功能特色
 
@@ -96,7 +96,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 管理员命令
     - /reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
-    - /log                     | 获取指定的服务器日志（仅限管理员）
+    - /log \<file\>            | 获取指定的服务器日志（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
 - 可使用 Minecraft 命令
   - 仅限管理员的命令仅对 4 级管理员可用
@@ -130,11 +130,13 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 目前可用的语言：
 
-| 代码 | 语言 |
-| ----- | ----- |
-| `en_us` | English (US) |
-| `zh_cn` | 中文（简体） |
-| `ru_ru` | Русский (Россия) |
+| 代码      | 语言                |
+|---------|-------------------|
+| `en_us` | English (US)      |
+| `zh_cn` | 中文（简体）            |
+| `ru_ru` | Русский (Россия)  |
+| `ko_kr` | 한국어（대한민국）         |
+| `fr_fr` | Français (France) |
 
 ## 贡献者
 
@@ -285,11 +287,13 @@ MCDiscordChat 最新版本依赖以下运行环境：
 说明：MCDiscordChat 使用的语言
 目前可用的语言：**（欢迎你贡献翻译！）**
 贡献：https://github.com/Xujiayao/MCDiscordChat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
-| 代码 | 语言 |
-| ----- | ----- |
-| `en_us` | English (US) |
-| `zh_cn` | 中文（简体） |
-| `ru_ru` | Русский (Россия) |
+| 代码      | 语言                |
+|---------|-------------------|
+| `en_us` | English (US)      |
+| `zh_cn` | 中文（简体）            |
+| `ru_ru` | Русский (Россия)  |
+| `ko_kr` | 한국어（대한민국）         |
+| `fr_fr` | Français (France) |
 
 2. **`【必选】` botToken**
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
@@ -395,11 +399,15 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`600000`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
-28. `【可选】` excludedCommands
+28. **`【必选】` shutdownImmediately**
+示例 / 默认值：`false`
+说明：是否在关闭服务器时等待速率限制重置
+
+29. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-29. **`【必选】` adminsIds**
+30. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
 说明：MCDiscordChat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
@@ -565,7 +573,7 @@ If you are interested in contributing to MCDC, you can submit a pull request on 
 
 For code contributions, the build file is located in the local `/wrapper/build/libs/` folder.
 
-For translation contributions, language files are located in the [`/wrapper/src/main/resources/lang/` folder](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang). Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for all keys in the entire file, except those keys beginning with the `death` prefix, which are the official Minecraft translations.
+For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for the entire file for all keys except those starting with the `death` prefix. The death messages are official translations for Minecraft, which may sync from the official translations at any time.
 
 ## Features
 
@@ -604,7 +612,7 @@ For translation contributions, language files are located in the [`/wrapper/src/
   - Admin Commands
     - /reload                  | Reload MCDiscordChat config file (admin only)
     - /console \<command\>     | Execute a command in the server console (admin only)
-    - /log                     | Get the specified server log (admin only)
+    - /log \<file\>            | Get the specified server log (admin only)
     - /stop                    | Stop the server (admin only)
 - Minecraft Commands available
   - Admin-only commands require a level 4 operator at minimum
@@ -638,11 +646,13 @@ For translation contributions, language files are located in the [`/wrapper/src/
 
 Languages currently available:
 
-| Code | Language |
-| ----- | ----- |
-| `en_us` | English (US) |
-| `zh_cn` | 中文（简体） |
-| `ru_ru` | Русский (Россия) |
+| Code    | Language          |
+|---------|-------------------|
+| `en_us` | English (US)      |
+| `zh_cn` | 中文（简体）            |
+| `ru_ru` | Русский (Россия)  |
+| `ko_kr` | 한국어（대한민국）         |
+| `fr_fr` | Français (France) |
 
 ## Contributors
 
@@ -793,11 +803,13 @@ Example / Default value: `en_us`
 Description: The language MCDiscordChat uses
 Languages currently available: **(You are welcome to contribute translations!)**
 Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
-| Code | Language |
-| ----- | ----- |
-| `en_us` | English (US) |
-| `zh_cn` | 中文（简体） |
-| `ru_ru` | Русский (Россия) |
+| Code    | Language          |
+|---------|-------------------|
+| `en_us` | English (US)      |
+| `zh_cn` | 中文（简体）            |
+| `ru_ru` | Русский (Россия)  |
+| `ko_kr` | 한국어（대한민국）         |
+| `fr_fr` | Français (France) |
 
 2. **`[Required]` botToken**
 Example / Default value: `xxxxxx.xxx.xxxxxx`
@@ -903,11 +915,15 @@ Description: Whether to display server status using Discord channel topic featur
 Example / Default value: `600000`
 Description: Customize update server status using Discord channel topic interval
 
-28. `[Optional]` excludedCommands
+28. **`[Required]` shutdownImmediately**
+Example / Default value: `false`
+Description: Whether to wait for the rate limit to reset on shutdown
+
+29. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-29. **`[Required]` adminsIds**
+30. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
 Description: MCDiscordChat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
@@ -1044,6 +1060,61 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.1.4 - 2023/5/30
+
+> #### MCDiscordChat 2.1.4 for Minecraft 1.14+ - 2023/5/30
+> 
+> This version still supports versions 1.19.2 and 1.19.3, which have been integrated into the same file.
+> 
+> 此版本仍然支持 1.19.2 和 1.19.3 版本，已集成到同一个文件中。
+> 
+> #### New Features 新特性
+> 
+> - Send chat messages sent by /say command to Discord (#125)
+>   发送 /say 指令所发送的聊天消息至 Discord
+> 
+> - Announce high MSPT at the console log channel when the console log feature is enabled (#125)
+>   启用控制台日志功能时将 MSPT 警告发送到控制台日志频道
+> 
+> - Add an option to flexibly choose whether to wait for the rate limit to reset (#129)
+>   添加选项供灵活选择是否等待速率限制重置
+> 
+> - Korean translation (#136)
+>   韩语翻译
+> 
+> - French translation (#137)
+>   法语翻译
+> 
+> #### Changes 更改
+> 
+> - Fix chat message validation failure when using excluded commands (#127)
+>   修复使用已排除的指令时报错聊天记录验证失败
+> 
+> - Optimize the logic of handling rate limit when stopping the server (#129)
+>   优化停止服务器时处理速率限制的逻辑
+> 
+> - Fix description of /log <file> command out of date (#137)
+>   修复 /log <file> 命令的描述过时
+> 
+> - Fix exception when a Discord user who does not have any role executes a command (#137)
+>   修复没有任何用户组的 Discord 用户在执行命令时报错
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @Clem-Fern
+> - @MeowOnLong
+> - @Vocatis
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.1.3...2.1.4
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.1.3 - 2023/3/16
 
 > #### MCDiscordChat 2.1.3 for Minecraft 1.14+ - 2023/3/16
@@ -1083,7 +1154,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.1.2...2.1.3
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.1.2 - 2023/1/7
 
 > #### MCDiscordChat 2.1.2 for Minecraft 1.14+ - 2023/1/7
