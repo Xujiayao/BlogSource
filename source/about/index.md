@@ -16,11 +16,12 @@ date: 2020-07-13 10:29:34
 >
 > - Minecraft Java Edition (Lazy_Craft Private Server)
 > - Grand Theft Auto V (Online)
-> - osu!
-> - osu!droid
 > - Euro Truck Simulator 2 (TruckersMP)
+> - Rebel Inc: Escalation
+> - osu!
 > - Beat Saber
 > - Phigros
+> - maimai (AstroDX)
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前只在维护这一个项目（GitHub）：
@@ -46,6 +47,7 @@ date: 2020-07-13 10:29:34
 >   - Google Pixel 6 Pro
 > - 平板
 >   - HUAWEI MatePad Pro 10.8 (2019)
+>   - iPad Air (4th generation)
 >
 > 博客内容以原创为主，不定期随缘更新文章。
 > 受限于个人能力，没有什么营养，也没有什么亮点（＞人＜；）
