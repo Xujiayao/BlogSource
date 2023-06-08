@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.1.4 - 2023/5/30 啦！
+description: MCDiscordChat 已经更新到 1.20-2.1.4 - 2023/6/8 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.1.4 - 2023/5/30!
-MCDiscordChat 已经更新到 2.1.4 - 2023/5/30 啦！
+MCDiscordChat has been updated to 1.20-2.1.4 - 2023/6/8!
+MCDiscordChat 已经更新到 1.20-2.1.4 - 2023/6/8 啦！
 
-> This article was updated on May 30, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 5 月 30 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on June 8, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 6 月 8 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -158,6 +158,7 @@ MCDiscordChat 支持以下游戏版本：
 - Minecraft 1.17.x
 - Minecraft 1.18.x
 - Minecraft 1.19.x
+- Minecraft 1.20.x
 
 MCDiscordChat 最新版本依赖以下运行环境：
 
@@ -674,6 +675,7 @@ MCDiscordChat supports the following Minecraft versions:
 - Minecraft 1.17.x
 - Minecraft 1.18.x
 - Minecraft 1.19.x
+- Minecraft 1.20.x
 
 The latest version of MCDiscordChat depends on the following environment:
 
@@ -1060,6 +1062,41 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 1.20-2.1.4 - 2023/6/8
+
+> #### MCDiscordChat 1.20-2.1.4 for Minecraft 1.20 - 2023/6/8
+> 
+> Please use this release if you are using Minecraft 1.20.
+> 
+> Otherwise, use the general 2.1.4 release for older Minecraft versions, including 1.19.2 and 1.19.3.
+> 
+> 如果您使用的是 Minecraft 1.20，请使用此版本。
+> 
+> 否则，请使用适用于旧版 Minecraft 的通用 2.1.4 版本，包括 1.19.2 和 1.19.3。
+> 
+> #### New Features 新特性
+> 
+> - Compatible with version 1.20
+>   兼容 1.20 版本
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> - No longer compatible with versions 1.19.2 and 1.19.3
+>   不再兼容 1.19.2 和 1.19.3 版本
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/2.1.4...1.20-2.1.4
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.1.4 - 2023/5/30
 
 > #### MCDiscordChat 2.1.4 for Minecraft 1.14+ - 2023/5/30
@@ -1114,7 +1151,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.1.3...2.1.4
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.1.3 - 2023/3/16
 
 > #### MCDiscordChat 2.1.3 for Minecraft 1.14+ - 2023/3/16
