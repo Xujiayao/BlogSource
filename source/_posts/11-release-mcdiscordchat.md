@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 1.20-2.1.4 - 2023/6/8 啦！
+description: MCDiscordChat 已经更新到 2.2.0 - 2023/7/4 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 1.20-2.1.4 - 2023/6/8!
-MCDiscordChat 已经更新到 1.20-2.1.4 - 2023/6/8 啦！
+MCDiscordChat has been updated to 2.2.0 - 2023/7/4!
+MCDiscordChat 已经更新到 2.2.0 - 2023/7/4 啦！
 
-> This article was updated on June 8, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 6 月 8 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on July 4, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 7 月 4 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -55,9 +55,9 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 如果你有兴趣为 MCDC 做出贡献，你可以在 GitHub 上提交拉取请求。
 
-对于代码贡献，构建文件位于本地 `/wrapper/build/libs/` 文件夹中。
+对于代码贡献，构建文件位于 `/wrapper/build/libs/` 文件夹中。
 
-对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为您的语言代码以开始翻译。请为整个文件中除了以 `death` 前缀开头的键之外其它所有键提供翻译。死亡消息是 Minecraft 的官方翻译，可随时从官方翻译同步。
+对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为你的语言代码以开始翻译。请为整个文件中除了以 `advancements` 和 `death` 前缀开头的键之外其它所有键提供翻译。那些是 Minecraft 的官方翻译，可随时从官方翻译同步。
 
 ## 功能特色
 
@@ -68,12 +68,14 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 支持使用 Discord 频道主题功能显示服务器状态
   - 支持使用机器人活动状态显示服务器玩家数
   - 支持 Discord Webhook 功能
+    - 动态创建 MCDC Webhook
     - 可自定义 Webhook 玩家头像 API
-    - 未填写 Webhook URL 时使用机器人自身发送聊天消息
+    - 可禁用 Webhook，使用机器人自身发送聊天消息
   - 支持游戏内 Markdown 解析
   - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
   - 支持游戏内高亮贴纸
   - 支持游戏内高亮和提及 (@)
+    - 可自定义允许游戏内提及 (@) 的范围
     - 支持禁用游戏内提及 (@)
   - 支持游戏内高亮和打开超链接和 GIF
   - 支持禁用所有解析
@@ -89,22 +91,24 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 当有人执行 MCDC 命令时通知游戏内玩家
   - /console 命令支持 Minecraft 命令自动补全
   - 普通命令
-    - /info                    | 查询服务器运行状态
     - /help                    | 获取可用命令列表
-    - /update                  | 检查更新
+    - /info                    | 查询服务器运行状态
     - /stats \<type\> \<name\> | 查询该统计信息的排行榜
+    - /update                  | 检查更新
+    - /whitelist \<player\>    | 添加玩家至服务器白名单
   - 管理员命令
-    - /reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
     - /log \<file\>            | 获取指定的服务器日志（仅限管理员）
+    - /reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
 - 可使用 Minecraft 命令
   - 仅限管理员的命令仅对 4 级管理员可用
   - 普通命令
-    - /mcdc info                    | 查询服务器运行状态
     - /mcdc help                    | 获取可用命令列表
-    - /mcdc update                  | 检查更新
+    - /mcdc info                    | 查询服务器运行状态
     - /mcdc stats \<type\> \<name\> | 查询该统计信息的排行榜
+    - /mcdc update                  | 检查更新
+    - /mcdc whitelist \<player\>    | 添加玩家至服务器白名单
   - 管理员命令
     - /mcdc reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
 - 可完全自定义所有消息格式
@@ -112,14 +116,17 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 游戏内
     - 来自 Discord 的聊天消息
     - 来自 Discord 的回复消息
-    - 来自其它服务器的消息
+    - 来自其它 MCDC 服务器的消息
   - Discord
     - 在服务器启动时
     - 在服务器关闭时
     - 在玩家加入服务器时
     - 在玩家离开服务器时
     - 在玩家达成进度 / 达成目标 / 完成挑战时
+      - 多语言支持
+      - 支持显示进度 / 挑战 / 目标的描述
     - 在玩家死亡时
+      - 多语言支持
     - 在服务器 MSPT 高于预警值时
 - 可使用管理员名单配置用户使用特殊命令的权限
 - 支持配置文件热重载
@@ -130,13 +137,16 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 目前可用的语言：
 
-| 代码      | 语言                |
-|---------|-------------------|
-| `en_us` | English (US)      |
-| `zh_cn` | 中文（简体）            |
-| `ru_ru` | Русский (Россия)  |
-| `ko_kr` | 한국어（대한민국）         |
-| `fr_fr` | Français (France) |
+| 代码      | 语言                   |
+|---------|----------------------|
+| `en_us` | English (US)         |
+| `fr_fr` | Français (France)    |
+| `ko_kr` | 한국어（대한민국）            |
+| `no_no` | Norsk Bokmål (Norge) |
+| `pl_pl` | Polski (Polska)      |
+| `ru_ru` | Русский (Россия)     |
+| `zh_cn` | 简体中文（中国大陆）           |
+| `zh_hk` | 繁體中文（香港特別行政區）        |
 
 ## 贡献者
 
@@ -249,33 +259,13 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 至此，机器人配置完毕。
 
-### 配置 Webhook（可选但推荐）
-
-先在服务器创建一个新的文字频道，推荐命名为 `in-game-chat`、`server-chat`。
-
-> 没有格式限制。
-
-打开 `服务器设置`，转到 `整合` 选项卡，然后点击 `创建 Webhook` 按钮创建一个新的 Webhook。
-
-![15.png](/file/posts/4ba0a17a/15.png)
-
-可以改一下 Webhook 的头像和名称，频道选择刚刚创建的文字频道。
-
-> 没有格式限制。
-
-按 `复制 Webhook URL` 按钮复制并保存 Webhook 链接，后面会用到。
-
-![16.png](/file/posts/4ba0a17a/16.png)
-
-至此，Webhook 配置完毕。
-
 ### 首次启动
 
 安装 MCDiscordChat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `mcdiscordchat.json` 的文件，需要在再次启动服务器前编辑 `mcdiscordchat.json` 以配置 MCDiscordChat：
 
-![17.png](/file/posts/4ba0a17a/17.png)
+![15.png](/file/posts/4ba0a17a/15.png)
 
-![18.png](/file/posts/4ba0a17a/18.png)
+![16.png](/file/posts/4ba0a17a/16.png)
 
 ### 配置 MCDiscordChat
 
@@ -288,13 +278,16 @@ MCDiscordChat 最新版本依赖以下运行环境：
 说明：MCDiscordChat 使用的语言
 目前可用的语言：**（欢迎你贡献翻译！）**
 贡献：https://github.com/Xujiayao/MCDiscordChat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
-| 代码      | 语言                |
-|---------|-------------------|
-| `en_us` | English (US)      |
-| `zh_cn` | 中文（简体）            |
-| `ru_ru` | Русский (Россия)  |
-| `ko_kr` | 한국어（대한민국）         |
-| `fr_fr` | Français (France) |
+| 代码      | 语言                   |
+|---------|----------------------|
+| `en_us` | English (US)         |
+| `fr_fr` | Français (France)    |
+| `ko_kr` | 한국어（대한민국）            |
+| `no_no` | Norsk Bokmål (Norge) |
+| `pl_pl` | Polski (Polska)      |
+| `ru_ru` | Русский (Россия)     |
+| `zh_cn` | 简体中文（中国大陆）           |
+| `zh_hk` | 繁體中文（香港特別行政區）        |
 
 2. **`【必选】` botToken**
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
@@ -304,9 +297,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`botPlayingStatus: Minecraft`
 说明：设置机器人活动状态（二选一）（留空则禁用此功能）
 
-4. `【可选】` webhookUrl
-示例 / 默认值：`https://xxxxx`
-说明：Webhook 链接（留空则使用机器人自身发送聊天消息）
+4. **`【必选】` useWebhook**
+示例 / 默认值：`true`
+说明：是否启用 Webhook 功能（禁用则使用机器人自身发送聊天消息）
 
 5. **`【必选】` channelId**
 示例 / 默认值：`123456`
@@ -360,9 +353,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 示例 / 默认值：`true`
 说明：是否格式化游戏内聊天消息
 
-18. **`【必选】` allowMentions**
-示例 / 默认值：`true`
-说明：是否允许游戏内提及 (@)
+18. `【可选】` allowedMentions
+示例 / 默认值：`["everyone", "users", "roles"]`
+说明：自定义允许游戏内提及 (@) 的范围（清空列表即为禁止所有游戏内提及）
 
 19. **`【必选】` useServerNickname**
 示例 / 默认值：`true`
@@ -370,7 +363,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 20. `【可选】` discordNewlineLimit
 示例 / 默认值：`3`
-说明：自定义 Discord 消息换行次数限制（若超出限制，所有换行将全部替换为 `\n` 反斜杠符号）
+说明：自定义 Discord 消息换行次数限制（所有超出限制的换行将全部替换为单个 `...`）
 
 21. **`【必选】` announceHighMspt**
 示例 / 默认值：`true`
@@ -501,6 +494,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 | ----- | ----- |
 | `%playerName%` | 玩家昵称 |
 | `%advancement%` | 进度 / 目标 / 挑战名称 |
+| `%description%` | 进度 / 目标 / 挑战描述 |
 
 9. `highMspt`
 说明：在服务器 MSPT 高于预警值时使用
@@ -524,6 +518,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 | `%uniquePlayerCount%` | 服务器玩家总数 |
 | `%serverStartedTime%` | 服务器启动时间 |
 | `%lastUpdateTime%` | 最后更新时间 |
+| `%nextUpdateTime%` | 下一次更新时间 |
 
 12. `onlineChannelTopicForMultiServer`
 说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用（启用多服务器模式时适用）
@@ -536,6 +531,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 | `%onlineServerList%` | 在线服务器列表 |
 | `%serverStartedTime%` | 服务器启动时间 |
 | `%lastUpdateTime%` | 最后更新时间 |
+| `%nextUpdateTime%` | 下一次更新时间 |
 
 > **latestVersion & latestCheckTime**
 >
@@ -572,9 +568,9 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
 
 If you are interested in contributing to MCDC, you can submit a pull request on GitHub.
 
-For code contributions, the build file is located in the local `/wrapper/build/libs/` folder.
+For code contributions, the build file is located in the `/wrapper/build/libs/` folder.
 
-For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for the entire file for all keys except those starting with the `death` prefix. The death messages are official translations for Minecraft, which may sync from the official translations at any time.
+For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for the entire file for all keys except those starting with the `advancements` and `death` prefixes. Those messages are official translations of Minecraft, which may sync from the official translations at any time.
 
 ## Features
 
@@ -585,12 +581,14 @@ For translation contributions, language files are located in the `/wrapper/src/m
   - Support displaying server status using Discord channel topic feature
   - Support displaying server player count in bot activity status
   - Support Discord Webhook feature
+    - Dynamic-created MCDC Webhook
     - Customizable Webhook Avatar API
-    - Use the bot itself to send chat messages when Webhook URL is not filled
+    - Use the bot itself to send chat messages when Webhook is disabled
   - Support in-game Markdown parsing
   - Support highlighting and using default Unicode and server custom emoji in-game
   - Support highlighting stickers in-game
   - Support highlighting and mentions (@) in-game
+    - Customizable scope of allowed mentions (@) in-game
     - Support disabling mentions (@) in-game
   - Support highlighting and opening hyperlinks and GIFs in-game
   - Support disabling all parsing
@@ -606,22 +604,24 @@ For translation contributions, language files are located in the `/wrapper/src/m
   - Notify in-game players when someone executes an MCDC command
   - /console command supports Minecraft command auto-completion
   - Normal Commands
-    - /info                    | Query server running status
     - /help                    | Get a list of available commands
-    - /update                  | Check for update
+    - /info                    | Query server running status
     - /stats \<type\> \<name\> | Query the scoreboard of a statistic
+    - /update                  | Check for update
+    - /whitelist \<player\>    | Add a player to the server whitelist
   - Admin Commands
-    - /reload                  | Reload MCDiscordChat config file (admin only)
     - /console \<command\>     | Execute a command in the server console (admin only)
     - /log \<file\>            | Get the specified server log (admin only)
+    - /reload                  | Reload MCDiscordChat config file (admin only)
     - /stop                    | Stop the server (admin only)
 - Minecraft Commands available
   - Admin-only commands require a level 4 operator at minimum
   - Normal Commands
-    - /mcdc info                    | Query server running status
     - /mcdc help                    | Get a list of available commands
-    - /mcdc update                  | Check for update
+    - /mcdc info                    | Query server running status
     - /mcdc stats \<type\> \<name\> | Query the scoreboard of a statistic
+    - /mcdc update                  | Check for update
+    - /mcdc whitelist \<player\>    | Add a player to the server whitelist
   - Admin Commands
     - /mcdc reload                  | Reload MCDiscordChat config file (admin only)
 - Fully customizable message format
@@ -629,14 +629,17 @@ For translation contributions, language files are located in the `/wrapper/src/m
   - In-game
     - Chat messages from Discord
     - Response messages from Discord
-    - Messages from other servers
+    - Messages from other MCDC servers
   - Discord
     - Server started
     - Server stopped
     - Player joined server
     - Player left server
     - Player reached a progress / achieved a goal / completed a challenge
+      - Multilingual support
+      - Support displaying descriptions for task/challenge/goal messages
     - Player died
+      - Multilingual support
     - Server MSPT is higher than a certain value
 - Use admin list to configure user permissions to use special commands
 - Support Hot Reloading of the config file
@@ -647,13 +650,16 @@ For translation contributions, language files are located in the `/wrapper/src/m
 
 Languages currently available:
 
-| Code    | Language          |
-|---------|-------------------|
-| `en_us` | English (US)      |
-| `zh_cn` | 中文（简体）            |
-| `ru_ru` | Русский (Россия)  |
-| `ko_kr` | 한국어（대한민국）         |
-| `fr_fr` | Français (France) |
+| Code    | Language             |
+|---------|----------------------|
+| `en_us` | English (US)         |
+| `fr_fr` | Français (France)    |
+| `ko_kr` | 한국어（대한민국）            |
+| `no_no` | Norsk Bokmål (Norge) |
+| `pl_pl` | Polski (Polska)      |
+| `ru_ru` | Русский (Россия)     |
+| `zh_cn` | 简体中文（中国大陆）           |
+| `zh_hk` | 繁體中文（香港特別行政區）        |
 
 ## Contributors
 
@@ -764,35 +770,13 @@ Paste the copied link into the browser. Select the Discord server you want to in
 
 ![14.png](/file/posts/4ba0a17a/14.png)
 
-At this point, the Discord Bot setup is completed.
-
-### Setup Webhook (Optional but recommended)
-
-First create a text channel. It is recommended to name it `in-game-chat` or `server-chat`.
-
-> No format restrictions.
-
-Open `Server Settings`, go to `Integrations` tab, and click the `New Webhook` button to create a new Webhook.
-
-![15.png](/file/posts/4ba0a17a/15.png)
-
-You can change the avatar and name of the Webhook. For channel, select the text channel you just created.
-
-> No format restrictions.
-
-Click the `Copy Webhook URL` button and save the Webhook URL, it will be used later.
-
-![16.png](/file/posts/4ba0a17a/16.png)
-
-At this point, the Webhook setup is completed.
-
 ### Run the first time
 
 After installing MCDiscordChat, when the server is started for the first time, the following error will appear, and a file named `mcdiscordchat.json` will be generated in the `config` folder. You have to edit the file `mcdiscordchat.json` to setup MCDiscordChat before starting the server again:
 
-![17.png](/file/posts/4ba0a17a/17.png)
+![15.png](/file/posts/4ba0a17a/15.png)
 
-![18.png](/file/posts/4ba0a17a/18.png)
+![16.png](/file/posts/4ba0a17a/16.png)
 
 ### Setup MCDiscordChat
 
@@ -805,13 +789,16 @@ Example / Default value: `en_us`
 Description: The language MCDiscordChat uses
 Languages currently available: **(You are welcome to contribute translations!)**
 Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
-| Code    | Language          |
-|---------|-------------------|
-| `en_us` | English (US)      |
-| `zh_cn` | 中文（简体）            |
-| `ru_ru` | Русский (Россия)  |
-| `ko_kr` | 한국어（대한민국）         |
-| `fr_fr` | Français (France) |
+| Code    | Language             |
+|---------|----------------------|
+| `en_us` | English (US)         |
+| `fr_fr` | Français (France)    |
+| `ko_kr` | 한국어（대한민국）            |
+| `no_no` | Norsk Bokmål (Norge) |
+| `pl_pl` | Polski (Polska)      |
+| `ru_ru` | Русский (Россия)     |
+| `zh_cn` | 简体中文（中国大陆）           |
+| `zh_hk` | 繁體中文（香港特別行政區）        |
 
 2. **`[Required]` botToken**
 Example / Default value: `xxxxxx.xxx.xxxxxx`
@@ -821,9 +808,9 @@ Description: Discord bot token
 Example / Default value: `botPlayingStatus: Minecraft`
 Description: Set the bot activity status (choose one of two) (leave blank to disable this feature)
 
-4. `[Optional]` webhookUrl
-Example / Default value: `https://xxxxx`
-Description: Webhook URL (leave blank to use the bot itself to send chat messages)
+4. **`[Required]` useWebhook**
+Example / Default value: `true`
+Description: Whether to enable the Webhook feature (disable to use the bot itself to send chat messages)
 
 5. **`[Required]` channelId**
 Example / Default value: `123456`
@@ -877,9 +864,9 @@ Description: Whether to broadcast Discord and in-game chat
 Example / Default value: `true`
 Description: Whether to format in-game chat messages
 
-18. **`[Required]` allowMentions**
-Example / Default value: `true`
-Description: Whether to allow in-game mentions (@)
+18. `[Optional]` allowedMentions
+Example / Default value: `["everyone", "users", "roles"]`
+Description: Customizable scope of allowed mentions (@) in-game (Clear the list to disallow all in-game mentions)
 
 19. **`[Required]` useServerNickname**
 Example / Default value: `true`
@@ -887,7 +874,7 @@ Description: Whether to display Discord server nickname
 
 20. `[Optional]` discordNewlineLimit
 Example / Default value: `3`
-Description: Customize the newline limit for Discord messages (if the limit is exceeded, all newlines will be replaced with `\n` backslash symbols)
+Description: Customize the newline limit for Discord messages (all excess newlines will be replaced with a single `...`)
 
 21. **`[Required]` announceHighMspt**
 Example / Default value: `true`
@@ -1018,6 +1005,7 @@ Description: Used when players reached a progress / achieved a goal / completed 
 | ----- | ----- |
 | `%playerName%` | Player username |
 | `%advancement%` | Progress / goal / challenge name |
+| `%description%` | Progress / goal / challenge description |
 
 9. `highMspt`
 Description: Used when the server MSPT is higher than the MSPT Limit
@@ -1041,6 +1029,7 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 | `%uniquePlayerCount%` | Number of unique players who have ever joined the server |
 | `%serverStartedTime%` | Server started time |
 | `%lastUpdateTime%` | Last update time |
+| `%nextUpdateTime%` | Next update time |
 
 12. `onlineChannelTopicForMultiServer`
 Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started (applicable when multi-server mode is enabled)
@@ -1053,6 +1042,7 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 | `%onlineServerList%` | List of online servers |
 | `%serverStartedTime%` | Server started time |
 | `%lastUpdateTime%` | Last update time |
+| `%nextUpdateTime%` | Next update time |
 
 > **latestVersion & latestCheckTime**
 >
@@ -1062,6 +1052,98 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.2.0 - 2023/7/4
+
+> #### MCDiscordChat 2.2.0 for Minecraft 1.14+ - 2023/7/4
+> 
+> This version requires additional permission from the Discord bot, "Manage Webhooks", compared to the previous versions. Please replace the `APP_ID` of the second link below with your Application ID (get it by accessing the first link), and access it to authorize the new permission. If you do not trust the link below, you may create one by referring to the MCDC docs.
+> 
+> Regarding changes in the config file, this version dynamically creates MCDC Webhook and no longer requires manual creation when configuring MCDC, simplifying the steps of configuring MCDC and changing channels. Users not using Webhook may turn it off by setting the `useWebhook` option in the config file to `false`.
+> 
+> In addition, users may customize the range of allowed in-game mentions. Clearing the `allowed_mentions` list disallows all in-game mentions.
+> 
+> https://discord.com/developers/applications
+> 
+> https://discord.com/api/oauth2/authorize?client_id=APP_ID&permissions=537054224&scope=bot%20applications.commands
+> 
+> 与旧版本相比，此版本需要 Discord 机器人「管理 Webhooks」的额外权限。请将下面第二个链接中的 `APP_ID` 替换为你的应用 ID（可通过访问第一个链接获取），并访问该链接以授权新权限。如果你不信任下面的链接，你也可以参考 MCDC 文档自行创建。
+> 
+> 关于配置文件的变化，此版本动态创建 MCDC Webhook，配置 MCDC 时不再需要手动创建，简化了配置 MCDC 和更改频道的步骤。不使用 Webhook 的用户可将配置文件中的 `useWebhook` 选项设为 `false` 以禁用 Webhook。
+> 
+> 此外，用户可以自定义允许游戏内提及的范围。清空 `allowed_mentions` 列表即为禁止所有游戏内提及。
+> 
+> #### New Features 新特性
+> 
+> - Customizable scope of allowed mentions in-game (#131)
+>   可自定义允许游戏内提及的范围
+> 
+> - Add %nextUpdateTime% placeholder for channel topics (#134)
+>   为频道主题添加 %nextUpdateTime% 占位符
+> 
+> - Multilingual support for task/challenge/goal messages (#133)
+>   进度 / 挑战 / 目标消息提供多语言支持
+> 
+> - Support displaying descriptions for task/challenge/goal messages (#133)
+>   支持显示进度 / 挑战 / 目标的描述
+> 
+> - Support adding players to the server whitelist in Discord (#130)
+>   支持在 Discord 将玩家添加至服务器白名单
+> 
+> - Dynamic-created MCDC Webhook (#152)
+>   动态创建 MCDC Webhook
+> 
+> - Polish translation (#154)
+>   波兰语翻译
+> 
+> - Compatible with the new Discord username system (#158)
+>   兼容新的 Discord 用户名系统
+> 
+> - Cantonese translation (#159)
+>   粤语翻译
+> 
+> - Norwegian Bokmål translation (#161)
+>   书面挪威语翻译
+> 
+> #### Changes 更改
+> 
+> - Improve console log formatting (#140)
+>   改良控制台日志格式
+> 
+> - Fix exception when Discord user nickname contains double quotes (#145)
+>   修复 Discord 用户昵称包含双引号时报错
+> 
+> - MSPT monitoring delays msptCheckInterval milliseconds start (#134)
+>   MSPT 监测延迟 msptCheckInterval 毫秒启动
+> 
+> - Fix exception caused by console log message being too long (#149)
+>   修复控制台日志消息过长导致报错
+> 
+> - Fix incorrect text colour when customizing in-game messages (#156)
+>   修复自定义游戏内消息时文本颜色错误
+> 
+> - Newlines in Discord messages appear as new messages in-game (#155)
+>   Discord 消息中的新行在游戏内显示为新消息
+> 
+> - Optimize the effect of the discordNewlineLimit option
+>   优化 discordNewlineLimit 选项的效果
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @BlissfulAlloy79
+> - @Bocz3k
+> - @Kire2oo2
+> - @LofiTurtle
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MCDiscordChat/compare/1.20-2.1.4...2.2.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 1.20-2.1.4 - 2023/6/8
 
 > #### MCDiscordChat 1.20-2.1.4 for Minecraft 1.20.x - 2023/6/8
@@ -1096,7 +1178,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/2.1.4...1.20-2.1.4
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.1.4 - 2023/5/30
 
 > #### MCDiscordChat 2.1.4 for Minecraft 1.14+ - 2023/5/30
