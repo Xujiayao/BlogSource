@@ -954,7 +954,6 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > - **Options starting with `formatted` must be in JSON format**
 > - **The remaining options are in Markdown format**
 
-
 1. `unformattedResponseMessage` / `formattedResponseMessage`
 Description: Used when sending replies to chat messages
 | Available Placeholders | Description |
