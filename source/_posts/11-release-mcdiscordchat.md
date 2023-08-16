@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 MCDiscordChat has been updated to 2.2.0 - 2023/7/4!
 MCDiscordChat 已经更新到 2.2.0 - 2023/7/4 啦！
 
-> This article was updated on July 4, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 7 月 4 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on August 17, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 8 月 17 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -432,6 +432,11 @@ MCDiscordChat 最新版本依赖以下运行环境：
 > 将选项留空以使用默认值，填写其中任何一个以使用自定义值。
 >
 > 默认语言文件位于 [`/wrapper/src/main/resources/lang/` 文件夹](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang) 中。你可以访问该文件夹以获取默认值，并参考默认值及以下说明来自定义消息格式。
+>
+> **注意：**
+> - **以 `unformatted` 开头的选项必须清除所有格式**
+> - **以 `formatted` 开头的选项必须为 JSON 格式**
+> - **其余选项为 Markdown 格式**
 
 1. `unformattedResponseMessage` / `formattedResponseMessage`
 说明：在发送回复聊天消息时使用
@@ -943,6 +948,12 @@ Description: IDs of all MCDiscordChat bots (right click on the bot to copy the I
 > Leave the options blank to use the default values, and fill in any of them to use the custom values.
 >
 > The default language files are located in the [`/wrapper/src/main/resources/lang/` folder](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang). You may access this folder to get the default values, then refer to the default values and the descriptions below to customize the message format.
+>
+> **Note:**
+> - **Options starting with `unformatted` must have all formatting removed**
+> - **Options starting with `formatted` must be in JSON format**
+> - **The remaining options are in Markdown format**
+
 
 1. `unformattedResponseMessage` / `formattedResponseMessage`
 Description: Used when sending replies to chat messages
