@@ -30,10 +30,10 @@ date: 2020-07-13 10:29:34
 > 设备：
 > 
 > - 台式机
->   - CPU: AMD Ryzen 7 5800X (4.70GHz 1.33V Overclocked)
->   - MB : MSI MAG B550M MORTAR WIFI
+>   - CPU: AMD Ryzen 9 5950X (PBO2 Curve Optimizer Per Core)
+>   - MB : MSI MEG B550 UNIFY
 >   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
->   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz 1.45V C14 Overclocked)
+>   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz C16 1.35V)
 > - 笔记本 (MSI Vector GP76HX 12UHS)
 >   - CPU: Intel Core i7-12800HX
 >   - GPU: NVIDIA GeForce RTX 3080 Ti Laptop GPU 16GB GDDR6
