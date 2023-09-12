@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 MCDiscordChat has been updated to 2.2.0 - 2023/7/4!
 MCDiscordChat 已经更新到 2.2.0 - 2023/7/4 啦！
 
-> This article was updated on August 17, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 8 月 17 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on September 12, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 9 月 12 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -160,15 +160,31 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 ### 依赖
 
-MCDiscordChat 支持以下游戏版本：
+MCDiscordChat 最新版本支持以下游戏版本：
 
-- Minecraft 1.14.x
-- Minecraft 1.15.x
-- Minecraft 1.16.x
-- Minecraft 1.17.x
-- Minecraft 1.18.x
-- Minecraft 1.19.x
 - Minecraft 1.20.x
+  - 1.20.1
+  - 1.20
+- Minecraft 1.19.x
+  - 1.19.4
+  - 1.19.3
+  - <font color='red'>1.19.2 (MCDiscordChat 2.1.4)</font>
+  - <font color='red'>1.19.1 (MCDiscordChat 1.19.2-2.1.2)</font>
+  - <font color='red'>1.19 (MCDiscordChat 2.0.0-alpha.7)</font>
+- Minecraft 1.18.x
+  - 1.18.2
+  - 1.18.1
+  - 1.18
+- Minecraft 1.17.x
+  - 1.17.1
+  - 1.17
+- Minecraft 1.16.x
+  - 1.16.5
+  - 1.16.4
+- Minecraft 1.15.x
+  - 1.15.2
+- Minecraft 1.14.x
+  - 1.14.4
 
 MCDiscordChat 最新版本依赖以下运行环境：
 
@@ -678,15 +694,31 @@ Languages currently available:
 
 ### Dependencies
 
-MCDiscordChat supports the following Minecraft versions:
+The latest version of MCDiscordChat supports the following Minecraft versions:
 
-- Minecraft 1.14.x
-- Minecraft 1.15.x
-- Minecraft 1.16.x
-- Minecraft 1.17.x
-- Minecraft 1.18.x
-- Minecraft 1.19.x
 - Minecraft 1.20.x
+  - 1.20.1
+  - 1.20
+- Minecraft 1.19.x
+  - 1.19.4
+  - 1.19.3
+  - <font color='red'>1.19.2 (MCDiscordChat 2.1.4)</font>
+  - <font color='red'>1.19.1 (MCDiscordChat 1.19.2-2.1.2)</font>
+  - <font color='red'>1.19 (MCDiscordChat 2.0.0-alpha.7)</font>
+- Minecraft 1.18.x
+  - 1.18.2
+  - 1.18.1
+  - 1.18
+- Minecraft 1.17.x
+  - 1.17.1
+  - 1.17
+- Minecraft 1.16.x
+  - 1.16.5
+  - 1.16.4
+- Minecraft 1.15.x
+  - 1.15.2
+- Minecraft 1.14.x
+  - 1.14.4
 
 The latest version of MCDiscordChat depends on the following environment:
 
