@@ -6,13 +6,13 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MC-Discord-Chat 已经更新到 2.2.0 - 2023/7/4 啦！
+description: MC-Discord-Chat 已经更新到 2.2.1 - 2023/9/14 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MC-Discord-Chat has been updated to 2.2.0 - 2023/7/4!
-MC-Discord-Chat 已经更新到 2.2.0 - 2023/7/4 啦！
+MC-Discord-Chat has been updated to 2.2.1 - 2023/9/14!
+MC-Discord-Chat 已经更新到 2.2.1 - 2023/9/14 啦！
 
 > This article was updated on September 14, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
 > 本文更新于 2023 年 9 月 14 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
@@ -102,12 +102,13 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
     - /info                    | 查询服务器运行状态
     - /stats \<type\> \<name\> | 查询该统计信息的排行榜
     - /update                  | 检查更新
-    - /whitelist \<player\>    | 添加玩家至服务器白名单
   - 管理员命令
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
     - /log \<file\>            | 获取指定的服务器日志（仅限管理员）
     - /reload                  | 重新加载 MC-Discord-Chat 配置文件（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
+  - 可调整权限的命令
+    - /whitelist \<player\>    | 添加玩家至服务器白名单
 - 可使用 Minecraft 命令
   - 仅限管理员的命令仅对 4 级管理员可用
   - 普通命令
@@ -115,9 +116,10 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
     - /mcdc info                    | 查询服务器运行状态
     - /mcdc stats \<type\> \<name\> | 查询该统计信息的排行榜
     - /mcdc update                  | 检查更新
-    - /mcdc whitelist \<player\>    | 添加玩家至服务器白名单
   - 管理员命令
     - /mcdc reload                  | 重新加载 MC-Discord-Chat 配置文件（仅限管理员）
+  - 可调整权限的命令
+    - /mcdc whitelist \<player\>    | 添加玩家至服务器白名单
 - 可完全自定义所有消息格式
   - 可禁用向 Discord 频道发送特定服务器消息
   - 游戏内
@@ -167,7 +169,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 ### 依赖
 
-MC-Discord-Chat 最新版本（2.2.0）支持以下 Minecraft 服务器版本：
+MC-Discord-Chat 最新版本（2.2.1）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
   - 1.20.1
@@ -398,31 +400,35 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-24. **`【必选】` notifyUpdates**
+24. **`【必选】` whitelistRequiresAdmin**
+示例 / 默认值：`true`
+说明：是否将 MCDC /whitelist 命令的使用权限设置为仅限管理员
+
+25. **`【必选】` notifyUpdates**
 示例 / 默认值：`true`
 说明：是否发送更新通知
 
-25. **`【必选】` mentionAdminsForUpdates**
+26. **`【必选】` mentionAdminsForUpdates**
 示例 / 默认值：`true`
 说明：是否在发送更新通知时提及 MC-Discord-Chat 管理员
 
-26. **`【必选】` updateChannelTopic**
+27. **`【必选】` updateChannelTopic**
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
-27. `【可选】` channelTopicUpdateInterval
+28. `【可选】` channelTopicUpdateInterval
 示例 / 默认值：`600000`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
-28. **`【必选】` shutdownImmediately**
+29. **`【必选】` shutdownImmediately**
 示例 / 默认值：`false`
 说明：是否在关闭服务器时等待速率限制重置
 
-29. `【可选】` excludedCommands
+30. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
 说明：MC-Discord-Chat 指令排除列表，不处理和发送指定指令（可多于一个）
 
-30. **`【必选】` adminsIds**
+31. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
 说明：MC-Discord-Chat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
@@ -495,26 +501,34 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 | `%roleColor%` | 用户身份组颜色（仅限 `formattedCommandNotice`） |
 | `%command%` | 执行的命令 |
 
-5. `serverStarted` / `serverStopped`
+5. `messageWithoutWebhook` / `messageWithoutWebhookForMultiServer`
+说明：在禁用 Webhook 发送消息时使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%server%` | Minecraft 服务器名（启用多服务器模式时适用） |
+| `%name%` | Minecraft 玩家昵称 |
+| `%message%` | 发送的消息 |
+
+6. `serverStarted` / `serverStopped`
 说明：在服务器启动 / 关闭时使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | N/A | N/A |
 
-6. `joinServer` / `leftServer`
+7. `joinServer` / `leftServer`
 说明：在玩家加入 / 离开服务器时使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | `%playerName%` | 玩家昵称 |
 
-7. `deathMessage`
+8. `deathMessage`
 说明：在玩家死亡时使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | `%deathMessage%` | 死亡消息 |
 | `%playerName%` | 玩家昵称 |
 
-8. `advancementTask` / `advancementGoal` / `advancementChallenge`
+9. `advancementTask` / `advancementGoal` / `advancementChallenge`
 说明：在玩家达成进度 / 达成目标 / 完成挑战时使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
@@ -522,20 +536,20 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 | `%advancement%` | 进度 / 目标 / 挑战名称 |
 | `%description%` | 进度 / 目标 / 挑战描述 |
 
-9. `highMspt`
+10. `highMspt`
 说明：在服务器 MSPT 高于预警值时使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | `%mspt%` | 当前服务器 MSPT |
 | `%msptLimit%` | MSPT 预警值 |
 
-10. `offlineChannelTopic`
+11. `offlineChannelTopic`
 说明：在服务器关闭时使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | `%lastUpdateTime%` | 最后更新时间 |
 
-11. `onlineChannelTopic`
+12. `onlineChannelTopic`
 说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
@@ -546,7 +560,7 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 | `%lastUpdateTime%` | 最后更新时间 |
 | `%nextUpdateTime%` | 下一次更新时间 |
 
-12. `onlineChannelTopicForMultiServer`
+13. `onlineChannelTopicForMultiServer`
 说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用（启用多服务器模式时适用）
 | 可用占位符 | 说明 |
 | ----- | ----- |
@@ -634,12 +648,13 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - /info                    | Query server running status
     - /stats \<type\> \<name\> | Query the scoreboard of a statistic
     - /update                  | Check for update
-    - /whitelist \<player\>    | Add a player to the server whitelist
   - Admin Commands
     - /console \<command\>     | Execute a command in the server console (admin only)
     - /log \<file\>            | Get the specified server log (admin only)
     - /reload                  | Reload MC-Discord-Chat config file (admin only)
     - /stop                    | Stop the server (admin only)
+  - Commands with Adjustable Permissions
+    - /whitelist \<player\>    | Add a player to the server whitelist
 - Minecraft Commands available
   - Admin-only commands require a level 4 operator at minimum
   - Normal Commands
@@ -647,9 +662,10 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - /mcdc info                    | Query server running status
     - /mcdc stats \<type\> \<name\> | Query the scoreboard of a statistic
     - /mcdc update                  | Check for update
-    - /mcdc whitelist \<player\>    | Add a player to the server whitelist
   - Admin Commands
     - /mcdc reload                  | Reload MC-Discord-Chat config file (admin only)
+  - Commands with Adjustable Permissions
+    - /mcdc whitelist \<player\>    | Add a player to the server whitelist
 - Fully customizable message format
   - Sending specific server messages to Discord can be disabled
   - In-game
@@ -699,7 +715,7 @@ Languages currently available:
 
 ### Dependencies
 
-The latest version of MC-Discord-Chat (2.2.0) supports the following Minecraft server versions:
+The latest version of MC-Discord-Chat (2.2.1) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
   - 1.20.1
@@ -928,31 +944,35 @@ Description: Customize MSPT check interval
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-24. **`[Required]` notifyUpdates**
+24. **`[Required]` whitelistRequiresAdmin**
+Example / Default value: `true`
+Description: Whether to set the permissions of MCDC /whitelist command to admin only
+
+25. **`[Required]` notifyUpdates**
 Example / Default value: `true`
 Description: Whether to send update notifications
 
-25. **`[Required]` mentionAdminsForUpdates**
+26. **`[Required]` mentionAdminsForUpdates**
 Example / Default value: `true`
 Description: Whether to mention (@) MC-Discord-Chat admins when sending update notifications
 
-26. **`[Required]` updateChannelTopic**
+27. **`[Required]` updateChannelTopic**
 Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
-27. `[Optional]` channelTopicUpdateInterval
+28. `[Optional]` channelTopicUpdateInterval
 Example / Default value: `600000`
 Description: Customize update server status using Discord channel topic interval
 
-28. **`[Required]` shutdownImmediately**
+29. **`[Required]` shutdownImmediately**
 Example / Default value: `false`
 Description: Whether to wait for the rate limit to reset on shutdown
 
-29. `[Optional]` excludedCommands
+30. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
 Description: MC-Discord-Chat Command Exclusion List, do not process and send specified commands (can be more than one)
 
-30. **`[Required]` adminsIds**
+31. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
 Description: MC-Discord-Chat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
@@ -1025,26 +1045,34 @@ Description: Used when sending command execution notifications
 | `%roleColor%` | User role color (`formattedCommandNotice` only) |
 | `%command%` | Command executed |
 
-5. `serverStarted` / `serverStopped`
+5. `messageWithoutWebhook` / `messageWithoutWebhookForMultiServer`
+Description: Used when Webhook message sending is disabled
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%server%` | Minecraft server name (applicable when multi-server mode is enabled) |
+| `%name%` | Minecraft player username |
+| `%message%` | Message sent |
+
+6. `serverStarted` / `serverStopped`
 Description: Used when server started / stopped
 | Available Placeholders | Description |
 | ----- | ----- |
 | N/A | N/A |
 
-6. `joinServer` / `leftServer`
+7. `joinServer` / `leftServer`
 Description: Used when players joined / left the server
 | Available Placeholders | Description |
 | ----- | ----- |
 | `%playerName%` | Player username  |
 
-7. `deathMessage`
+8. `deathMessage`
 Description: Used when players died
 | Available Placeholders | Description |
 | ----- | ----- |
 | `%deathMessage%` | Death message |
 | `%playerName%` | Player username |
 
-8. `advancementTask` / `advancementGoal` / `advancementChallenge`
+9. `advancementTask` / `advancementGoal` / `advancementChallenge`
 Description: Used when players reached a progress / achieved a goal / completed a challenge
 | Available Placeholders | Description |
 | ----- | ----- |
@@ -1052,20 +1080,20 @@ Description: Used when players reached a progress / achieved a goal / completed 
 | `%advancement%` | Progress / goal / challenge name |
 | `%description%` | Progress / goal / challenge description |
 
-9. `highMspt`
+10. `highMspt`
 Description: Used when the server MSPT is higher than the MSPT Limit
 | Available Placeholders | Description |
 | ----- | ----- |
 | `%mspt%` | Current server MSPT |
 | `%msptLimit%` | MSPT Limit |
 
-10. `offlineChannelTopic`
+11. `offlineChannelTopic`
 Description: Used when server stopped
 | Available Placeholders | Description |
 | ----- | ----- |
 | `%lastUpdateTime%` | Last update time |
 
-11. `onlineChannelTopic`
+12. `onlineChannelTopic`
 Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started
 | Available Placeholders | Description |
 | ----- | ----- |
@@ -1076,7 +1104,7 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 | `%lastUpdateTime%` | Last update time |
 | `%nextUpdateTime%` | Next update time |
 
-12. `onlineChannelTopicForMultiServer`
+13. `onlineChannelTopicForMultiServer`
 Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started (applicable when multi-server mode is enabled)
 | Available Placeholders | Description |
 | ----- | ----- |
@@ -1097,6 +1125,60 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.2.1 - 2023/9/14
+
+> #### MC-Discord-Chat 2.2.1 for Minecraft 1.14+ - 2023/9/14
+> 
+> MCDiscordChat has been renamed to MC-Discord-Chat.
+> 
+> The comprehensive list of supported Minecraft versions for each MCDC version is now available on Modrinth, CurseForge, and the MCDC Docs.
+> 
+> MCDiscordChat 已更名为 MC-Discord-Chat。
+> 
+> 从现在开始，你可以在 Modrinth、CurseForge 和 MCDC 文档中找到每个 MCDC 版本所支持的 Minecraft 版本的全面列表。
+> 
+> #### New Features 新特性
+> 
+> - Customizable messages when Webhook is disabled (#163)
+>   可自定义禁用 Webhook 时发送的消息
+> 
+> - Dynamically generate MCDC help messages (#167)
+>   动态生成 MCDC 帮助消息
+> 
+> - Adjustable permissions for the MCDC /whitelist command (#167)
+>   可调整 MCDC /whitelist 命令的使用权限
+> 
+> #### Changes 更改
+> 
+> - Fix Quilt compatibility issue (#164)
+>   修复 Quilt 兼容性问题
+> 
+> - Fix exception when players register before the server is fully started (#168)
+>   修复玩家在服务器未完全启动前注册时报错
+> 
+> - Fix chat messages not being sent when using multi-server mode
+>   修复使用多服务器模式时没有发送聊天消息
+> 
+> - Send MSPT warnings to main channel when console log channel is enabled (#171)
+>   启用控制台日志频道时将 MSPT 警告发送到主频道
+> 
+> - Fix console log messages may be too long (#174)
+>   修复控制台日志消息有机会过长
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @aria1th
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.0...2.2.1
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.2.0 - 2023/7/4
 
 > #### MCDiscordChat 2.2.0 for Minecraft 1.14+ - 2023/7/4
@@ -1188,7 +1270,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MCDiscordChat/compare/1.20-2.1.4...2.2.0
 
-{% hideToggle 旧版本 Older Versions %}
 ### 1.20-2.1.4 - 2023/6/8
 
 > #### MCDiscordChat 1.20-2.1.4 for Minecraft 1.20.x - 2023/6/8
