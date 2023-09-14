@@ -1,35 +1,42 @@
 ---
-title: 博客一周年啦！MCDiscordChat 发布
+title: 博客一周年啦！MC-Discord-Chat 发布
 cover: /file/posts/4ba0a17a/cover.jpg
 background: url(/file/posts/4ba0a17a/cover.jpg)
 tags:
   - Java
   - Minecraft
 categories: 项目
-description: MCDiscordChat 已经更新到 2.2.0 - 2023/7/4 啦！
+description: MC-Discord-Chat 已经更新到 2.2.0 - 2023/7/4 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MCDiscordChat has been updated to 2.2.0 - 2023/7/4!
-MCDiscordChat 已经更新到 2.2.0 - 2023/7/4 啦！
+MC-Discord-Chat has been updated to 2.2.0 - 2023/7/4!
+MC-Discord-Chat 已经更新到 2.2.0 - 2023/7/4 啦！
 
-> This article was updated on September 12, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 9 月 12 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on September 14, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 9 月 14 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
-<img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MCDiscordChat@master/src/main/resources/assets/mcdiscordchat/icon.png">
+<img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MC-Discord-Chat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
-## MCDiscordChat
+## MC-Discord-Chat
 
-{% inlineImg https://img.shields.io/github/license/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://img.shields.io/github/v/release/xujiayao/MCDiscordChat?logo=github 20px %} {% inlineImg https://data.jsdelivr.com/v1/package/gh/Xujiayao/MCDiscordChat/badge?style=rounded 20px %} {% inlineImg https://img.shields.io/github/downloads/xujiayao/MCDiscordChat/total?logo=github 20px %} {% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %} {% inlineImg https://cf.way2muchnoise.eu/full_mcdiscordchat_downloads.svg 20px %} {% inlineImg https://cf.way2muchnoise.eu/versions/mcdiscordchat.svg 20px %}
+{% inlineImg https://img.shields.io/github/license/xujiayao/MC-Discord-Chat?logo=github 20px %}
+{% inlineImg https://img.shields.io/github/v/release/xujiayao/MC-Discord-Chat?logo=github 20px %}
+{% inlineImg https://data.jsdelivr.com/v1/package/gh/Xujiayao/MCDiscordChat/badge?style=rounded 20px %}
+{% inlineImg https://data.jsdelivr.com/v1/package/gh/Xujiayao/MC-Discord-Chat/badge?style=rounded 20px %}
+{% inlineImg https://img.shields.io/github/downloads/xujiayao/MC-Discord-Chat/total?logo=github 20px %}
+{% inlineImg https://img.shields.io/modrinth/dt/mcdiscordchat?label=modrinth%20downloads 20px %}
+{% inlineImg https://cf.way2muchnoise.eu/full_548539_downloads.svg 20px %}
+{% inlineImg https://cf.way2muchnoise.eu/versions/548539.svg 20px %}
 
-MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric
+MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric
 
 {% tabs lang, 2 %}
 <!-- tab 中文 -->
 ## 简介
 
-[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat)（简称为 MCDC），一个实用且功能强大的 Fabric 和 Quilt Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
+[MC-Discord-Chat](https://github.com/Xujiayao/MC-Discord-Chat) (MCDC)，前身为 MCDiscordChat，一个实用且功能强大的 Fabric 和 Quilt Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
 
 ![0001.png](https://cdn.jsdelivr.net/gh/Xujiayao/BlogSource@master/source/file/posts/4ba0a17a/0001.png)
 
@@ -41,13 +48,13 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 - [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
-- [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
+- [GitHub](https://github.com/Xujiayao/MC-Discord-Chat/releases)
 
-你可以在 [GitHub Actions](https://github.com/Xujiayao/MCDiscordChat/actions) 找到最新的构建 JAR 文件。
+你可以在 [GitHub Actions](https://github.com/Xujiayao/MC-Discord-Chat/actions) 找到最新的构建 JAR 文件。
 
 ## 帮助
 
-如果有 bug 或建议，或者有什么不懂的，可以 [提交 issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose)。
+如果有 bug 或建议，或者有什么不懂的，可以 [提交 issue](https://github.com/Xujiayao/MC-Discord-Chat/issues/new/choose)。
 
 ## 贡献
 
@@ -99,7 +106,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
   - 管理员命令
     - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
     - /log \<file\>            | 获取指定的服务器日志（仅限管理员）
-    - /reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
+    - /reload                  | 重新加载 MC-Discord-Chat 配置文件（仅限管理员）
     - /stop                    | 停止服务器（仅限管理员）
 - 可使用 Minecraft 命令
   - 仅限管理员的命令仅对 4 级管理员可用
@@ -110,7 +117,7 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
     - /mcdc update                  | 检查更新
     - /mcdc whitelist \<player\>    | 添加玩家至服务器白名单
   - 管理员命令
-    - /mcdc reload                  | 重新加载 MCDiscordChat 配置文件（仅限管理员）
+    - /mcdc reload                  | 重新加载 MC-Discord-Chat 配置文件（仅限管理员）
 - 可完全自定义所有消息格式
   - 可禁用向 Discord 频道发送特定服务器消息
   - 游戏内
@@ -150,17 +157,17 @@ MCDiscordChat (MCDC), a practical and powerful Fabric and Quilt Minecraft <> Dis
 
 ## 贡献者
 
-[![Contributors](https://contrib.rocks/image?repo=xujiayao/mcdiscordchat)](https://github.com/Xujiayao/mcdiscordchat/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Xujiayao/MC-Discord-Chat)](https://github.com/Xujiayao/MC-Discord-Chat/graphs/contributors)
 
 ## 星标历史
 
-[![Stargazers over time](https://starchart.cc/Xujiayao/MCDiscordChat.svg)](https://starchart.cc/Xujiayao/MCDiscordChat)
+[![Stargazers over time](https://starchart.cc/Xujiayao/MC-Discord-Chat.svg)](https://starchart.cc/Xujiayao/MC-Discord-Chat)
 
 ## 文档
 
 ### 依赖
 
-MCDiscordChat 最新版本支持以下游戏版本：
+MC-Discord-Chat 最新版本（2.2.0）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
   - 1.20.1
@@ -186,7 +193,7 @@ MCDiscordChat 最新版本支持以下游戏版本：
 - Minecraft 1.14.x
   - 1.14.4
 
-MCDiscordChat 最新版本依赖以下运行环境：
+MC-Discord-Chat 最新版本依赖以下运行环境：
 
 | Fabric | Quilt |
 | ----- | ----- |
@@ -197,11 +204,9 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ---
 
-> 使用 MCDiscordChat 2.0.0-alpha.1 进行演示，其它版本可能会有细微区别。
-
 ### 安装
 
-前往 [上述站点](/posts/4ba0a17a/#下载) 下载 MCDiscordChat 最新版本（Latest release），只需下载对应 Minecraft 版本后缀名为 `.jar` 的文件。
+根据 [上述列表](/posts/4ba0a17a/#依赖) 找到支持你的 Minecraft 服务器版本的最新 MC-Discord-Chat 版本，然后前往任意一个 [上述站点](/posts/4ba0a17a/#下载) 下载对应 MC-Discord-Chat 版本后缀名为 `.jar` 的文件。
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
@@ -221,7 +226,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > 推荐命名为 `MCDC`。
 >
-> 如果要在多个 Minecraft 服务器运行 MCDiscordChat，推荐命名为 `[服务器名] MCDC`。
+> 如果要在多个 Minecraft 服务器运行 MC-Discord-Chat，推荐命名为 `[服务器名] MCDC`。
 > 举例：`[SMP] MCDC`、`[CMP] MCDC`
 >
 > 没有格式限制。
@@ -240,7 +245,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 > 推荐命名为 `MCDC Bot`。
 >
-> 如果要在多个 Minecraft 服务器运行 MCDiscordChat，推荐命名为 `[服务器名] MCDC Bot`。
+> 如果要在多个 Minecraft 服务器运行 MC-Discord-Chat，推荐命名为 `[服务器名] MCDC Bot`。
 > 举例：`[SMP] MCDC Bot`、`[CMP] MCDC Bot`
 >
 > 没有格式限制。
@@ -277,23 +282,23 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 ### 首次启动
 
-安装 MCDiscordChat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `mcdiscordchat.json` 的文件，需要在再次启动服务器前编辑 `mcdiscordchat.json` 以配置 MCDiscordChat：
+安装 MC-Discord-Chat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `mcdiscordchat.json` 的文件，需要在再次启动服务器前编辑 `mcdiscordchat.json` 以配置 MC-Discord-Chat：
 
 ![15.png](/file/posts/4ba0a17a/15.png)
 
 ![16.png](/file/posts/4ba0a17a/16.png)
 
-### 配置 MCDiscordChat
+### 配置 MC-Discord-Chat
 
-打开 `mcdiscordchat.json`，配置以下变量后即可使用 MCDiscordChat。
+打开 `mcdiscordchat.json`，配置以下变量后即可使用 MC-Discord-Chat。
 
 > **Generic 通用**
 
 1. **`【必选】` language**
 示例 / 默认值：`en_us`
-说明：MCDiscordChat 使用的语言
+说明：MC-Discord-Chat 使用的语言
 目前可用的语言：**（欢迎你贡献翻译！）**
-贡献：https://github.com/Xujiayao/MCDiscordChat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
+贡献：https://github.com/Xujiayao/MC-Discord-Chat/blob/master/README_CN.md#%E8%B4%A1%E7%8C%AE
 | 代码      | 语言                   |
 |---------|----------------------|
 | `en_us` | English (US)         |
@@ -399,7 +404,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 25. **`【必选】` mentionAdminsForUpdates**
 示例 / 默认值：`true`
-说明：是否在发送更新通知时提及 MCDiscordChat 管理员
+说明：是否在发送更新通知时提及 MC-Discord-Chat 管理员
 
 26. **`【必选】` updateChannelTopic**
 示例 / 默认值：`true`
@@ -415,17 +420,17 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 29. `【可选】` excludedCommands
 示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
-说明：MCDiscordChat 指令排除列表，不处理和发送指定指令（可多于一个）
+说明：MC-Discord-Chat 指令排除列表，不处理和发送指定指令（可多于一个）
 
 30. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
-说明：MCDiscordChat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
+说明：MC-Discord-Chat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
 > **MultiServer 多服务器**
 
 1. **`【必选】` enable**
 示例 / 默认值：`false`
-说明：是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MCDiscordChat）
+说明：是否启用多服务器模式（在一个 Discord 频道中使用多于一个 MC-Discord-Chat）
 
 2. `【可选】` host
 示例 / 默认值：`127.0.0.1`
@@ -441,13 +446,13 @@ MCDiscordChat 最新版本依赖以下运行环境：
 
 5. `【可选】` botIds
 示例 / 默认值：`["123456789"]`
-说明：所有 MCDiscordChat 机器人的 ID（右键机器人即可复制 ID，需要在 Discord 设置中开启开发者模式）
+说明：所有 MC-Discord-Chat 机器人的 ID（右键机器人即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
 > **CustomMessage 自定义消息格式**
 >
 > 将选项留空以使用默认值，填写其中任何一个以使用自定义值。
 >
-> **默认语言文件位于 [`/wrapper/src/main/resources/lang/` 文件夹](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang) 中。你可以访问该文件夹以获取默认值，并参考默认值及以下说明来自定义消息格式。**
+> **默认语言文件位于 [`/wrapper/src/main/resources/lang/` 文件夹](https://github.com/Xujiayao/MC-Discord-Chat/tree/master/wrapper/src/main/resources/lang) 中。你可以访问该文件夹以获取默认值，并参考默认值及以下说明来自定义消息格式。**
 >
 > **注意：**
 > - **以 `unformatted` 开头的选项必须清除所有格式**
@@ -563,7 +568,7 @@ MCDiscordChat 最新版本依赖以下运行环境：
 <!-- tab English -->
 ## Introduction
 
-[MCDiscordChat](https://github.com/Xujiayao/MCDiscordChat) (abbreviated as MCDC), a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
+[MC-Discord-Chat](https://github.com/Xujiayao/MC-Discord-Chat) (MCDC), formerly known as MCDiscordChat, a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
 
 ![0001.png](https://cdn.jsdelivr.net/gh/Xujiayao/BlogSource@master/source/file/posts/4ba0a17a/0001.png)
 
@@ -575,13 +580,13 @@ All releases can be downloaded at the following sites:
 
 - [Modrinth](https://modrinth.com/mod/mcdiscordchat/versions)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcdiscordchat/files)
-- [GitHub](https://github.com/Xujiayao/MCDiscordChat/releases)
+- [GitHub](https://github.com/Xujiayao/MC-Discord-Chat/releases)
 
-You can find the latest build JAR files at [GitHub Actions](https://github.com/Xujiayao/MCDiscordChat/actions).
+You can find the latest build JAR files at [GitHub Actions](https://github.com/Xujiayao/MC-Discord-Chat/actions).
 
 ## Support
 
-If there is a bug or suggestion, or something you don't understand, you can [submit an issue](https://github.com/Xujiayao/MCDiscordChat/issues/new/choose) on GitHub.
+If there is a bug or suggestion, or something you don't understand, you can [submit an issue](https://github.com/Xujiayao/MC-Discord-Chat/issues/new/choose) on GitHub.
 
 ## Contributing
 
@@ -633,7 +638,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
   - Admin Commands
     - /console \<command\>     | Execute a command in the server console (admin only)
     - /log \<file\>            | Get the specified server log (admin only)
-    - /reload                  | Reload MCDiscordChat config file (admin only)
+    - /reload                  | Reload MC-Discord-Chat config file (admin only)
     - /stop                    | Stop the server (admin only)
 - Minecraft Commands available
   - Admin-only commands require a level 4 operator at minimum
@@ -644,7 +649,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - /mcdc update                  | Check for update
     - /mcdc whitelist \<player\>    | Add a player to the server whitelist
   - Admin Commands
-    - /mcdc reload                  | Reload MCDiscordChat config file (admin only)
+    - /mcdc reload                  | Reload MC-Discord-Chat config file (admin only)
 - Fully customizable message format
   - Sending specific server messages to Discord can be disabled
   - In-game
@@ -684,17 +689,17 @@ Languages currently available:
 
 ## Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=xujiayao/mcdiscordchat)](https://github.com/Xujiayao/mcdiscordchat/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Xujiayao/MC-Discord-Chat)](https://github.com/Xujiayao/MC-Discord-Chat/graphs/contributors)
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/Xujiayao/MCDiscordChat.svg)](https://starchart.cc/Xujiayao/MCDiscordChat)
+[![Stargazers over time](https://starchart.cc/Xujiayao/MC-Discord-Chat.svg)](https://starchart.cc/Xujiayao/MC-Discord-Chat)
 
 ## Docs
 
 ### Dependencies
 
-The latest version of MCDiscordChat supports the following Minecraft versions:
+The latest version of MC-Discord-Chat (2.2.0) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
   - 1.20.1
@@ -720,7 +725,7 @@ The latest version of MCDiscordChat supports the following Minecraft versions:
 - Minecraft 1.14.x
   - 1.14.4
 
-The latest version of MCDiscordChat depends on the following environment:
+The latest version of MC-Discord-Chat depends on the following environment:
 
 | Fabric | Quilt |
 | ----- | ----- |
@@ -731,11 +736,9 @@ The latest version of MCDiscordChat depends on the following environment:
 
 ---
 
-> Used MCDiscordChat 2.0.0-alpha.1 to demonstrate, other versions may have slight differences.
-
 ### Install
 
-Go to one of the [above sites](/posts/4ba0a17a/#Download) to download the latest release of MCDiscordChat. You only need to download the file with the extension `.jar` for your Minecraft version.
+Find the latest MC-Discord-Chat version that supports your Minecraft server version according to the [above list](/posts/4ba0a17a/#Dependencies), and then go to any of the [above sites](/posts/4ba0a17a/#Download) to download the file with the `.jar` extension corresponding to the MC-Discord-Chat version.
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
@@ -755,7 +758,7 @@ Give a name and click the `Create` button to create it.
 
 > It is recommended to name it as `MCDC`.
 >
-> If you will run MCDiscordChat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDC`.
+> If you will run MC-Discord-Chat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDC`.
 > Example: `[SMP] MCDC`, `[CMP] MCDC`
 >
 > No format restrictions.
@@ -774,7 +777,7 @@ You can change the icon and description of the bot. Save the bot token, it will 
 
 > It is recommended to name it as `MCDC Bot`.
 >
-> If you will run MCDiscordChat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDC Bot`.
+> If you will run MC-Discord-Chat on multiple Minecraft servers, it is recommended to name it as `[SERVER] MCDC Bot`.
 > Example: `[SMP] MCDC Bot`, `[CMP] MCDC Bot`
 >
 > No format restrictions.
@@ -809,23 +812,23 @@ Paste the copied link into the browser. Select the Discord server you want to in
 
 ### Run the first time
 
-After installing MCDiscordChat, when the server is started for the first time, the following error will appear, and a file named `mcdiscordchat.json` will be generated in the `config` folder. You have to edit the file `mcdiscordchat.json` to setup MCDiscordChat before starting the server again:
+After installing MC-Discord-Chat, when the server is started for the first time, the following error will appear, and a file named `mcdiscordchat.json` will be generated in the `config` folder. You have to edit the file `mcdiscordchat.json` to setup MC-Discord-Chat before starting the server again:
 
 ![15.png](/file/posts/4ba0a17a/15.png)
 
 ![16.png](/file/posts/4ba0a17a/16.png)
 
-### Setup MCDiscordChat
+### Setup MC-Discord-Chat
 
-Open `mcdiscordchat.json` and set the following variables to use MCDiscordChat.
+Open `mcdiscordchat.json` and set the following variables to use MC-Discord-Chat.
 
 > **Generic**
 
 1. **`[Required]` language**
 Example / Default value: `en_us`
-Description: The language MCDiscordChat uses
+Description: The language MC-Discord-Chat uses
 Languages currently available: **(You are welcome to contribute translations!)**
-Contributing: https://github.com/Xujiayao/MCDiscordChat#Contributing
+Contributing: https://github.com/Xujiayao/MC-Discord-Chat#Contributing
 | Code    | Language             |
 |---------|----------------------|
 | `en_us` | English (US)         |
@@ -931,7 +934,7 @@ Description: Whether to send update notifications
 
 25. **`[Required]` mentionAdminsForUpdates**
 Example / Default value: `true`
-Description: Whether to mention (@) MCDiscordChat admins when sending update notifications
+Description: Whether to mention (@) MC-Discord-Chat admins when sending update notifications
 
 26. **`[Required]` updateChannelTopic**
 Example / Default value: `true`
@@ -947,17 +950,17 @@ Description: Whether to wait for the rate limit to reset on shutdown
 
 29. `[Optional]` excludedCommands
 Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
-Description: MCDiscordChat Command Exclusion List, do not process and send specified commands (can be more than one)
+Description: MC-Discord-Chat Command Exclusion List, do not process and send specified commands (can be more than one)
 
 30. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
-Description: MCDiscordChat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
+Description: MC-Discord-Chat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
 > **MultiServer**
 
 1. **`[Required]` enable**
 Example / Default value: `false`
-Description: Whether to enable multi-server mode (using more than one MCDiscordChat in a Discord channel)
+Description: Whether to enable multi-server mode (using more than one MC-Discord-Chat in a Discord channel)
 
 2. `[Optional]` host
 Example / Default value: `127.0.0.1`
@@ -973,13 +976,13 @@ Description: Minecraft server name displayed when using multi-server mode
 
 4. `[Optional]` botIds
 Example / Default value: `["123456789"]`
-Description: IDs of all MCDiscordChat bots (right click on the bot to copy the ID, you have to turn on developer mode in Discord settings)
+Description: IDs of all MC-Discord-Chat bots (right click on the bot to copy the ID, you have to turn on developer mode in Discord settings)
 
 > **CustomMessage (custom message format)**
 >
 > Leave the options blank to use the default values, and fill in any of them to use the custom values.
 >
-> **The default language files are located in the [`/wrapper/src/main/resources/lang/` folder](https://github.com/Xujiayao/MCDiscordChat/tree/master/wrapper/src/main/resources/lang). You may access this folder to get the default values, then refer to the default values and the descriptions below to customize the message format.**
+> **The default language files are located in the [`/wrapper/src/main/resources/lang/` folder](https://github.com/Xujiayao/MC-Discord-Chat/tree/master/wrapper/src/main/resources/lang). You may access this folder to get the default values, then refer to the default values and the descriptions below to customize the message format.**
 >
 > **Note:**
 > - **Options starting with `unformatted` must have all formatting removed**
