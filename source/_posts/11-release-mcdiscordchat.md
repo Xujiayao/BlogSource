@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MC-Discord-Chat 已经更新到 2.2.1 - 2023/9/14 啦！
+description: MC-Discord-Chat 已经更新到 2.2.2 - 2023/9/24 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MC-Discord-Chat has been updated to 2.2.1 - 2023/9/14!
-MC-Discord-Chat 已经更新到 2.2.1 - 2023/9/14 啦！
+MC-Discord-Chat has been updated to 2.2.2 - 2023/9/24!
+MC-Discord-Chat 已经更新到 2.2.2 - 2023/9/24 啦！
 
-> This article was updated on September 14, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 9 月 14 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on September 24, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 9 月 24 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MC-Discord-Chat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -64,7 +64,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 对于代码贡献，构建文件位于 `/wrapper/build/libs/` 文件夹中。
 
-对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为你的语言代码以开始翻译。请为整个文件中除了以 `advancements` 和 `death` 前缀开头的键之外其它所有键提供翻译。那些是 Minecraft 的官方翻译，可随时从官方翻译同步。
+对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为你的语言代码以开始翻译。请为整个文件中所有键提供翻译。
 
 ## 功能特色
 
@@ -141,6 +141,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 - 支持配置文件热重载
   - 每次加载配置文件时进行备份
 - 定期检查更新
+  - 通过检查服务器 Minecraft 版本兼容性来准确推送 MCDC 版本更新
   - 可自定义更新通知频道
   - 可禁用检查更新
 
@@ -169,14 +170,15 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 ### 依赖
 
-MC-Discord-Chat 最新版本（2.2.1）支持以下 Minecraft 服务器版本：
+MC-Discord-Chat 最新版本（2.2.2）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
+  - 1.20.2
   - 1.20.1
   - 1.20
 - Minecraft 1.19.x
   - 1.19.4
-  - 1.19.3
+  - <font color='red'>1.19.3 (MCDiscordChat 2.2.1)</font>
   - <font color='red'>1.19.2 (MCDiscordChat 2.1.4)</font>
   - <font color='red'>1.19.1 (MCDiscordChat 1.19.2-2.1.2)</font>
   - <font color='red'>1.19 (MCDiscordChat 2.0.0-alpha.7)</font>
@@ -201,7 +203,7 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 | ----- | ----- |
 | Minecraft 服务端 1.14+ | Minecraft 服务端 1.14+ |
 | Java \>=17 | Java \>=17 |
-| Fabric Loader | Quilt Loader |
+| Fabric Loader \>=0.14.22 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
@@ -610,7 +612,7 @@ If you are interested in contributing to MCDC, you can submit a pull request on 
 
 For code contributions, the build file is located in the `/wrapper/build/libs/` folder.
 
-For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for the entire file for all keys except those starting with the `advancements` and `death` prefixes. Those messages are official translations of Minecraft, which may sync from the official translations at any time.
+For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for the entire file for all keys.
 
 ## Features
 
@@ -687,6 +689,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
 - Support Hot Reloading of the config file
   - Backup every time the config file is loaded
 - Check for updates regularly
+  - Push MCDC version updates accurately by checking server Minecraft version compatibility
   - Customizable update notification channel
   - Check for updates can be disabled
 
@@ -715,14 +718,15 @@ Languages currently available:
 
 ### Dependencies
 
-The latest version of MC-Discord-Chat (2.2.1) supports the following Minecraft server versions:
+The latest version of MC-Discord-Chat (2.2.2) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
+  - 1.20.2
   - 1.20.1
   - 1.20
 - Minecraft 1.19.x
   - 1.19.4
-  - 1.19.3
+  - <font color='red'>1.19.3 (MCDiscordChat 2.2.1)</font>
   - <font color='red'>1.19.2 (MCDiscordChat 2.1.4)</font>
   - <font color='red'>1.19.1 (MCDiscordChat 1.19.2-2.1.2)</font>
   - <font color='red'>1.19 (MCDiscordChat 2.0.0-alpha.7)</font>
@@ -747,7 +751,7 @@ The latest version of MC-Discord-Chat depends on the following environment:
 | ----- | ----- |
 | Minecraft Server 1.14+ | Minecraft Server 1.14+ |
 | Java \>=17 | Java \>=17 |
-| Fabric Loader | Quilt Loader |
+| Fabric Loader \>=0.14.22 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
@@ -1125,6 +1129,51 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.2.2 - 2023/9/24
+
+> #### MC-Discord-Chat 2.2.2 for Minecraft 1.14+ - 2023/9/24
+> 
+> MCDC now accurately pushes MCDC version updates by checking the compatibility of the server's Minecraft version.
+> 
+> This new feature ensures no more situations where an old MCDC with an old Minecraft version pushes a new MCDC version that doesn't support that particular Minecraft version.
+> 
+> MCDC 现在通过检查服务器 Minecraft 版本的兼容性来准确推送 MCDC 版本更新。
+> 
+> 此新功能可确保不再出现旧 Minecraft 版本中安装的旧 MCDC 推送不支持该特定 Minecraft 版本的新 MCDC 版本的情况。
+> 
+> #### New Features 新特性
+> 
+> - Compatible with version 1.20.2 (#189)
+>   兼容 1.20.2 版本
+> 
+> - Push MCDC version updates accurately by checking server Minecraft version compatibility
+>   通过检查服务器 Minecraft 版本兼容性来准确推送 MCDC 版本更新
+> 
+> #### Changes 更改
+> 
+> - Fix channel topic monitor not using the correct level name for getting stats information (#139)
+>   修复频道主题监视器不使用正确的存档名称来获取统计信息
+> 
+> - Optimize JAR file size
+>   优化 JAR 文件大小
+> 
+> - Force not to use cache to obtain player profile
+>   强制不使用缓存来获取玩家资料
+> 
+> #### Removed 移除
+> 
+> - No longer compatible with version 1.19.3
+>   不再兼容 1.19.3 版本
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.1...2.2.2
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.2.1 - 2023/9/14
 
 > #### MC-Discord-Chat 2.2.1 for Minecraft 1.14+ - 2023/9/14
@@ -1178,7 +1227,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.0...2.2.1
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.2.0 - 2023/7/4
 
 > #### MCDiscordChat 2.2.0 for Minecraft 1.14+ - 2023/7/4
