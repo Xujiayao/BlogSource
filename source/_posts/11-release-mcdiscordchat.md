@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MC-Discord-Chat 已经更新到 2.2.2 - 2023/9/24 啦！
+description: MC-Discord-Chat 已经更新到 2.2.3 - 2023/10/28 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MC-Discord-Chat has been updated to 2.2.2 - 2023/9/24!
-MC-Discord-Chat 已经更新到 2.2.2 - 2023/9/24 啦！
+MC-Discord-Chat has been updated to 2.2.3 - 2023/10/28!
+MC-Discord-Chat 已经更新到 2.2.3 - 2023/10/28 啦！
 
-> This article was updated on September 24, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 9 月 24 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on October 28, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 10 月 28 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MC-Discord-Chat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -157,6 +157,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 | `ru_ru` | Русский (Россия)     |
 | `zh_cn` | 简体中文（中国大陆）           |
 | `zh_hk` | 繁體中文（香港特別行政區）        |
+| `zh_tw` | 繁體中文（台灣）             |
 
 ## 贡献者
 
@@ -170,7 +171,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 ### 依赖
 
-MC-Discord-Chat 最新版本（2.2.2）支持以下 Minecraft 服务器版本：
+MC-Discord-Chat 最新版本（2.2.3）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
   - 1.20.2
@@ -313,6 +314,7 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 | `ru_ru` | Русский (Россия)     |
 | `zh_cn` | 简体中文（中国大陆）           |
 | `zh_hk` | 繁體中文（香港特別行政區）        |
+| `zh_tw` | 繁體中文（台灣）             |
 
 2. **`【必选】` botToken**
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
@@ -705,6 +707,7 @@ Languages currently available:
 | `ru_ru` | Русский (Россия)     |
 | `zh_cn` | 简体中文（中国大陆）           |
 | `zh_hk` | 繁體中文（香港特別行政區）        |
+| `zh_tw` | 繁體中文（台灣）             |
 
 ## Contributors
 
@@ -718,7 +721,7 @@ Languages currently available:
 
 ### Dependencies
 
-The latest version of MC-Discord-Chat (2.2.2) supports the following Minecraft server versions:
+The latest version of MC-Discord-Chat (2.2.3) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
   - 1.20.2
@@ -859,6 +862,7 @@ Contributing: https://github.com/Xujiayao/MC-Discord-Chat#Contributing
 | `ru_ru` | Русский (Россия)     |
 | `zh_cn` | 简体中文（中国大陆）           |
 | `zh_hk` | 繁體中文（香港特別行政區）        |
+| `zh_tw` | 繁體中文（台灣）             |
 
 2. **`[Required]` botToken**
 Example / Default value: `xxxxxx.xxx.xxxxxx`
@@ -1129,6 +1133,41 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.2.3 - 2023/10/28
+
+> #### MC-Discord-Chat 2.2.3 for Minecraft 1.14+ - 2023/10/28
+> 
+> #### New Features 新特性
+> 
+> - Chinese Traditional (Taiwan) translation (#191 and #196)
+>   繁体中文（台湾）翻译
+> 
+> - Send error messages in case of incorrect channel IDs or insufficient permissions (#192)
+>   在频道 ID 不正确或权限不足时发送错误消息
+> 
+> #### Changes 更改
+> 
+> - Correct Chinese language files
+>   修正中文语言文件
+> 
+> - Fix advancement message spamming (#193)
+>   修复进度消息刷屏
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @jimchen5209
+> - @notlin4
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.2...2.2.3
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.2.2 - 2023/9/24
 
 > #### MC-Discord-Chat 2.2.2 for Minecraft 1.14+ - 2023/9/24
@@ -1173,7 +1212,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.1...2.2.2
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.2.1 - 2023/9/14
 
 > #### MC-Discord-Chat 2.2.1 for Minecraft 1.14+ - 2023/9/14
