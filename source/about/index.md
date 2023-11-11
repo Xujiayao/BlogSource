@@ -38,11 +38,11 @@ date: 2020-07-13 10:29:34
 >   - CPU: Intel Core i7-12800HX
 >   - GPU: NVIDIA GeForce RTX 3080 Ti Laptop GPU 16GB GDDR6
 >   - RAM: 32GB (DDR5 16GB x2 4800MHz)
-> - 服务器 (NAS)
->   - CPU: Intel Core i7-870
->   - MB : ASUS P7P55D-E Deluxe
->   - GPU: N/A
->   - RAM: CORSAIR VENGEANCE 16GB (DDR3 4GB x4 1600MHz 1.50V C9)
+> - 服务器
+>   - CPU: AMD Ryzen 7 5800X (PBO Eco-Mode 45W)
+>   - MB : MSI MAG B550M MORTAR WIFI
+>   - GPU: GIGABYTE NVIDIA GeForce GT 430 1GB
+>   - RAM: Asgard Valkyrie 32GB (DDR4 16GB x2 3600MHz C18 1.35V)
 > - 手机
 >   - Google Pixel 6 Pro
 > - 平板
