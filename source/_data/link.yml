@@ -42,6 +42,10 @@
       link: https://blissfulalloy79.github.io/
       avatar: https://blissfulalloy79.github.io/img/avatar.jpg
       descr: 既来之，则安之
+    - name: Pedro
+      link: https://comet.hk/
+      avatar: https://comet.hk/images/iuuu7.png
+      descr: Life is a comet
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -78,7 +82,3 @@
       link: https://blog.richardw.top/
       avatar: https://blog.richardw.top/file/image/avatar.png
       descr: 熟悉的路，已然全无
-    - name: Pedro
-      link: https://comet.hk/
-      avatar: https://comet.hk/images/iuuu7.png
-      descr: Life is a comet
