@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MC-Discord-Chat 已经更新到 2.2.4 - 2023/12/9 啦！
+description: MC-Discord-Chat 已经更新到 2.2.5 - 2023/12/16 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MC-Discord-Chat has been updated to 2.2.4 - 2023/12/9!
-MC-Discord-Chat 已经更新到 2.2.4 - 2023/12/9 啦！
+MC-Discord-Chat has been updated to 2.2.5 - 2023/12/16!
+MC-Discord-Chat 已经更新到 2.2.5 - 2023/12/16 啦！
 
-> This article was updated on December 9, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 12 月 9 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on December 16, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2023 年 12 月 16 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MC-Discord-Chat@master/src/main/resources/assets/mcdiscordchat/icon.png">
 
@@ -196,7 +196,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 ### 依赖
 
-MC-Discord-Chat 最新版本（2.2.4）支持以下 Minecraft 服务器版本：
+MC-Discord-Chat 最新 Active 版本（2.2.5）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
   - 1.20.4
@@ -208,22 +208,26 @@ MC-Discord-Chat 最新版本（2.2.4）支持以下 Minecraft 服务器版本：
   - 1.19.4
   - 1.19.3
   - 1.19.2
-  - <font color='red'>1.19.1 (MCDiscordChat 1.19.2-2.1.2)</font>
-  - <font color='red'>1.19 (MCDiscordChat 2.0.0-alpha.7)</font>
+  - 1.19.1
+
+MC-Discord-Chat 最新 Compat 版本（2.2.5-compat）支持以下 Minecraft 服务器版本：
+
+- Minecraft 1.19.x
+  - 1.19
 - Minecraft 1.18.x
-  - <font color='red'>1.18.2 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.18.1 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.18 (MCDiscordChat 2.2.3)</font>
+  - 1.18.2
+  - 1.18.1
+  - 1.18
 - Minecraft 1.17.x
-  - <font color='red'>1.17.1 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.17 (MCDiscordChat 2.2.3)</font>
+  - 1.17.1
+  - 1.17
 - Minecraft 1.16.x
-  - <font color='red'>1.16.5 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.16.4 (MCDiscordChat 2.2.3)</font>
+  - 1.16.5
+  - 1.16.4
 - Minecraft 1.15.x
-  - <font color='red'>1.15.2 (MCDiscordChat 2.2.3)</font>
+  - 1.15.2
 - Minecraft 1.14.x
-  - <font color='red'>1.14.4 (MCDiscordChat 2.2.3)</font>
+  - 1.14.4
 
 MC-Discord-Chat 最新版本依赖以下运行环境：
 
@@ -774,7 +778,7 @@ Exceptionally, the `src/main/java/top/xujiayao/mcdiscordchat/utils/MarkdownParse
 
 ### Dependencies
 
-The latest version of MC-Discord-Chat (2.2.4) supports the following Minecraft server versions:
+The latest Active version of MC-Discord-Chat (2.2.5) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
   - 1.20.4
@@ -786,22 +790,26 @@ The latest version of MC-Discord-Chat (2.2.4) supports the following Minecraft s
   - 1.19.4
   - 1.19.3
   - 1.19.2
-  - <font color='red'>1.19.1 (MCDiscordChat 1.19.2-2.1.2)</font>
-  - <font color='red'>1.19 (MCDiscordChat 2.0.0-alpha.7)</font>
+  - 1.19.1
+
+The latest Compat version of MC-Discord-Chat (2.2.5-compat) supports the following Minecraft server versions:
+
+- Minecraft 1.19.x
+  - 1.19
 - Minecraft 1.18.x
-  - <font color='red'>1.18.2 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.18.1 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.18 (MCDiscordChat 2.2.3)</font>
+  - 1.18.2
+  - 1.18.1
+  - 1.18
 - Minecraft 1.17.x
-  - <font color='red'>1.17.1 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.17 (MCDiscordChat 2.2.3)</font>
+  - 1.17.1
+  - 1.17
 - Minecraft 1.16.x
-  - <font color='red'>1.16.5 (MCDiscordChat 2.2.3)</font>
-  - <font color='red'>1.16.4 (MCDiscordChat 2.2.3)</font>
+  - 1.16.5
+  - 1.16.4
 - Minecraft 1.15.x
-  - <font color='red'>1.15.2 (MCDiscordChat 2.2.3)</font>
+  - 1.15.2
 - Minecraft 1.14.x
-  - <font color='red'>1.14.4 (MCDiscordChat 2.2.3)</font>
+  - 1.14.4
 
 The latest version of MC-Discord-Chat depends on the following environment:
 
@@ -1189,6 +1197,61 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.2.5 - 2023/12/16
+
+> #### MC-Discord-Chat 2.2.5 for Minecraft 1.19.1+ - 2023/12/16
+> 
+> #### New Features 新特性
+> 
+> - Compatible with version 1.19.1
+>   兼容 1.19.1 版本
+> 
+> #### Changes 更改
+> 
+> - Fix exception when Discord user role has no colour in version 1.20.4 (#204)
+>   修复 1.20.4 版本 Discord 用户组没有颜色时报错
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.4...2.2.5
+
+### 2.2.5-compat - 2023/12/16
+
+> #### MC-Discord-Chat 2.2.5-compat for Minecraft 1.14+ - 2023/12/16
+> 
+> #### New Features 新特性
+> 
+> - Compatible with version 1.19
+>   兼容 1.19 版本
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> - Remove Minecraft console <> Discord chat bridge functionality due to compatibility issues (#197)
+>   因兼容性问题移除 Minecraft 控制台 <> Discord 聊天桥接功能
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> Since this is the initial release version of the Compat update channel, there is currently no release tag available for comparison.
+> 
+> 这是 Compat 更新通道的首个发布版本，因此还没有可供比较的发行标签。
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.2.4 - 2023/12/9
 
 > #### MC-Discord-Chat 2.2.4 for Minecraft 1.19.2+ - 2023/12/9
@@ -1231,7 +1294,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.3...2.2.4
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.2.3 - 2023/10/28
 
 > #### MC-Discord-Chat 2.2.3 for Minecraft 1.14+ - 2023/10/28
