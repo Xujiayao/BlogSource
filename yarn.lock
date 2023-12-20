@@ -1288,11 +1288,6 @@ hexo-generator-tag@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-githubcalendar@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/hexo-githubcalendar/-/hexo-githubcalendar-1.2.3.tgz#1274e236933ff5000691d80fc7e89206da1a64fe"
-  integrity sha512-xMfp2Z11F57s0/q7N9x+S2ui5dkrOiz5I3+TKPL+2IquWKj11wpaVZsPDgMxPAU8B6AYm/78S5e2APiHADPYSg==
-
 hexo-i18n@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-i18n/-/hexo-i18n-2.0.0.tgz#ec7abc160ffef202524f3ff8076b85d5701c447b"
