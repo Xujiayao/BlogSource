@@ -15,7 +15,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
-  评论管理系统: https://comments.xujiayao.top/ui || fas fa-toolbox
+  评论管理系统: https://comments.xujiayao.com/ui || fas fa-toolbox
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -454,7 +454,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://comments.xujiayao.top # Waline server address url
+  serverURL: https://comments.xujiayao.com # Waline server address url
   bg: /file/comment_bg.png # waline background
   pageview: false
   option:
