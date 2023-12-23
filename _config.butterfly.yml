@@ -597,8 +597,6 @@ google_adsense:
 site_verification:
   - name: msvalidate.01
     content: 725CF7E912C2BFE03EF095630BA437B6
-  - name: baidu-site-verification
-    content: codeva-RGCflUdEkc
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
