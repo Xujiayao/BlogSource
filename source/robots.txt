@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /file/
 
-Sitemap: https://blog.xujiayao.top/sitemap.xml
+Sitemap: https://blog.xujiayao.com/sitemap.xml

@@ -61,18 +61,20 @@ date: 2020-07-13 10:29:34
 > 博客名称：Xujiayao's Blog
 博客描述：没有个性，如何签名？
 建立日期：2020 年 7 月 8 日
-博客链接：https://blog.xujiayao.top/
+博客链接：https://blog.xujiayao.com/ (原 https://blog.xujiayao.top/)
 博客程序：[Hexo](https://hexo.io/)
-博客主机：[GitHub Pages](https://github.com/Xujiayao/Xujiayao.github.io/deployments?environment=github-pages) + [Vercel](https://github.com/Xujiayao/Xujiayao.github.io/deployments/?environment=Production)
+博客主机：[GitHub Pages](https://github.com/Xujiayao/Xujiayao.github.io/deployments/github-pages) + [Vercel](https://github.com/Xujiayao/Xujiayao.github.io/deployments/Production)
 评论系统：[Waline](https://waline.js.org/)
 特别感谢 [Butterfly - @Jerry](https://butterfly.js.org/) 提供的博客模板。
 
 ## 联系方式
 
-> * 微信：JasonXu06（Jason Xu）
-> * Discord：Xujiayao#2275
-> * ~~QQ：413139349（Jason Xu）~~
-> * 邮箱：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)
+> * 微信：JasonXu06 (Jason Xu)
+> * Discord：xujiayao
+> * ~~QQ：413139349 (Jason Xu)~~
+> * 邮箱：
+> 	* 首选：[i@xujiayao.com](mailto:i@xujiayao.com)
+> 	* ~~备选：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)~~
 > * 社交平台：
 > 	* [哔哩哔哩](https://space.bilibili.com/270317970)
 > 	* [GitHub](https://github.com/Xujiayao)

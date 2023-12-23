@@ -32,8 +32,8 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Xujiayao || GitHub
-  fab fa-youtube: https://space.bilibili.com/270317970 || 哔哩哔哩
-  fas fa-envelope: mailto:xujiayao147258369@gmail.com || Email
+  fab fa-bilibili: https://space.bilibili.com/270317970 || 哔哩哔哩
+  fas fa-envelope: mailto:i@xujiayao.com || Email
   fas fa-rss: /atom.xml || RSS
 
 # Image (圖片設置)
@@ -234,7 +234,7 @@ aside:
       link: /about/
   card_announcement:
     enable: true
-    content: 欢迎光临！感谢访问本站 \(￣︶￣*\))
+    content: 欢迎光临！感谢访问本站 \(￣︶￣*\))<br>博客换新域名啦！ヾ(≧▽≦*)o
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -851,7 +851,7 @@ pjax:
 # Inject the css and script (aplayer/meting)
 aplayerInject:
   enable: true
-  per_page: false
+  per_page: true
 
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
@@ -918,7 +918,6 @@ inject:
 
   bottom:
     # - <script src="xxxx"></script>
-    # - <div class="aplayer no-destroy" data-id="7838730606" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-order="random" data-autoplay="true" data-volume="0.7"></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -995,5 +994,5 @@ CDN:
     # typed:
     # utils:
     # valine:
-    # waline_css:
-    # waline_js:
+    waline_css: https://cdn.jsdelivr.net/npm/@waline/client@2/dist/waline.css
+    waline_js: https://cdn.jsdelivr.net/npm/@waline/client@2/dist/waline.min.js
