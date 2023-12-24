@@ -72,9 +72,7 @@ date: 2020-07-13 10:29:34
 > * 微信：JasonXu06 (Jason Xu)
 > * Discord：xujiayao
 > * ~~QQ：413139349 (Jason Xu)~~
-> * 邮箱：
-> 	* 首选：[i@xujiayao.com](mailto:i@xujiayao.com)
-> 	* ~~备选：[xujiayao147258369@gmail.com](mailto:xujiayao147258369@gmail.com)~~
+> * 邮箱：[i@xujiayao.com](mailto:i@xujiayao.com)
 > * 社交平台：
 > 	* [哔哩哔哩](https://space.bilibili.com/270317970)
 > 	* [GitHub](https://github.com/Xujiayao)
