@@ -118,7 +118,8 @@ sitemap:
 
 aplayer:
   meting: true
-  asset_inject: false
+  meting_api: https://api.injahow.cn/meting/
+  # asset_inject: false
 
 feed:
   type: atom
