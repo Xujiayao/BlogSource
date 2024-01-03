@@ -353,7 +353,7 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 说明：Discord 机器人令牌
 
 3. `【可选】` botPlayingStatus / botListeningStatus
-示例 / 默认值：`botPlayingStatus: Minecraft`
+示例 / 默认值：`botPlayingStatus: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
 说明：设置机器人活动状态（二选一）（留空则禁用此功能）
 
 4. **`【必选】` useWebhook**
@@ -377,7 +377,7 @@ MC-Discord-Chat 最新版本依赖以下运行环境：
 说明：发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）
 
 9. **`【必选】` avatarApi**
-示例 / 默认值：`https://mc-heads.net/avatar/%player%.png`
+示例 / 默认值：`https://mc-heads.net/avatar/%player%.png` / `https://visage.surgeplay.com/bust/%player%.png`
 说明：自定义 Webhook 头像 API 链接
 
 10. **`【必选】` broadcastPlayerCommandExecution**
@@ -933,7 +933,7 @@ Example / Default value: `xxxxxx.xxx.xxxxxx`
 Description: Discord bot token
 
 3. `[Optional]` botPlayingStatus / botListeningStatus
-Example / Default value: `botPlayingStatus: Minecraft`
+Example / Default value: `botPlayingStatus: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
 Description: Set the bot activity status (choose one of two) (leave blank to disable this feature)
 
 4. **`[Required]` useWebhook**
@@ -957,7 +957,7 @@ Example / Default value: `true`
 Description: Use UUID or nickname to get player avatar when sending Webhook (UUID when true, nickname when false)
 
 9. **`[Required]` avatarApi**
-Example / Default value: `https://mc-heads.net/avatar/%player%.png`
+Example / Default value: `https://mc-heads.net/avatar/%player%.png` / `https://visage.surgeplay.com/bust/%player%.png`
 Description: URL of the Avatar API for Webhook
 
 10. **`[Required]` broadcastPlayerCommandExecution**
