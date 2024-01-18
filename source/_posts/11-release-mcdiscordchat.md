@@ -6,18 +6,18 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: MC-Discord-Chat 已经更新到 2.2.5 - 2023/12/16 啦！
+description: MC-Discord-Chat 已经更新到 2.2.6 - 2024/1/19 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-MC-Discord-Chat has been updated to 2.2.5 - 2023/12/16!
-MC-Discord-Chat 已经更新到 2.2.5 - 2023/12/16 啦！
+MC-Discord-Chat has been updated to 2.2.6 - 2024/1/19!
+MC-Discord-Chat 已经更新到 2.2.6 - 2024/1/19 啦！
 
-> This article was updated on December 16, 2023. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2023 年 12 月 16 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on January 19, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2024 年 1 月 19 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
-<img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MC-Discord-Chat@master/src/main/resources/assets/mcdiscordchat/icon.png">
+<img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/MC-Discord-Chat@master/wrapper/src/main/resources/assets/mcdiscordchat/icon.png">
 
 ## MC-Discord-Chat
 
@@ -62,7 +62,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 如果你有兴趣为 MCDC 做出贡献，你可以在 GitHub 上提交拉取请求。
 
-对于代码贡献，构建文件位于 `/wrapper/build/libs/` 文件夹中。
+对于代码贡献，构建文件位于 `/build/` 文件夹中。
 
 对于翻译贡献，语言文件位于 `/wrapper/src/main/resources/lang/` 文件夹中。复制 `en_us.json` 并将新的文件重命名为你的语言代码以开始翻译。请为整个文件中所有键提供翻译。
 
@@ -644,7 +644,7 @@ If there is a bug or suggestion, or something you don't understand, you can [sub
 
 If you are interested in contributing to MCDC, you can submit a pull request on GitHub.
 
-For code contributions, the build file is located in the `/wrapper/build/libs/` folder.
+For code contributions, the build file is located in the `/build/` folder.
 
 For translation contributions, language files are located in the `/wrapper/src/main/resources/lang/` folder. Copy `en_us.json` and rename the new one to your language code to get started. Please provide translations for the entire file for all keys.
 
@@ -1197,6 +1197,38 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.2.6 - 2024/1/19
+
+> #### MC-Discord-Chat 2.2.6 for Minecraft 1.19.1+ - 2024/1/19
+> 
+> #### New Features 新特性
+> 
+> N/A
+> 
+> #### Changes 更改
+> 
+> - Fix messages are ignored if user IDs are put into the botIds list (#207)
+>   修复将用户 ID 放入 botIds 列表时消息被忽略
+> 
+> - Fix server becomes temporarily unresponsive when sending Webhook messages (#210)
+>   修复服务器在发送 Webhook 消息时暂时无响应
+> 
+> - Fix inconsistent player names used in MCDC messages to Discord (#208)
+>   修复发送到 Discord 的 MCDC 消息中使用的玩家名称不一致
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/MC-Discord-Chat/compare/2.2.5...2.2.6
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.2.5 - 2023/12/16
 
 > #### MC-Discord-Chat 2.2.5 for Minecraft 1.19.1+ - 2023/12/16
@@ -1251,7 +1283,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > 这是 Compat 更新通道的首个发布版本，因此还没有可供比较的发行标签。
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.2.4 - 2023/12/9
 
 > #### MC-Discord-Chat 2.2.4 for Minecraft 1.19.2+ - 2023/12/9
