@@ -196,7 +196,7 @@ MC-Discord-Chat (MCDC), formerly known as MCDiscordChat, a practical and powerfu
 
 ### 依赖
 
-MC-Discord-Chat 最新 Active 版本（2.2.5）支持以下 Minecraft 服务器版本：
+MC-Discord-Chat 最新 Active 版本（2.2.6）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
   - 1.20.4
@@ -778,7 +778,7 @@ Exceptionally, the `src/main/java/com/xujiayao/mcdiscordchat/utils/MarkdownParse
 
 ### Dependencies
 
-The latest Active version of MC-Discord-Chat (2.2.5) supports the following Minecraft server versions:
+The latest Active version of MC-Discord-Chat (2.2.6) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
   - 1.20.4
