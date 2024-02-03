@@ -14,7 +14,7 @@ date: 2020-07-13 10:29:34
 >
 > 平时玩以下这些游戏：ヾ(≧▽≦*)o
 >
-> - Minecraft Java Edition (Lazy_Craft Private Server)
+> - Minecraft Java Edition (Lazy_Craft & CrystMaple's Private Servers)
 > - Grand Theft Auto V (Online)
 > - Euro Truck Simulator 2 (TruckersMP)
 > - Rebel Inc: Escalation
@@ -86,6 +86,8 @@ date: 2020-07-13 10:29:34
 
 {% tabs bangumi %}
 <!-- tab 已经观看 -->
+此列表不包含全部已看完的番剧，若有遗漏的话会在后续想起时添加 ヾ(•ω•\`)o
+
 这些大部分还是有分先后次序的，主要是自己已经忘记自己是哪个番先看的了＞︿＜
 
 - [x] <font color='red'>**入坑番 =￣ω￣=**</font> [我的妹妹不可能那么可爱 第一季](https://www.bilibili.com/bangumi/media/md2660/) <font color='green'>**妹妹赛高！**</font>
@@ -196,5 +198,27 @@ date: 2020-07-13 10:29:34
 - [ ] 葬送的芙莉莲
 - [ ] 租借女友S3
 - [ ] 妖狐×仆SS
+- [ ] 恋爱与选举与巧克力
+- [ ] 指尖相触，恋恋不舍
+- [ ] 就算这样，“步”还是靠了过来
+- [ ] 灰色的果实
+<!-- endtab -->
+{% endtabs %}
+
+## 电影 / 电视剧清单
+
+{% tabs film_and_tv_series %}
+<!-- tab 已经观看 -->
+此列表不包含全部已看完的电影 / 电视剧，若有遗漏的话会在后续想起时添加 ヾ(•ω•\`)o
+
+这些大部分还是有分先后次序的，主要是自己已经忘记自己是哪个电影 / 电视剧先看的了＞︿＜
+
+TODO
+<!-- endtab -->
+
+<!-- tab 暂未观看 -->
+不分先后次序 =￣ω￣=
+
+- [ ] 19层
 <!-- endtab -->
 {% endtabs %}
