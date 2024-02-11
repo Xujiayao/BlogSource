@@ -25,7 +25,7 @@ date: 2020-07-13 10:29:34
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前只在维护这一个项目（GitHub）：
-> - [MC-Discord-Chat (MCDC)](https://github.com/Xujiayao/MC-Discord-Chat)
+> - [Discord-MC-Chat (DMCC)](https://github.com/Xujiayao/Discord-MC-Chat)
 > 
 > 设备：
 > 
