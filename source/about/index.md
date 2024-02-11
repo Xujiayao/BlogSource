@@ -14,7 +14,7 @@ date: 2020-07-13 10:29:34
 >
 > 平时玩以下这些游戏：ヾ(≧▽≦*)o
 >
-> - Minecraft Java Edition (Lazy_Craft & CrystMaple's Private Servers)
+> - Minecraft: Java Edition (Lazy_Craft & Star_Dream_Swamp Private Servers)
 > - Grand Theft Auto V (Online)
 > - Euro Truck Simulator 2 (TruckersMP)
 > - Rebel Inc: Escalation
