@@ -15,13 +15,9 @@
       avatar: https://echoandmoonlight.com/wp-content/uploads/2021/03/enm_logo.png
       descr: 回声与月光
     - name: Sakura
-      link: https://www.crystalapple.top/
-      avatar: https://gravatar.loli.net/avatar/43543b05911b76907f2b40a3dda76795?s=500
+      link: https://frostedglass.github.io/
+      avatar: https://avatars.githubusercontent.com/u/68397835
       descr: Sakuraの杂货铺
-    - name: Ariven
-      link: https://blog.ariven-sky.cn/ # https://sino6067.github.io/
-      avatar: https://blog.ariven-sky.cn/img/avatar.png
-      descr: Ariven的博客
     - name: Citrino
       link: https://www.limewtea.com/
       avatar: https://www.limewtea.com/img/avatar.webp
@@ -34,14 +30,14 @@
       link: https://noionion.top/
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 贰猹の小窝
-    - name: Wyc
+    - name: Wuyouchao
       link: https://blog.wuyouchao.top/ # https://wu-youchao.github.io/
       avatar: https://blog.wuyouchao.top/file/avatar.png
-      descr: 6575很懒的qwq
+      descr: 我是比萌新还要萌新的萌新
     - name: BlissfulAlloy79
       link: https://blissfulalloy79.lazycraft.top/
       avatar: https://blissfulalloy79.lazycraft.top/img/avatar.jpg
-      descr: 既来之，则安之
+      descr: 没有技术，也不够宅
     - name: Pedro
       link: https://pedropo.com/
       avatar: https://pedropo.com/assets/iuuu7.png
@@ -82,3 +78,7 @@
       link: https://blog.richardw.top/
       avatar: https://blog.richardw.top/file/image/avatar.png
       descr: 熟悉的路，已然全无
+    - name: Ariven
+      link: https://blog.ariven.cn/ # https://sino6067.github.io/
+      avatar: https://blog.ariven.cn/img/logo.jpg
+      descr: Ariven的博客
