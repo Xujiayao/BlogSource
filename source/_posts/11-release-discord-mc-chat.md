@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.3.1 - 2024/2/17 啦！
+description: Discord-MC-Chat 已经更新到 2.3.2 - 2024/3/17 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.3.1 - 2024/2/17!
-Discord-MC-Chat 已经更新到 2.3.1 - 2024/2/17 啦！
+Discord-MC-Chat has been updated to 2.3.2 - 2024/3/17!
+Discord-MC-Chat 已经更新到 2.3.2 - 2024/3/17 啦！
 
-> This article was updated on February 18, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2024 年 2 月 18 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on March 22, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2024 年 3 月 22 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -197,7 +197,7 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 
 ### 依赖
 
-Discord-MC-Chat 最新 Active 版本（2.3.1）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新 Active 版本（2.3.2）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
   - 1.20.4
@@ -211,7 +211,7 @@ Discord-MC-Chat 最新 Active 版本（2.3.1）支持以下 Minecraft 服务器�
   - 1.19.2
   - 1.19.1
 
-Discord-MC-Chat 最新 Compat 版本（2.3.1-compat）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新 Compat 版本（2.3.2-compat）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.19.x
   - 1.19
@@ -779,7 +779,7 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest Active version of Discord-MC-Chat (2.3.1) supports the following Minecraft server versions:
+The latest Active version of Discord-MC-Chat (2.3.2) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
   - 1.20.4
@@ -793,7 +793,7 @@ The latest Active version of Discord-MC-Chat (2.3.1) supports the following Mine
   - 1.19.2
   - 1.19.1
 
-The latest Compat version of Discord-MC-Chat (2.3.1-compat) supports the following Minecraft server versions:
+The latest Compat version of Discord-MC-Chat (2.3.2-compat) supports the following Minecraft server versions:
 
 - Minecraft 1.19.x
   - 1.19
@@ -1198,6 +1198,57 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.3.2 - 2024/3/17
+
+> #### Discord-MC-Chat 2.3.2 for Minecraft 1.19.1+ - 2024/3/17
+> 
+> #### New Features 新特性
+> 
+> N/A
+> 
+> #### Changes 更改
+> 
+> - Fix server crashes due to player deaths caused by falling blocks and intentional game design (#223)
+>   修复玩家因下落的方块和刻意的游戏设计而死亡导致服务器崩溃
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.1...2.3.2
+
+### 2.3.2-compat - 2024/3/17
+
+> #### Discord-MC-Chat 2.3.2-compat for Minecraft 1.14.4+ - 2024/3/17
+> 
+> #### New Features 新特性
+> 
+> N/A
+> 
+> #### Changes 更改
+> 
+> - Fix server crashes due to player deaths caused by falling blocks and intentional game design (#223)
+>   修复玩家因下落的方块和刻意的游戏设计而死亡导致服务器崩溃
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.1-compat...2.3.2-compat
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.3.1 - 2024/2/17
 
 > #### Discord-MC-Chat 2.3.1 for Minecraft 1.19.1+ - 2024/2/17
@@ -1264,7 +1315,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.0-compat...2.3.1-compat
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.2.6 - 2024/1/19
 
 > #### MC-Discord-Chat 2.2.6 for Minecraft 1.19.1+ - 2024/1/19
