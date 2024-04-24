@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.3.2 - 2024/3/17 啦！
+description: Discord-MC-Chat 已经更新到 1.20.5-2.3.2 - 2024/4/24 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.3.2 - 2024/3/17!
-Discord-MC-Chat 已经更新到 2.3.2 - 2024/3/17 啦！
+Discord-MC-Chat has been updated to 1.20.5-2.3.2 - 2024/4/24!
+Discord-MC-Chat 已经更新到 1.20.5-2.3.2 - 2024/4/24 啦！
 
-> This article was updated on March 22, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2024 年 3 月 22 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on April 24, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2024 年 4 月 24 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -200,6 +200,7 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 Discord-MC-Chat 最新 Active 版本（2.3.2）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.20.x
+  - 1.20.5
   - 1.20.4
   - 1.20.3
   - 1.20.2
@@ -235,8 +236,8 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 | Fabric | Quilt |
 | ----- | ----- |
 | Minecraft 服务端 1.14+ | Minecraft 服务端 1.14+ |
-| Java \>=17 | Java \>=17 |
-| Fabric Loader \>=0.14.22 | Quilt Loader |
+| Java \>=21 | Java \>=21 |
+| Fabric Loader \>=0.15.10 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
@@ -782,6 +783,7 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 The latest Active version of Discord-MC-Chat (2.3.2) supports the following Minecraft server versions:
 
 - Minecraft 1.20.x
+  - 1.20.5
   - 1.20.4
   - 1.20.3
   - 1.20.2
@@ -817,8 +819,8 @@ The latest version of Discord-MC-Chat depends on the following environment:
 | Fabric | Quilt |
 | ----- | ----- |
 | Minecraft Server 1.14+ | Minecraft Server 1.14+ |
-| Java \>=17 | Java \>=17 |
-| Fabric Loader \>=0.14.22 | Quilt Loader |
+| Java \>=21 | Java \>=21 |
+| Fabric Loader \>=0.15.10 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
@@ -1197,6 +1199,39 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 {% endtabs %}
 
 ## Changelog 更新日志
+
+### 1.20.5-2.3.2 - 2024/4/24
+
+> #### Discord-MC-Chat 1.20.5-2.3.2 for Minecraft 1.20.5 - 2024/4/24
+> 
+> Starting from Minecraft 1.20.5 (Snapshot 24w14a), the game requires Java 21.
+> 
+> Therefore, in order to ensure compatibility with multiple versions, DMCC now requires Fabric Loader version >=0.15.10 and Java version >=21, regardless of whether the game version is later than Minecraft 1.20.5.
+> 
+> 从 Minecraft 1.20.5（快照 24w14a）开始，游戏要求 Java 21。
+> 
+> 因此，为了保证多版本兼容性，无论游戏版本是否晚于 Minecraft 1.20.5，DMCC 现在都要求 Fabric Loader 版本 >=0.15.10 且 Java 版本 >=21。
+> 
+> #### New Features 新特性
+> 
+> - Compatible with version 1.20.5
+>   兼容 1.20.5 版本
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.2...1.20.5-2.3.2
 
 ### 2.3.2 - 2024/3/17
 
