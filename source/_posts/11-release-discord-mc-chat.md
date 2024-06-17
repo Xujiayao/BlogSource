@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 1.20.5-2.3.2 - 2024/4/24 啦！
+description: Discord-MC-Chat 已经更新到 2.3.3 - 2024/6/15 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 1.20.5-2.3.2 - 2024/4/24!
-Discord-MC-Chat 已经更新到 1.20.5-2.3.2 - 2024/4/24 啦！
+Discord-MC-Chat has been updated to 2.3.3 - 2024/6/15!
+Discord-MC-Chat 已经更新到 2.3.3 - 2024/6/15 啦！
 
-> This article was updated on April 24, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2024 年 4 月 24 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on June 17, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2024 年 6 月 17 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -152,7 +152,9 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 |---------|-----------------------|
 | `de_de` | Deutsch (Deutschland) |
 | `en_us` | English (US)          |
+| `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
+| `it_it` | Italiano (Italia)     |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -197,9 +199,12 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 
 ### 依赖
 
-Discord-MC-Chat 最新 Active 版本（2.3.2）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新 Active 版本（2.3.3）支持以下 Minecraft 服务器版本：
 
+- Minecraft 1.21.x
+  - 1.21
 - Minecraft 1.20.x
+  - 1.20.6
   - 1.20.5
   - 1.20.4
   - 1.20.3
@@ -208,13 +213,13 @@ Discord-MC-Chat 最新 Active 版本（2.3.2）支持以下 Minecraft 服务器�
   - 1.20
 - Minecraft 1.19.x
   - 1.19.4
+
+Discord-MC-Chat 最新 Compat 版本（2.3.3-compat）支持以下 Minecraft 服务器版本：
+
+- Minecraft 1.19.x
   - 1.19.3
   - 1.19.2
   - 1.19.1
-
-Discord-MC-Chat 最新 Compat 版本（2.3.2-compat）支持以下 Minecraft 服务器版本：
-
-- Minecraft 1.19.x
   - 1.19
 - Minecraft 1.18.x
   - 1.18.2
@@ -341,7 +346,9 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 |---------|-----------------------|
 | `de_de` | Deutsch (Deutschland) |
 | `en_us` | English (US)          |
+| `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
+| `it_it` | Italiano (Italia)     |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -735,7 +742,9 @@ Languages currently available:
 |---------|-----------------------|
 | `de_de` | Deutsch (Deutschland) |
 | `en_us` | English (US)          |
+| `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
+| `it_it` | Italiano (Italia)     |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -780,9 +789,12 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest Active version of Discord-MC-Chat (2.3.2) supports the following Minecraft server versions:
+The latest Active version of Discord-MC-Chat (2.3.3) supports the following Minecraft server versions:
 
+- Minecraft 1.21.x
+  - 1.21
 - Minecraft 1.20.x
+  - 1.20.6
   - 1.20.5
   - 1.20.4
   - 1.20.3
@@ -791,13 +803,13 @@ The latest Active version of Discord-MC-Chat (2.3.2) supports the following Mine
   - 1.20
 - Minecraft 1.19.x
   - 1.19.4
+
+The latest Compat version of Discord-MC-Chat (2.3.3-compat) supports the following Minecraft server versions:
+
+- Minecraft 1.19.x
   - 1.19.3
   - 1.19.2
   - 1.19.1
-
-The latest Compat version of Discord-MC-Chat (2.3.2-compat) supports the following Minecraft server versions:
-
-- Minecraft 1.19.x
   - 1.19
 - Minecraft 1.18.x
   - 1.18.2
@@ -922,7 +934,9 @@ Contributing: https://github.com/Xujiayao/Discord-MC-Chat#Contributing
 |---------|-----------------------|
 | `de_de` | Deutsch (Deutschland) |
 | `en_us` | English (US)          |
+| `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
+| `it_it` | Italiano (Italia)     |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -1200,6 +1214,92 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.3.3 - 2024/6/15
+
+> #### Discord-MC-Chat 2.3.3 for Minecraft 1.19.4+ - 2024/6/15
+> 
+> Starting from Minecraft 1.20.5 (Snapshot 24w14a), the game requires Java 21.
+> 
+> Therefore, in order to ensure compatibility with multiple versions, DMCC now requires Fabric Loader version >=0.15.10 and Java version >=21, regardless of whether the game version is later than Minecraft 1.20.5.
+> 
+> 从 Minecraft 1.20.5（快照 24w14a）开始，游戏要求 Java 21。
+> 
+> 因此，为了保证多版本兼容性，无论游戏版本是否晚于 Minecraft 1.20.5，DMCC 现在都要求 Fabric Loader 版本 >=0.15.10 且 Java 版本 >=21。
+> 
+> #### New Features 新特性
+> 
+> - Italian translation (#229)
+>   意大利语翻译
+> 
+> - Spanish translation (#232)
+>   西班牙语翻译
+> 
+> - Compatible with version 1.21 (#237)
+>   兼容 1.21 版本
+> 
+> #### Changes 更改
+> 
+> - Fix special characters in emojis / emotes not being escaped (#227)
+>   修复表情中的特殊字符没有被转义
+> 
+> #### Removed 移除
+> 
+> - Move 1.19.1 - 1.19.3 versions to Compat update channel
+>   将 1.19.1 - 1.19.3 版本移至 Compat 更新通道
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @Lucadecastle
+> - @BroxyZF
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/1.20.5-2.3.2...2.3.3
+
+### 2.3.3-compat - 2024/6/15
+
+> #### Discord-MC-Chat 2.3.3-compat for Minecraft 1.14.4+ - 2024/6/15
+> 
+> Starting from Minecraft 1.20.5 (Snapshot 24w14a), the game requires Java 21.
+> 
+> Therefore, in order to ensure compatibility with multiple versions, DMCC now requires Fabric Loader version >=0.15.10 and Java version >=21, regardless of whether the game version is later than Minecraft 1.20.5.
+> 
+> 从 Minecraft 1.20.5（快照 24w14a）开始，游戏要求 Java 21。
+> 
+> 因此，为了保证多版本兼容性，无论游戏版本是否晚于 Minecraft 1.20.5，DMCC 现在都要求 Fabric Loader 版本 >=0.15.10 且 Java 版本 >=21。
+> 
+> #### New Features 新特性
+> 
+> - Move 1.19.1 - 1.19.3 versions to Compat update channel
+>   将 1.19.1 - 1.19.3 版本移至 Compat 更新通道
+> 
+> - Italian translation (#229)
+>   意大利语翻译
+> 
+> - Spanish translation (#232)
+>   西班牙语翻译
+> 
+> #### Changes 更改
+> 
+> - Fix special characters in emojis / emotes not being escaped (#227)
+>   修复表情中的特殊字符没有被转义
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @Lucadecastle
+> - @BroxyZF
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.2-compat...2.3.3-compat
+
+{% hideToggle 旧版本 Older Versions %}
 ### 1.20.5-2.3.2 - 2024/4/24
 
 > #### Discord-MC-Chat 1.20.5-2.3.2 for Minecraft 1.20.5 - 2024/4/24
@@ -1283,7 +1383,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.1-compat...2.3.2-compat
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.3.1 - 2024/2/17
 
 > #### Discord-MC-Chat 2.3.1 for Minecraft 1.19.1+ - 2024/2/17
