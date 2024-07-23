@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.3.3 - 2024/6/15 啦！
+description: Discord-MC-Chat 已经更新到 2.3.4 - 2024/7/11 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.3.3 - 2024/6/15!
-Discord-MC-Chat 已经更新到 2.3.3 - 2024/6/15 啦！
+Discord-MC-Chat has been updated to 2.3.4 - 2024/7/11!
+Discord-MC-Chat 已经更新到 2.3.4 - 2024/7/11 啦！
 
-> This article was updated on June 17, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2024 年 6 月 17 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on July 23, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2024 年 7 月 23 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -35,6 +35,8 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 
 {% tabs lang, 2 %}
 <!-- tab 中文 -->
+DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+
 ## 简介
 
 [Discord-MC-Chat](https://github.com/Xujiayao/Discord-MC-Chat) (DMCC)，前身为 MC-Discord-Chat 和 MCDiscordChat (MCDC)，一个实用且功能强大的 Fabric 和 Quilt Minecraft <> Discord 跨服聊天工具，灵感来自 BRForgers/DisFabric。
@@ -57,6 +59,8 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 
 如果有 bug 或建议，或者有什么不懂的，可以 [提交 issue](https://github.com/Xujiayao/Discord-MC-Chat/issues/new/choose)。
 
+DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+
 ## 贡献
 
 **欢迎你为 DMCC 做出贡献！**
@@ -70,81 +74,82 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 ## 功能特色
 
 - 全面的多语言支持
-- 支持多服务器模式（同 Discord 频道多服务器运行 DMCC）
+- 支持多服务器模式（在同一个 Discord 服务器中运行多个装有 DMCC 的 Minecraft 服务器）
 - Minecraft <> Discord 跨服聊天
-  - 支持禁用 Discord 和游戏内聊天广播
-  - 支持使用 Discord 频道主题功能显示服务器状态
-  - 支持使用机器人活动状态显示服务器玩家数
-  - 支持 Discord Webhook 功能
-    - 动态创建 DMCC Webhook
-    - 可自定义 Webhook 玩家头像 API
-    - 可禁用 Webhook，使用机器人自身发送聊天消息
-  - 支持游戏内 Markdown 解析
-  - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
-  - 支持游戏内高亮贴纸
-  - 支持游戏内高亮和提及 (@)
-    - 可自定义允许游戏内提及 (@) 的范围
-    - 支持禁用游戏内提及 (@)
-  - 支持游戏内高亮和打开超链接和 GIF
-  - 支持禁用所有解析
-  - 支持游戏内显示 Discord 用户身份组颜色
-  - 支持游戏内显示回复的消息
-  - 支持限制 Discord 消息的换行次数
-  - 可广播玩家指令执行
-    - 执行指令的玩家也可以看到自己执行的指令
-    - 可排除执行特定指令的广播
-  - 可将所有控制台日志消息发送到 Discord
+    - 支持禁用 Discord 和游戏内聊天广播
+    - 支持使用 Discord 频道主题功能显示服务器状态
+    - 支持使用机器人 Discord 在线状态中显示服务器状态
+    - 支持使用机器人 Discord 活动状态显示服务器玩家数
+    - 支持 Discord Webhook 功能
+        - 动态创建 DMCC Webhook
+        - 可自定义 Webhook 玩家头像 API
+        - 可禁用 Webhook，使用机器人自身发送聊天消息
+    - 支持游戏内 Markdown 解析
+    - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
+    - 支持游戏内高亮贴纸
+    - 支持游戏内高亮和提及 (@)
+        - 可自定义允许游戏内提及 (@) 的范围
+        - 支持禁用游戏内提及 (@)
+    - 支持游戏内高亮和打开超链接和 GIF
+    - 支持禁用所有解析
+    - 支持游戏内显示 Discord 用户身份组颜色
+    - 支持游戏内显示回复的消息
+    - 支持限制 Discord 消息的换行次数
+    - 可广播玩家指令执行
+        - 执行指令的玩家也可以看到自己执行的指令
+        - 可排除执行特定指令的广播
+    - 可将所有控制台日志消息发送到 Discord
 - 可使用 Discord 命令
-  - 可使用 Discord 管理可执行 DMCC 命令的频道
-  - 当有人执行 DMCC 命令时通知游戏内玩家
-  - /console 命令支持 Minecraft 命令自动补全
-  - 普通命令
-    - /help                    | 获取可用命令列表
-    - /info                    | 查询服务器运行状态
-    - /stats \<type\> \<name\> | 查询该统计信息的排行榜
-    - /update                  | 检查更新
-  - 管理员命令
-    - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
-    - /log \<file\>            | 获取指定的服务器日志（仅限管理员）
-    - /reload                  | 重新加载 Discord-MC-Chat 配置文件（仅限管理员）
-    - /stop                    | 停止服务器（仅限管理员）
-  - 可调整权限的命令
-    - /whitelist \<player\>    | 添加玩家至服务器白名单
+    - 可使用 Discord 管理可执行 DMCC 命令的频道
+    - 当有人执行 DMCC 命令时通知游戏内玩家
+    - /console 命令支持 Minecraft 命令自动补全
+    - 普通命令
+        - /help                    | 获取可用命令列表
+        - /info                    | 查询服务器运行状态
+        - /stats \<type\> \<name\> | 查询该统计信息的排行榜
+        - /update                  | 检查更新
+    - 管理员命令
+        - /console \<command\>     | 在服务器控制台中执行命令（仅限管理员）
+        - /log \<file\>            | 获取指定的服务器日志（仅限管理员）
+        - /reload                  | 重新加载 Discord-MC-Chat 配置文件（仅限管理员）
+        - /stop                    | 停止服务器（仅限管理员）
+    - 可调整权限的命令
+        - /whitelist \<player\>    | 添加玩家至服务器白名单
 - 可使用 Minecraft 命令
-  - 仅限管理员的命令仅对 4 级管理员可用
-  - 普通命令
-    - /dmcc help                    | 获取可用命令列表
-    - /dmcc info                    | 查询服务器运行状态
-    - /dmcc stats \<type\> \<name\> | 查询该统计信息的排行榜
-    - /dmcc update                  | 检查更新
-  - 管理员命令
-    - /dmcc reload                  | 重新加载 Discord-MC-Chat 配置文件（仅限管理员）
-  - 可调整权限的命令
-    - /dmcc whitelist \<player\>    | 添加玩家至服务器白名单
+    - 仅限管理员的命令仅对 4 级管理员可用
+    - 普通命令
+        - /dmcc help                    | 获取可用命令列表
+        - /dmcc info                    | 查询服务器运行状态
+        - /dmcc stats \<type\> \<name\> | 查询该统计信息的排行榜
+        - /dmcc update                  | 检查更新
+    - 管理员命令
+        - /dmcc reload                  | 重新加载 Discord-MC-Chat 配置文件（仅限管理员）
+    - 可调整权限的命令
+        - /dmcc whitelist \<player\>    | 添加玩家至服务器白名单
 - 可完全自定义所有消息格式
-  - 可禁用向 Discord 频道发送特定服务器消息
-  - 游戏内
-    - 来自 Discord 的聊天消息
-    - 来自 Discord 的回复消息
-    - 来自其它 DMCC 服务器的消息
-  - Discord
-    - 在服务器启动时
-    - 在服务器关闭时
-    - 在玩家加入服务器时
-    - 在玩家离开服务器时
-    - 在玩家达成进度 / 达成目标 / 完成挑战时
-      - 多语言支持
-      - 支持显示进度 / 挑战 / 目标的描述
-    - 在玩家死亡时
-      - 多语言支持
-    - 在服务器 MSPT 高于预警值时
+    - 可禁用向 Discord 频道发送特定服务器消息
+    - 游戏内
+        - 来自 Discord 的聊天消息
+        - 来自 Discord 的回复消息
+        - 来自其它 DMCC 服务器的消息
+    - Discord
+        - 在服务器启动时
+        - 在服务器关闭时
+        - 在玩家加入服务器时
+        - 在玩家离开服务器时
+        - 在玩家达成进度 / 达成目标 / 完成挑战时
+            - 多语言支持
+            - 支持显示进度 / 挑战 / 目标的描述
+        - 在玩家死亡时
+            - 多语言支持
+        - 在服务器 MSPT 高于预警值时
 - 可使用管理员名单配置用户使用特殊命令的权限
 - 支持配置文件热重载
-  - 每次加载配置文件时进行备份
+    - 每次加载配置文件时进行备份
 - 定期检查更新
-  - 通过检查服务器 Minecraft 版本兼容性来准确推送 DMCC 版本更新
-  - 可自定义更新通知频道
-  - 可禁用检查更新
+    - 通过检查服务器 Minecraft 版本兼容性来准确推送 DMCC 版本更新
+    - 可自定义更新通知频道
+    - 可禁用检查更新
 
 目前可用的语言：
 
@@ -199,7 +204,7 @@ Discord-MC-Chat (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCD
 
 ### 依赖
 
-Discord-MC-Chat 最新 Active 版本（2.3.3）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新 Active 版本（2.3.4）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.21.x
   - 1.21
@@ -214,7 +219,7 @@ Discord-MC-Chat 最新 Active 版本（2.3.3）支持以下 Minecraft 服务器�
 - Minecraft 1.19.x
   - 1.19.4
 
-Discord-MC-Chat 最新 Compat 版本（2.3.3-compat）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新 Compat 版本（2.3.4-compat）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.19.x
   - 1.19.3
@@ -361,8 +366,18 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 示例 / 默认值：`xxxxxx.xxx.xxxxxx`
 说明：Discord 机器人令牌
 
-3. `【可选】` botPlayingStatus / botListeningStatus
-示例 / 默认值：`botPlayingStatus: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
+3. **`【必选】` showServerStatusInBotStatus**
+示例 / 默认值：`true`
+说明：是否使用机器人 Discord 在线状态中显示服务器状态
+| 服务器状态                 | 在线状态     |
+|:------------------------------|:---------------|
+| 启动中（约 10 秒）  | 请勿打扰 |
+| 无在线玩家             | 闲置           |
+| 有在线玩家           | 在线         |
+| 停止中（约 10 秒） | 请勿打扰 |
+
+3. `【可选】` botPlayingActivity / botListeningActivity
+示例 / 默认值：`botPlayingActivity: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
 说明：设置机器人活动状态（二选一）（留空则禁用此功能）
 
 4. **`【必选】` useWebhook**
@@ -625,6 +640,8 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 <!-- endtab -->
 
 <!-- tab English -->
+DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+
 ## Introduction
 
 [Discord-MC-Chat](https://github.com/Xujiayao/Discord-MC-Chat) (DMCC), formerly known as MC-Discord-Chat and MCDiscordChat (MCDC), is a practical and powerful Fabric and Quilt Minecraft <> Discord chat bridge inspired by BRForgers/DisFabric.
@@ -647,6 +664,8 @@ You can find the latest build JAR files at [GitHub Actions](https://github.com/X
 
 If there is a bug or suggestion, or something you don't understand, you can [submit an issue](https://github.com/Xujiayao/Discord-MC-Chat/issues/new/choose) on GitHub.
 
+DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+
 ## Contributing
 
 **You are welcome to contribute to DMCC!**
@@ -660,81 +679,82 @@ For translation contributions, language files are located in the `/wrapper/src/m
 ## Features
 
 - Full multi-language support
-- Support multi-server mode (multi-server operation on the same Discord channel)
+- Support multi-server mode (running more than one Minecraft server with DMCC in the same Discord guild)
 - Minecraft <> Discord cross server chat
-  - Support disabling Discord and in-game chat broadcasts
-  - Support displaying server status using Discord channel topic feature
-  - Support displaying server player count in bot activity status
-  - Support Discord Webhook feature
-    - Dynamic-created DMCC Webhook
-    - Customizable Webhook Avatar API
-    - Use the bot itself to send chat messages when Webhook is disabled
-  - Support in-game Markdown parsing
-  - Support highlighting and using default Unicode and server custom emoji in-game
-  - Support highlighting stickers in-game
-  - Support highlighting and mentions (@) in-game
-    - Customizable scope of allowed mentions (@) in-game
-    - Support disabling mentions (@) in-game
-  - Support highlighting and opening hyperlinks and GIFs in-game
-  - Support disabling all parsing
-  - Support in-game display of Discord user role colour
-  - Support in-game display of response messages
-  - Support limiting the number of newlines for Discord messages
-  - Broadcast player command execution
-    - Players who execute commands can also see the commands themselves
-    - Exclude broadcasts for execution of specific commands
-  - Send all console log messages to Discord
+    - Support disabling Discord and in-game chat broadcasts
+    - Support displaying server status using Discord channel topic feature
+    - Support displaying server status in bot's Discord online status
+    - Support displaying server player count in bot's Discord activity status
+    - Support Discord Webhook feature
+        - Dynamic-created DMCC Webhook
+        - Customizable Webhook Avatar API
+        - Use the bot itself to send chat messages when Webhook is disabled
+    - Support in-game Markdown parsing
+    - Support highlighting and using default Unicode and server custom emoji in-game
+    - Support highlighting stickers in-game
+    - Support highlighting and mentions (@) in-game
+        - Customizable scope of allowed mentions (@) in-game
+        - Support disabling mentions (@) in-game
+    - Support highlighting and opening hyperlinks and GIFs in-game
+    - Support disabling all parsing
+    - Support in-game display of Discord user role colour
+    - Support in-game display of response messages
+    - Support limiting the number of newlines for Discord messages
+    - Broadcast player command execution
+        - Players who execute commands can also see the commands themselves
+        - Exclude broadcasts for execution of specific commands
+    - Send all console log messages to Discord
 - Discord Commands available
-  - Use Discord to manage channels that can execute DMCC commands
-  - Notify in-game players when someone executes an DMCC command
-  - /console command supports Minecraft command auto-completion
-  - Normal Commands
-    - /help                    | Get a list of available commands
-    - /info                    | Query server running status
-    - /stats \<type\> \<name\> | Query the scoreboard of a statistic
-    - /update                  | Check for update
-  - Admin Commands
-    - /console \<command\>     | Execute a command in the server console (admin only)
-    - /log \<file\>            | Get the specified server log (admin only)
-    - /reload                  | Reload Discord-MC-Chat config file (admin only)
-    - /stop                    | Stop the server (admin only)
-  - Commands with Adjustable Permissions
-    - /whitelist \<player\>    | Add a player to the server whitelist
+    - Use Discord to manage channels that can execute DMCC commands
+    - Notify in-game players when someone executes an DMCC command
+    - /console command supports Minecraft command auto-completion
+    - Normal Commands
+        - /help                    | Get a list of available commands
+        - /info                    | Query server running status
+        - /stats \<type\> \<name\> | Query the scoreboard of a statistic
+        - /update                  | Check for update
+    - Admin Commands
+        - /console \<command\>     | Execute a command in the server console (admin only)
+        - /log \<file\>            | Get the specified server log (admin only)
+        - /reload                  | Reload Discord-MC-Chat config file (admin only)
+        - /stop                    | Stop the server (admin only)
+    - Commands with Adjustable Permissions
+        - /whitelist \<player\>    | Add a player to the server whitelist
 - Minecraft Commands available
-  - Admin-only commands require a level 4 operator at minimum
-  - Normal Commands
-    - /dmcc help                    | Get a list of available commands
-    - /dmcc info                    | Query server running status
-    - /dmcc stats \<type\> \<name\> | Query the scoreboard of a statistic
-    - /dmcc update                  | Check for update
-  - Admin Commands
-    - /dmcc reload                  | Reload Discord-MC-Chat config file (admin only)
-  - Commands with Adjustable Permissions
-    - /dmcc whitelist \<player\>    | Add a player to the server whitelist
+    - Admin-only commands require a level 4 operator at minimum
+    - Normal Commands
+        - /dmcc help                    | Get a list of available commands
+        - /dmcc info                    | Query server running status
+        - /dmcc stats \<type\> \<name\> | Query the scoreboard of a statistic
+        - /dmcc update                  | Check for update
+    - Admin Commands
+        - /dmcc reload                  | Reload Discord-MC-Chat config file (admin only)
+    - Commands with Adjustable Permissions
+        - /dmcc whitelist \<player\>    | Add a player to the server whitelist
 - Fully customizable message format
-  - Sending specific server messages to Discord can be disabled
-  - In-game
-    - Chat messages from Discord
-    - Response messages from Discord
-    - Messages from other DMCC servers
-  - Discord
-    - Server started
-    - Server stopped
-    - Player joined server
-    - Player left server
-    - Player reached a progress / achieved a goal / completed a challenge
-      - Multilingual support
-      - Support displaying descriptions for task/challenge/goal messages
-    - Player died
-      - Multilingual support
-    - Server MSPT is higher than a certain value
+    - Sending specific server messages to Discord can be disabled
+    - In-game
+        - Chat messages from Discord
+        - Response messages from Discord
+        - Messages from other DMCC servers
+    - Discord
+        - Server started
+        - Server stopped
+        - Player joined server
+        - Player left server
+        - Player reached a progress / achieved a goal / completed a challenge
+            - Multilingual support
+            - Support displaying descriptions for task/challenge/goal messages
+        - Player died
+            - Multilingual support
+        - Server MSPT is higher than a certain value
 - Use admin list to configure user permissions to use special commands
 - Support Hot Reloading of the config file
-  - Backup every time the config file is loaded
+    - Backup every time the config file is loaded
 - Check for updates regularly
-  - Push DMCC version updates accurately by checking server Minecraft version compatibility
-  - Customizable update notification channel
-  - Check for updates can be disabled
+    - Push DMCC version updates accurately by checking server Minecraft version compatibility
+    - Customizable update notification channel
+    - Check for updates can be disabled
 
 Languages currently available:
 
@@ -789,7 +809,7 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest Active version of Discord-MC-Chat (2.3.3) supports the following Minecraft server versions:
+The latest Active version of Discord-MC-Chat (2.3.4) supports the following Minecraft server versions:
 
 - Minecraft 1.21.x
   - 1.21
@@ -804,7 +824,7 @@ The latest Active version of Discord-MC-Chat (2.3.3) supports the following Mine
 - Minecraft 1.19.x
   - 1.19.4
 
-The latest Compat version of Discord-MC-Chat (2.3.3-compat) supports the following Minecraft server versions:
+The latest Compat version of Discord-MC-Chat (2.3.4-compat) supports the following Minecraft server versions:
 
 - Minecraft 1.19.x
   - 1.19.3
@@ -949,8 +969,18 @@ Contributing: https://github.com/Xujiayao/Discord-MC-Chat#Contributing
 Example / Default value: `xxxxxx.xxx.xxxxxx`
 Description: Discord bot token
 
-3. `[Optional]` botPlayingStatus / botListeningStatus
-Example / Default value: `botPlayingStatus: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
+3. **`[Required]` showServerStatusInBotStatus**
+Example / Default value: `true`
+Description: Whether to display server status in bot's Discord online status
+| Server Status                 | Bot Status     |
+|:------------------------------|:---------------|
+| Starting (around 10 seconds)  | Do Not Disturb |
+| No players online             | Idle           |
+| Have players online           | Online         |
+| Stopping (around 0.5 seconds) | Do Not Disturb |
+
+3. `[Optional]` botPlayingActivity / botListeningActivity
+Example / Default value: `botPlayingActivity: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
 Description: Set the bot activity status (choose one of two) (leave blank to disable this feature)
 
 4. **`[Required]` useWebhook**
@@ -1214,6 +1244,127 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.3.4 - 2024/7/11
+
+> #### Discord-MC-Chat 2.3.4 for Minecraft 1.19.4+ - 2024/7/11
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> DMCC will support the [Placeholder API](<https://placeholders.pb4.eu/>) in the next release.
+> 
+> `botPlayingStatus` and `botListeningStatus` have been renamed to `botPlayingActivity` and `botListeningActivity`. Please modify them before restarting the server to avoid losing any existing changes.
+> 
+> In addition, the check for updates feature has been fixed. You will be able to receive update notifications for future new versions when using version 2.3.4.
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> DMCC 将在下一个版本中支持 [Placeholder API](<https://placeholders.pb4.eu/>)。
+> 
+> `botPlayingStatus` 和 `botListeningStatus` 已被重命名为 `botPlayingActivity` 和 `botListeningActivity`。请在重新启动服务器之前进行修改，以免丢失现有的更改。
+> 
+> 此外，检查更新的功能已经修复。在使用 2.3.4 版本时，你将能够接收到未来新版本的更新推送。
+> 
+> #### New Features 新特性
+> 
+> - Add the ability to display server status in the bot's Discord online status (#95)
+>   添加在机器人的 Discord 在线状态中显示服务器状态的功能
+> 
+> #### Changes 更改
+> 
+> - Improved detection logic for dynamic-created DMCC Webhooks (#233)
+>   改进 DMCC Webhook 动态创建的检测逻辑
+> 
+> - Fix number of players in bot activity does not decrease when player leaves the game (#235)
+>   修复机器人活动状态中的玩家数量在玩家离开游戏时不会减少
+> 
+> - Fix DMCC update notifications never being sent (#231, #234 and #239)
+>   修复 DMCC 更新通知从未发送
+> 
+> - Fix exception when the world/stats folder does not exist (#38)
+>   修复 world/stats 文件夹不存在时报错
+> 
+> - No longer delays checking for updates by an hour (#52)
+>   不再延迟一小时开始检查更新
+> 
+> - Fix exception when /stats command message exceeds 2000 characters (#212)
+>   修复 /stats 命令消息超过 2000 个字符时报错
+> 
+> - Rename botPlayingStatus and botListeningStatus -> botPlayingActivity and botListeningActivity (#95)
+>   重命名 botPlayingStatus 和 botListeningStatus -> botPlayingActivity 和 botListeningActivity
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.3...2.3.4
+
+### 2.3.4-compat - 2024/7/11
+
+> #### Discord-MC-Chat 2.3.4-compat for Minecraft 1.14.4+ - 2024/7/11
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> DMCC will support the [Placeholder API](<https://placeholders.pb4.eu/>) in the next release.
+> 
+> `botPlayingStatus` and `botListeningStatus` have been renamed to `botPlayingActivity` and `botListeningActivity`. Please modify them before restarting the server to avoid losing any existing changes.
+> 
+> In addition, the check for updates feature has been fixed. You will be able to receive update notifications for future new versions when using version 2.3.4.
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> DMCC 将在下一个版本中支持 [Placeholder API](<https://placeholders.pb4.eu/>)。
+> 
+> `botPlayingStatus` 和 `botListeningStatus` 已被重命名为 `botPlayingActivity` 和 `botListeningActivity`。请在重新启动服务器之前进行修改，以免丢失现有的更改。
+> 
+> 此外，检查更新的功能已经修复。在使用 2.3.4 版本时，你将能够接收到未来新版本的更新推送。
+> 
+> #### New Features 新特性
+> 
+> - Add the ability to display server status in the bot's Discord online status (#95)
+>   添加在机器人的 Discord 在线状态中显示服务器状态的功能
+> 
+> #### Changes 更改
+> 
+> - Improved detection logic for dynamic-created DMCC Webhooks (#233)
+>   改进 DMCC Webhook 动态创建的检测逻辑
+> 
+> - Fix number of players in bot activity does not decrease when player leaves the game (#235)
+>   修复机器人活动状态中的玩家数量在玩家离开游戏时不会减少
+> 
+> - Fix DMCC update notifications never being sent (#231, #234 and #239)
+>   修复 DMCC 更新通知从未发送
+> 
+> - Fix exception when the world/stats folder does not exist (#38)
+>   修复 world/stats 文件夹不存在时报错
+> 
+> - No longer delays checking for updates by an hour (#52)
+>   不再延迟一小时开始检查更新
+> 
+> - Fix exception when /stats command message exceeds 2000 characters (#212)
+>   修复 /stats 命令消息超过 2000 个字符时报错
+> 
+> - Rename botPlayingStatus and botListeningStatus -> botPlayingActivity and botListeningActivity (#95)
+>   重命名 botPlayingStatus 和 botListeningStatus -> botPlayingActivity 和 botListeningActivity
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.3-compat...2.3.4-compat
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.3.3 - 2024/6/15
 
 > #### Discord-MC-Chat 2.3.3 for Minecraft 1.19.4+ - 2024/6/15
@@ -1299,7 +1450,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.2-compat...2.3.3-compat
 
-{% hideToggle 旧版本 Older Versions %}
 ### 1.20.5-2.3.2 - 2024/4/24
 
 > #### Discord-MC-Chat 1.20.5-2.3.2 for Minecraft 1.20.5 - 2024/4/24
