@@ -8,13 +8,13 @@ date: 2020-07-13 10:29:34
 
 ## 关于我
 
-> 欢迎光临！博客三周年啦！ヾ(≧▽≦*)o
+> 欢迎光临！博客四周年啦！ヾ(≧▽≦*)o
 >
 > 是老二次元了2333
 >
 > 平时玩以下这些游戏：ヾ(≧▽≦*)o
 >
-> - Minecraft: Java Edition (Lazy_Craft & Star_Dream_Swamp Private Servers)
+> - Minecraft: Java Edition (Lazy_Craft & 星梦沼泽 私人服务器)
 > - Grand Theft Auto V (Online)
 > - Euro Truck Simulator 2 (TruckersMP)
 > - Rebel Inc: Escalation
@@ -22,6 +22,8 @@ date: 2020-07-13 10:29:34
 > - Beat Saber
 > - Phigros
 > - maimai (AstroDX)
+> - 雀魂麻将
+> - 天凤
 >
 > 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
 > 目前只在维护这一个项目（GitHub）：
