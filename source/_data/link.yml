@@ -42,6 +42,10 @@
       link: https://pedropo.com/
       avatar: https://pedropo.com/assets/iuuu7.png
       descr: Life is a comet
+    - name: Richard
+      link: https://blog.richardw.top/
+      avatar: https://blog.richardw.top/file/avatar.png
+      descr: 物极必反，否极泰来
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -74,10 +78,6 @@
       link: https://www.daijl.cn/
       avatar: https://www.daijl.cn/img/avatar.png
       descr: 高级前端进阶
-    - name: Richard
-      link: https://blog.richardw.top/
-      avatar: https://blog.richardw.top/file/image/avatar.png
-      descr: 熟悉的路，已然全无
     - name: Ariven
       link: https://blog.ariven.cn/ # https://sino6067.github.io/
       avatar: https://blog.ariven.cn/img/logo.jpg
