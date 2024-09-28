@@ -24,8 +24,11 @@ date: 2020-07-13 10:29:34
 > - maimai (AstroDX)
 > - 雀魂麻将
 > - 天凤
+> - Overcooked! 2
+> - DiRT Rally 2.0
+> - Prepar3D
 >
-> 偶尔会编程，只会 Java 这一个编程语言（＞人＜；）
+> 偶尔会编程。以前学的都快忘光了，现在只熟悉 Java 这一个编程语言（＞人＜；）
 > 目前只在维护这一个项目（GitHub）：
 > - [Discord-MC-Chat (DMCC)](https://github.com/Xujiayao/Discord-MC-Chat)
 > 
@@ -36,14 +39,18 @@ date: 2020-07-13 10:29:34
 >   - MB : MSI MEG B550 UNIFY
 >   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
 >   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz C16 1.35V)
-> - 笔记本 (MSI Vector GP76HX 12UHS)
+> - 笔记本-1 ROG Zephyrus G16 (2024)
+>   - CPU: AMD Ryzen AI 9 HX 370
+>   - GPU: NVIDIA GeForce RTX 4070 Laptop GPU 8GB GDDR6
+>   - RAM: 32GB (LPDDR5X 16GB x2 7500MHz)
+> - 笔记本-2 MSI Vector GP76HX 12UHS
 >   - CPU: Intel Core i7-12800HX
 >   - GPU: NVIDIA GeForce RTX 3080 Ti Laptop GPU 16GB GDDR6
 >   - RAM: 32GB (DDR5 16GB x2 4800MHz)
 > - 服务器
 >   - CPU: AMD Ryzen 7 5800X (PBO Eco-Mode 45W)
 >   - MB : MSI MAG B550M MORTAR WIFI
->   - GPU: GIGABYTE NVIDIA GeForce GT 430 1GB
+>   - GPU: N/A
 >   - RAM: Asgard Valkyrie 32GB (DDR4 16GB x2 3600MHz C18 1.35V)
 > - 手机
 >   - Google Pixel 6 Pro
@@ -212,6 +219,11 @@ date: 2020-07-13 10:29:34
 - [ ] 不时用俄语小声说真心话的邻桌艾莉同学
 - [ ] 百变的七仓同学 / 模拟后宫体验
 - [ ] 前辈是男孩子
+- [ ] ATRI -My Dear Moments-
+- [ ] 22/7
+- [ ] 关于我在无意间被隔壁的天使变成废柴这件事（邻家的天使同学）
+- [ ] 式守同学不只可爱而已
+- [ ] 卫宫家今天的饭
 <!-- endtab -->
 {% endtabs %}
 
@@ -239,5 +251,10 @@ date: 2020-07-13 10:29:34
 - [ ] 新海诚 灾难三部曲
 - [ ] 庆余年2
 - [ ] 月光光心慌慌
+- [ ] 星际穿越
+- [ ] 心灵捕手
+- [ ] 末路狂花钱
+- [ ] 介子鬼城
+- [ ] 唐朝诡事录之西行
 <!-- endtab -->
 {% endtabs %}
