@@ -10,7 +10,7 @@
 
 
 
-#recent-posts > .recent-post-item {
+#recent-posts > .recent-post-items > .recent-post-item {
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -22,7 +22,7 @@ div#post {
   background: rgba(255, 255, 255, 0.9);
 }
 
-div#page {
+div#page:not(.nc) {
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -39,7 +39,7 @@ div#category {
 }
 
 [data-theme="dark"]
-#recent-posts > .recent-post-item {
+#recent-posts > .recent-post-items > .recent-post-item {
   background: rgba(18, 18, 18, 0.8);
 }
 
@@ -54,7 +54,7 @@ div#post {
 }
 
 [data-theme="dark"]
-div#page {
+div#page:not(.nc) {
   background: rgba(18, 18, 18, 0.8);
 }
 
