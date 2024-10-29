@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.3.4 - 2024/7/11 啦！
+description: Discord-MC-Chat 已经更新到 2.3.5 - 2024/10/29 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.3.4 - 2024/7/11!
-Discord-MC-Chat 已经更新到 2.3.4 - 2024/7/11 啦！
+Discord-MC-Chat has been updated to 2.3.5 - 2024/10/29!
+Discord-MC-Chat 已经更新到 2.3.5 - 2024/10/29 啦！
 
-> This article was updated on July 23, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2024 年 7 月 23 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on October 29, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
+> 本文更新于 2024 年 10 月 29 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -98,6 +98,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
     - 可广播玩家指令执行
         - 执行指令的玩家也可以看到自己执行的指令
         - 可排除执行特定指令的广播
+    - 支持广播使用 /tellraw 和 /say 命令发送的消息
     - 可将所有控制台日志消息发送到 Discord
 - 可使用 Discord 命令
     - 可使用 Discord 管理可执行 DMCC 命令的频道
@@ -163,6 +164,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
+| `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
@@ -204,9 +206,12 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 
 ### 依赖
 
-Discord-MC-Chat 最新 Active 版本（2.3.4）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新版本（2.3.5）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.21.x
+  - 1.21.3
+  - 1.21.2
+  - 1.21.1
   - 1.21
 - Minecraft 1.20.x
   - 1.20.6
@@ -218,10 +223,6 @@ Discord-MC-Chat 最新 Active 版本（2.3.4）支持以下 Minecraft 服务器�
   - 1.20
 - Minecraft 1.19.x
   - 1.19.4
-
-Discord-MC-Chat 最新 Compat 版本（2.3.4-compat）支持以下 Minecraft 服务器版本：
-
-- Minecraft 1.19.x
   - 1.19.3
   - 1.19.2
   - 1.19.1
@@ -357,6 +358,7 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
+| `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
@@ -703,6 +705,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - Broadcast player command execution
         - Players who execute commands can also see the commands themselves
         - Exclude broadcasts for execution of specific commands
+    - Support broadcasting messages sent using /tellraw and /say command
     - Send all console log messages to Discord
 - Discord Commands available
     - Use Discord to manage channels that can execute DMCC commands
@@ -768,6 +771,7 @@ Languages currently available:
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
+| `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
@@ -809,9 +813,12 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest Active version of Discord-MC-Chat (2.3.4) supports the following Minecraft server versions:
+The latest version of Discord-MC-Chat (2.3.5) supports the following Minecraft server versions:
 
 - Minecraft 1.21.x
+  - 1.21.3
+  - 1.21.2
+  - 1.21.1
   - 1.21
 - Minecraft 1.20.x
   - 1.20.6
@@ -823,10 +830,6 @@ The latest Active version of Discord-MC-Chat (2.3.4) supports the following Mine
   - 1.20
 - Minecraft 1.19.x
   - 1.19.4
-
-The latest Compat version of Discord-MC-Chat (2.3.4-compat) supports the following Minecraft server versions:
-
-- Minecraft 1.19.x
   - 1.19.3
   - 1.19.2
   - 1.19.1
@@ -960,6 +963,7 @@ Contributing: https://github.com/Xujiayao/Discord-MC-Chat#Contributing
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
+| `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
@@ -1244,6 +1248,64 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.3.5 - 2024/10/29
+
+> #### Discord-MC-Chat 2.3.5 for Minecraft 1.14.4+ - 2024/10/29
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> DMCC now supports switching to Brazilian Portuguese. Note that DMCC no longer releases Active and Compat versions separately.
+> 
+> As this is a minor release, new features that involve modifying the config file are not released in this version.
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> DMCC 现在支持切换到巴西葡萄牙语。留意现在 DMCC 不再分开发布 Active 和 Compat 版本。
+> 
+> 由于这是一个次要版本，涉及到修改配置文件的新功能暂时不会发布。
+> 
+> #### New Features 新特性
+> 
+> - Brazilian Portuguese translation (#243)
+>   巴西葡萄牙语翻译
+> 
+> - Supports broadcasting messages sent using the /tellraw command (#132 and #250)
+>   支持广播使用 /tellraw 命令发送的消息
+> 
+> - Restore /say command broadcast feature in versions 1.18.2 and below (#197)
+>   恢复在 1.18.2 及更早版本中广播 /say 命令的功能
+> 
+> - Throws exception when Webhook fails to send (#249)
+>   在 Webhook 发送失败时抛出异常
+> 
+> - Compatible with Minecraft 1.21.2 and 1.21.3 (#258)
+>   兼容 Minecraft 1.21.2 和 1.21.3 版本
+> 
+> #### Changes 更改
+> 
+> - Changed the way DMCC handles the /say command (#197)
+>   更改 DMCC 处理 /say 命令的方式
+> 
+> - Webhook check only displays an error message when Guild permission is insufficient
+>   Webhook 检查在 Guild 权限不足时仅显示错误消息
+> 
+> - No longer release Active and Compat versions separately
+>   不再分开发布 Active 和 Compat 版本
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @rodrigoaddor
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.4...2.3.5
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.3.4 - 2024/7/11
 
 > #### Discord-MC-Chat 2.3.4 for Minecraft 1.19.4+ - 2024/7/11
@@ -1364,7 +1426,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.3-compat...2.3.4-compat
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.3.3 - 2024/6/15
 
 > #### Discord-MC-Chat 2.3.3 for Minecraft 1.19.4+ - 2024/6/15
