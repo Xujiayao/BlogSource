@@ -64,7 +64,7 @@ date: 2020-07-13 14:54:33
 
 ![快看这个小姐姐x](/file/posts/c81ea237/Tsurumi.jpg)
 
-（原图链接为 https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg）
+> 这里的原图链接为：https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
 
 和链接差不多的用法，链接到图片的地址，前面再加一个小感叹号！输入的「链接文字」不会显示出来，因为它们其实是描述文本，仅仅用于图片无法显示的时候。
 
@@ -125,7 +125,7 @@ date: 2020-07-13 14:54:33
 
 ![快看这个小姐姐x](/file/posts/c81ea237/Tsurumi.jpg)
 
-（原图链接为 https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg）
+> 这里的原图链接为：https://file.yeyi.site/Yeyi.site/icon/Tsurumi.jpg
 
 和链接差不多的用法，链接到图片的地址，前面再加一个小感叹号！输入的「链接文字」不会显示出来，因为它们其实是描述文本，仅仅用于图片无法显示的时候。
 
