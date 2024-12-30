@@ -282,7 +282,7 @@ Android 可使用「Accu​Battery」或「Advanced Charging Controller」设置
 
 笔记本电脑可使用厂商提供的电源管理程序：
 
-- 华硕：ASUS Battery Health Charging / My ASUS
+- 华硕：ASUS Battery Health Charging / MyASUS
 - 联想：联想电脑管家 / Lenovo Vantage
 - 华为：华为电脑管家
 - …
