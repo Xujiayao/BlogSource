@@ -134,6 +134,7 @@ date: 2020-07-13 10:29:34
 - [x] 继母的拖油瓶是我的前女友 / [繼母的拖油瓶是我的前女友（僅限港澳台地區）](https://www.bilibili.com/bangumi/media/md28338523/)
 - [x] <span class="heimu" title="你知道的太多了">おやすみせっくす（晚安SEX）</span>
 - [x] 就算是哥哥，有爱就没问题了，对吧 <font color='green'>**妹妹赛高！**</font>
+- [x] 名侦探柯南：迷宫的十字路口
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
@@ -141,7 +142,7 @@ date: 2020-07-13 10:29:34
 
 - [ ] 再看一遍《萤火虫之墓》
 - [ ] 再看一遍宫崎骏的那些动画电影
-- [ ] [名侦探柯南](https://www.bilibili.com/bangumi/media/md28228775/) / [名侦探柯南（中配）](https://www.bilibili.com/bangumi/media/md28228813/)
+- [ ] [名侦探柯南](https://www.bilibili.com/bangumi/media/md28228775/) / [名侦探柯南（中配）](https://www.bilibili.com/bangumi/media/md28228813/) <font color='red'>**什么时候完结，什么时候打勾 ヾ(•ω•`)o**</font>
 - [ ] [紫罗兰永恒花园](https://www.bilibili.com/bangumi/media/md8892/)
 - [ ] [约会大作战](https://www.bilibili.com/bangumi/media/md4188/) 全系列
 - [ ] [总之就是非常可爱](https://www.bilibili.com/bangumi/media/md28229676/)
@@ -251,6 +252,10 @@ date: 2020-07-13 10:29:34
 - [x] 龙卷风暴
 - [x] 藏海花之雪夜凶灯
 - [x] 来福大酒店
+
+### 2024
+
+- [x] 名侦探柯南：迷宫的十字路口
 <!-- endtab -->
 
 <!-- tab 暂未观看 -->
