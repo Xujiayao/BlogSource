@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.3.5 - 2024/10/29 啦！
+description: Discord-MC-Chat 已经更新到 2.4.0 - 2025/1/4 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.3.5 - 2024/10/29!
-Discord-MC-Chat 已经更新到 2.3.5 - 2024/10/29 啦！
+Discord-MC-Chat has been updated to 2.4.0 - 2025/1/4!
+Discord-MC-Chat 已经更新到 2.4.0 - 2025/1/4 啦！
 
-> This article was updated on October 29, 2024. The content is updated for the latest release version. ヾ(≧▽≦*)o
-> 本文更新于 2024 年 10 月 29 日，文章的内容针对最新发行版本更新ヾ(≧▽≦*)o
+> This article was updated on January 4, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
+> 本文更新于 2025 年 1 月 4 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -82,7 +82,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
     - 支持使用机器人 Discord 活动状态显示服务器玩家数
     - 支持 Discord Webhook 功能
         - 动态创建 DMCC Webhook
-        - 可自定义 Webhook 玩家头像 API
+        - 可自定义 Webhook 玩家头像 API，兼容用于实时皮肤更换的模组和插件
         - 可禁用 Webhook，使用机器人自身发送聊天消息
     - 支持游戏内 Markdown 解析
     - 支持游戏内高亮和使用默认 Unicode 和服务器自定义表情符号
@@ -97,7 +97,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
     - 支持限制 Discord 消息的换行次数
     - 可广播玩家指令执行
         - 执行指令的玩家也可以看到自己执行的指令
-        - 可排除执行特定指令的广播
+        - 可排除执行特定指令的广播（支持正则表达式）
     - 支持广播使用 /tellraw 和 /say 命令发送的消息
     - 可将所有控制台日志消息发送到 Discord
 - 可使用 Discord 命令
@@ -151,6 +151,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
     - 通过检查服务器 Minecraft 版本兼容性来准确推送 DMCC 版本更新
     - 可自定义更新通知频道
     - 可禁用检查更新
+- 当用户将 JAR 作为应用程序运行而不是 Minecraft 模组时进行提示
 
 目前可用的语言：
 
@@ -206,9 +207,10 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 
 ### 依赖
 
-Discord-MC-Chat 最新版本（2.3.5）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新版本（2.4.0）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.21.x
+  - 1.21.4
   - 1.21.3
   - 1.21.2
   - 1.21.1
@@ -246,7 +248,7 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 
 | Fabric | Quilt |
 | ----- | ----- |
-| Minecraft 服务端 1.14+ | Minecraft 服务端 1.14+ |
+| Minecraft 服务端 1.14.4+ | Minecraft 服务端 1.14.4+ |
 | Java \>=21 | Java \>=21 |
 | Fabric Loader \>=0.15.10 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
@@ -398,13 +400,14 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 示例 / 默认值：`456789`
 说明：自定义用于发送更新通知的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
 
-8. **`【必选】` useUuidInsteadOfName**
-示例 / 默认值：`true`
-说明：发送 Webhook 时使用 UUID 或昵称获取玩家头像（true 时为 UUID，false 时为昵称）
-
 9. **`【必选】` avatarApi**
-示例 / 默认值：`https://mc-heads.net/avatar/%player%.png` / `https://visage.surgeplay.com/bust/%player%.png`
-说明：自定义 Webhook 头像 API 链接
+示例 / 默认值：2D 头像可使用 `https://mc-heads.net/avatar/{player_uuid}.png` / 3D 头像可使用 `https://visage.surgeplay.com/bust/{player_uuid}.png`
+说明：自定义 Webhook 玩家头像 API 链接
+| Player 参数           | 头像获取方式                                                  |
+|:--------------------|:--------------------------------------------------------|
+| `{player_uuid}`     | 使用玩家 UUID                                               |
+| `{player_name}`     | 使用玩家显示昵称                                                  |
+| `{player_textures}` | 兼容用于实时皮肤更换的模组和插件，如 Geyser、Fabric Tailor、SkinsRestorer 等 |
 
 10. **`【必选】` broadcastPlayerCommandExecution**
 示例 / 默认值：`true`
@@ -487,8 +490,8 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 说明：是否在关闭服务器时等待速率限制重置
 
 30. `【可选】` excludedCommands
-示例 / 默认值：`["/msg", "/tell", "/tellraw", "/w"]`
-说明：Discord-MC-Chat 指令排除列表，不处理和发送指定指令（可多于一个）
+示例 / 默认值：`["\\/msg ([^@].*)", "\\/tell ([^@].*)", "\\/tellraw ([^@].*)", "\\/w ([^@].*)", "\\/teammsg (.*)", "\\/tm (.*)"]`
+说明：Discord-MC-Chat 指令排除列表（正则表达式），不处理和发送指定指令（可多于一个）。你可以访问 https://regexr.com/83uki 进行正则表达式测试并添加你自己的命令。
 
 31. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
@@ -689,7 +692,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - Support displaying server player count in bot's Discord activity status
     - Support Discord Webhook feature
         - Dynamic-created DMCC Webhook
-        - Customizable Webhook Avatar API
+        - Customizable Webhook Avatar API that is compatible with mods and plugins for real-time skin changes
         - Use the bot itself to send chat messages when Webhook is disabled
     - Support in-game Markdown parsing
     - Support highlighting and using default Unicode and server custom emoji in-game
@@ -704,7 +707,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - Support limiting the number of newlines for Discord messages
     - Broadcast player command execution
         - Players who execute commands can also see the commands themselves
-        - Exclude broadcasts for execution of specific commands
+        - Exclude broadcasts for execution of specific commands (support regular expression)
     - Support broadcasting messages sent using /tellraw and /say command
     - Send all console log messages to Discord
 - Discord Commands available
@@ -758,6 +761,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
     - Push DMCC version updates accurately by checking server Minecraft version compatibility
     - Customizable update notification channel
     - Check for updates can be disabled
+- Prompt when the user runs the JAR as an application instead of a Minecraft mod
 
 Languages currently available:
 
@@ -813,9 +817,10 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest version of Discord-MC-Chat (2.3.5) supports the following Minecraft server versions:
+The latest version of Discord-MC-Chat (2.4.0) supports the following Minecraft server versions:
 
 - Minecraft 1.21.x
+  - 1.21.4
   - 1.21.3
   - 1.21.2
   - 1.21.1
@@ -853,7 +858,7 @@ The latest version of Discord-MC-Chat depends on the following environment:
 
 | Fabric | Quilt |
 | ----- | ----- |
-| Minecraft Server 1.14+ | Minecraft Server 1.14+ |
+| Minecraft Server 1.14.4+ | Minecraft Server 1.14.4+ |
 | Java \>=21 | Java \>=21 |
 | Fabric Loader \>=0.15.10 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
@@ -1003,13 +1008,14 @@ Description: Discord Channel ID for console log broadcast (leave blank to disabl
 Example / Default value: `456789`
 Description: Discord Channel ID for custom update notification (leave blank to disable this feature) (the method to get the ID is the same)
 
-8. **`[Required]` useUuidInsteadOfName**
-Example / Default value: `true`
-Description: Use UUID or nickname to get player avatar when sending Webhook (UUID when true, nickname when false)
-
 9. **`[Required]` avatarApi**
-Example / Default value: `https://mc-heads.net/avatar/%player%.png` / `https://visage.surgeplay.com/bust/%player%.png`
-Description: URL of the Avatar API for Webhook
+Example / Default value: 2D avatars may use `https://mc-heads.net/avatar/{player_uuid}.png` / 3D avatars may use `https://visage.surgeplay.com/bust/{player_uuid}.png`
+Description: URL of the Player Avatar API for Webhook
+| Player Parameter    | Avatar Retrieval Method                                                                                          |
+|:--------------------|:-----------------------------------------------------------------------------------------------------------------|
+| `{player_uuid}`     | Uses the player UUID                                                                                             |
+| `{player_name}`     | Uses the player display name                                                                                     |
+| `{player_textures}` | Compatible with mods and plugins for real-time skin changing, such as Geyser, Fabric Tailor, SkinsRestorer, etc. |
 
 10. **`[Required]` broadcastPlayerCommandExecution**
 Example / Default value: `true`
@@ -1092,8 +1098,8 @@ Example / Default value: `false`
 Description: Whether to wait for the rate limit to reset on shutdown
 
 30. `[Optional]` excludedCommands
-Example / Default value: `["/msg", "/tell", "/tellraw", "/w"]`
-Description: Discord-MC-Chat Command Exclusion List, do not process and send specified commands (can be more than one)
+Example / Default value: `["\\/msg ([^@].*)", "\\/tell ([^@].*)", "\\/tellraw ([^@].*)", "\\/w ([^@].*)", "\\/teammsg (.*)", "\\/tm (.*)"]`
+Description: Discord-MC-Chat Command Exclusion List (regular expression), do not process and send specified commands (can be more than one). You may visit https://regexr.com/83uki for a regex test and add your own commands.
 
 31. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
@@ -1248,6 +1254,44 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ## Changelog 更新日志
 
+### 2.4.0 - 2025/1/4
+
+> #### Discord-MC-Chat 2.4.0 for Minecraft 1.14.4+ - 2025/1/4
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> New features that involve modifying the config file have been released in this version. Please read the docs to reconfigure `generic.avatarApi` and `generic.excludedCommands`!
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> 本版本发布了涉及修改配置文件的新功能。请阅读文档以重新配置 `generic.avatarApi` 和 `generic.excludedCommands`！
+> 
+> #### New Features 新特性
+> 
+> - Compatible with all mods and plugins that use the `textures` field in `GameProfile` for real-time skin changes (#222 and #228)
+>   兼容所有使用 GameProfile 中的 textures 项进行实时皮肤更换的模组和插件
+> 
+> - Prompt when the user runs the JAR as an application instead of a Minecraft mod
+>   当用户将 JAR 作为应用程序运行而不是 Minecraft 模组时进行提示
+> 
+> #### Changes 更改
+> 
+> - The `excludedCommands` list now only supports regular expressions (#247)
+>   `excludedCommands` 列表现在仅支持正则表达式
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.5...2.4.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.3.5 - 2024/10/29
 
 > #### Discord-MC-Chat 2.3.5 for Minecraft 1.14.4+ - 2024/10/29
@@ -1305,7 +1349,6 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.4...2.3.5
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.3.4 - 2024/7/11
 
 > #### Discord-MC-Chat 2.3.4 for Minecraft 1.19.4+ - 2024/7/11
