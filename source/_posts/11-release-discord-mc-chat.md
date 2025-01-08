@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 Discord-MC-Chat has been updated to 2.4.0 - 2025/1/4!
 Discord-MC-Chat 已经更新到 2.4.0 - 2025/1/4 啦！
 
-> This article was updated on January 4, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
-> 本文更新于 2025 年 1 月 4 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
+> This article was updated on January 8, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
+> 本文更新于 2025 年 1 月 8 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -257,21 +257,45 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 
 ### 安装
 
-根据 [上述列表](/posts/4ba0a17a/#依赖) 找到支持你的 Minecraft 服务器版本的最新 Discord-MC-Chat 版本，然后前往任意一个 [上述站点](/posts/4ba0a17a/#下载) 下载对应 Discord-MC-Chat 版本后缀名为 `.jar` 的文件。
+{% tabs site, 1 %}
+<!-- tab Modrinth -->
+前往 [Modrinth Versions](https://modrinth.com/mod/discord-mc-chat/versions)。使用筛选功能找到对应自己的 Minecraft 服务器版本及模组加载器的最新 Discord-MC-Chat 发行版（通常为最新发行版）。
+
+单击下载按钮下载该版本后缀名为 `.jar` 的文件。
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
 ![02.png](/file/posts/4ba0a17a/02.png)
+<!-- endtab -->
+<!-- tab CurseForge -->
+前往 [CurseForge Files](https://www.curseforge.com/minecraft/mc-mods/discord-mc-chat/files)。使用筛选功能找到对应自己的 Minecraft 服务器版本及模组加载器的最新 Discord-MC-Chat 发行版（通常为最新发行版）。
+
+单击下载按钮下载该版本后缀名为 `.jar` 的文件。
+
+![03.png](/file/posts/4ba0a17a/03.png)
+
+![04.png](/file/posts/4ba0a17a/04.png)
+<!-- endtab -->
+<!-- tab GitHub -->
+根据 [上述列表](/posts/4ba0a17a/#依赖) 找到支持你的 Minecraft 服务器版本及模组加载器的最新 Discord-MC-Chat 发行版（通常为最新发行版）。
+
+然后，前往 [GitHub Releases](https://github.com/Xujiayao/Discord-MC-Chat/releases) 找到该版本，并单击下载按钮下载该版本后缀名为 `.jar` 的文件。
+
+![05.png](/file/posts/4ba0a17a/05.png)
+
+![06.png](/file/posts/4ba0a17a/06.png)
+<!-- endtab -->
+{% endtabs %}
 
 将下载下来的文件移动到 Minecraft 服务器的 `mods` 文件夹即可。
 
-![03.png](/file/posts/4ba0a17a/03.png)
+![07.png](/file/posts/4ba0a17a/07.png)
 
 ### 配置 Discord 机器人
 
 前往 Discord Developer Portal 的 [Applications 页面](https://discord.com/developers/applications)，然后点击右上角的 `New Application` 按钮创建新应用。
 
-![04.png](/file/posts/4ba0a17a/04.png)
+![08.png](/file/posts/4ba0a17a/08.png)
 
 给应用命名，然后点击 `Create` 按钮创建。
 
@@ -282,17 +306,15 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 >
 > 没有格式限制。
 
-![05.png](/file/posts/4ba0a17a/05.png)
+![09.png](/file/posts/4ba0a17a/09.png)
 
 可以改一下应用的头像和描述，其余资料无需修改。
 
-![06.png](/file/posts/4ba0a17a/06.png)
+点击 `Copy` 按钮复制应用 ID，保存以便稍后使用。
 
-转到 `Bot` 选项卡，然后点击右上角的 `Add Bot` 创建机器人。
+![10.png](/file/posts/4ba0a17a/10.png)
 
-![07.png](/file/posts/4ba0a17a/07.png)
-
-可以改一下机器人的头像和用户名。保存机器人令牌，后面会用到。
+转到 `Bot` 选项卡，修改机器人的头像和用户名。先点击 `Reset Token` 按钮重置机器人令牌，然后点击 `Copy` 按钮复制机器人令牌，保存以便稍后使用。
 
 > 推荐命名为 `DMCC Bot`。
 >
@@ -301,43 +323,54 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 >
 > 没有格式限制。
 
-![08.png](/file/posts/4ba0a17a/08.png)
+![11.png](/file/posts/4ba0a17a/11.png)
 
 设置 `Authorization Flow` 和 `Privileged Gateway Intents`，参考下图：
 
-![09.png](/file/posts/4ba0a17a/09.png)
+![12.png](/file/posts/4ba0a17a/12.png)
 
 至此，机器人创建完成，但它实际上不在任何服务器中。
 
-转到 `OAuth2 -> URL Generator` 选项卡，勾选 `SCOPES` 下的 `bot` 和 `applications.commands` 复选框。
+在下方文本框粘贴早前所复制的应用 ID，然后点击 `邀请` 按钮，将自动生成邀请链接并前往 Discord 的邀请页面。
 
-![10.png](/file/posts/4ba0a17a/10.png)
+<p><input type="text" id="application_id_chi"></p>
+<p><input type="submit" value="邀请" id="invite_button_chi"></p>
+<script type="text/javascript">
+document.getElementById("invite_button_chi").addEventListener("click", () => {
+    const application_id = document.getElementById("application_id_chi").value;
+    window.open("https://discord.com/oauth2/authorize?permissions=537054224&integration_type=0&scope=bot+applications.commands&client_id=" + application_id, '_blank').focus();
+});
+</script>
 
-在 `BOT PERMISSIONS` 下勾选机器人运行所需的权限，参考下图：
+如果你不放心自动化生成的邀请链接，你也可以阅读以下被折叠的内容以手动生成。
 
-![11.png](/file/posts/4ba0a17a/11.png)
+{% hideToggle 手动生成邀请链接 %}
+转到 `OAuth2` 选项卡，在 `URL Generator` 跟随以下截图勾选复选框。
 
-检查 `GENERATED URL` 生成的邀请链接中包含的数值是否与下图相符。确认无误后，点击右侧的 `Copy` 按钮复制链接。
-
-![12.png](/file/posts/4ba0a17a/12.png)
-
-将复制的链接粘贴到浏览器中。选择要邀请机器人进入的 Discord 服务器，然后点击 `授权` 按钮。
-
-> 邀请机器人需要拥有该服务器的 `管理服务器` 权限。
+检查 `GENERATED URL` 生成的邀请链接是否与下图相符（`permissions=537054224` 和 `scope=bot+applications.commands`）。确认无误后，点击右侧的 `Copy` 按钮复制链接，并将复制的链接粘贴到浏览器新标签页中。
 
 ![13.png](/file/posts/4ba0a17a/13.png)
+{% endhideToggle %}
+
+选择要邀请机器人进入的 Discord 服务器，然后点击 `Continue`，进入下一页面后直接点击 `Authorize` 按钮。
+
+> 邀请机器人需要拥有该服务器的 `管理服务器 / Manage Server` 权限。
 
 ![14.png](/file/posts/4ba0a17a/14.png)
+
+![15.png](/file/posts/4ba0a17a/15.png)
 
 至此，机器人配置完毕。
 
 ### 首次启动
 
-安装 Discord-MC-Chat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `discord-mc-chat.json` 的文件，需要在再次启动服务器前编辑 `discord-mc-chat.json` 以配置 Discord-MC-Chat：
+安装 Discord-MC-Chat 后首次启动服务器会出现以下报错，并会在 `config` 文件夹生成一个名为 `discord-mc-chat.json` 的文件。在再次启动服务器前编辑 `discord-mc-chat.json` 以配置 Discord-MC-Chat。
 
-![15.png](/file/posts/4ba0a17a/15.png)
+> 你必须在再次启动服务器前编辑 `discord-mc-chat.json` 以配置 Discord-MC-Chat，否则服务器将无法正常启动！
 
 ![16.png](/file/posts/4ba0a17a/16.png)
+
+![17.png](/file/posts/4ba0a17a/17.png)
 
 ### 配置 Discord-MC-Chat
 
@@ -865,89 +898,124 @@ The latest version of Discord-MC-Chat depends on the following environment:
 
 ---
 
-### Install
+### Installation
 
-Find the latest Discord-MC-Chat version that supports your Minecraft server version according to the [above list](/posts/4ba0a17a/#Dependencies), and then go to any of the [above sites](/posts/4ba0a17a/#Download) to download the file with the `.jar` extension corresponding to the Discord-MC-Chat version.
+{% tabs site, 1 %}
+<!-- tab Modrinth -->
+Go to [Modrinth Versions](https://modrinth.com/mod/discord-mc-chat/versions). Use the filtering feature to find the latest Discord-MC-Chat release that corresponds to your Minecraft server version and mod loader (it is usually the latest DMCC release).
+
+Click the download button to download the file with the `.jar` extension.
 
 ![01.png](/file/posts/4ba0a17a/01.png)
 
 ![02.png](/file/posts/4ba0a17a/02.png)
+<!-- endtab -->
+<!-- tab CurseForge -->
+Go to [CurseForge Files](https://www.curseforge.com/minecraft/mc-mods/discord-mc-chat/files). Use the filtering feature to find the latest Discord-MC-Chat release that corresponds to your Minecraft server version and mod loader (it is usually the latest DMCC release).
 
-Move the downloaded file to the `mods` folder of your Minecraft Server.
+Click the download button to download the file with the `.jar` extension.
 
 ![03.png](/file/posts/4ba0a17a/03.png)
 
-### Setup Discord Bot
-
-Go to [Applications Page](https://discord.com/developers/applications) of Discord Developer Portal, then click the `New Application` button in the upper right corner to create a new application.
-
 ![04.png](/file/posts/4ba0a17a/04.png)
+<!-- endtab -->
+<!-- tab GitHub -->
+Find the latest Discord-MC-Chat release that supports your Minecraft server version and mod loader according to the [above list](/posts/4ba0a17a/#Dependencies) (it is usually the latest DMCC release).
 
-Give a name and click the `Create` button to create it.
-
-> It is recommended to name it as `DMCC`.
->
-> If you will run Discord-MC-Chat on multiple Minecraft servers, it is recommended to name it as `[SERVER] DMCC`.
-> Example: `[SMP] DMCC`, `[CMP] DMCC`
->
-> No format restrictions.
+Then, go to [GitHub Releases](https://github.com/Xujiayao/Discord-MC-Chat/releases) to locate that version and click the download button to download the file with the `.jar` extension.
 
 ![05.png](/file/posts/4ba0a17a/05.png)
 
-You can change the icon and description of the application. The rest does not need to be modified.
-
 ![06.png](/file/posts/4ba0a17a/06.png)
+<!-- endtab -->
+{% endtabs %}
 
-Go to `Bot` tab and click `Add Bot` in the upper right corner to create a bot.
+Move the downloaded file to the `mods` folder of your Minecraft server.
 
 ![07.png](/file/posts/4ba0a17a/07.png)
 
-You can change the icon and description of the bot. Save the bot token, it will be used later.
+### Configure Discord Bot
 
-> It is recommended to name it as `DMCC Bot`.
->
-> If you will run Discord-MC-Chat on multiple Minecraft servers, it is recommended to name it as `[SERVER] DMCC Bot`.
-> Example: `[SMP] DMCC Bot`, `[CMP] DMCC Bot`
->
-> No format restrictions.
+Go to the [Applications page](https://discord.com/developers/applications) of the Discord Developer Portal, then click the `New Application` button in the top right corner to create a new application.
 
 ![08.png](/file/posts/4ba0a17a/08.png)
 
-Set `Authorization Flow` and `Privileged Gateway Intents`, refer to the following picture:
+Name the application, then click the `Create` button.
+
+> It is recommended to name it `DMCC`.
+>
+> If you want to run Discord-MC-Chat on multiple Minecraft servers, it is recommended to name it `[Server Name] DMCC`.
+> Example: `[SMP] DMCC`, `[CMP] DMCC`
+>
+> There are no format restrictions.
 
 ![09.png](/file/posts/4ba0a17a/09.png)
 
-At this point, the bot is created, but it is not actually in any discord server.
+You can change the application's avatar and description. The rest of the information does not need to be modified.
 
-Go to `OAuth2 -> URL Generator` tab, check the `bot` and `applications.commands` checkboxes under `SCOPES`.
+Click the `Copy` button to copy the application ID. Save it for later use.
 
 ![10.png](/file/posts/4ba0a17a/10.png)
 
-Under `BOT PERMISSIONS`, check the permissions required for the bot, refer to the picture below:
+Go to the `Bot` tab to modify the bot's avatar and username. Click the `Reset Token` button to reset the bot token, then click the `Copy` button to copy the bot token . Save it for later use.
+
+> It is recommended to name it `DMCC Bot`.
+>
+> If you want to run Discord-MC-Chat on multiple Minecraft servers, it is recommended to name it `[Server Name] DMCC Bot`.
+> Example: `[SMP] DMCC Bot`, `[CMP] DMCC Bot`
+>
+> There are no format restrictions.
 
 ![11.png](/file/posts/4ba0a17a/11.png)
 
-Check that the values contained in the invitation link generated in the `GENERATED URL` match the image below. After confirmation, click the `Copy` button on the right to copy the link.
+Set the `Authorization Flow` and `Privileged Gateway Intents`, referring to the image below:
 
 ![12.png](/file/posts/4ba0a17a/12.png)
 
-Paste the copied link into the browser. Select the Discord server you want to invite the bot to, then click the `Authorize` button.
+At this point, the bot has been created, but it is not actually in any server.
 
-> Inviting bots requires `Manage Server` permission in the server.
+Paste the previously copied application ID into the text box below, then click the `Invite` button, which will automatically generate an invite link and take you to the Discord invite page.
+
+<p><input type="text" id="application_id_eng"></p>
+<p><input type="submit" value="Invite" id="invite_button_eng"></p>
+<script type="text/javascript">
+document.getElementById("invite_button_eng").addEventListener("click", () => {
+    const application_id = document.getElementById("application_id_eng").value;
+    window.open("https://discord.com/oauth2/authorize?permissions=537054224&integration_type=0&scope=bot+applications.commands&client_id=" + application_id, '_blank').focus();
+});
+</script>
+
+If you are concerned about the automatically generated invite link, you can also read the following collapsed content to generate it manually.
+
+{% hideToggle Manually Generating Invite Link %}
+Go to the `OAuth2` tab. At the `URL Generator`, follow the screenshot below to check the checkboxes.
+
+Check if the invite link generated at `GENERATED URL` matches the image below (`permissions=537054224` and `scope=bot+applications.commands`). Once confirmed, click the `Copy` button on the right to copy the link, and paste the copied link into a new tab in your browser.
 
 ![13.png](/file/posts/4ba0a17a/13.png)
+{% endhideToggle %}
+
+Select the Discord server you want to invite the bot to, then click `Continue`. On the next page, simply click the `Authorize` button.
+
+> Inviting the bot requires you to have the `Manage Server` permission for that server.
 
 ![14.png](/file/posts/4ba0a17a/14.png)
 
-### Run the first time
-
-After installing Discord-MC-Chat, when the server is started for the first time, the following error will appear, and a file named `discord-mc-chat.json` will be generated in the `config` folder. You have to edit the file `discord-mc-chat.json` to setup Discord-MC-Chat before starting the server again:
-
 ![15.png](/file/posts/4ba0a17a/15.png)
+
+At this point, the bot configuration is complete.
+
+### First Start
+
+After installing Discord-MC-Chat, the first startup of the server will display the following error, and a file named `discord-mc-chat.json` will be generated in the `config` folder. Edit `discord-mc-chat.json` to configure Discord-MC-Chat before restarting the server.
+
+> You must edit `discord-mc-chat.json` to configure Discord-MC-Chat before restarting the server! Otherwise, the server will not start properly!
 
 ![16.png](/file/posts/4ba0a17a/16.png)
 
-### Setup Discord-MC-Chat
+![17.png](/file/posts/4ba0a17a/17.png)
+
+### Configure Discord-MC-Chat
 
 Open `discord-mc-chat.json` and set the following variables to use Discord-MC-Chat.
 
