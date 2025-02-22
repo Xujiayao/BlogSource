@@ -50,7 +50,7 @@ date: 2020-07-13 10:29:34
 - 服务器
   - CPU: AMD Ryzen 7 5800X (PBO Eco-Mode 45W)
   - MB : MSI MAG B550M MORTAR WIFI
-  - GPU: N/A
+  - GPU: Intel Iris Xe DG1
   - RAM: Asgard Valkyrie 32GB (DDR4 16GB x2 3600MHz C18 1.35V)
 - 手机
   - Google Pixel 6 Pro
