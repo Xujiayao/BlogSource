@@ -1312,10 +1312,10 @@ hexo-tag-aplayer@^3.0.4:
     hexo-util "^0.1.7"
     meting "^1.2.0"
 
-hexo-theme-butterfly@^5.3.4:
-  version "5.3.4"
-  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-5.3.4.tgz#e2a24239ec9e776bd71eadcadbd0a37c72df3927"
-  integrity sha512-9emW3GeKRrRtBBV4FYDx3Bun7cWD+3PlZb5jcXM7dD+hORA9qwRPk6z7Wm9an3fkYFqIGh3D1q8+oIx9lomhGg==
+hexo-theme-butterfly@^5.3.5:
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-5.3.5.tgz#b96db135d27240c4407b283db2be9457d8a28b67"
+  integrity sha512-Zh2mc7Tj+QAatUBEkhbfHuyb779ZOd72bx12CDohK0cEQ4rtc4Tc4ukuTiTsNJv5hd7ipMjWXpDJwKIzPTN01Q==
   dependencies:
     hexo-renderer-pug "^3.0.0"
     hexo-renderer-stylus "^3.0.1"
