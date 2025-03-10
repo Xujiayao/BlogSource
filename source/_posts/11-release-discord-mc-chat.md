@@ -1320,6 +1320,91 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 <!-- endtab -->
 {% endtabs %}
 
+### FAQ
+
+#### Is there a video tutorial for setting up the Discord bot?
+
+You may find this video created by Youtuber `@The Goose Soup` helpful:
+
+https://www.youtube.com/watch?v=O-55Qzmp-Rg
+
+#### I cannot understand your English for configuring DMCC!
+
+You may find this older config created by Discord user `@ayreysoup` helpful. I fixed some error in the explanation.
+
+> Do NOT copy this config and replace your config directly with it, as this configuration is not up to date!
+
+```json
+{
+  "generic": {
+    "language": "en_us", // Language of the bot. Available languages are listed in the Docs.
+    "botToken": "", // Put your bot token here, and don't share it with ANYONE ELSE.
+    "showServerStatusInBotStatus": true, // Shows the status of the server (listed below) in the bot's status.
+    "botPlayingActivity": "Minecraft (%onlinePlayerCount%/%maxPlayerCount%)", // Sets the status of the game (it can dynamically change with server player count).
+    "botListeningActivity": "", // Only two available options: Playing, Listening. Use either one.
+    "useWebhook": true, // Sends Minecraft chat messages as a Discord Webhook in the Minecraft Messages Channel.
+    "channelId": "", // Used for Minecraft Messages through Discord and to Minecraft.
+    "consoleLogChannelId": "", // Channel to show the Minecraft console in Discord.
+    "updateNotificationChannelId": "", // Channel to send notifications whenever there's a new update.
+    "useUuidInsteadOfName": true, // Used for Minecraft player heads when using the Webhook.
+    "avatarApi": "https://mc-heads.net/avatar/%player%.png", // Database to find the player heads.
+    "broadcastPlayerCommandExecution": true, // Shares commands sent by the player to Discord.
+    "broadcastSlashCommandExecution": true, // Shares commands sent by the Discord command user to Minecraft.
+    "announceServerStartStop": true, // Sends "Server started!" in the Minecraft Messages channel.
+    "announcePlayerJoinLeave": true, // Sends "Server stopped!" in the Minecraft Messages channel.
+    "announceDeathMessages": true, // Sends "[Player] Died by [blank]" in the Minecraft Messages channel.
+    "announceAdvancements": true, // Sends "[Player] Achieved [blank]" in the Minecraft Messages channel.
+    "broadcastChatMessages": true, // Lets messages from Minecraft and Discord be shared in the Minecraft chat and in the Minecraft Messages channel.
+    "formatChatMessages": true, // Styles the Minecraft chat message sent by a user in the game.
+    "allowedMentions": [
+      "everyone",
+      "users",
+      "roles"
+    ],
+    "useServerNickname": true, // Used to display the member's Discord nickname in the Minecraft chat instead of the username.
+    "discordNewlineLimit": 3,
+    "announceHighMspt": true,
+    "msptCheckInterval": 5000,
+    "msptLimit": 50,
+    "whitelistRequiresAdmin": true,
+    "notifyUpdates": true, // Announces a new update to the mod in Discord.
+    "mentionAdminsForUpdates": true,
+    "updateChannelTopic": true,
+    "channelTopicUpdateInterval": 600000,
+    "shutdownImmediately": true,
+    "excludedCommands": [
+      "\\/msg ([^@].*)",
+      "\\/tell ([^@].*)",
+      "\\/tellraw ([^@].*)",
+      "\\/w ([^@].*)",
+      "\\/teammsg (.*)",
+      "\\/tm (.*)"
+    ],
+    "adminsIds": [
+      ""  // Discord IDs for the admins in your server.
+    ]
+  },
+  "multiServer": {  // Used if you have multiple servers you want to connect through the chat mod.
+    "enable": true,
+    "host": "127.0.0.1",
+    "port": 5000,
+    "name": "SMP",
+    "botIds": [
+      ""
+    ]
+  },
+  ... leave all items below default will do ...
+}
+```
+
+#### How to set up the multi-server function?
+
+[This step](#Configure-Discord-Bot) covers the creation of the discord bot. Do it again but name the application and the bot after your second server.
+
+Put the token for the second bot into the DMCC config of the second server, under `botToken`.
+
+Go to the `multiServer` section of the config, and put the bot ID from for both bots in botIds, just like what you have done for the `adminIds` list. Note that the `name` must be different.
+
 ## Changelog 更新日志
 
 ### 2.4.0 - 2025/1/4
