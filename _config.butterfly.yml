@@ -13,6 +13,7 @@ nav:
   # Navigation bar logo image
   logo:
   display_title: true
+  display_post_title: true
   # Whether to fix navigation bar
   fixed: true
 
@@ -260,12 +261,15 @@ noticeOutdate:
 # Footer Settings
 # --------------------------------------
 footer:
+  nav:
   owner:
     enable: true
     since: 2020
-  custom_text: 没有个性，如何签名？<br><a href="https://icp.gov.moe/?keyword=20200916"><img class="icp-icon" src="/file/icp.png"><span>萌ICP备20200916号</span></a>
   # Copyright of theme and framework
-  copyright: true
+  copyright:
+    enable: true
+    version: true
+  custom_text: 没有个性，如何签名？<br><a href="https://icp.gov.moe/?keyword=20200916"><img class="icp-icon" src="/file/icp.png"><span>萌ICP备20200916号</span></a>
 
 # --------------------------------------
 # Aside Settings
@@ -404,6 +408,9 @@ rightside_item_order:
   hide:
   # Default: toc,chat,comment
   show:
+
+# Animation for the bottom right config button
+rightside_config_animation: true
 
 # --------------------------------------
 # Global Settings
@@ -704,6 +711,12 @@ umami_analytics:
     # Umami Cloud (API key) / self-hosted Umami (token)
     token:
 
+# https://www.googletagmanager.com/
+google_tag_manager:
+  tag_id:
+  # optional
+  domain:
+
 # --------------------------------------
 # Advertisement
 # --------------------------------------
@@ -993,6 +1006,8 @@ instantpage: true
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
+  # Use browser's native lazyload instead of vanilla-lazyload
+  native: false
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:
