@@ -8,13 +8,13 @@ date: 2020-07-13 10:29:34
 
 ## 关于我
 
-欢迎光临！博客四周年啦！ヾ(≧▽≦*)o
+欢迎光临！博客五周年啦！ヾ(≧▽≦*)o
 
 是老二次元了2333
 
 平时玩以下这些游戏：ヾ(≧▽≦*)o
 
-- Minecraft: Java Edition (Lazy_Craft & 星梦沼泽 私人服务器)
+- Minecraft: Java Edition (Lazy_Craft & 雪绒秘境 私人服务器)
 - Grand Theft Auto V (Online)
 - Euro Truck Simulator 2 (TruckersMP)
 - Rebel Inc: Escalation
@@ -39,11 +39,15 @@ date: 2020-07-13 10:29:34
   - MB : MSI MEG B550 UNIFY
   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz C16 1.35V)
-- 笔记本-1 ROG Zephyrus G16 (2024)
+- 笔记本-1 HONOR MagicBook Pro 16 2025 HUNTER
+  - CPU: Intel Core Ultra 9 Processor 285H
+  - GPU: NVIDIA GeForce RTX 5070 Laptop GPU 8GB GDDR7
+  - RAM: 32GB (LPDDR5X 16GB x2 8000MT/s)
+- 笔记本-2 ROG Zephyrus G16 (2024)
   - CPU: AMD Ryzen AI 9 HX 370
   - GPU: NVIDIA GeForce RTX 4070 Laptop GPU 8GB GDDR6
-  - RAM: 32GB (LPDDR5X 16GB x2 7500MHz)
-- 笔记本-2 MSI Vector GP76HX 12UHS
+  - RAM: 32GB (LPDDR5X 16GB x2 7500MT/s)
+- 笔记本-3 MSI Vector GP76HX 12UHS
   - CPU: Intel Core i7-12800HX
   - GPU: NVIDIA GeForce RTX 3080 Ti Laptop GPU 16GB GDDR6
   - RAM: 32GB (DDR5 16GB x2 4800MHz)
@@ -53,7 +57,7 @@ date: 2020-07-13 10:29:34
   - GPU: Intel Iris Xe DG1
   - RAM: Asgard Valkyrie 32GB (DDR4 16GB x2 3600MHz C18 1.35V)
 - 手机
-  - Google Pixel 6 Pro
+  - vivo X200 Ultra (16GB + 512GB)
 - 平板
   - HUAWEI MatePad Pro 10.8 (2019)
   - iPad Air (4th generation)
