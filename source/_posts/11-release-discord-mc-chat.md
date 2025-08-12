@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.4.0 - 2025/1/4 啦！
+description: Discord-MC-Chat 已经更新到 2.5.0 - 2025/6/21 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.4.0 - 2025/1/4!
-Discord-MC-Chat 已经更新到 2.4.0 - 2025/1/4 啦！
+Discord-MC-Chat has been updated to 2.5.0 - 2025/6/21!
+Discord-MC-Chat 已经更新到 2.5.0 - 2025/6/21 啦！
 
-> This article was updated on January 8, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
-> 本文更新于 2025 年 1 月 8 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
+> This article was updated on August 12, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
+> 本文更新于 2025 年 8 月 12 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -162,6 +162,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 | `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
 | `it_it` | Italiano (Italia)     |
+| `ja_jp` | 日本語（日本）               |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -207,9 +208,13 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 
 ### 依赖
 
-Discord-MC-Chat 最新版本（2.4.0）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新版本（2.5.0）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.21.x
+  - 1.21.8
+  - 1.21.7
+  - 1.21.6
+  - 1.21.5
   - 1.21.4
   - 1.21.3
   - 1.21.2
@@ -250,7 +255,7 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 | ----- | ----- |
 | Minecraft 服务端 1.14.4+ | Minecraft 服务端 1.14.4+ |
 | Java \>=21 | Java \>=21 |
-| Fabric Loader \>=0.15.10 | Quilt Loader |
+| Fabric Loader \>=0.16.10 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
@@ -805,6 +810,7 @@ Languages currently available:
 | `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
 | `it_it` | Italiano (Italia)     |
+| `ja_jp` | 日本語（日本）               |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -850,9 +856,13 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest version of Discord-MC-Chat (2.4.0) supports the following Minecraft server versions:
+The latest version of Discord-MC-Chat (2.5.0) supports the following Minecraft server versions:
 
 - Minecraft 1.21.x
+  - 1.21.8
+  - 1.21.7
+  - 1.21.6
+  - 1.21.5
   - 1.21.4
   - 1.21.3
   - 1.21.2
@@ -893,7 +903,7 @@ The latest version of Discord-MC-Chat depends on the following environment:
 | ----- | ----- |
 | Minecraft Server 1.14.4+ | Minecraft Server 1.14.4+ |
 | Java \>=21 | Java \>=21 |
-| Fabric Loader \>=0.15.10 | Quilt Loader |
+| Fabric Loader \>=0.16.10 | Quilt Loader |
 | Fabric API | Quilted Fabric API (QFAPI) and Quilt Standard Libraries (QSL) |
 
 ---
@@ -1033,6 +1043,7 @@ Contributing: https://github.com/Xujiayao/Discord-MC-Chat#Contributing
 | `es_es` | Español (España)      |
 | `fr_fr` | Français (France)     |
 | `it_it` | Italiano (Italia)     |
+| `ja_jp` | 日本語（日本）               |
 | `ko_kr` | 한국어（대한민국）             |
 | `no_no` | Norsk Bokmål (Norge)  |
 | `pl_pl` | Polski (Polska)       |
@@ -1322,6 +1333,23 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 
 ### FAQ
 
+#### Java version requirements?
+
+DMCC is developed using the latest Java LTS version, Java 21.
+
+Since Java does not support upward compatibility, you need Java version 21 or later to run it.
+
+However, Java maintains backward compatibility, so you can feel free to update to Java 21. Your other mods will not be affected.
+
+#### BlazeandCave's Advancements Pack
+
+To fix BlazeandCave's advancements broadcasting, do the following steps:
+
+1. Run `/function blazeandcave:config` to open config menu
+2. Go to "Advancement Completion Message Settings"
+3. Go to "Click to view preset options"
+4. Click "Turn vanilla messages on"
+
 #### Is there a video tutorial for setting up the Discord bot?
 
 You may find this video created by Youtuber `@The Goose Soup` helpful:
@@ -1407,6 +1435,72 @@ Go to the `multiServer` section of the config, and put the bot ID from for both 
 
 ## Changelog 更新日志
 
+### 2.5.0 - 2025/6/21
+
+> #### Discord-MC-Chat 2.5.0 for Minecraft 1.14.4+ - 2025/6/21
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> #### New Features 新特性
+> 
+> - Japanese translation (#271)
+>   日语翻译
+> 
+> - Compatible with Minecraft 1.21.6
+>   兼容 Minecraft 1.21.6
+> 
+> #### Changes 更改
+> 
+> - Fix escaping when formatChatMessages is disabled (#274)
+>   修复当 formatChatMessages 被禁用时的转义问题
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @rainfallseason
+> - @Technocality
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.4.1...2.5.0
+
+{% hideToggle 旧版本 Older Versions %}
+### 2.4.1 - 2025/3/26
+
+> #### Discord-MC-Chat 2.4.1 for Minecraft 1.14.4+ - 2025/3/26
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> #### New Features 新特性
+> 
+> - Compatible with Minecraft 1.21.5 (#270)
+>   兼容 Minecraft 1.21.5
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> - Removed a toggle switch in the config file that was deprecated in release 2.4.0
+>   移除了配置文件中的一个在 2.4.0 版本中已弃用的切换开关
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.4.0...2.4.1
+
 ### 2.4.0 - 2025/1/4
 
 > #### Discord-MC-Chat 2.4.0 for Minecraft 1.14.4+ - 2025/1/4
@@ -1444,7 +1538,6 @@ Go to the `multiServer` section of the config, and put the bot ID from for both 
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.3.5...2.4.0
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.3.5 - 2024/10/29
 
 > #### Discord-MC-Chat 2.3.5 for Minecraft 1.14.4+ - 2024/10/29
