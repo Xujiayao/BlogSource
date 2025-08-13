@@ -14,8 +14,8 @@ date: 2021-07-08 15:59:28
 Discord-MC-Chat has been updated to 2.5.0 - 2025/6/21!
 Discord-MC-Chat 已经更新到 2.5.0 - 2025/6/21 啦！
 
-> This article was updated on August 12, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
-> 本文更新于 2025 年 8 月 12 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
+> This article was updated on August 13, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
+> 本文更新于 2025 年 8 月 13 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -529,7 +529,7 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 
 30. `【可选】` excludedCommands
 示例 / 默认值：`["\\/msg ([^@].*)", "\\/tell ([^@].*)", "\\/tellraw ([^@].*)", "\\/w ([^@].*)", "\\/teammsg (.*)", "\\/tm (.*)"]`
-说明：Discord-MC-Chat 指令排除列表（正则表达式），不处理和发送指定指令（可多于一个）。你可以访问 https://regexr.com/83uki 进行正则表达式测试并添加你自己的命令。
+说明：Discord-MC-Chat 指令排除列表（正则表达式），不处理和发送指定指令（可多于一个）。你可以访问 https://regexr.com/8gh90 进行正则表达式测试并添加你自己的命令。
 
 31. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
@@ -1178,7 +1178,7 @@ Description: Whether to wait for the rate limit to reset on shutdown
 
 30. `[Optional]` excludedCommands
 Example / Default value: `["\\/msg ([^@].*)", "\\/tell ([^@].*)", "\\/tellraw ([^@].*)", "\\/w ([^@].*)", "\\/teammsg (.*)", "\\/tm (.*)"]`
-Description: Discord-MC-Chat Command Exclusion List (regular expression), do not process and send specified commands (can be more than one). You may visit https://regexr.com/83uki for a regex test and add your own commands.
+Description: Discord-MC-Chat Command Exclusion List (regular expression), do not process and send specified commands (can be more than one). You may visit https://regexr.com/8gh90 for a regex test and add your own commands.
 
 31. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
