@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.5.0 - 2025/6/21 啦！
+description: Discord-MC-Chat 已经更新到 2.6.0 - 2025/10/1 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.5.0 - 2025/6/21!
-Discord-MC-Chat 已经更新到 2.5.0 - 2025/6/21 啦！
+Discord-MC-Chat has been updated to 2.6.0 - 2025/10/1!
+Discord-MC-Chat 已经更新到 2.6.0 - 2025/10/1 啦！
 
-> This article was updated on August 13, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
-> 本文更新于 2025 年 8 月 13 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
+> This article was updated on October 1, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
+> 本文更新于 2025 年 10 月 1 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -168,6 +168,7 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 | `pl_pl` | Polski (Polska)       |
 | `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
+| `tr_tr` | Türkçe (Türkiye)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
 | `zh_tw` | 繁體中文（台灣）              |
@@ -208,9 +209,10 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 
 ### 依赖
 
-Discord-MC-Chat 最新版本（2.5.0）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新版本（2.6.0）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.21.x
+  - 1.21.9
   - 1.21.8
   - 1.21.7
   - 1.21.6
@@ -400,6 +402,7 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 | `pl_pl` | Polski (Polska)       |
 | `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
+| `tr_tr` | Türkçe (Türkiye)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
 | `zh_tw` | 繁體中文（台灣）              |
@@ -528,7 +531,7 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 说明：是否在关闭服务器时等待速率限制重置
 
 30. `【可选】` excludedCommands
-示例 / 默认值：`["\\/msg ([^@].*)", "\\/tell ([^@].*)", "\\/tellraw ([^@].*)", "\\/w ([^@].*)", "\\/teammsg (.*)", "\\/tm (.*)"]`
+示例 / 默认值：`["\\/msg (?!@a)(.*)", "\\/tell (?!@a)(.*)", "\\/tellraw (?!@a)(.*)", "\\/w (?!@a)(.*)", "\\/teammsg (.*)", "\\/tm (.*)", "\\/login (.*)", "\\/l (.*)", "\\/register (.*)", "\\/reg (.*)", "\\/account (.*)", "\\/auth (.*)"]`
 说明：Discord-MC-Chat 指令排除列表（正则表达式），不处理和发送指定指令（可多于一个）。你可以访问 https://regexr.com/8gh90 进行正则表达式测试并添加你自己的命令。
 
 31. **`【必选】` adminsIds**
@@ -816,6 +819,7 @@ Languages currently available:
 | `pl_pl` | Polski (Polska)       |
 | `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
+| `tr_tr` | Türkçe (Türkiye)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
 | `zh_tw` | 繁體中文（台灣）              |
@@ -856,9 +860,10 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest version of Discord-MC-Chat (2.5.0) supports the following Minecraft server versions:
+The latest version of Discord-MC-Chat (2.6.0) supports the following Minecraft server versions:
 
 - Minecraft 1.21.x
+  - 1.21.9
   - 1.21.8
   - 1.21.7
   - 1.21.6
@@ -1049,6 +1054,7 @@ Contributing: https://github.com/Xujiayao/Discord-MC-Chat#Contributing
 | `pl_pl` | Polski (Polska)       |
 | `pt_br` | Português (Brasil)    |
 | `ru_ru` | Русский (Россия)      |
+| `tr_tr` | Türkçe (Türkiye)      |
 | `zh_cn` | 简体中文（中国大陆）            |
 | `zh_hk` | 繁體中文（香港特別行政區）         |
 | `zh_tw` | 繁體中文（台灣）              |
@@ -1177,7 +1183,7 @@ Example / Default value: `false`
 Description: Whether to wait for the rate limit to reset on shutdown
 
 30. `[Optional]` excludedCommands
-Example / Default value: `["\\/msg ([^@].*)", "\\/tell ([^@].*)", "\\/tellraw ([^@].*)", "\\/w ([^@].*)", "\\/teammsg (.*)", "\\/tm (.*)"]`
+Example / Default value: `["\\/msg (?!@a)(.*)", "\\/tell (?!@a)(.*)", "\\/tellraw (?!@a)(.*)", "\\/w (?!@a)(.*)", "\\/teammsg (.*)", "\\/tm (.*)", "\\/login (.*)", "\\/l (.*)", "\\/register (.*)", "\\/reg (.*)", "\\/account (.*)", "\\/auth (.*)"]`
 Description: Discord-MC-Chat Command Exclusion List (regular expression), do not process and send specified commands (can be more than one). You may visit https://regexr.com/8gh90 for a regex test and add your own commands.
 
 31. **`[Required]` adminsIds**
@@ -1435,6 +1441,57 @@ Go to the `multiServer` section of the config, and put the bot ID from for both 
 
 ## Changelog 更新日志
 
+### 2.6.0 - 2025/10/1
+
+> #### Discord-MC-Chat 2.6.0 for Minecraft 1.14.4+ - 2025/10/1
+> 
+> DMCC v3 is currently in active development! The first BETA is expected to be released in a few months.
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> DMCC v3 目前正在积极开发中！预计还有几个月便会发布第一个测试版。
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> #### New Features 新特性
+> 
+> - Ignore EasyAuth commands by default
+>   默认忽略 EasyAuth 相关命令
+> 
+> - Check if config has been modified, if not, continue prompting and stop server from running
+>   检查配置文件是否被修改，如果没有，继续提示并阻止服务器运行
+> 
+> - Support parsing selectors in messages sent by tellraw command
+>   转发 tellraw 命令发送的消息时支持解析选择器
+> 
+> - Turkish translation (#291)
+>   土耳其语翻译
+> 
+> - Compatible with Minecraft 1.21.9
+>   兼容 Minecraft 1.21.9
+> 
+> #### Changes 更改
+> 
+> - Add string-expected hints to all empty lists in the config file
+>   为配置文件中所有空列表添加预期为字符串的提示
+> 
+> - Change excludedCommands list to only exclude `@a` selector
+>   命令排除列表改为只排除 `@a` 选择器
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @hhhhh-ckr
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.5.0...2.6.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.5.0 - 2025/6/21
 
 > #### Discord-MC-Chat 2.5.0 for Minecraft 1.14.4+ - 2025/6/21
@@ -1470,7 +1527,6 @@ Go to the `multiServer` section of the config, and put the bot ID from for both 
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.4.1...2.5.0
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.4.1 - 2025/3/26
 
 > #### Discord-MC-Chat 2.4.1 for Minecraft 1.14.4+ - 2025/3/26
