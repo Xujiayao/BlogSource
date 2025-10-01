@@ -494,6 +494,11 @@ search:
     top_n_per_article: 1
     # Unescape html strings to the readable one.
     unescape: false
+    # Enable pagination for search results
+    pagination:
+      enable: false
+      # Number of search results per page
+      hitsPerPage: 8
     CDN:
 
   # Docsearch
@@ -702,6 +707,7 @@ umami_analytics:
   enable: false
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL:
+  script_name: script.js
   website_id:
   option:
   UV_PV:
@@ -1039,7 +1045,11 @@ Open_Graph_meta:
 
 # Structured Data
 # https://developers.google.com/search/docs/guides/intro-structured-data
-structured_data: true
+structured_data:
+  enable: false
+  # Alternate name for the site, used in structured data
+  # Format: ['name1', 'name2']
+  alternate_name:
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -1101,7 +1111,6 @@ CDN:
     # gitalk_css:
     # giscus:
     # instantpage:
-    # instantsearch:
     # katex:
     # katex_copytex:
     # lazyload:
