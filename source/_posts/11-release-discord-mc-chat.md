@@ -6,16 +6,16 @@ tags:
   - Java
   - Minecraft
 categories: 项目
-description: Discord-MC-Chat 已经更新到 2.6.0 - 2025/10/1 啦！
+description: Discord-MC-Chat 已经更新到 2.7.0 - 2025/11/6 啦！
 abbrlink: 4ba0a17a
 date: 2021-07-08 15:59:28
 ---
 
-Discord-MC-Chat has been updated to 2.6.0 - 2025/10/1!
-Discord-MC-Chat 已经更新到 2.6.0 - 2025/10/1 啦！
+Discord-MC-Chat has been updated to 2.7.0 - 2025/11/6!
+Discord-MC-Chat 已经更新到 2.7.0 - 2025/11/6 啦！
 
-> This article was updated on October 1, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
-> 本文更新于 2025 年 10 月 1 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
+> This article was updated on November 6, 2025. The content is updated for the latest release version. ヾ(≧▽≦\*)o
+> 本文更新于 2025 年 11 月 6 日，文章的内容针对最新发行版本更新ヾ(≧▽≦\*)o
 
 <img width=128 src="https://cdn.jsdelivr.net/gh/Xujiayao/Discord-MC-Chat@master/wrapper/src/main/resources/assets/discord-mc-chat/icon.png">
 
@@ -78,7 +78,8 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 - Minecraft <> Discord 跨服聊天
     - 支持禁用 Discord 和游戏内聊天广播
     - 支持使用 Discord 频道主题功能显示服务器状态
-    - 支持使用机器人 Discord 在线状态中显示服务器状态
+    - 支持使用语音频道显示服务器状态和玩家数量
+    - 支持使用机器人 Discord 在线状态显示服务器状态
     - 支持使用机器人 Discord 活动状态显示服务器玩家数
     - 支持 Discord Webhook 功能
         - 动态创建 DMCC Webhook
@@ -209,9 +210,10 @@ DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.
 
 ### 依赖
 
-Discord-MC-Chat 最新版本（2.6.0）支持以下 Minecraft 服务器版本：
+Discord-MC-Chat 最新版本（2.7.0）支持以下 Minecraft 服务器版本：
 
 - Minecraft 1.21.x
+  - 1.21.10
   - 1.21.9
   - 1.21.8
   - 1.21.7
@@ -345,7 +347,7 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 <script type="text/javascript">
 document.getElementById("invite_button_chi").addEventListener("click", () => {
     const application_id = document.getElementById("application_id_chi").value;
-    window.open("https://discord.com/oauth2/authorize?permissions=537054224&integration_type=0&scope=bot+applications.commands&client_id=" + application_id, '_blank').focus();
+    window.open("https://discord.com/oauth2/authorize?permissions=538102800&integration_type=0&scope=bot+applications.commands&client_id=" + application_id, '_blank').focus();
 });
 </script>
 
@@ -354,7 +356,9 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 {% hideToggle 手动生成邀请链接 %}
 转到 `OAuth2` 选项卡，在 `URL Generator` 跟随以下截图勾选复选框。
 
-检查 `GENERATED URL` 生成的邀请链接是否与下图相符（`permissions=537054224` 和 `scope=bot+applications.commands`）。确认无误后，点击右侧的 `Copy` 按钮复制链接，并将复制的链接粘贴到浏览器新标签页中。
+检查 `GENERATED URL` 生成的邀请链接是否与下图相符（`permissions=538102800` 和 `scope=bot+applications.commands`）。确认无误后，点击右侧的 `Copy` 按钮复制链接，并将复制的链接粘贴到浏览器新标签页中。
+
+> 以下图片已经过时。还需勾选 `Voice Permissions` 中的 `Connect`。
 
 ![13.png](/file/posts/4ba0a17a/13.png)
 {% endhideToggle %}
@@ -421,27 +425,35 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 | 有在线玩家           | 在线         |
 | 停止中（约 10 秒） | 请勿打扰 |
 
-3. `【可选】` botPlayingActivity / botListeningActivity
+4. `【可选】` botPlayingActivity / botListeningActivity
 示例 / 默认值：`botPlayingActivity: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
 说明：设置机器人活动状态（二选一）（留空则禁用此功能）
 
-4. **`【必选】` useWebhook**
+5. **`【必选】` useWebhook**
 示例 / 默认值：`true`
 说明：是否启用 Webhook 功能（禁用则使用机器人自身发送聊天消息）
 
-5. **`【必选】` channelId**
+6. **`【必选】` channelId**
 示例 / 默认值：`123456`
 说明：Discord 频道 ID（右键频道即可复制 ID，需要在 Discord 设置中开启开发者模式）
 
-6. `【可选】` consoleLogChannelId
+7. `【可选】` consoleLogChannelId
 示例 / 默认值：`654321`
 说明：广播控制台日志的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
 
-7. `【可选】` updateNotificationChannelId
+8. `【可选】` updateNotificationChannelId
 示例 / 默认值：`456789`
 说明：自定义用于发送更新通知的 Discord 频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
 
-9. **`【必选】` avatarApi**
+8. `【可选】` serverStatusVoiceChannelId
+示例 / 默认值：`987654`
+说明：自定义用于显示服务器状态的 Discord 语音频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
+
+8. `【可选】` playerCountVoiceChannelId
+示例 / 默认值：`765432`
+说明：自定义用于显示玩家数量的 Discord 语音频道 ID（留空则禁用此功能）（获取 ID 的方法相同）
+
+11. **`【必选】` avatarApi**
 示例 / 默认值：2D 头像可使用 `https://mc-heads.net/avatar/{player_uuid}.png` / 3D 头像可使用 `https://visage.surgeplay.com/bust/{player_uuid}.png`
 说明：自定义 Webhook 玩家头像 API 链接
 | Player 参数           | 头像获取方式                                                  |
@@ -450,91 +462,95 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 | `{player_name}`     | 使用玩家显示昵称                                                  |
 | `{player_textures}` | 兼容用于实时皮肤更换的模组和插件，如 Geyser、Fabric Tailor、SkinsRestorer 等 |
 
-10. **`【必选】` broadcastPlayerCommandExecution**
+12. **`【必选】` broadcastPlayerCommandExecution**
 示例 / 默认值：`true`
 说明：是否广播 Minecraft 玩家指令执行
 
-11. **`【必选】` broadcastSlashCommandExecution**
+13. **`【必选】` broadcastSlashCommandExecution**
 示例 / 默认值：`true`
 说明：是否广播 Discord 斜线命令执行
 
-12. **`【必选】` announceServerStartStop**
+14. **`【必选】` announceServerStartStop**
 示例 / 默认值：`true`
 说明：是否广播服务器启动和关闭
 
-13. **`【必选】` announcePlayerJoinLeave**
+15. **`【必选】` announcePlayerJoinLeave**
 示例 / 默认值：`true`
 说明：是否广播玩家加入和离开服务器
 
-14. **`【必选】` announceDeathMessages**
+16. **`【必选】` announceDeathMessages**
 示例 / 默认值：`true`
 说明：是否广播玩家死亡消息
 
-15. **`【必选】` announceAdvancements**
+17. **`【必选】` announceAdvancements**
 示例 / 默认值：`true`
 说明：是否广播玩家达成进度 / 达成目标 / 完成挑战
 
-16. **`【必选】` broadcastChatMessages**
+18. **`【必选】` broadcastChatMessages**
 示例 / 默认值：`true`
 说明：是否广播 Discord 和游戏内聊天
 
-17. **`【必选】` formatChatMessages**
+19. **`【必选】` formatChatMessages**
 示例 / 默认值：`true`
 说明：是否格式化游戏内聊天消息
 
-18. `【可选】` allowedMentions
+20. **`【必选】` broadcastTellRawMessages**
+示例 / 默认值：`true`
+说明：是否转发通过 `/tellraw @a` 命令发送的聊天消息
+
+21. `【可选】` allowedMentions
 示例 / 默认值：`["everyone", "users", "roles"]`
 说明：自定义允许游戏内提及 (@) 的范围（清空列表即为禁止所有游戏内提及）
 
-19. **`【必选】` useServerNickname**
+22. **`【必选】` useServerNickname**
 示例 / 默认值：`true`
 说明：是否显示 Discord 服务器昵称
 
-20. `【可选】` discordNewlineLimit
+23. `【可选】` discordNewlineLimit
 示例 / 默认值：`3`
 说明：自定义 Discord 消息换行次数限制（所有超出限制的换行将全部替换为单个 `...`）
 
-21. **`【必选】` announceHighMspt**
+24. **`【必选】` announceHighMspt**
 示例 / 默认值：`true`
 说明：是否在服务器 MSPT 高于预警值时发出通知
 
-22. `【可选】` msptCheckInterval
+25. `【可选】` msptCheckInterval
 示例 / 默认值：`5000`
 说明：自定义 MSPT 检查间隔
 
-23. `【可选】` msptLimit
+26. `【可选】` msptLimit
 示例 / 默认值：`50`
 说明：服务器 MSPT 预警值
 
-24. **`【必选】` whitelistRequiresAdmin**
+27. **`【必选】` whitelistRequiresAdmin**
 示例 / 默认值：`true`
 说明：是否将 DMCC /whitelist 命令的使用权限设置为仅限管理员
 
-25. **`【必选】` notifyUpdates**
+28. **`【必选】` notifyUpdates**
 示例 / 默认值：`true`
 说明：是否发送更新通知
 
-26. **`【必选】` mentionAdminsForUpdates**
+29. **`【必选】` mentionAdminsForUpdates**
 示例 / 默认值：`true`
 说明：是否在发送更新通知时提及 Discord-MC-Chat 管理员
 
-27. **`【必选】` updateChannelTopic**
+30. **`【必选】` updateChannelTopic**
 示例 / 默认值：`true`
 说明：是否使用 Discord 频道主题功能显示服务器状态
 
-28. `【可选】` channelTopicUpdateInterval
+31. `【可选】` channelTopicUpdateInterval
 示例 / 默认值：`600000`
 说明：自定义 Discord 频道主题更新服务器状态的间隔
 
-29. **`【必选】` shutdownImmediately**
+32. **`【必选】` shutdownImmediately**
 示例 / 默认值：`false`
 说明：是否在关闭服务器时等待速率限制重置
 
-30. `【可选】` excludedCommands
+33. `【可选】` excludedCommands
 示例 / 默认值：`["\\/msg (?!@a)(.*)", "\\/tell (?!@a)(.*)", "\\/tellraw (?!@a)(.*)", "\\/w (?!@a)(.*)", "\\/teammsg (.*)", "\\/tm (.*)", "\\/login (.*)", "\\/l (.*)", "\\/register (.*)", "\\/reg (.*)", "\\/account (.*)", "\\/auth (.*)"]`
 说明：Discord-MC-Chat 指令排除列表（正则表达式），不处理和发送指定指令（可多于一个）。你可以访问 https://regexr.com/8gh90 进行正则表达式测试并添加你自己的命令。
 
-31. **`【必选】` adminsIds**
+34. **`【必选】` adminsIds**
 示例 / 默认值：`["456789", "987654"]`
 说明：Discord-MC-Chat 管理员 ID 列表（支持用户 ID 和用户组 ID），拥有使用特殊命令的权限（可多于一个）
 
@@ -656,7 +672,7 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 | `%lastUpdateTime%` | 最后更新时间 |
 
 12. `onlineChannelTopic`
-说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用
+说明：在服务器启动后按 `generic.channelUpdateInterval` 设置的间隔使用
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | `%onlinePlayerCount%` | 服务器在线玩家数量 |
@@ -667,7 +683,7 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 | `%nextUpdateTime%` | 下一次更新时间 |
 
 13. `onlineChannelTopicForMultiServer`
-说明：在服务器启动后按 `generic.channelTopicUpdateInterval` 设置的间隔使用（启用多服务器模式时适用）
+说明：在服务器启动后按 `generic.channelUpdateInterval` 设置的间隔使用（启用多服务器模式时适用）
 | 可用占位符 | 说明 |
 | ----- | ----- |
 | `%onlinePlayerCount%` | 服务器在线玩家数量 |
@@ -678,6 +694,19 @@ document.getElementById("invite_button_chi").addEventListener("click", () => {
 | `%serverStartedTime%` | 服务器启动时间 |
 | `%lastUpdateTime%` | 最后更新时间 |
 | `%nextUpdateTime%` | 下一次更新时间 |
+
+14. `onlineServerStatusVoiceChannelNameForMultiServer`
+说明：在服务器启动后按 `generic.channelUpdateInterval` 设置的间隔使用（启用多服务器模式时适用）
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%onlineServerCount%` | 在线服务器数量 |
+
+15. `onlinePlayerCountVoiceChannelName`
+说明：在服务器启动后按 `generic.channelUpdateInterval` 设置的间隔使用
+| 可用占位符 | 说明 |
+| ----- | ----- |
+| `%onlinePlayerCount%` | 服务器在线玩家数量 |
+| `%maxPlayerCount%` | 服务器玩家数量限制 |
 
 > **latestVersion & latestCheckTime**
 >
@@ -729,6 +758,7 @@ For translation contributions, language files are located in the `/wrapper/src/m
 - Minecraft <> Discord cross server chat
     - Support disabling Discord and in-game chat broadcasts
     - Support displaying server status using Discord channel topic feature
+    - Support displaying server status and player count using voice channels
     - Support displaying server status in bot's Discord online status
     - Support displaying server player count in bot's Discord activity status
     - Support Discord Webhook feature
@@ -860,9 +890,10 @@ Exceptionally, the `src/main/java/com/xujiayao/discord_mc_chat/utils/MarkdownPar
 
 ### Dependencies
 
-The latest version of Discord-MC-Chat (2.6.0) supports the following Minecraft server versions:
+The latest version of Discord-MC-Chat (2.7.0) supports the following Minecraft server versions:
 
 - Minecraft 1.21.x
+  - 1.21.10
   - 1.21.9
   - 1.21.8
   - 1.21.7
@@ -996,7 +1027,7 @@ Paste the previously copied application ID into the text box below, then click t
 <script type="text/javascript">
 document.getElementById("invite_button_eng").addEventListener("click", () => {
     const application_id = document.getElementById("application_id_eng").value;
-    window.open("https://discord.com/oauth2/authorize?permissions=537054224&integration_type=0&scope=bot+applications.commands&client_id=" + application_id, '_blank').focus();
+    window.open("https://discord.com/oauth2/authorize?permissions=538102800&integration_type=0&scope=bot+applications.commands&client_id=" + application_id, '_blank').focus();
 });
 </script>
 
@@ -1005,7 +1036,9 @@ If you are concerned about the automatically generated invite link, you can also
 {% hideToggle Manually Generating Invite Link %}
 Go to the `OAuth2` tab. At the `URL Generator`, follow the screenshot below to check the checkboxes.
 
-Check if the invite link generated at `GENERATED URL` matches the image below (`permissions=537054224` and `scope=bot+applications.commands`). Once confirmed, click the `Copy` button on the right to copy the link, and paste the copied link into a new tab in your browser.
+Check if the invite link generated at `GENERATED URL` matches the image below (`permissions=538102800` and `scope=bot+applications.commands`). Once confirmed, click the `Copy` button on the right to copy the link, and paste the copied link into a new tab in your browser.
+
+> The image below is outdated. You also need to check `Connect` in the `Voice Permissions` section.
 
 ![13.png](/file/posts/4ba0a17a/13.png)
 {% endhideToggle %}
@@ -1073,27 +1106,35 @@ Description: Whether to display server status in bot's Discord online status
 | Have players online           | Online         |
 | Stopping (around 0.5 seconds) | Do Not Disturb |
 
-3. `[Optional]` botPlayingActivity / botListeningActivity
+4. `[Optional]` botPlayingActivity / botListeningActivity
 Example / Default value: `botPlayingActivity: Minecraft (%onlinePlayerCount%/%maxPlayerCount%)`
 Description: Set the bot activity status (choose one of two) (leave blank to disable this feature)
 
-4. **`[Required]` useWebhook**
+5. **`[Required]` useWebhook**
 Example / Default value: `true`
 Description: Whether to enable the Webhook feature (disable to use the bot itself to send chat messages)
 
-5. **`[Required]` channelId**
+6. **`[Required]` channelId**
 Example / Default value: `123456`
 Description: Discord Channel ID (right click the channel to copy the ID, you have to turn on developer mode in Discord settings)
 
-6. `[Optional]` consoleLogChannelId
+7. `[Optional]` consoleLogChannelId
 Example / Default value: `654321`
 Description: Discord Channel ID for console log broadcast (leave blank to disable this feature) (the method to get the ID is the same)
 
-7. `[Optional]` updateNotificationChannelId
+8. `[Optional]` updateNotificationChannelId
 Example / Default value: `456789`
 Description: Discord Channel ID for custom update notification (leave blank to disable this feature) (the method to get the ID is the same)
 
-9. **`[Required]` avatarApi**
+9. `[Optional]` serverStatusVoiceChannelId
+Example / Default value: `987654`
+Description: Discord Voice Channel ID for displaying server status (leave blank to disable this feature) (the method to get the ID is the same)
+
+10. `[Optional]` playerCountVoiceChannelId
+Example / Default value: `765432`
+Description: Discord Voice Channel ID for displaying player count (leave blank to disable this feature) (the method to get the ID is the same)
+
+11. **`[Required]` avatarApi**
 Example / Default value: 2D avatars may use `https://mc-heads.net/avatar/{player_uuid}.png` / 3D avatars may use `https://visage.surgeplay.com/bust/{player_uuid}.png`
 Description: URL of the Player Avatar API for Webhook
 | Player Parameter    | Avatar Retrieval Method                                                                                          |
@@ -1102,91 +1143,95 @@ Description: URL of the Player Avatar API for Webhook
 | `{player_name}`     | Uses the player display name                                                                                     |
 | `{player_textures}` | Compatible with mods and plugins for real-time skin changing, such as Geyser, Fabric Tailor, SkinsRestorer, etc. |
 
-10. **`[Required]` broadcastPlayerCommandExecution**
+12. **`[Required]` broadcastPlayerCommandExecution**
 Example / Default value: `true`
 Description: Whether to broadcast Minecraft player command execution
 
-11. **`[Required]` broadcastSlashCommandExecution**
+13. **`[Required]` broadcastSlashCommandExecution**
 Example / Default value: `true`
 Description: Whether to broadcast Discord slash command execution
 
-12. **`[Required]` announceServerStartStop**
+14. **`[Required]` announceServerStartStop**
 Example / Default value: `true`
 Description: Whether to broadcast server start and stop
 
-13. **`[Required]` announcePlayerJoinLeave**
+15. **`[Required]` announcePlayerJoinLeave**
 Example / Default value: `true`
 Description: Whether to broadcast player join and leave the server
 
-14. **`[Required]` announceDeathMessages**
+16. **`[Required]` announceDeathMessages**
 Example / Default value: `true`
 Description: Whether to broadcast player death messages
 
-15. **`[Required]` announceAdvancements**
+17. **`[Required]` announceAdvancements**
 Example / Default value: `true`
 Description: Whether to broadcast player reach a progress / achieve a goal / complete a challenge
 
-16. **`[Required]` broadcastChatMessages**
+18. **`[Required]` broadcastChatMessages**
 Example / Default value: `true`
 Description: Whether to broadcast Discord and in-game chat
 
-17. **`[Required]` formatChatMessages**
+19. **`[Required]` formatChatMessages**
 Example / Default value: `true`
 Description: Whether to format in-game chat messages
 
-18. `[Optional]` allowedMentions
+20. `[Optional]` allowedMentions
 Example / Default value: `["everyone", "users", "roles"]`
 Description: Customizable scope of allowed mentions (@) in-game (Clear the list to disallow all in-game mentions)
 
-19. **`[Required]` useServerNickname**
+21. **`[Required]` broadcastTellRawMessages**
+Example / Default value: `true`
+Description: Whether to forward chat messages sent via `/tellraw @a` command
+
+22. **`[Required]` useServerNickname**
 Example / Default value: `true`
 Description: Whether to display Discord server nickname
 
-20. `[Optional]` discordNewlineLimit
+23. `[Optional]` discordNewlineLimit
 Example / Default value: `3`
 Description: Customize the newline limit for Discord messages (all excess newlines will be replaced with a single `...`)
 
-21. **`[Required]` announceHighMspt**
+24. **`[Required]` announceHighMspt**
 Example / Default value: `true`
 Description: Whether to announce when the server MSPT is higher than the MSPT Limit
 
-22. `[Optional]` msptCheckInterval
+25. `[Optional]` msptCheckInterval
 Example / Default value: `5000`
 Description: Customize MSPT check interval
 
-23. `[Optional]` msptLimit
+26. `[Optional]` msptLimit
 Example / Default value: `50`
 Description: Server MSPT Limit
 
-24. **`[Required]` whitelistRequiresAdmin**
+27. **`[Required]` whitelistRequiresAdmin**
 Example / Default value: `true`
 Description: Whether to set the permissions of DMCC /whitelist command to admin only
 
-25. **`[Required]` notifyUpdates**
+28. **`[Required]` notifyUpdates**
 Example / Default value: `true`
 Description: Whether to send update notifications
 
-26. **`[Required]` mentionAdminsForUpdates**
+29. **`[Required]` mentionAdminsForUpdates**
 Example / Default value: `true`
 Description: Whether to mention (@) Discord-MC-Chat admins when sending update notifications
 
-27. **`[Required]` updateChannelTopic**
+30. **`[Required]` updateChannelTopic**
 Example / Default value: `true`
 Description: Whether to display server status using Discord channel topic feature
 
-28. `[Optional]` channelTopicUpdateInterval
+31. `[Optional]` channelTopicUpdateInterval
 Example / Default value: `600000`
 Description: Customize update server status using Discord channel topic interval
 
-29. **`[Required]` shutdownImmediately**
+32. **`[Required]` shutdownImmediately**
 Example / Default value: `false`
 Description: Whether to wait for the rate limit to reset on shutdown
 
-30. `[Optional]` excludedCommands
+33. `[Optional]` excludedCommands
 Example / Default value: `["\\/msg (?!@a)(.*)", "\\/tell (?!@a)(.*)", "\\/tellraw (?!@a)(.*)", "\\/w (?!@a)(.*)", "\\/teammsg (.*)", "\\/tm (.*)", "\\/login (.*)", "\\/l (.*)", "\\/register (.*)", "\\/reg (.*)", "\\/account (.*)", "\\/auth (.*)"]`
 Description: Discord-MC-Chat Command Exclusion List (regular expression), do not process and send specified commands (can be more than one). You may visit https://regexr.com/8gh90 for a regex test and add your own commands.
 
-31. **`[Required]` adminsIds**
+34. **`[Required]` adminsIds**
 Example / Default value: `["456789", "987654"]`
 Description: Discord-MC-Chat Admin ID List (Support User ID and Role ID), have permission to use special commands (can be more than one)
 
@@ -1308,7 +1353,7 @@ Description: Used when server stopped
 | `%lastUpdateTime%` | Last update time |
 
 12. `onlineChannelTopic`
-Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started
+Description: Used at the interval set by `generic.channelUpdateInterval` after server started
 | Available Placeholders | Description |
 | ----- | ----- |
 | `%onlinePlayerCount%` | Number of online players on the server |
@@ -1319,7 +1364,7 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 | `%nextUpdateTime%` | Next update time |
 
 13. `onlineChannelTopicForMultiServer`
-Description: Used at the interval set by `generic.channelTopicUpdateInterval` after server started (applicable when multi-server mode is enabled)
+Description: Used at the interval set by `generic.channelUpdateInterval` after server started (applicable when multi-server mode is enabled)
 | Available Placeholders | Description |
 | ----- | ----- |
 | `%onlinePlayerCount%` | Number of online players on all servers |
@@ -1330,6 +1375,19 @@ Description: Used at the interval set by `generic.channelTopicUpdateInterval` af
 | `%serverStartedTime%` | Server started time |
 | `%lastUpdateTime%` | Last update time |
 | `%nextUpdateTime%` | Next update time |
+
+14. `onlineServerStatusVoiceChannelNameForMultiServer`
+Description: Used at the interval set by `generic.channelUpdateInterval` after server started (applicable when multi-server mode is enabled)
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%onlineServerCount%` | Number of online servers |
+
+15. `onlinePlayerCountVoiceChannelName`
+Description: Used at the interval set by `generic.channelUpdateInterval` after server started
+| Available Placeholders | Description |
+| ----- | ----- |
+| `%onlinePlayerCount%` | Number of online players on all servers |
+| `%maxPlayerCount%` | Limit on the number of players on all servers |
 
 > **latestVersion & latestCheckTime**
 >
@@ -1441,6 +1499,48 @@ Go to the `multiServer` section of the config, and put the bot ID from for both 
 
 ## Changelog 更新日志
 
+### 2.7.0 - 2025/11/6
+
+> #### Discord-MC-Chat 2.7.0 for Minecraft 1.14.4+ - 2025/11/6
+> 
+> To use the new voice channel features, please grant your Discord bot the "Connect" permission in the "Voice Channel Permissions" section at your Discord server's "Roles" menu.
+> 
+> DMCC v3 is currently in active development! The first BETA is expected to be released in a few months.
+> 
+> DMCC Discord Server is now public! Join now through: https://discord.gg/kbXkV6k2XU
+> 
+> 如需使用语音频道相关新功能，请在 Discord 服务器设置的 “身份组” 菜单中，为机器人身份组赋予 “语音频道权限” 下的 “连接” 权限。
+> 
+> DMCC v3 目前正在积极开发中！预计还有几个月便会发布第一个测试版。
+> 
+> DMCC Discord 服务器现已公开！通过以下链接加入：https://discord.gg/kbXkV6k2XU
+> 
+> #### New Features 新特性
+> 
+> - Support displaying server status and player count using voice channels (#248 and #301)
+>   支持使用语音频道显示服务器状态和玩家数量
+> 
+> - Able to disable forwarding of chat messages sent via `/tellraw @a` command
+>   可禁用转发通过 `/tellraw @a` 命令发送的聊天消息
+> 
+> #### Changes 更改
+> 
+> N/A
+> 
+> #### Removed 移除
+> 
+> N/A
+> 
+> #### Contributors 贡献者
+> 
+> - @Xujiayao
+> - @ok-coder1
+> 
+> #### Detailed Information 详细信息
+> 
+> https://github.com/Xujiayao/Discord-MC-Chat/compare/2.6.0...2.7.0
+
+{% hideToggle 旧版本 Older Versions %}
 ### 2.6.0 - 2025/10/1
 
 > #### Discord-MC-Chat 2.6.0 for Minecraft 1.14.4+ - 2025/10/1
@@ -1491,7 +1591,6 @@ Go to the `multiServer` section of the config, and put the bot ID from for both 
 > 
 > https://github.com/Xujiayao/Discord-MC-Chat/compare/2.5.0...2.6.0
 
-{% hideToggle 旧版本 Older Versions %}
 ### 2.5.0 - 2025/6/21
 
 > #### Discord-MC-Chat 2.5.0 for Minecraft 1.14.4+ - 2025/6/21
