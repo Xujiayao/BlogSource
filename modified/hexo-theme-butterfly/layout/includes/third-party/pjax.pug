@@ -14,9 +14,9 @@ if choose
     else
       - pjaxSelectors.unshift('meta[name="description"]')
 
-script(src=url_for(theme.asset.pjax))
+script(src=url_for(theme.asset.pjax) defer)
 script.
-  (() => {
+  document.addEventListener('DOMContentLoaded', () => {
     const pjaxSelectors = !{JSON.stringify(pjaxSelectors)}
 
     window.pjax = new Pjax({
@@ -65,10 +65,9 @@ script.
 
     document.addEventListener('pjax:error', e => {
       if (e.request.status === 404) {
-        const usePjax = !{theme.pjax && theme.pjax.enable}
         !{theme.error_404 && theme.error_404.enable}
-          ? (usePjax ? pjax.loadUrl('!{url_for("/404.html")}') : window.location.href = '!{url_for("/404.html")}')
+          ? pjax.loadUrl('!{url_for("/404.html")}')
           : window.location.href = e.request.responseURL
       }
     })
-  })()
+  })
