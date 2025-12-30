@@ -30,10 +30,6 @@
       link: https://noionion.top/
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 贰猹の小窝
-    - name: Wuyouchao
-      link: https://blog.wuyouchao.top/ # https://wu-youchao.github.io/
-      avatar: https://blog.wuyouchao.top/file/avatar.png
-      descr: 我是比萌新还要萌新的萌新
     - name: BlissfulAlloy79
       link: https://blissfulalloy79.lazycraft.top/
       avatar: https://blissfulalloy79.lazycraft.top/img/avatar.jpg
@@ -50,6 +46,10 @@
       link: https://www.vvhan.com/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640
       descr: 运气是计划之外的东西.
+    - name: Victor Li
+      link: https://deshengdulikaifa.com/
+      avatar: https://deshengdulikaifa.com/uploads/20250627/a68d5863c4efdfd519f25c58a4a4d874.png
+      descr: 除了听没什么是做不到
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -86,3 +86,7 @@
       link: https://blog.ariven.cn/ # https://sino6067.github.io/
       avatar: https://blog.ariven.cn/img/logo.jpg
       descr: Ariven的博客
+    - name: Wuyouchao
+      link: https://blog.wuyouchao.top/ # https://wu-youchao.github.io/
+      avatar: https://blog.wuyouchao.top/file/avatar.png
+      descr: 我是比萌新还要萌新的萌新
