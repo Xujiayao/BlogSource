@@ -14,8 +14,8 @@ date: 2020-07-13 10:29:34
 
 平时玩以下这些游戏：ヾ(≧▽≦*)o
 
-- Minecraft: Java Edition (Lazy_Craft & 雪绒秘境 私人服务器)
-- Grand Theft Auto V (Online)
+- Minecraft: Java Edition (Lazy_Craft 私人服务器)
+- Grand Theft Auto V Enhanced (Online)
 - Euro Truck Simulator 2 (TruckersMP)
 - Rebel Inc: Escalation
 - osu!
@@ -26,7 +26,8 @@ date: 2020-07-13 10:29:34
 - 天凤
 - Overcooked! 2
 - DiRT Rally 2.0
-- Prepar3D
+- Prepar3D v5
+- Train Sim World 6
 
 偶尔会编程。以前学的都快忘光了，现在只熟悉 Java 这一个编程语言（＞人＜；）
 目前只在维护这一个项目（GitHub）：
@@ -35,7 +36,7 @@ date: 2020-07-13 10:29:34
 设备：
 
 - 台式机
-  - CPU: AMD Ryzen 9 5950X (PBO2 Curve Optimizer Per Core)
+  - CPU: AMD Ryzen 9 5950X (PBO Eco-Mode 65W)
   - MB : MSI MEG B550 UNIFY
   - GPU: GALAX NVIDIA GeForce RTX 3080 Ti 12GB METALTOP OC
   - RAM: GALAX HOF OC Lab 32GB (DDR4 8GB x4 3600MHz C16 1.35V)
@@ -82,11 +83,11 @@ date: 2020-07-13 10:29:34
 
 ## 许可证
 
-本博客的内容分为 代码 及 文章。
+本博客的内容分为「代码」及「文章」。
 
-所有 代码 均采用 [MIT 许可证](https://opensource.org/license/mit) 进行许可。你可以自由使用、复制、修改和分发代码，但必须在所有衍生作品中包含 MIT 许可证的版权及许可声明。
+所有「代码」均采用 [MIT 许可证](https://opensource.org/license/mit) 进行许可。你可以自由使用、复制、修改和分发代码，但必须在所有衍生作品中包含 MIT 许可证的版权及许可声明。
 
-所有 文章 均采用 [知识共享 署名-非商业性使用-相同方式共享 4.0 协议国际版 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可。你只能将我的文章用于非商业目的进行分享和修改，并且必须为原作者（即 Xujiayao）提供署名，并附上 [Xujiayao's Blog](https://blog.xujiayao.com/) 的链接，同时以相同的许可证发布衍生作品。
+所有「文章」均采用 [知识共享 署名-非商业性使用-相同方式共享 4.0 协议国际版 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可。你只能将我的文章用于非商业目的进行分享和修改，并且必须为原作者（即 Xujiayao）提供署名，并附上 [Xujiayao's Blog](https://blog.xujiayao.com/) 的链接，同时以相同的许可证发布衍生作品。
 
 ## 联系方式
 
