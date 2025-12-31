@@ -732,4 +732,4 @@ if __name__ == "__main__":
 
 > 到时可要见到至少两篇哦！这可是你自己说的 (。・∀・)ノ
 
-<div style="text-align: right">Credit: DeepSeek V3.2（<strike>AI 真好用</strike>）</div>
+<div style="text-align: right">~ Afterword written by DeepSeek V3.2（<strike>AI 真好用</strike>）</div>
