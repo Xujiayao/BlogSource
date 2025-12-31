@@ -298,7 +298,7 @@ aside:
       link: /about/
   card_announcement:
     enable: true
-    content: 欢迎光临！感谢访问本站 \(￣︶￣*\))<br><br>博客换新域名啦！ヾ(≧▽≦*)o<br>统计数据又重置了（＞人＜；）
+    content: 欢迎光临！感谢访问本站 \(￣︶￣*\))
   card_recent_post:
     enable: true
     # If set 0 will show all
