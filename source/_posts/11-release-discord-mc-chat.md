@@ -266,8 +266,6 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 
 ### 安装
 
-{% tabs site, 1 %}
-<!-- tab Modrinth -->
 前往 [Modrinth Versions](https://modrinth.com/mod/discord-mc-chat/versions)。使用筛选功能找到对应自己的 Minecraft 服务器版本及模组加载器的最新 Discord-MC-Chat 发行版（通常为最新发行版）。
 
 单击下载按钮下载该版本后缀名为 `.jar` 的文件。
@@ -275,26 +273,6 @@ Discord-MC-Chat 最新版本依赖以下运行环境：
 ![01.png](/file/posts/4ba0a17a/01.png)
 
 ![02.png](/file/posts/4ba0a17a/02.png)
-<!-- endtab -->
-<!-- tab CurseForge -->
-前往 [CurseForge Files](https://www.curseforge.com/minecraft/mc-mods/discord-mc-chat/files)。使用筛选功能找到对应自己的 Minecraft 服务器版本及模组加载器的最新 Discord-MC-Chat 发行版（通常为最新发行版）。
-
-单击下载按钮下载该版本后缀名为 `.jar` 的文件。
-
-![03.png](/file/posts/4ba0a17a/03.png)
-
-![04.png](/file/posts/4ba0a17a/04.png)
-<!-- endtab -->
-<!-- tab GitHub -->
-根据 [上述列表](/posts/4ba0a17a/#依赖) 找到支持你的 Minecraft 服务器版本及模组加载器的最新 Discord-MC-Chat 发行版（通常为最新发行版）。
-
-然后，前往 [GitHub Releases](https://github.com/Xujiayao/Discord-MC-Chat/releases) 找到该版本，并单击下载按钮下载该版本后缀名为 `.jar` 的文件。
-
-![05.png](/file/posts/4ba0a17a/05.png)
-
-![06.png](/file/posts/4ba0a17a/06.png)
-<!-- endtab -->
-{% endtabs %}
 
 将下载下来的文件移动到 Minecraft 服务器的 `mods` 文件夹即可。
 
@@ -946,8 +924,6 @@ The latest version of Discord-MC-Chat depends on the following environment:
 
 ### Installation
 
-{% tabs site, 1 %}
-<!-- tab Modrinth -->
 Go to [Modrinth Versions](https://modrinth.com/mod/discord-mc-chat/versions). Use the filtering feature to find the latest Discord-MC-Chat release that corresponds to your Minecraft server version and mod loader (it is usually the latest DMCC release).
 
 Click the download button to download the file with the `.jar` extension.
@@ -955,26 +931,6 @@ Click the download button to download the file with the `.jar` extension.
 ![01.png](/file/posts/4ba0a17a/01.png)
 
 ![02.png](/file/posts/4ba0a17a/02.png)
-<!-- endtab -->
-<!-- tab CurseForge -->
-Go to [CurseForge Files](https://www.curseforge.com/minecraft/mc-mods/discord-mc-chat/files). Use the filtering feature to find the latest Discord-MC-Chat release that corresponds to your Minecraft server version and mod loader (it is usually the latest DMCC release).
-
-Click the download button to download the file with the `.jar` extension.
-
-![03.png](/file/posts/4ba0a17a/03.png)
-
-![04.png](/file/posts/4ba0a17a/04.png)
-<!-- endtab -->
-<!-- tab GitHub -->
-Find the latest Discord-MC-Chat release that supports your Minecraft server version and mod loader according to the [above list](/posts/4ba0a17a/#Dependencies) (it is usually the latest DMCC release).
-
-Then, go to [GitHub Releases](https://github.com/Xujiayao/Discord-MC-Chat/releases) to locate that version and click the download button to download the file with the `.jar` extension.
-
-![05.png](/file/posts/4ba0a17a/05.png)
-
-![06.png](/file/posts/4ba0a17a/06.png)
-<!-- endtab -->
-{% endtabs %}
 
 Move the downloaded file to the `mods` folder of your Minecraft server.
 
