@@ -715,6 +715,27 @@ YouTube 官方在 12 月 2 号发布了 [YouTube Recap](https://blog.youtube/new
 
 我当时还点开看完了来着，结果现在似乎看不了了。。。可惜当时没有截图（＞人＜；）
 
+### 小米运动健康
+
+最开始是用 小米手环3，后来换 小米手环6，今年换 小米手环10。所以也算是小米手环的忠实用户了ヾ(•ω•\`)o
+
+之前用的 APP 叫 Zepp Life，换到 小米手环10 才改用的 小米运动健康 APP，所以头几页的数据都不全。不过我看最后一页说的步数有 200 多万，这个就应该是合并 Zepp Life 所导入的数据后统计而来的。
+
+> 点击图片可放大查看~
+
+{% gallery %}
+![01.png](/file/posts/a0dc9421/2025/XiaomiWearable/01.png)
+![02.png](/file/posts/a0dc9421/2025/XiaomiWearable/02.png)
+![03.png](/file/posts/a0dc9421/2025/XiaomiWearable/03.png)
+![04.png](/file/posts/a0dc9421/2025/XiaomiWearable/04.png)
+![05.png](/file/posts/a0dc9421/2025/XiaomiWearable/05.png)
+![06.png](/file/posts/a0dc9421/2025/XiaomiWearable/06.png)
+![07.png](/file/posts/a0dc9421/2025/XiaomiWearable/07.png)
+![08.png](/file/posts/a0dc9421/2025/XiaomiWearable/08.png)
+![09.png](/file/posts/a0dc9421/2025/XiaomiWearable/09.png)
+![10.png](/file/posts/a0dc9421/2025/XiaomiWearable/10.png)
+{% endgallery %}
+
 ---
 
 ## 工具
