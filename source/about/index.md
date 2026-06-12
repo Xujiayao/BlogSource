@@ -94,7 +94,7 @@ date: 2020-07-13 10:29:34
 
 * 微信：JasonXu06 (Jason Xu)
 * Discord：xujiayao
-* ~~QQ：413139349 (Jason Xu)~~ 请用微信
+* ~~QQ：413139349 (Jason Xu)~~ 建议用微信
 * 邮箱：[i@xujiayao.com](mailto:i@xujiayao.com)
 * 社交平台：
 	* [哔哩哔哩](https://space.bilibili.com/270317970)
