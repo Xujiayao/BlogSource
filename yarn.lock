@@ -1381,15 +1381,15 @@ hexo-tag-aplayer@^3.0.4:
     hexo-util "^0.1.7"
     meting "^1.2.0"
 
-hexo-theme-butterfly@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-5.5.4.tgz#3377aa617c723e3bb9260eb1a9ed61fb17700b46"
-  integrity sha512-gk953p0P1c8QQHBm6xZAoPsYZuIMWsZR+riwT7By+1ygnEv9ZlEWqFflbZbKiXEJWy8VZhkV63k7SiwyifCkSw==
+hexo-theme-butterfly@^5.5.5:
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-5.5.5.tgz#d9f9e94b00d88c2a0bfcbf2accea9a80f7d37e0c"
+  integrity sha512-MAyRxbMHHEVqdLNp/HPTB8k8WR4F7OafrBb55w/hi24HmnaMFCXA54SM0lhGiIBiL+W2cPJv1Ng7XDIHVp5/kQ==
   dependencies:
     hexo-renderer-pug "^3.0.0"
     hexo-renderer-stylus "^3.0.1"
     hexo-util "^4.0.0"
-    moment-timezone "^0.6.0"
+    moment-timezone "^0.6.2"
 
 hexo-util@4.0.0, hexo-util@^4.0.0:
   version "4.0.0"
@@ -1458,10 +1458,10 @@ hexo-wordcount@^6.0.1:
   resolved "https://registry.yarnpkg.com/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz#5a60efc9d3c8e421956f2fd6683ca94a8a795264"
   integrity sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==
 
-hexo@^8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-8.1.1.tgz#fecd2e64b3eaaf281e49bcf82664871277d4114e"
-  integrity sha512-UnzT4ImjKzMMuVRsvudxrl7MkdZwKe4S9xJN5pQPK9c+K0G+fLFb9kB6CqZZwj2E5ne+QK0ls4XMKqTUbNR3RQ==
+hexo@^8.1.2:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-8.1.2.tgz#29d9d5d3281d85d59dfe05af93299f95a0e9f6a7"
+  integrity sha512-gmpNwL1KnbK12q551ZhGxqvSw8M88ZSjFKOhx6ybUYz1phjPdwGewMgBgwGmjcVcIYFq6tWQAv1MRil/sBrPHQ==
   dependencies:
     abbrev "^3.0.0"
     bluebird "^3.7.2"
@@ -2099,10 +2099,10 @@ moment-timezone@^0.5.46:
   dependencies:
     moment "^2.29.4"
 
-moment-timezone@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.6.0.tgz#c5a6519171f31a64739ea75d33f5c136c08ff608"
-  integrity sha512-ldA5lRNm3iJCWZcBCab4pnNL3HSZYXVb/3TYr75/1WCTWYuTqYUb5f/S384pncYjJ88lbO8Z4uPDvmoluHJc8Q==
+moment-timezone@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.6.2.tgz#a704cca03ee502f0df6edd42efcdcc61ee03190e"
+  integrity sha512-lDsQv8FoGdBUdf0+TjGsq2orxKuXdwFlQ6Zw6TX3xIcTwTfEpCLyKqvEauvCHJ8iu3KBV8+uPhlv70YsNGdUBQ==
   dependencies:
     moment "^2.29.4"
 
