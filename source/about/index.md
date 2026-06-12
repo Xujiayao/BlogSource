@@ -28,6 +28,7 @@ date: 2020-07-13 10:29:34
 - DiRT Rally 2.0
 - Prepar3D v5
 - Train Sim World 6
+- X-Plane 12
 
 偶尔会编程。以前学的都快忘光了，现在只熟悉 Java 这一个编程语言（＞人＜；）
 目前只在维护这一个项目（GitHub）：
@@ -77,8 +78,8 @@ date: 2020-07-13 10:29:34
 建立日期：2020 年 7 月 8 日
 博客链接：https://blog.xujiayao.com/ (原 https://blog.xujiayao.top/)
 博客程序：[Hexo](https://hexo.io/)
-博客主机：[GitHub Pages](https://github.com/Xujiayao/Xujiayao.github.io/deployments/github-pages) + [Vercel](https://github.com/Xujiayao/Xujiayao.github.io/deployments/Production)
-评论系统：[Waline](https://waline.js.org/)
+博客主机：[Vercel](https://vercel.com/)
+评论系统：[Waline](https://waline.js.org/) + [Vercel](https://vercel.com/)
 特别感谢 [Butterfly - @Jerry](https://butterfly.js.org/) 提供的博客模板。
 
 ## 许可证
@@ -93,7 +94,7 @@ date: 2020-07-13 10:29:34
 
 * 微信：JasonXu06 (Jason Xu)
 * Discord：xujiayao
-* ~~QQ：413139349 (Jason Xu)~~
+* ~~QQ：413139349 (Jason Xu)~~ 请用微信
 * 邮箱：[i@xujiayao.com](mailto:i@xujiayao.com)
 * 社交平台：
 	* [哔哩哔哩](https://space.bilibili.com/270317970)
