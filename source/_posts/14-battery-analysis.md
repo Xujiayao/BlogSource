@@ -5,9 +5,7 @@ background: url(/file/posts/3cd53ed7/cover.webp)
 tags:
   - 锂电池
   - 电池寿命
-categories:
-  - 科普
-  - 锂电池
+categories: 科普
 description: 本文旨在让大家知晓正确使用锂电池的方法，适用于一切锂电池设备。
 abbrlink: 3cd53ed7
 date: 2024-12-30 20:39:40
