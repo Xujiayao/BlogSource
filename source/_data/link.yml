@@ -18,10 +18,6 @@
       link: https://frostedglass.github.io/
       avatar: https://avatars.githubusercontent.com/u/68397835
       descr: Sakuraの杂货铺
-    - name: DexterCai
-      link: https://blog.dextercai.com/
-      avatar: https://cdn.jsdelivr.net/gh/dextercai/staticStore@latest/avatar/blog.png
-      descr: 明天太远，今天太短
     - name: noionion
       link: https://noionion.top/
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
@@ -30,10 +26,6 @@
       link: https://blissfulalloy79.lazycraft.top/
       avatar: https://blissfulalloy79.lazycraft.top/img/avatar.jpg
       descr: 没有技术，也不够宅
-    - name: Pedro
-      link: https://pedropo.com/
-      avatar: https://pedropo.com/assets/iuuu7.png
-      descr: Life is a comet
     - name: Richard
       link: https://blog.richardw.top/
       avatar: https://blog.richardw.top/file/avatar.png
@@ -42,10 +34,6 @@
       link: https://www.vvhan.com/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640
       descr: 运气是计划之外的东西.
-    - name: Victor Li
-      link: https://deshengdulikaifa.com/
-      avatar: https://deshengdulikaifa.com/uploads/20250627/a68d5863c4efdfd519f25c58a4a4d874.png
-      descr: 除了听没什么是做不到
     - name: .Sam
       link: https://blog.lvjianqing.xyz/
       avatar: https://blog.lvjianqing.xyz/assets/images/name.jpeg
@@ -94,3 +82,15 @@
       link: https://www.crystmaple.net/
       avatar: https://www.crystmaple.net/images/apple-touch-icon-next.png
       descr: 水碧枫的甜点屋
+    - name: Victor Li
+      link: https://deshengdulikaifa.com/
+      avatar: https://deshengdulikaifa.com/uploads/20250627/a68d5863c4efdfd519f25c58a4a4d874.png
+      descr: 除了听没什么是做不到
+    - name: DexterCai
+      link: https://blog.dextercai.com/
+      avatar: https://cdn.jsdelivr.net/gh/dextercai/staticStore@latest/avatar/blog.png
+      descr: 明天太远，今天太短
+    - name: Pedro
+      link: https://pedropo.com/
+      avatar: https://pedropo.com/assets/iuuu7.png
+      descr: Life is a comet
