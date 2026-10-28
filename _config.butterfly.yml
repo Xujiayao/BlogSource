@@ -667,7 +667,7 @@ artalk:
 # --------------------------------------
 
 chat:
-  # Choose: chatra/tidio/crisp
+  # Choose: chatra/tidio/crisp/knocket
   # Leave it empty if you don't need chat
   use:
   # Chat Button [recommend]
@@ -687,6 +687,10 @@ tidio:
 # https://crisp.chat/en/
 crisp:
   website_id:
+
+# https://trtc.io/solutions/knocket
+knocket:
+  identifier:
 
 # --------------------------------------
 # Analysis
@@ -995,11 +999,6 @@ pjax:
   exclude:
     # - /xxxxxx/
 
-# Inject the css and script (aplayer/meting)
-aplayerInject:
-  enable: false
-  per_page: true
-
 # Snackbar - Toast Notification
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
@@ -1092,8 +1091,6 @@ CDN:
     # activate_power_mode:
     # algolia_js:
     # algolia_search:
-    # aplayer_css:
-    # aplayer_js:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
@@ -1126,7 +1123,6 @@ CDN:
     # mathjax:
     # medium_zoom:
     # mermaid:
-    # meting_js:
     # prismjs_autoloader:
     # prismjs_js:
     # prismjs_lineNumber_js:
